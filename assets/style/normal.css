@@ -8,7 +8,104 @@
 
 body {
   font-family: "Comic Relief", system-ui;
-  background-color: Canvas;
+  /*background-color: Canvas;
   color: CanvasText;
-  color-scheme: light dark;
+  color-scheme: light dark;*/
+}
+
+.nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #bbbbbb;
+
+  display: flex;
+  justify-content: center;
+}
+
+.navLIST {
+  display: flex;
+  text-align: center;
+}
+
+.listSTYLE {
+  display: flex;
+  padding: 0px 5px;
+  font-size: 1em;
+}
+
+
+.listSTYLE:not(:last-child) {
+    border-right: 1px solid #bbbbbb;
+}
+
+.listLINK {
+  text-decoration: none;
+  padding: 2em 5em;
+}
+
+.listHOME {
+
+}
+
+.listLOG {
+
+}
+
+.listSTORY {
+
+}
+
+.listCONTACT {
+
+}
+
+
+/* Bronnen voor de RealHeader tekst: 
+  stackoverflow: https://stackoverflow.com/questions/68516890/how-to-smoothly-loop-css-gradient-on-text-so-it-appears-to-loop-infinitely
+  w3schools: https://www.w3schools.com/css/css3_gradients.asp
+  w3schools: https://www.w3schools.com/css/css3_animations.asp
+  Instagram color picker: https://pickcoloronline.com/brands/instagram/
+*/
+.RealHeader {
+  text-align: center;
+  font-family: monospace;
+  display: block;
+  font-size: 10em;
+  font-style: normal;
+  background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,
+  #f56040, #f77737, #fcaf45, #ffdc80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 35s linear infinite;
+  margin-bottom: 0px;
+}
+
+@keyframes move {
+	to {
+		background-position: 2300vh;
+	}
+}
+
+.modelrepoCONTAINER {
+  display: flex;
+  justify-content: end;
+}
+
+.modelREPO {
+  font-size: 12px;
+  font-style: normal;
+  color: #bbbbbb;
+  margin: 0px 15%;
+}
+
+.Kopje1CONTAINER {
+
+}
+
+.Kopje1 {
+  
 }
