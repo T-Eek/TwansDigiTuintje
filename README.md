@@ -1,6 +1,7 @@
 # Model
-
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
+
+Mijn online model kan je hier vinden <a href="[https://github.com/T-Eek/TwansDigiTuintje](https://twanee.nl/)"></a>
 
 <h1>## Learning Log</h1>
 <div>
