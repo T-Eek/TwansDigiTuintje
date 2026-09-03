@@ -109,3 +109,48 @@ body {
 .Kopje1 {
   
 }
+
+.LogCONTAINER {
+  /*border: 1px solid #bbbbbb;*/
+  margin-bottom: 1em;
+}
+.Log2CONTAINER {
+  /*border: 1px solid #bbbbbb;*/
+  margin-bottom: 1em;
+}
+
+
+/* Bronnen voor de Gallery:
+  w3schools: https://www.w3schools.com/howto/howto_css_image_gallery.asp
+  w3schools: https://www.w3schools.com/css/css3_columns.asp
+  https://kulor.medium.com/pinterest-style-masonry-layout-using-pure-css-493c1206d01d
+*/
+.AugustCONTAINER {
+  display: flex;
+  justify-content: center;
+
+  column-count: 1;
+  column-gap: 5px;
+  /*border: 1px solid #bbbbbb;*/
+}
+
+.SeptemberCONTAINER {
+  column-count: 3;
+  column-gap: 10px;
+  /*border: 1px solid #bbbbbb;*/
+}
+
+
+.gallery {
+  border: 1px solid #bbbbbb;
+  margin: 5px 5px;
+}
+
+.gallery img{
+  width: 500px;
+  height: 600px;
+}
+
+.responsiveGALLERY {
+  display: inline-flex;
+}
