@@ -103,38 +103,55 @@ body {
 }
 
 .Kopje1CONTAINER {
-
+  margin-bottom: 2vw;
 }
 
 .Kopje1 {
   
 }
 
-.LogCONTAINER {
+.LogCONTAINER{
   /*border: 1px solid #bbbbbb;*/
-  margin-bottom: 1em;
-}
-.Log2CONTAINER {
-  /*border: 1px solid #bbbbbb;*/
-  margin-bottom: 1em;
+  margin: 0px 18%;
 }
 
+
+/* Bronnen voor de DropDown:
+  w3schools: https://www.w3schools.com/css/css_dropdowns_advanced.asp
+*/
+.DropDown {
+  position: relative;
+}
+
+.DropDownContent {
+  display: none;
+  position: relative;
+  min-width: 160px;
+}
+
+.DropDown:hover .DropDownContent {
+  display: block;
+}
 
 /* Bronnen voor de Gallery:
   w3schools: https://www.w3schools.com/howto/howto_css_image_gallery.asp
   w3schools: https://www.w3schools.com/css/css3_columns.asp
   https://kulor.medium.com/pinterest-style-masonry-layout-using-pure-css-493c1206d01d
 */
-.AugustCONTAINER {
-  display: flex;
-  justify-content: center;
-
-  column-count: 1;
-  column-gap: 5px;
-  /*border: 1px solid #bbbbbb;*/
+.AugustCONTAINER, .September2CONTAINER {
+  margin-bottom: 4vw;
 }
 
-.SeptemberCONTAINER {
+
+.AugustVraag1, .AugustVraag2, .AugustVraag3 {
+  margin-bottom: 1.5vw;
+}
+
+.Kopje3, h2, p{
+  margin: 0px;
+}
+
+.SeptemberContent {
   column-count: 3;
   column-gap: 10px;
   /*border: 1px solid #bbbbbb;*/
