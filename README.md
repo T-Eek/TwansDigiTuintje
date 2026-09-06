@@ -1,4 +1,5 @@
 # Model
+
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
 Mijn online model kan je hier vinden: <a href="https://twanee.nl/"> DigiTuintje</a>
@@ -16,8 +17,8 @@ Mijn online model kan je hier vinden: <a href="https://twanee.nl/"> DigiTuintje<
      Aanpassingen doe ik via HTML, CSS and een beetje javascript, dit wil ik allemaal in Visual Studio Code doen, omdat het daar net zo makkelijk te publiceren is en op te slaan, zodat ik er weer snel aan kan werken en eventuele snelle aanpassingen aan kan maken.
 </p>
 
-
 [...]
+
 </div>
 ### 3 sept - [Workshop]
 
@@ -26,3 +27,6 @@ Mijn online model kan je hier vinden: <a href="https://twanee.nl/"> DigiTuintje<
 ### 31 aug - Kickoff
 
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
+
+Website voor inspiratie, OVERNEMEN!!!
+/_ https://www.niccolomiranda.com/ _/
