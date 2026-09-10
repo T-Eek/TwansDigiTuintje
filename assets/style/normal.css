@@ -1,5 +1,4 @@
-/* HIER KOMT JOUW CSS */
-@font-face {
+/*@font-face {
   font-family: "Comic Relief";
   src: url(../type/ComicRelief-Regular.woff2);
   font-weight: 400;
@@ -11,7 +10,7 @@ body {
   font-family: "Comic Relief", system-ui;
   /*background-color: Canvas;
   color: CanvasText;
-  color-scheme: light dark;*/
+  color-scheme: light dark;
 }
 
 .nav {
@@ -48,21 +47,152 @@ body {
   padding: 2em 5em;
 }
 
-.listHOME {
+
+.listHOME, .listLOG, .listSTORY, .listCONTACT{
 
 }
 
-.listLOG {
-
+/* HAMBURGER MENU
+.HBNAVContainer {
+  display: flex;
+  justify-content: end;
 }
 
-.listSTORY {
-
+.HBNAVContainer:hover {
+  .navLIST {
+    display: block;
+  }
 }
 
-.listCONTACT {
-
+.HBNAV {
+  display: block;
+  justify-content: space-evenly;
+  padding: 15px;
 }
+
+.HBNAV:hover {
+  background-color:forestgreen;
+
+  .HBLINE1, .HBLINE2 {
+    background-color:blue;
+  }
+}
+
+.HBLINE1, .HBLINE2 {
+  background-color: #ffffff;
+  padding: 3px 25px;
+  margin: 8px 0px;
+}*/
+
+@font-face {
+  font-family: "Comic Relief";
+  src: url(../type/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color-scheme: light dark;
+  font-family: "Comic Relief", system-ui;
+  margin: 0;
+}
+
+.webTITEL {
+  font-size: 5vw;
+}
+
+/* Standaard Desktop Navigatie */
+.nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navLIST {
+  display: none;
+}
+
+.listSTYLE {
+  display: flex;
+  padding: 0px 5px;
+  font-size: 1em;
+}
+
+.listSTYLE:not(:last-child) {
+  border-right: 1px solid #bbbbbb;
+}
+
+.listLINK {
+  text-decoration: none;
+  padding: 2em 5em;
+  display: block;
+}
+
+/* Hamburger knop is standaard ONZICHTBAAR op desktop */
+.HamburgerMENU {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  margin: 0px 5em;
+}
+
+.HBNAV {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.HBNAVContainer {
+  display: block;
+  padding: 15px;
+}
+
+.HBLINE1, .HBLINE2 {
+  background-color: CanvasText;
+  padding: 3px 20px;
+  margin: 4px 0px;
+  border-radius: 2px;
+}
+
+
+/* --- MOBIELE RESPONSIVE STIJLEN (Schermen smaller dan 768px) --- */
+@media screen and (max-width: 768px) {
+  .nav {
+    justify-content: end;
+    padding: 0 15px;
+  }
+
+  .HBNAV {
+    display: block; 
+  }
+
+  .navLIST {
+    display: none; 
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    }
+
+  /* Pas de stijl van de lijstitems aan voor mobiel onder elkaar */
+  .listSTYLE {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #bbbbbb;
+    width: 100%;
+  }
+
+  .listSTYLE:not(:last-child) {
+    border-right: none; /* Randen aan de zijkant weghalen */
+  }
+
+  .listLINK {
+    padding: 1em; /* Minder padding zodat het op een telefoonscherm past */
+  }
+}
+
 
 
 /* Bronnen voor de RealHeader tekst: 
@@ -153,9 +283,8 @@ body {
 }
 
 .SeptemberContent {
-  column-count: 3;
-  column-gap: 10px;
-  /*border: 1px solid #bbbbbb;*/
+  /*column-count: 3;
+  column-gap: 10px;*/
 }
 
 
