@@ -17,20 +17,23 @@
 <body>
   <header>
 
-    <!-- Navigatie -->
-    <!-- Het hamburger knopje menu met Javascript -->
-    <div class="HamburgerMENU">
-      <h1 class="webTITEL">Nwat</h1>
-      <a href="javascript:void(0);" class="HBNAV" id="MyHamburger" onclick="toggleMenu()">
-        <div class="HBNAVContainer">
+    <div class="HeaderContainer">
+      <h1>Twan's</h1>
+      <h1 class="RealHeader">DigiTuintje...</h1>
+
+
+      <!-- Het hamburger knopje menu met Javascript -->
+      <div class="HamburgerMENU" onclick="openNav()">
+        <div class="HBNAVContent">
           <div class="HBLINE1"></div>
           <div class="HBLINE2"></div>
         </div>
-      </a>
+      </div>
     </div>
-    <nav class="nav">
-      <!-- De links die op mobiel in- en uitklappen -->
-      <ul class="navLIST" id="myLinks">
+    <!-- Navigatie -->
+    <nav id="myNav" class="NavOVERLAY">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <ul class="N-overlay-content" id="myLinks"> <!-- De links die op mobiel in- en uitklappen -->
         <li class="listSTYLE"><a class="listLINK" href="">[Home]</a></li>
         <li class="listSTYLE"><a class="listLINK" href="/Logs.html">[Log]</a></li>
         <li class="listSTYLE"><a class="listLINK" href="/story.html">[Story]</a></li>
@@ -39,7 +42,6 @@
     </nav>
   </header>
 
-  <h1 class="RealHeader">Welcome...</h1>
   <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
 
   <div class="modelrepoCONTAINER">
@@ -67,7 +69,7 @@
 
 <!-- JavaScript om het menu open en dicht te klappen -->
 <script>
-  function toggleMenu() {
+  /*function toggleMenu() {
     var x = document.getElementById("myLinks");
     var h = document.getElementById("MyHamburger");
     // Als het menu flex is (of block), maken we het 'none' (onzichtbaar), anders tonen we het weer
@@ -77,5 +79,13 @@
       x.style.display = "flex";
       h.style.display = "none";
     }
+  }*/
+
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
   }
 </script>
