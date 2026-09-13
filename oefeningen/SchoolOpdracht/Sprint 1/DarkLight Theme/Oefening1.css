@@ -1,0 +1,24 @@
+html {
+/* color-scheme */
+color-scheme:light dark;
+/* custom properties */
+--background: light-dark(LightGoldenRodYellow. Darkgrey);
+--color:light-dark(SpringGreen, Maroon);
+--border-color: light-dark(LightGrey, Navy);
+--color-hl:light-dark(LightCyan, Bisque);
+}
+body {
+/* background voor de body */
+/* color voor alle tekst */
+/* border-color voor de body */
+background-color: var(-background);
+color: var(-color);
+border-color: var(--border-color);
+/* andere border properties */
+border-style:double;
+border-width:.3em;
+}
+h1 {
+/* color voor de hl*/
+color: var(-color-hl);
+}

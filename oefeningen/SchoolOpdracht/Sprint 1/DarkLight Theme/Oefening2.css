@@ -1,0 +1,336 @@
+/**********/
+/* THEMES */
+/**********/
+html {
+  color-scheme: light dark;
+
+    --generalBackgroundStart: light-dark(#ccc0, #2220);
+    --generalBackgroundEnd: light-dark(#ccc, #222);
+    --generalBackgroundTop: light-dark(#eee, #444);
+    --generalBackgroundBottom: light-dark(#ddd, #333);
+    --generalBackground: fixed repeating-linear-gradient(135deg, var(--generalBackgroundStart), var(--generalBackgroundEnd) 2em) center top, fixed repeating-linear-gradient(-135deg, var(--generalBackgroundStart), var(--generalBackgroundEnd) 2em) center top, linear-gradient(var(--generalBackgroundTop), var(--generalBackgroundBottom));
+    --generalColor: light-dark(DarkSlateGray, Gainsboro);
+    --generalColorHigherContrast: light-dark(Black, White);
+    --generalAccentColor: DodgerBlue;
+    --headingBackgroundStart: light-dark(Black, White);
+    --headingBackgroundEnd: light-dark(DarkMagenta, Orange);
+    --headingBackground: linear-gradient(135deg, var(--headingBackgroundStart) 25%, var(--headingBackgroundEnd) 50%);
+    --headingColor: transparent;
+    --headingFontWeight: 300;
+    --headerBackgroundStop1: light-dark(#1E90FFaa, #483D8Baa);
+    --headerBackgroundStop2: light-dark(#FF1493aa, #8B008Baa);
+    --headerBackgroundStop3: light-dark(#DC143Caa, #8B0000aa);
+    --headerBackgroundStop4: light-dark(#FFD700aa, #FF4500aa);
+    --headerBackground: linear-gradient(135deg, var(--headerBackgroundStop1) 10%, var(--headerBackgroundStop2), var(--headerBackgroundStop3), var(--headerBackgroundStop4) 90%);
+    --cardBackgroundStart: light-dark(White, #444);
+    --cardBackgroundEnd: light-dark(DarkGray, #222);
+    --cardBackground: linear-gradient(135deg, var(--cardBackgroundStart) 50%, var(--cardBackgroundEnd));
+    --cardBorder: none;
+    --cardBoxShadowColor: light-dark(#666c, #9996);
+    --cardBoxShadow: 0 0 1em var(--cardBoxShadowColor);
+    --imageBorder: solid .25em #9996;
+    --buttonBackgroundStart: light-dark(DeepSkyBlue, SlateBlue);
+    --buttonBackgroundEnd: light-dark(DodgerBlue, DarkSlateBlue);
+    --buttonBackground: linear-gradient(135deg, var(--buttonBackgroundStart) 25%, var(--buttonBackgroundEnd) 75%);
+    --buttonBoxShadowFocus: .25rem .25rem #0006;
+    --buttonColor: var(--generalColorHigherContrast);
+    --buttonFontWeight: 300;
+    --buttonBackgroundActiveStart: light-dark(DeepPink, DarkMagenta);
+    --buttonBackgroundActiveEnd: light-dark(Crimson, DarkRed);
+    --buttonBackgroundActive: linear-gradient(135deg, var(--buttonBackgroundActiveStart) 25%, var(--buttonBackgroundActiveEnd) 75%);
+    --buttonBoxShadowActive: inset .25rem .25rem #0006;
+    --buttonColorActive: White;
+}
+
+/* om de radio buttons te laten werken */
+/* dan moet je wel voor de methode met light-dark() kiezen :) */
+
+html:has( [value="light"]:checked ) {
+	color-scheme:light;
+}
+
+html:has( [value="dark"]:checked ) {
+	color-scheme:dark;
+}
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+
+body {
+  /* jouw kleurtjes en styling */
+    color: var(--generalColor);
+    background: var(--generalBackground);
+    accent-color: var(--generalAccentColor);
+  
+}
+
+h1, h2 {
+  /* jouw kleurtjes en styling */
+    background: var(--headingBackground);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: var(--headingColor);
+    font-weight: var(--headingFontWeight);
+  
+}
+
+/**********/
+/* HEADER */
+/**********/
+
+header {
+  /* jouw kleurtjes en styling */
+    color: var(--generalColorHigherContrast);
+    background: var(--headerBackground);
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: .25em .75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    -webkit-backdrop-filter: blur(2px) contrast(.4) grayscale(.7);
+    backdrop-filter: blur(2px) contrast(.4) grayscale(.7);
+  
+}
+
+/* TITLE */
+header h1 {
+  /* jouw kleurtjes en styling */
+  font-size: 3em;
+  line-height: 1.25em;
+  margin: 0;
+  
+}
+
+/***********/
+/* OPTIONS */
+/***********/
+
+/* voor de label waarvan de input checked is */
+header label:has(:checked) {
+  /* jouw kleurtjes en styling */
+  
+  
+}
+
+/* voor de label waarover je hovert */
+header label:hover {
+  /* jouw kleurtjes en styling */
+  
+  
+}
+
+/* voor de label waarvan de input focus heeft */
+header label:has(:focus-visible) {
+  /* jouw kleurtjes en styling */
+  
+  
+} 
+
+/* de input zelf */
+header input {
+  /* jouw kleurtjes en styling */
+  
+  
+}
+/************/
+/* THE CATS */
+/************/
+main {
+  /* jouw kleurtjes en styling */
+  
+    padding: clamp(1.5em, 6vw, 3em);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(16em, 100%), 1fr));
+    grid-gap: clamp(1em, 4vw, 2em);
+}
+/******************/
+/* A CAT / A CARD */
+/******************/
+
+article {
+  /* jouw kleurtjes en styling */
+    background: var(--cardBackground);
+    border: var(--cardBorder);
+    box-shadow: var(--cardBoxShadow);
+    border-radius: 1.5em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    gap: 1em;
+}
+
+/* cat name */
+article h2 {
+  /* jouw kleurtjes en styling */
+    margin: 0;
+    line-height: 1em;
+    align-self: start;
+  
+}
+
+/* cat image */
+article img {
+  /* jouw kleurtjes en styling */
+  display: block;
+  grid-column: 1 / -1;
+  grid-row-start: 1;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  
+}
+
+/* cat description */
+article p {
+  /* jouw kleurtjes en styling */
+  margin: 0;
+  
+}
+
+/* button */
+article button {
+  /* jouw kleurtjes en styling */
+  padding: .125em;
+    background: var(--buttonBackground);
+    border-radius: .75rem;
+    outline: none;
+    font-weight: var(--buttonFontWeight);
+    font-size: 1.5em;
+    color: var(--buttonColor);
+  grid-column: 1 / -1;
+    padding: .5em;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+  
+}
+
+article button:hover,
+article button:focus-visible {
+  /* jouw kleurtjes en styling */
+  transform: translate(-.25em, -.25em);
+    box-shadow: var(--buttonBoxShadowFocus);
+}
+
+article button:active {
+  /* jouw kleurtjes en styling */
+  padding: .25em 0 0 .25em;
+    transform: none;
+    background: var(--buttonBackgroundActive);
+    box-shadow: var(--buttonBoxShadowActive);
+    color: var(--buttonColorActive);
+}
+/****************/
+/* LAYOUT EN CO */
+/****************/
+
+/* hoef je niets mee te doen */
+
+@layer layout {
+  *, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  /* HEADER */
+  header {
+    position:sticky;
+    top:0;
+    z-index:100;
+    padding:.25em .75em;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+
+    -webkit-backdrop-filter:blur(2px) contrast(.4) grayscale(.7);
+    backdrop-filter: blur(2px) contrast(.4) grayscale(.7);
+  }
+  
+  header h1 {
+    margin:0;
+  }
+  
+  header form {
+    margin:0;
+    padding:0;
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:.5em;
+
+    border:none;
+  }
+  
+  /* OPTIONS */
+  header label {
+    padding:.5em;
+
+    display:flex;
+    place-items:center;
+
+    gap:.25em; 
+    
+    cursor:pointer;
+  }
+  
+  header input {
+    margin:0;
+    cursor:pointer;
+  }
+  
+  /* CATS */
+  main {
+    padding:clamp(1.5em, 6vw, 3em);
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(min(16em, 100%), 1fr));
+    grid-gap:clamp(1em, 4vw, 2em);
+  }
+  
+  /* CAT */
+  article {
+    padding:1em;
+
+    display:grid;
+    grid-template-columns:min-content 1fr;
+    grid-template-rows:min-content 1fr min-content;
+    gap:1em;
+  }
+
+  article h2 {
+    margin:0;
+    line-height:1em;
+    align-self:start;
+  }
+
+  article img {
+    display:block;
+    grid-column:1/-1;
+    grid-row-start:1;
+    width:100%;
+    aspect-ratio:2/1;
+  }
+
+  article p {
+    margin:0;
+  }
+
+  article button {
+    grid-column:1/-1;
+    padding:.5em;
+
+    font-family:inherit;
+    font-size:inherit;
+    border:none;
+    cursor:pointer;
+  }
+}
