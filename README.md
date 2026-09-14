@@ -64,116 +64,91 @@ Website voor inspiratie, OVERNEMEN!!!
             </div>
           </div>
         </div>
-                        <div class="AugustContent2">
-                            <span class="AugustKopje2">
-                                <h2>Vragen</h2>
-                                <ul>
-                                    <li class="AugustVraag1">
-                                        <strong>1. Leg uit wat een source hosting platform is en voor welke jij gekozen
-                                            hebt: </strong>Ik heb mijn source hosting platform github gekozen omdat ik
-                                        weet hoe
-                                        github werkt, het is gratis en heel erg toegankelijk.
-                                    </li>
-                                    <li class="AugustVraag2">
-                                        <strong>2. Leg uit wat een repository is en hoe je deze aanmaakt:</strong>
-                                        Een repository is een plek waar je bestanden kan opslaan, ik heb mijn repository
-                                        aangemaakt door op de knop "New" te klikken en een naam te geven aan mijn
-                                        repository.
-                                    </li>
-                                    <li class="AugustVraag3">
-                                        <strong>3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er
-                                            voor zorgt dat die op het web gepubliceerd worden:
-                                        </strong>
-                                        Aanpassingen doe ik via HTML, CSS and een beetje javascript, dit wil ik allemaal
-                                        in Visual Studio Code doen, omdat het daar net zo makkelijk te publiceren is en
-                                        op te slaan, zodat ik er weer snel aan kan werken en eventuele snelle
-                                    </li>
-                                </ul>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+          <div class="AugustContent2">
+            <span class="AugustKopje2">
+              <h2>Vragen</h2>
+              <ul>
+                <li class="AugustVraag1">
+                  <strong>1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt: </strong>Ik heb mijn source hosting platform github gekozen omdat ik weet hoe github werkt, het is gratis en heel erg toegankelijk
+                </li>
+                <li class="AugustVraag2">
+                  <strong>2. Leg uit wat een repository is en hoe je deze aanmaakt:</strong> Een repository is een plek waar je bestanden kan opslaan, ik heb mijn repository aangemaakt door op de knop "New" te klikken en een naam te geven aan mijn repository.
+                </li>
+                <li class="AugustVraag3">
+                  <strong>3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:</strong> Aanpassingen doe ik via HTML, CSS and een beetje javascript, dit wil ik allemaal in Visual Studio Code doen, omdat het daar net zo makkelijk te publiceren is en op te
+                  slaan, zodat ik er weer snel aan kan werken en eventuele snelle
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="September2CONTAINER">
+      <div class="DropDown">
+        <span class="SeptemberKopje">
+          <h2>2 September</h2>
+          <p>Was de <b>Eerste</b> echte les van mijn 2de jaar van de opleiding CMDA, en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving.
+          </p>
+        </span>
+        <div class="DropDownContent">
+          <div class="SeptemberContent">
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/AppIdeeimage.png">
+                  <img src="assets/Images/2Sep/AppIdeeimage.png" alt="App Idea Image">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
             </div>
-
-            <div class="September2CONTAINER">
-                <div class="DropDown">
-                    <span class="SeptemberKopje">
-                        <h2>2 September</h2>
-                        <p>Was de <b>Eerste</b> echte les van mijn 2de jaar van de opleiding CMDA, en moesten we,
-                            een fork van de school repository maken en je eigen model repository publiceren via je
-                            eigen Github omgeving.
-                        </p>
-                    </span>
-                    <div class="DropDownContent">
-                        <div class="SeptemberContent">
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/AppIdeeimage.png">
-                                        <img src="assets/Images/2Sep/AppIdeeimage.png" alt="App Idea Image">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/SchetsimageFeedback1.png">
-                                        <img src="assets/Images/2Sep/SchetsimageFeedback1.png"
-                                            alt="Schets Image Feedback 1" width="500" height="500">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/SchetsimageReflectie2.png">
-                                        <img src="assets/Images/2Sep/SchetsimageReflectie2.png"
-                                            alt="Schets Image Reflectie 2" width="500" height="700">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/Linesimage1.png">
-                                        <img src="assets/Images/2Sep/Linesimage1.png" alt="Lines Image 1" width="600"
-                                            height="400">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/Linesimage2.png">
-                                        <img src="assets/Images/2Sep/Linesimage2.png" alt="Lines Image 2" width="600"
-                                            height="400">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/Vierkantimage.png">
-                                        <img src="assets/Images/2Sep/Vierkantimage.png" alt="Vierkant Image" width="600"
-                                            height="400">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/2Sep/SchetsimageDepth.png">
-                                        <img src="assets/Images/2Sep/SchetsimageDepth.png" alt="Schets Image Depth"
-                                            width="500" height="400">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/SchetsimageFeedback1.png">
+                  <img src="assets/Images/2Sep/SchetsimageFeedback1.png" alt="Schets Image Feedback 1" width="500" height="500">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/SchetsimageReflectie2.png">
+                  <img src="assets/Images/2Sep/SchetsimageReflectie2.png" alt="Schets Image Reflectie 2" width="500" height="700">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/Linesimage1.png">
+                  <img src="assets/Images/2Sep/Linesimage1.png" alt="Lines Image 1" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/Linesimage2.png">
+                  <img src="assets/Images/2Sep/Linesimage2.png" alt="Lines Image 2" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/Vierkantimage.png">
+                  <img src="assets/Images/2Sep/Vierkantimage.png" alt="Vierkant Image" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/SchetsimageDepth.png">
+                  <img src="assets/Images/2Sep/SchetsimageDepth.png" alt="Schets Image Depth" width="500" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
                             <div class="responsiveGALLERY">
                                 <div class="gallery">
                                     <a target="_blank" href="assets/Images/2Sep/SchetsimageZara.png">
@@ -183,7 +158,6 @@ Website voor inspiratie, OVERNEMEN!!!
                                     <div class="desc">Add a description of the image here</div>
                                 </div>
                             </div>
-
                             <div class="responsiveGALLERY">
                                 <div class="gallery">
                                     <a target="_blank" href="assets/Images/2Sep/LCimagePortret.png">
@@ -193,7 +167,6 @@ Website voor inspiratie, OVERNEMEN!!!
                                     <div class="desc">Add a description of the image here</div>
                                 </div>
                             </div>
-
                             <div class="responsiveGALLERY">
                                 <div class="gallery">
                                     <a target="_blank" href="assets/Images/2Sep/LCimageSchild.png">
@@ -207,7 +180,6 @@ Website voor inspiratie, OVERNEMEN!!!
                     </div>
                 </div>
             </div>
-
             <div class="September4CONTAINER">
                 <div class="DropDown">
                     <span class="SeptemberKopje">
@@ -227,7 +199,6 @@ Website voor inspiratie, OVERNEMEN!!!
                                     <div class="desc">Add a description of the image here</div>
                                 </div>
                             </div>
-
                             <div class="responsiveGALLERY">
                                 <div class="gallery">
                                     <a target="_blank" href="assets/Images/4Sep/CodePenHTMLimage.png">
