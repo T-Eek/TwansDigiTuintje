@@ -3,16 +3,13 @@
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
 Mijn online model kan je hier vinden: <a href="https://twanee.nl/"> DigiTuintje</a>
+Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
+Website voor inspiratie, OVERNEMEN!!!
+/_ https://www.niccolomiranda.com/ _/
 
 <h1>## Learning Log</h1>
 
 ### 31 aug - Kickoff
-
-Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
-
-Website voor inspiratie, OVERNEMEN!!!
-/_ https://www.niccolomiranda.com/ _/
-
 <h1 class="RealHeader">## Learning Log...</h1>
 <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
 <div class="modelrepoCONTAINER">
