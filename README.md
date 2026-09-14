@@ -3,33 +3,211 @@
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
 Mijn online model kan je hier vinden: <a href="https://twanee.nl/"> DigiTuintje</a>
-
-<h1>## Learning Log</h1>
-<div>
-<p>
-  1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
-    Ik heb mijn source hoting platform github gekozen omdat ik weet hoe github werkt, het is gratis en heel erg toegankelijk.
-  
-  2. Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina.
-     Mijn domeinaam is twanee.nl, omdat het verwijst naar mijn naam en mijn project protofolio dit heb ik gehaald op TransIP
-     
-  3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
-     Aanpassingen doe ik via HTML, CSS and een beetje javascript, dit wil ik allemaal in Visual Studio Code doen, omdat het daar net zo makkelijk te publiceren is en op te slaan, zodat ik er weer snel aan kan werken en eventuele snelle aanpassingen aan kan maken.
-</p>
-
-[...]
-
-</div>
-### 3 sept - [Workshop]
-
-[...]
-
-### 31 aug - Kickoff
-
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
-
 Website voor inspiratie, OVERNEMEN!!!
 /_ https://www.niccolomiranda.com/ _/
+
+<div class="modelrepoCONTAINER">
+  <p class="modelREPO"> De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.</p>
+</div>
+
+<div class="Kopje1CONTAINER">
+  <p class="Kopje1"> mijn model komt van de <a href="https://github.com/T-Eek/TwansDigiTuintje">T-Eek/TwansDigiTuintje</a> repository op GitHub.
+</div>
+
+<h1 class="RealHeader">## Learning Log...</h1>
+<!-- <h1>[Digitaal Tuintje van ...]</h1> -->
+  <div class="LogCONTAINER">
+    <div class="AugustCONTAINER">
+      <div class="DropDown">
+        <span class="AugustKopje">
+          <article>
+            <h3> Sprint 0<br><br>
+              Kickoff 31 Augustus
+            </h3>
+            <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving. </p>
+          </article>
+        </span>
+        <div class="DropDownContent">
+        <div class="AugustContent">
+          <div class="responsiveGALLERY">
+            <div class="gallery">
+              <a target="_blank" href="assets/Images//31Aug/HWIVIZelfTestimage1.png">
+                <img src="assets/Images//31Aug/HWIVIZelfTestimage1.png" alt="HWIVI Self Test Image 1" width="600" height="auto">
+              </a>
+              <div class="desc">Add a description of the image here</div></div>
+            </div>
+          <div class="responsiveGALLERY">
+            <div class="gallery">
+              <a target="_blank" href="assets/Images/31Aug/HWIVIZelfTestimage2.png">
+                <img src="assets/Images/31Aug/HWIVIZelfTestimage2.png" alt="HWIVI Self Test Image 2" width="600" height="auto">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+        </div>
+          <div class="AugustContent2">
+            <span class="AugustKopje2">
+              <h3>Vragen</h3>
+              <ul>
+                <li class="AugustVraag1">
+                  <strong>1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt: </strong>Ik heb mijn source hosting platform github gekozen omdat ik weet hoe github werkt, het is gratis en heel erg toegankelijk
+                </li>
+                <li class="AugustVraag2">
+                  <strong>2. Leg uit wat een repository is en hoe je deze aanmaakt:</strong> Een repository is een plek waar je bestanden kan opslaan, ik heb mijn repository aangemaakt door op de knop "New" te klikken en een naam te geven aan mijn repository.
+                </li>
+                <li class="AugustVraag3">
+                  <strong>3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:</strong> Aanpassingen doe ik via HTML, CSS and een beetje javascript, dit wil ik allemaal in Visual Studio Code doen, omdat het daar net zo makkelijk te publiceren is en op te
+                  slaan, zodat ik er weer snel aan kan werken en eventuele snelle
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1></h1>
+    <div class="September2CONTAINER">
+      <div class="DropDown">
+        <span class="SeptemberKopje">
+          <article>
+            <h3>Sprint 1<br><br>
+              2 September
+            </h3>
+            <p>Was de <b>Eerste</b> echte les van mijn 2de jaar van de opleiding CMDA, en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving.</p>
+          </article>
+        </span>
+        <div class="DropDownContent">
+          <div class="SeptemberContent">
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/AppIdeeimage.png">
+                  <img src="assets/Images/2Sep/AppIdeeimage.png" alt="App Idea Image">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/SchetsimageFeedback1.png">
+                  <img src="assets/Images/2Sep/SchetsimageFeedback1.png" alt="Schets Image Feedback 1" width="500" height="500">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/SchetsimageReflectie2.png">
+                  <img src="assets/Images/2Sep/SchetsimageReflectie2.png" alt="Schets Image Reflectie 2" width="500" height="700">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/Linesimage1.png">
+                  <img src="assets/Images/2Sep/Linesimage1.png" alt="Lines Image 1" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/Linesimage2.png">
+                  <img src="assets/Images/2Sep/Linesimage2.png" alt="Lines Image 2" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/Vierkantimage.png">
+                  <img src="assets/Images/2Sep/Vierkantimage.png" alt="Vierkant Image" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="responsiveGALLERY">
+              <div class="gallery">
+                <a target="_blank" href="assets/Images/2Sep/SchetsimageDepth.png">
+                  <img src="assets/Images/2Sep/SchetsimageDepth.png" alt="Schets Image Depth" width="500" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+                            <div class="responsiveGALLERY">
+                                <div class="gallery">
+                                    <a target="_blank" href="assets/Images/2Sep/SchetsimageZara.png">
+                                        <img src="assets/Images/2Sep/SchetsimageZara.png" alt="Schets Image Zara"
+                                            width="500" height="600">
+                                    </a>
+                                    <div class="desc">Add a description of the image here</div>
+                                </div>
+                            </div>
+                            <div class="responsiveGALLERY">
+                                <div class="gallery">
+                                    <a target="_blank" href="assets/Images/2Sep/LCimagePortret.png">
+                                        <img src="assets/Images/2Sep/LCimagePortret.png" alt="LC Image Portret"
+                                            width="500" height="600">
+                                    </a>
+                                    <div class="desc">Add a description of the image here</div>
+                                </div>
+                            </div>
+                            <div class="responsiveGALLERY">
+                                <div class="gallery">
+                                    <a target="_blank" href="assets/Images/2Sep/LCimageSchild.png">
+                                        <img src="assets/Images/2Sep/LCimageSchild.png" alt="LC Image Schild"
+                                            width="500" height="600">
+                                    </a>
+                                    <div class="desc">Add a description of the image here</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <h1></h1>
+            <div class="September4CONTAINER">
+                <div class="DropDown">
+                    <span class="SeptemberKopje">
+                      <article>
+                        <h3>4 September</h3>
+                        <p>Was de <b>Eerste</b> echte les van mijn 2de jaar van de opleiding CMDA, en moesten we,
+                          een fork van de school repository maken en je eigen model repository publiceren via je
+                          eigen Github omgeving.
+                        </p>
+                      </article>
+                    </span>
+                    <div class="DropDownContent">
+                        <div class="SeptemberContent">
+                            <div class="responsiveGALLERY">
+                                <div class="gallery">
+                                    <a target="_blank" href="assets/Images/4Sep/CodePenHTMLimage2.png">
+                                        <img src="assets/Images/4Sep/CodePenHTMLimage2.png" alt="CodePen HTML Image">
+                                    </a>
+                                    <div class="desc">Add a description of the image here</div>
+                                </div>
+                            </div>
+                            <div class="responsiveGALLERY">
+                                <div class="gallery">
+                                    <a target="_blank" href="assets/Images/4Sep/CodePenHTMLimage.png">
+                                        <img src="assets/Images/4Sep/CodePenHTMLimage.png" alt="CodePen HTML Image">
+                                    </a>
+                                    <div class="desc">Add a description of the image here</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1></h1>
+
+
+
+
+
+
 
 THe Digital Garden:
 
