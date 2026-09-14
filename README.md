@@ -201,16 +201,27 @@ Website voor inspiratie, OVERNEMEN!!!
                 </div>
             </div>
         </div>
-        <h1></h1>
-Check-out vragen Sprint 1:
-  Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
-  Als een website geen bijpassende thema's heeft of kleuren patronen, een lettertypen dat niet leesbaar is
-  1. Met micro-interacties, style en vormgeving
-  - doormiddel van 
-  
-  Vertel welke volgende stap je neemt om je website responsive te maken.
-  Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
-
+    <div class="SeptemberContent2">
+      <span class="SeptemberKopje2">
+        <h3>Check-out vragen Sprint 1:</h3>
+        <ul>
+          <li class="SeptemberVraag1">
+            <strong>1. Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+                Als een website geen bijpassende thema's heeft of kleuren patronen, een lettertypen dat niet leesbaar is
+              1. Met micro-interacties, style en vormgeving
+              - doormiddel van 
+          </li>
+          <li class="SeptemberVraag2">
+            <strong>2. Vertel welke volgende stap je neemt om je website responsive te maken.
+          </li>
+          <li class="SeptemberVraag3">
+            <strong>3. Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulaire?
+              
+          </li>
+        </ul>
+      </span>
+    </div>
+              <h1></h1>
 
 
 
