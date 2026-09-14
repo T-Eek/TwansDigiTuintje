@@ -7,7 +7,6 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 Website voor inspiratie, OVERNEMEN!!!
 /_ https://www.niccolomiranda.com/ _/
 
-<h1>## Learning Log</h1>
 <h1 class="RealHeader">## Learning Log...</h1>
 <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
 <div class="modelrepoCONTAINER">
