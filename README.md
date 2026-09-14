@@ -7,14 +7,16 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 Website voor inspiratie, OVERNEMEN!!!
 /_ https://www.niccolomiranda.com/ _/
 
-<h1 class="RealHeader">## Learning Log...</h1>
-<!-- <h1>[Digitaal Tuintje van ...]</h1> -->
 <div class="modelrepoCONTAINER">
   <p class="modelREPO"> De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.</p>
 </div>
-  <div class="Kopje1CONTAINER">
-    <p class="Kopje1"> mijn model komt van de <a href="https://github.com/T-Eek/TwansDigiTuintje">T-Eek/TwansDigiTuintje</a> repository op GitHub.
-  </div>
+
+<div class="Kopje1CONTAINER">
+  <p class="Kopje1"> mijn model komt van de <a href="https://github.com/T-Eek/TwansDigiTuintje">T-Eek/TwansDigiTuintje</a> repository op GitHub.
+</div>
+
+<h1 class="RealHeader">## Learning Log...</h1>
+<!-- <h1>[Digitaal Tuintje van ...]</h1> -->
   <div class="LogCONTAINER">
     <div class="AugustCONTAINER">
       <div class="DropDown">
