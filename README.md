@@ -42,25 +42,19 @@ Website voor inspiratie, OVERNEMEN!!!
   <div class="LogCONTAINER">
     <div class="AugustCONTAINER">
       <div class="DropDown">
-                    <span class="AugustKopje">
-                        <h2>31 augustus</h2>
-                        <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository
-                            maken en
-                            je
-                            eigen model repository publiceren via je eigen Github omgeving.
-                        </p>
-                    </span>
-                    <div class="DropDownContent">
-                        <div class="AugustContent">
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images//31Aug/HWIVIZelfTestimage1.png">
-                                        <img src="assets/Images//31Aug/HWIVIZelfTestimage1.png"
-                                            alt="HWIVI Self Test Image 1" width="600" height="auto">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
+        <span class="AugustKopje">
+          <h2>31 augustus</h2>
+          <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving. </p>
+        </span>
+        <div class="DropDownContent">
+        <div class="AugustContent">
+          <div class="responsiveGALLERY">
+            <div class="gallery">
+              <a target="_blank" href="assets/Images//31Aug/HWIVIZelfTestimage1.png">
+                <img src="assets/Images//31Aug/HWIVIZelfTestimage1.png" alt="HWIVI Self Test Image 1" width="600" height="auto">
+              </a>
+              <div class="desc">Add a description of the image here</div></div>
+            </div>
 
                             <div class="responsiveGALLERY">
                                 <div class="gallery">
