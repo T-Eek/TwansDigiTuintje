@@ -11,8 +11,20 @@ body {
   margin: 0;
 }
 
+
+/* =======================================*/
+/* ============ Index.html ===============*/
+/* =======================================*/
 .webTITEL {
   margin: 0px;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: baseline;
 }
 
 /* Bronnen voor de RealHeader tekst: 
@@ -26,12 +38,17 @@ body {
   display: block;
   font-size: 7vw;
   font-style: normal;
-  background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,
-  #f56040, #f77737, #fcaf45, #ffdc80);
-  -webkit-background-clip: text;
+  margin-bottom: 0px;
+  transition: padding 20s, box-shadow 8s; /*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2*/
+
+}
+.RealHeader:hover {
+  background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
+  box-shadow: -15px -10px 8px #FF7A00, 20px -20px 8px #FF0069, -15px 10px 8px #D300C5, 20px 20px 8px #7638FA; /*https://www.w3schools.com/cssref/tryit.php?filename=trycss3_box-shadow*/
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: move 35s linear infinite;
-  margin-bottom: 0px;
+  cursor: pointer;
 }
 
 @keyframes move {
@@ -40,33 +57,22 @@ body {
 	}
 }
 
-.HeaderContainer {
-  display: flex;
-  justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: baseline;
-  border-bottom: 2px dotted #f56040;
-  animation: mymove 10s infinite
-
-
-
+.borderLINE {
+  border-bottom: 2px dotted #fd1d1d;
+  animation: mymove 10s infinite;
 }
 
 @keyframes mymove {
-  50% {border-bottom: 10px dotted #833ab4;
+  25% {border-bottom: 5px dotted #f56040;
   }
-}
+  75% {
+    border-bottom: 11px dotted #7638FA;
+  }}
 
-
-.HamburgerMENU {
-  cursor: pointer;
-}
-
-/* Hamburger knop is standaard ONZICHTBAAR op desktop */
 .HBNAVContent { /* Hamburger Menu */
   display: block;
   padding: 15px;
+  cursor: pointer;
 }
 
 .HBLINE1, .HBLINE2 { /* Hamburger Menu Style */
@@ -127,7 +133,7 @@ body {
   display: block;
 }
 
-/* --- MOBIELE RESPONSIVE STIJLEN (Schermen smaller dan 768px) --- */
+/* --- MOBIELE RESPONSIVE STIJL --- */
 @media screen and (max-width: 768px) {
   .nav {
     justify-content: end;
@@ -143,9 +149,7 @@ body {
     flex-direction: column;
     width: 100%;
     left: 0;
-    }
-
-  /* Pas de stijl van de lijstitems aan voor mobiel onder elkaar */
+  }
   .listSTYLE {
     display: flex;
     justify-content: center;
@@ -154,11 +158,11 @@ body {
   }
 
   .listSTYLE:not(:last-child) {
-    border-right: none; /* Randen aan de zijkant weghalen */
+    border-right: none;
   }
 
   .listLINK {
-    padding: 1em; /* Minder padding zodat het op een telefoonscherm past */
+    padding: 1em;
   }
 }
 
@@ -174,14 +178,51 @@ body {
   margin: 0px 15%;
 }
 
-.Kopje1CONTAINER {
-  margin-bottom: 2vw;
+
+.ShowCaseContainer { /*https://www.w3schools.com/css/css3_images.asp */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  margin-top: 1rem;
 }
 
-.Kopje1 {
-  
+.WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
+  padding: 4rem;
+  transition: padding 5s, box-shadow 5s;
 }
 
+.WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
+  box-shadow: 0px 5px 2px white;
+}
+
+.SpanShowCase3 {
+}
+
+.SC-Titel-H2 {
+  font-size: 3rem;
+  margin: 0px;
+  text-align: center;
+}
+
+.SC-Titel-H2:hover {
+  text-shadow: -3px 0px 2px #FF7A00, 2px -4px 2px #FF0069, 1px 4px 2px #D300C5, 6px 0px 2px #7638FA;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================*/
+/* ============ Logs.html ===============*/
+/* =======================================*/
 .LogCONTAINER{
   /*border: 1px solid #bbbbbb;*/
   margin: 0px 18%;
@@ -238,4 +279,31 @@ body {
 
 .responsiveGALLERY {
   display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================*/
+/* ============== Footer =================*/
+/* =======================================*/
+.fo-Copyright-tekst {
+    font-family: 'Instagram Sans Headline', sans-serif;
+    color:#bbbbbb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0%;
+    padding: 2%;
 }

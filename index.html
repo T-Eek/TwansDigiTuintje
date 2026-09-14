@@ -23,18 +23,16 @@
       <h1>Twan's</h1>
       <h1 class="RealHeader">DigiTuintje...</h1>
 
-
-      <!-- Het hamburger knopje menu met Javascript -->
-      <div class="HamburgerMENU" onclick="openNav()">
-        <div class="HBNAVContent">
-          <div class="HBLINE1"></div>
-          <div class="HBLINE2"></div>
-        </div>
+      <!-- Het hamburger menu knopje om de Navigatie te openen via JavaScript -->
+      <div class="HBNAVContent" onclick="openNav()">
+        <div class="HBLINE1"></div>
+        <div class="HBLINE2"></div>
       </div>
     </div>
     <!-- Navigatie -->
     <nav id="myNav" class="NavOVERLAY">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!-- Het sluit knopje voor de Navigatie ook wel (&times;) -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
       <ul class="N-overlay-content" id="myLinks"> <!-- De links die op mobiel in- en uitklappen -->
         <li class="listSTYLE"><a class="listLINK" href="">[Home]</a></li>
         <li class="listSTYLE"><a class="listLINK" href="Logs.html">[Log]</a></li>
@@ -51,20 +49,71 @@
       De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.
     </p>
   </div>
+  <div class="borderLINE"></div>
   </header>
 
   <main>
-    <article>
+
+    <article class="ShowCaseContainer">
+
+      <article class="WorkShowCase1">
+        <span class="ShowCaseTitle">
+          <strong>project/ concept 1</strong>
+        </span>
+      </article>
+
+      <article class="WorkShowCase2">
+        <span class="ShowCaseTitle">
+          <strong>project/ concept 2</strong>
+        </span>
+      </article>
+
+      <article class="WorkShowCase3">
+        <span class="SpanShowCase3">
+          <h1 class="SC-Titel-H2"><strong>Al mijn werk!</strong></h1>
+          <p>Een sectie voor al mijn recente projecten/ concepten!</p>
+        </span>
+      </article>
+
+      <article class="WorkShowCase4">
+        <span class="ShowCaseTitle">
+          <strong>project/ concept 3</strong>
+        </span>
+      </article>
+
+      <article class="WorkShowCase5">
+        <span class="ShowCaseTitle">
+          <strong>project/ concept 4</strong>
+        </span>
+      </article>
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<article>
       <span>
         <h2>[Voorbeeld artikel]</h2>
         <p>[Dit is een voorbeeld artikel tekst...]</p>
       </span>
-    </article>
+    </article>-->
   </main>
 
-  <footer>
+  <p class="fo-Copyright-tekst">
+    @Copyright since 2026 - all rights belong to Twan Eekhout
+  </p>
+  <!--<footer>
     <p>[Copyleft 2026, all wrongs reversed]</p>
-  </footer>
+  </footer>-->
 </body>
 
 </html>

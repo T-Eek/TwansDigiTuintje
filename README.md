@@ -203,12 +203,6 @@ Website voor inspiratie, OVERNEMEN!!!
         </div>
         <h1></h1>
 
-
-
-
-
-
-
 THe Digital Garden:
 
 The Six patterens of Gardening (de 6 patronen van de tuin)
