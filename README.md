@@ -48,7 +48,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </div>
           <div class="AugustContent2">
             <span class="AugustKopje2">
-              <h3>Vragen</h3>
+              <h3>CHeck-out Vragen Sprint 0</h3>
               <ul>
                 <li class="AugustVraag1">
                   <strong>1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt: </strong>Ik heb mijn source hosting platform github gekozen omdat ik weet hoe github werkt, het is gratis en heel erg toegankelijk
@@ -202,15 +202,13 @@ Website voor inspiratie, OVERNEMEN!!!
             </div>
         </div>
         <h1></h1>
-Check-out:
+Check-out vragen Sprint 1:
   Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
   Als een website geen bijpassende thema's heeft of kleuren patronen, een lettertypen dat niet leesbaar is
   1. Met micro-interacties, style en vormgeving
   - doormiddel van 
   
   Vertel welke volgende stap je neemt om je website responsive te maken.
-
-  
   Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
 
 
