@@ -216,7 +216,6 @@ Website voor inspiratie, OVERNEMEN!!!
           </li>
           <li class="SeptemberVraag3">
             <strong>3. Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulaire?
-              
           </li>
         </ul>
       </span>
