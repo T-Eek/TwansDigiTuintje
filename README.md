@@ -166,11 +166,13 @@ Website voor inspiratie, OVERNEMEN!!!
             <div class="September4CONTAINER">
                 <div class="DropDown">
                     <span class="SeptemberKopje">
-                        <h2>4 September</h2>
+                      <article>
+                        <h3>4 September</h3>
                         <p>Was de <b>Eerste</b> echte les van mijn 2de jaar van de opleiding CMDA, en moesten we,
-                            een fork van de school repository maken en je eigen model repository publiceren via je
-                            eigen Github omgeving.
+                          een fork van de school repository maken en je eigen model repository publiceren via je
+                          eigen Github omgeving.
                         </p>
+                      </article>
                     </span>
                     <div class="DropDownContent">
                         <div class="SeptemberContent">
