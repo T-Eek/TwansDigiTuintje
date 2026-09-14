@@ -35,7 +35,7 @@ Website voor inspiratie, OVERNEMEN!!!
               <a target="_blank" href="assets/Images//31Aug/HWIVIZelfTestimage1.png">
                 <img src="assets/Images//31Aug/HWIVIZelfTestimage1.png" alt="HWIVI Self Test Image 1" width="300" height="auto">
               </a>
-              <div class="desc">Add a description of the image here</div></div>
+              <div class="desc">Add a description of the image here</div>
             <a target="_blank" href="assets/Images/31Aug/HWIVIZelfTestimage2.png">
               <img src="assets/Images/31Aug/HWIVIZelfTestimage2.png" alt="HWIVI Self Test Image 2" width="300" height="auto">
             </a>
