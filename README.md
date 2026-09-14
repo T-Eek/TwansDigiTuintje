@@ -22,9 +22,9 @@ Website voor inspiratie, OVERNEMEN!!!
       <div class="DropDown">
         <span class="AugustKopje">
           <article>
-            <h3> Sprint 0<br><br>
+            <h2> Sprint 0<br><br>
               Kickoff 31 Augustus
-            </h3>
+            </h2>
             <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving. </p>
           </article>
         </span>
