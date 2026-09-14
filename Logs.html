@@ -9,6 +9,8 @@
 
     <title>Twans Digitaal Tuintje</title>
     <link rel="stylesheet" href="./assets/style/normal.css" />
+    <script src="./assets/Scripts/Scripts.js"></script>
+
 
     <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
     <script data-page="[https://voorbeeld.nl]" src="https://digitaaltuintje.nl/webring.js" defer></script>
@@ -16,21 +18,20 @@
 
 <body>
     <header>
-        <!-- Navigatie -->
         <!-- Het hamburger knopje menu met Javascript -->
-        <div class="HamburgerMENU">
-            <h1 class="webTITEL">Nwat</h1>
-            <a href="javascript:void(0);" class="HBNAV" id="MyHamburger" onclick="toggleMenu()">
-                <div class="HBNAVContainer">
-                    <div class="HBLINE1"></div>
-                    <div class="HBLINE2"></div>
-                </div>
-            </a>
+        <div class="HamburgerMENU" onclick="openNav()">
+            <div class="HBNAVContent">
+                <div class="HBLINE1"></div>
+                <div class="HBLINE2"></div>
+            </div>
         </div>
-        <nav class="nav">
-            <!-- De links die op mobiel in- en uitklappen -->
-            <ul class="navLIST" id="myLinks">
-                <li class="listSTYLE"><a class="listLINK" href="/index.html">[Home]</a></li>
+        </div>
+        <!-- Navigatie -->
+        <nav id="myNav" class="NavOVERLAY">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="N-overlay-content" id="myLinks"> <!-- De links die op mobiel in- en uitklappen -->
+                <li class="listSTYLE"><a class="listLINK" href="">[Home]</a></li>
+                <li class="listSTYLE"><a class="listLINK" href="/Logs.html">[Log]</a></li>
                 <li class="listSTYLE"><a class="listLINK" href="/story.html">[Story]</a></li>
                 <li class="listSTYLE"><a class="listLINK" href="/contact.html">[Contact]</a></li>
             </ul>
@@ -262,13 +263,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
         </div>
     </main>
     <footer>
@@ -281,18 +275,3 @@
 </body>
 
 </html>
-
-<!-- JavaScript om het menu open en dicht te klappen -->
-<script>
-    function toggleMenu() {
-        var x = document.getElementById("myLinks");
-        var h = document.getElementById("MyHamburger");
-        // Als het menu flex is (of block), maken we het 'none' (onzichtbaar), anders tonen we het weer
-        if (x.style.display === "flex" || x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "flex";
-            h.style.display = "none";
-        }
-    }
-</script>
