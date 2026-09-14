@@ -206,16 +206,18 @@ Website voor inspiratie, OVERNEMEN!!!
         <h3>Check-out vragen Sprint 1:</h3>
         <ul>
           <li class="SeptemberVraag1">
-            <strong>1. Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+            <strong>1. Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?</strong>
                 Als een website geen bijpassende thema's heeft of kleuren patronen, een lettertypen dat niet leesbaar is
               1. Met micro-interacties, style en vormgeving
-              - doormiddel van 
+              - doormiddel van style en vormgeving heb je een kleuren patroon dat je website fixed van lelijkheid
           </li>
           <li class="SeptemberVraag2">
-            <strong>2. Vertel welke volgende stap je neemt om je website responsive te maken.
+            <strong>2. Vertel welke volgende stap je neemt om je website responsive te maken.</strong>
+            - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive.
           </li>
           <li class="SeptemberVraag3">
-            <strong>3. Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulaire?
+            <strong>3. Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulaire?</strong>
+            - Mijn ontwerp heb ik vooral gericht op basis van de Micro interacties en de opvallende typografie, style en kleuren patronen die ik in mijn ontwerp heb getoond, om het "Webby" te maken wil ik de titel, hoofdkopjes er uit laten springen en er kleine, funcionele micro-interacties aan toevoegen
           </li>
         </ul>
       </span>
