@@ -21,8 +21,11 @@ Website voor inspiratie, OVERNEMEN!!!
     <div class="AugustCONTAINER">
       <div class="DropDown">
         <span class="AugustKopje">
-          <h2>Kickoff 31 augustus</h2>
-          <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving. </p>
+          <h2>Sprint 0</h2>
+          <article>
+            <title>Kickoff 31 Augustus</title>
+            <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving. </p>
+          </article>
         </span>
         <div class="DropDownContent">
         <div class="AugustContent">
