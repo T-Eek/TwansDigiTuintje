@@ -55,7 +55,6 @@ Website voor inspiratie, OVERNEMEN!!!
               </a>
               <div class="desc">Add a description of the image here</div></div>
             </div>
-
           <div class="responsiveGALLERY">
             <div class="gallery">
               <a target="_blank" href="assets/Images/31Aug/HWIVIZelfTestimage2.png">
