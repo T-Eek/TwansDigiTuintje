@@ -31,6 +31,15 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 Website voor inspiratie, OVERNEMEN!!!
 /_ https://www.niccolomiranda.com/ _/
 
+
+
+
+
+
+
+
+
+
 THe Digital Garden:
 
 The Six patterens of Gardening (de 6 patronen van de tuin)
