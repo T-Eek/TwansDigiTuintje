@@ -70,7 +70,7 @@ Website voor inspiratie, OVERNEMEN!!!
         <span class="SeptemberKopje">
           <h2>Sprint 1</h2>
           <article>
-            <h3>2 September</h3>
+            <h3>##2 September</h3>
             <p>Was de <b>Eerste</b> echte les van mijn 2de jaar van de opleiding CMDA, en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving.</p>
           </article>
         </span>
