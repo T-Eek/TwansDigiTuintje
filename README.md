@@ -48,7 +48,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </div>
           <div class="AugustContent2">
             <span class="AugustKopje2">
-              <h2>Vragen</h2>
+              <h3>Vragen</h3>
               <ul>
                 <li class="AugustVraag1">
                   <strong>1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt: </strong>Ik heb mijn source hosting platform github gekozen omdat ik weet hoe github werkt, het is gratis en heel erg toegankelijk
@@ -66,6 +66,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </div>
       </div>
     </div>
+    <h1></h1>
     <div class="September2CONTAINER">
       <div class="DropDown">
         <span class="SeptemberKopje">
