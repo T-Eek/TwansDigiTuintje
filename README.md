@@ -31,27 +31,6 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 Website voor inspiratie, OVERNEMEN!!!
 /_ https://www.niccolomiranda.com/ _/
 
-    <header>
-        <!-- Navigatie -->
-        <!-- Het hamburger knopje menu met Javascript -->
-        <div class="HamburgerMENU">
-            <h1 class="webTITEL">Nwat</h1>
-            <a href="javascript:void(0);" class="HBNAV" id="MyHamburger" onclick="toggleMenu()">
-                <div class="HBNAVContainer">
-                    <div class="HBLINE1"></div>
-                    <div class="HBLINE2"></div>
-                </div>
-            </a>
-        </div>
-        <nav class="nav">
-            <!-- De links die op mobiel in- en uitklappen -->
-            <ul class="navLIST" id="myLinks">
-                <li class="listSTYLE"><a class="listLINK" href="/index.html">[Home]</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="/story.html">[Story]</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="/contact.html">[Contact]</a></li>
-            </ul>
-        </nav>
-
         <h1 class="RealHeader">## Learning Log...</h1>
         <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
 
