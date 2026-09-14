@@ -56,16 +56,15 @@ Website voor inspiratie, OVERNEMEN!!!
               <div class="desc">Add a description of the image here</div></div>
             </div>
 
-                            <div class="responsiveGALLERY">
-                                <div class="gallery">
-                                    <a target="_blank" href="assets/Images/31Aug/HWIVIZelfTestimage2.png">
-                                        <img src="assets/Images/31Aug/HWIVIZelfTestimage2.png"
-                                            alt="HWIVI Self Test Image 2" width="600" height="auto">
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
-                                </div>
-                            </div>
-                        </div>
+          <div class="responsiveGALLERY">
+            <div class="gallery">
+              <a target="_blank" href="assets/Images/31Aug/HWIVIZelfTestimage2.png">
+                <img src="assets/Images/31Aug/HWIVIZelfTestimage2.png" alt="HWIVI Self Test Image 2" width="600" height="auto">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+        </div>
                         <div class="AugustContent2">
                             <span class="AugustKopje2">
                                 <h2>Vragen</h2>
