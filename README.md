@@ -8,8 +8,6 @@ Website voor inspiratie, OVERNEMEN!!!
 /_ https://www.niccolomiranda.com/ _/
 
 <h1>## Learning Log</h1>
-
-### 31 aug - Kickoff
 <h1 class="RealHeader">## Learning Log...</h1>
 <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
 <div class="modelrepoCONTAINER">
@@ -22,7 +20,7 @@ Website voor inspiratie, OVERNEMEN!!!
     <div class="AugustCONTAINER">
       <div class="DropDown">
         <span class="AugustKopje">
-          <h2>31 augustus</h2>
+          <h2>Kickoff 31 augustus</h2>
           <p>Werd er een <b>Kickoff</b> gehouden en moesten we, een fork van de school repository maken en je eigen model repository publiceren via je eigen Github omgeving. </p>
         </span>
         <div class="DropDownContent">
