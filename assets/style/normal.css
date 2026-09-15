@@ -5,10 +5,18 @@
   font-style: normal;
 }
 
+html {
+  color-scheme:light dark;
+  --background: light-dark(white, black);
+  --box-shadow: light-dark(white, black);
+}
+
+
+
 body {
-  color-scheme: light dark;
   font-family: "Comic Relief", system-ui;
   margin: 0;
+  background-color: var(--background);
 }
 
 
@@ -126,6 +134,11 @@ body {
   justify-content: center;
   font-size: 1em;
   padding: 2.5rem;
+  transition: border-bottom 1.5s;
+}
+
+.listSTYLE:hover {
+  border-bottom: 8px solid white;
 }
 
 .listLINK {
@@ -153,7 +166,7 @@ body {
   .listSTYLE {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #bbbbbb;
+    border-bottom: 1px solid #ffadff;
     width: 100%;
   }
 
@@ -181,26 +194,27 @@ body {
 
 .ShowCaseContainer { /*https://www.w3schools.com/css/css3_images.asp */
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   margin-top: 1rem;
 }
 
 .WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
-  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   transition: padding 5s, box-shadow 5s;
 }
 
 .WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
-  box-shadow: 0px 5px 2px white;
+  box-shadow: 0px 5px 2px gold;
 }
 
 .SpanShowCase3 {
 }
 
 .SC-Titel-H2 {
-  font-size: 3rem;
+  font-size: 4vw;
   margin: 0px;
   text-align: center;
 }
