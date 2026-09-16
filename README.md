@@ -280,4 +280,20 @@ Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital g
 
 - het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen
 
+
+Check-out 16-19-2026:
+Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
+1. Continuïteit: Elementen die soepel te volgen zijn, in een soort flow status
+2. Semitrie: Zijn Elementen die hetzelfde zijn
+3. Nabijheid: Elementen die bij elkaar staan worden als groep gezien
+
+Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?
+- Dat je brij bent om een grid te gebruiken maar een grid bied vastheid voor een behaalde structuur.
+
+Welk principe neem je mee in een laatste iteratie van je ontwerp?
+- Hoe het simpel en duidelijk anders ga je veelste groot denken.
+
+
+
+
 https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391
