@@ -8,9 +8,10 @@
 html {
   color-scheme:light dark;
   --background: light-dark(white, black);
-  --box-shadow: light-dark(white, black);
+  --color-LightDark: light-dark(black, white);
+  --background-Dark: linear-gradient(to right, black, black, white, white, white);
+  --background-Light: linear-gradient(to right, white, white, black, black, black);
 }
-
 
 
 body {
@@ -19,6 +20,127 @@ body {
   background-color: var(--background);
 }
 
+
+/* =======================================*/
+/* ============ Intro.html ===============*/
+/* =======================================*/
+
+
+html:has( [value="auto"]:checked) {
+	color-scheme:auto;
+  .IntroRealHeader {
+    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
+    background-image: var(--background-Dark, --background-Light);
+    color: var(--color-LightDark);
+    /*background-image: linear-gradient(to right, black, black, white, white, white );*/
+  }
+}
+
+/* Light Mode */
+html:has( [value="light"]:checked) {
+  color-scheme:light;
+  .IntroRealHeader {
+    /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
+    background-image: linear-gradient(to right, white, white, black, black, black);
+      text-shadow: 0px 0px 21px black;
+  }
+
+  .IntroHeaderShadow {
+    background-clip: content-box;
+    background-image: linear-gradient(to right, #bbbbbb, white, white, black, black);
+    animation: INTROmove 40s linear infinite;
+    box-shadow: 0px 1rem 2rem black;
+    border-radius: 25%;
+  }
+
+  .IntroRealHeader:hover {
+    text-shadow: 0px 0px 0px black;
+    font-size: 5vw;
+  }
+}
+
+/* Dark Mode */
+html:has( [value="dark"]:checked) {
+	color-scheme:dark;
+  .IntroRealHeader {
+    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
+    background-image: linear-gradient(to right, black, black, white, white, white);
+    text-shadow: 0px 0px 21px white;
+  }
+
+  .IntroRealHeader:hover {
+    text-shadow: 0px 0px 0px white;
+    font-size: 5vw;
+  }
+}
+
+.DarkLightMode {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+
+.IntroHeaderContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.IntroRealHeader {
+  cursor: pointer;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: INTROmove 40s linear infinite;
+  /*animation: pulse 6s infinite;*/
+  font-size: 4vw;
+  /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
+}
+
+.IntroLINK {
+  text-decoration: none;
+  color: black;
+}
+
+
+.IntroRealHeader:hover {
+  text-shadow: 0px 0px 0px transparent;
+  font-size: 5vw;
+}
+
+.IntroRealHeader:active {
+  text-shadow: 0px 0px 0px transparent;
+  font-size: 5vw;
+}
+
+@keyframes INTROmove {
+	to {
+		background-position: 100vh;
+	}
+}
+
+/* Pulse animatie */
+/*@keyframes pulse {
+  0% {
+    transform: scale(1,1);
+    } 100% {
+      transform: scale(3,3);
+    }
+}*/
+
+.IntroHeaderShadow {
+  display: flex;
+  justify-content: center;
+  margin: 0px 25%;
+  margin-bottom: 25%;
+  color: transparent;
+  font-size: 1px;
+
+  background-clip: content-box;
+  background-image: linear-gradient(to right, #bbbbbb, black, black, white, white);
+  animation: INTROmove 40s linear infinite;
+  box-shadow: 0px 1rem 2rem white;
+  border-radius: 25%;
+}
 
 /* =======================================*/
 /* ============ Index.html ===============*/
@@ -48,7 +170,6 @@ body {
   font-style: normal;
   margin-bottom: 0px;
   transition: padding 20s, box-shadow 8s; /*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2*/
-
 }
 .RealHeader:hover {
   background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);

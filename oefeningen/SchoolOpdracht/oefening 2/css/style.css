@@ -5,7 +5,21 @@
 /* jouw code hier */
 /* alle fonts (@font-face's) zet je bovenaan je css */
 /* kijk even naar oefening 1 hoe je @font-face gebruikt */
+@font-face {
+	font-family:"expletus";
+	src:url("../fonts/Montserrat-Thin.ttf");
+	font-weight:100; /* 400 is de code voor dikte normal */
+	font-style: normal; /* hier niet perse nodig - maar goed om wel toe te voegen */
+	font-display: fallback; /* dit is goed om altijd op te nemen */
+}
 
+@font-face {
+	font-family:"expletus";
+	src:url("../fonts/SairaCondensed-Bold.ttf");
+	font-weight:700; /* 700 is de code voor dikte bold */
+	font-style: normal;
+	font-display: fallback;
+}
 
 
 
@@ -20,9 +34,10 @@ li:nth-of-type(1) {
   /* hoef je nu nog niet te snappen - mag wel ;-) */
   display:grid;
   place-items:center;
+
 	
 	/* jouw code hier */
-	
+  background-color: rgb(0 24 54);	
 }
 
 
@@ -36,7 +51,13 @@ li:nth-of-type(1) h2 {
 	text-align:center;
 	
 	/* jouw code hier */
-	
+  font-family:"expletus";
+  font-size: 3rem;
+	font-weight:100; /* 700 is de code voor dikte bold */
+  color: hsl(0 0% 100%);
+  line-height: .8em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.2em cyan, 0 0 0.4em cyan, 0 0 0.4em cyan;
 }
 
 
@@ -53,6 +74,8 @@ li:nth-of-type(2) {
   place-items:center;
 
 	/* jouw code hier */
+  background-color: rgb(230 127 138);
+
 	
 } 
 
@@ -63,7 +86,17 @@ li:nth-of-type(2) h2 {
 	text-align:center;
 	
 	/* jouw code hier */
-	
+  font-family:"expletus";
+	font-weight:700; /* 700 is de code voor dikte bold */
+  font-size: 3.5em;
+  line-height: 1em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: .1em .1em 0 rgb(0 0 0 / .5);
+  transform: skewY(-10deg);
+  color: white;
+
 }
 
 
