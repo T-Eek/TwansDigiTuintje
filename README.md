@@ -292,8 +292,3 @@ Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid e
 
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
-
-
-
-
-https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391
