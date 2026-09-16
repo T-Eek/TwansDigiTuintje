@@ -19,41 +19,75 @@
 <body>
     <header>
 
-        <form class="DarkLightMode">
-            <label class="DLModeLabel" for="system-mode">
-                <input class="DLModeInput" type="radio" id="system-mode" name="color-theme" value="auto" checked> Auto
-                <span class="RoundSlider"></span>
-            </label>
-            <label for="light-mode">
-                <input type="radio" id="light-mode" name="color-theme" value="light"> Licht
-                <span class="RoundSlider"></span>
-            </label>
-            <label for="dark-mode">
-                <input type="radio" id="dark-mode" name="color-theme" value="dark"> Donker
-                <span class="RoundSlider"></span>
-            </label>
-        </form>
+        <div class="HeaderContainer">
+            <h1>Twan's</h1>
+            <h1 class="RealHeader">DigiTuintje...</h1>
 
+            <!-- Het hamburger menu knopje om de Navigatie te openen via JavaScript -->
+            <div class="HBNAVContent" onclick="openNav()">
+                <div class="HBLINE1"></div>
+                <div class="HBLINE2"></div>
+            </div>
+        </div>
+        <!-- Navigatie -->
+        <nav id="myNav" class="NavOVERLAY">
+            <!-- Het sluit knopje voor de Navigatie ook wel (&times;) -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <ul class="N-overlay-content" id="myLinks"> <!-- De links die op mobiel in- en uitklappen -->
+                <li class="listSTYLE"><a class="listLINK" href="Intro.html">[INTRO]</a></li>
+                <li class="listSTYLE"><a class="listLINK" href="">[Home]</a></li>
+                <li class="listSTYLE"><a class="listLINK" href="Logs.html">[Log]</a></li>
+                <li class="listSTYLE"><a class="listLINK" href="/story.html">[Story]</a></li>
+                <li class="listSTYLE"><a class="listLINK" href="/contact.html">[Contact]</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
+
+    <div class="modelrepoCONTAINER">
+        <p class="modelREPO">
+            De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.
+        </p>
+    </div>
+    <div class="borderLINE"></div>
     </header>
 
     <main>
 
-        <div class="IntroHeaderContainer">
-            <h1 class="IntroRealHeader" value="INTRO">
-                <a class="IntroLINK" href="index.html">Twan's Digi Tuintje... </a>
-            </h1>
-        </div>
-        <span class="IntroHeaderShadow">Shadow</span>
+        <article class="ShowCaseContainer">
 
+            <article class="WorkShowCase1">
+                <span class="ShowCaseTitle">
+                    <strong>project/ concept 1</strong>
+                </span>
+            </article>
 
+            <article class="WorkShowCase2">
+                <span class="ShowCaseTitle">
+                    <strong>project/ concept 2</strong>
+                </span>
+            </article>
 
+            <article class="WorkShowCase3">
+                <span class="SpanShowCase3">
+                    <h1 class="SC-Titel-H2"><strong>Al mijn werk!</strong></h1>
+                    <p>Een sectie voor al mijn recente projecten/ concepten!</p>
+                </span>
+            </article>
 
+            <article class="WorkShowCase4">
+                <span class="ShowCaseTitle">
+                    <strong>project/ concept 3</strong>
+                </span>
+            </article>
 
-
-
-
-
-
+            <article class="WorkShowCase5">
+                <span class="ShowCaseTitle">
+                    <strong>project/ concept 4</strong>
+                </span>
+            </article>
+        </article>
 
         <!--<article>
       <span>
