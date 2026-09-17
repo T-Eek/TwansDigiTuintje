@@ -81,12 +81,18 @@ html:has( [value="dark"]:checked) {
 }
 
 .IntroHeaderContainer {
-  display: flex;
-  justify-content: center;
-  padding-top: 20%;
+  position: fixed;
+  bottom: 50%;
+  width: 100%;
 }
 
 .IntroRealHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
   cursor: pointer;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -127,15 +133,21 @@ html:has( [value="dark"]:checked) {
     }
 }*/
 
+
+.IntroShadowContainer {
+  position: absolute;
+  bottom: 38%;
+  width: 100%;
+}
+
 .IntroHeaderShadow {
   display: flex;
   justify-content: center;
-  margin: 0px 25%;
-  margin-bottom: 25%;
+
   color: transparent;
   font-size: 1px;
-
-  background-clip: content-box;
+  margin: 0px 25%;
+  margin-bottom: 25%;
   background-image: linear-gradient(to right, #bbbbbb, black, black, white, white);
   animation: INTROmove 40s linear infinite;
   box-shadow: 0px 1rem 2rem white;
@@ -185,18 +197,6 @@ html:has( [value="dark"]:checked) {
 		background-position: 2300vh;
 	}
 }
-
-.borderLINE {
-  border-bottom: 2px dotted #fd1d1d;
-  animation: mymove 10s infinite;
-}
-
-@keyframes mymove {
-  25% {border-bottom: 5px dotted #f56040;
-  }
-  75% {
-    border-bottom: 11px dotted #7638FA;
-  }}
 
 .HBNAVContent { /* Hamburger Menu */
   display: block;
@@ -267,39 +267,6 @@ html:has( [value="dark"]:checked) {
   display: block;
 }
 
-/* --- MOBIELE RESPONSIVE STIJL --- */
-@media screen and (max-width: 768px) {
-  .nav {
-    justify-content: end;
-    padding: 0 15px;
-  }
-
-  .HBNAV {
-    display: block; 
-  }
-
-  .navLIST {
-    display: none; 
-    flex-direction: column;
-    width: 100%;
-    left: 0;
-  }
-  .listSTYLE {
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid #ffadff;
-    width: 100%;
-  }
-
-  .listSTYLE:not(:last-child) {
-    border-right: none;
-  }
-
-  .listLINK {
-    padding: 1em;
-  }
-}
-
 .modelrepoCONTAINER {
   display: flex;
   justify-content: end;
@@ -311,6 +278,20 @@ html:has( [value="dark"]:checked) {
   color: #bbbbbb;
   margin: 0px 15%;
 }
+
+  .borderLINE {
+  border-bottom: 2px dotted #fd1d1d;
+  animation: mymove 10s infinite;
+  }
+
+  @keyframes mymove {
+    25% {border-bottom: 5px dotted #f56040;
+    }
+    75% {
+      border-bottom: 11px dotted #7638FA;
+  }}
+
+
 
 
 .ShowCaseContainer { /*https://www.w3schools.com/css/css3_images.asp */
@@ -416,32 +397,98 @@ html:has( [value="dark"]:checked) {
   display: inline-flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* =======================================*/
 /* ============== Footer =================*/
 /* =======================================*/
+
+
+.CopyrightTekstCONTAINER{
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
 .fo-Copyright-tekst {
-    font-family: 'Instagram Sans Headline', sans-serif;
-    color:#bbbbbb;
+  font-family: 'Instagram Sans Headline', sans-serif;
+  color:#bbbbbb;
+  margin: 0%;
+}
 
-    display: flex;
-    position: fixed;
-    bottom: 0px;
+
+/* --- MOBIELE RESPONSIVE STIJL --- */
+@media screen and (max-width: 768px) {
+
+  /* =======================================*/
+  /* ============= Navigatie ===============*/
+  /* =======================================*/
+  .nav {
+    justify-content: end;
+    padding: 0 15px;
+  }
+
+  .HBNAV {
+    display: block; 
+  }
+
+  .navLIST {
+    display: none; 
+    flex-direction: column;
     width: 100%;
+    left: 0;
+  }
+  .listSTYLE {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    border-bottom: 1px solid #ffadff;
+  }
 
-    margin: 0%;
-    padding: 2%;
+  .listSTYLE:not(:last-child) {
+    border-right: none;
+  }
+
+  .listLINK {
+    height: 3rem;
+  }
+
+
+  .modelrepoCONTAINER {
+    display: inline-flex;
+  }
+
+  /* =======================================*/
+  /* =========== Al MIJN WERK ==============*/
+  /* =======================================*/
+  .ShowCaseContainer {
+    display: block;
+  }
+
+  .WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
+    display: flex;
+    justify-content: left;
+    align-content: baseline;
+    border-bottom: 1px solid White;
+    border-top: 1px solid white;
+    padding: 2rem;
+    width: auto;
+  }
+
+  .ShowCaseTitle {
+    font-size: 26px;
+  }
+
+  .SC-Titel-H2 {
+    font-size: 12vw;
+  }
+
+
+
+  /* =======================================*/
+  /* ============== Footer =================*/
+  /* =======================================*/
+  .fo-Copyright-tekst {
+    font-size: 14px;
+  }
 }
