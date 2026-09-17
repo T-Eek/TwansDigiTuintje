@@ -22,10 +22,8 @@ body {
 
 
 /* =======================================*/
-/* ============ Intro.html ===============*/
+/* ============ index.html ===============*/
 /* =======================================*/
-
-
 html:has( [value="auto"]:checked) {
 	color-scheme:auto;
   .IntroRealHeader {
@@ -41,8 +39,9 @@ html:has( [value="light"]:checked) {
   color-scheme:light;
   .IntroRealHeader {
     /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
-    background-image: linear-gradient(to right, white, white, black, black, black);
-      text-shadow: 0px 0px 21px black;
+    background-image: linear-gradient(to right, white, white, white, black, black, black);
+    line-height: 1.5em;
+    text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
   }
 
   .IntroHeaderShadow {
@@ -64,8 +63,11 @@ html:has( [value="dark"]:checked) {
 	color-scheme:dark;
   .IntroRealHeader {
     /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
-    background-image: linear-gradient(to right, black, black, white, white, white);
-    text-shadow: 0px 0px 21px white;
+    background-image: linear-gradient(to right, black, black, black, white, white, white);
+    /*text-shadow: 0px 0px 21px black;*/
+    line-height: 1.5em;
+    text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
+
   }
 
   .IntroRealHeader:hover {
@@ -91,15 +93,15 @@ html:has( [value="dark"]:checked) {
   justify-content: center;
   align-items: center;
 
-
-
   cursor: pointer;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: INTROmove 40s linear infinite;
   /*animation: pulse 6s infinite;*/
   font-size: 4vw;
+
   /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
+
 }
 
 .IntroLINK {
@@ -120,7 +122,7 @@ html:has( [value="dark"]:checked) {
 
 @keyframes INTROmove {
 	to {
-		background-position: 100vh;
+		background-position: 500vh;
 	}
 }
 
@@ -131,31 +133,28 @@ html:has( [value="dark"]:checked) {
     } 100% {
       transform: scale(3,3);
     }
-}*/
-
+}
 
 .IntroShadowContainer {
   position: absolute;
-  bottom: 38%;
+  bottom: 52%;
   width: 100%;
 }
 
 .IntroHeaderShadow {
-  display: flex;
-  justify-content: center;
+  display: block;
 
   color: transparent;
   font-size: 1px;
   margin: 0px 25%;
-  margin-bottom: 25%;
-  background-image: linear-gradient(to right, #bbbbbb, black, black, white, white);
+  background-image: linear-gradient(to right, white, white, black, black, black);
   animation: INTROmove 40s linear infinite;
   box-shadow: 0px 1rem 2rem white;
   border-radius: 25%;
-}
+}*/
 
 /* =======================================*/
-/* ============ Index.html ===============*/
+/* ============ Intro.html ===============*/
 /* =======================================*/
 .webTITEL {
   margin: 0px;
@@ -279,17 +278,17 @@ html:has( [value="dark"]:checked) {
   margin: 0px 15%;
 }
 
-  .borderLINE {
+.borderLINE {
   border-bottom: 2px dotted #fd1d1d;
   animation: mymove 10s infinite;
-  }
+}
 
-  @keyframes mymove {
-    25% {border-bottom: 5px dotted #f56040;
-    }
-    75% {
-      border-bottom: 11px dotted #7638FA;
-  }}
+@keyframes mymove {
+  25% {border-bottom: 5px dotted #f56040;
+  }
+  75% {
+    border-bottom: 11px dotted #7638FA;
+}}
 
 
 
@@ -302,17 +301,27 @@ html:has( [value="dark"]:checked) {
 }
 
 .WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   transition: padding 5s, box-shadow 5s;
 }
 
 .WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
-  box-shadow: 0px 5px 2px gold;
+  box-shadow: 0rem 0rem 5rem gold;
+  cursor: pointer;
 }
 
-.SpanShowCase3 {
+.SCImgContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.SCImage1, .SCImage2 {
+  max-width: 15vw;
+}
+
+.SCImage1:hover, .SCImage2:hover {
+  max-width: 25vw;
+  cursor: pointer;
 }
 
 .SC-Titel-H2 {
@@ -337,7 +346,7 @@ html:has( [value="dark"]:checked) {
 
 
 /* =======================================*/
-/* ============ Logs.html ===============*/
+/* ============ Story.html ===============*/
 /* =======================================*/
 .LogCONTAINER{
   /*border: 1px solid #bbbbbb;*/
@@ -400,8 +409,6 @@ html:has( [value="dark"]:checked) {
 /* =======================================*/
 /* ============== Footer =================*/
 /* =======================================*/
-
-
 .CopyrightTekstCONTAINER{
   position: fixed;
   bottom: 0px;
@@ -456,6 +463,15 @@ html:has( [value="dark"]:checked) {
 
   .modelrepoCONTAINER {
     display: inline-flex;
+  }
+
+  /* =======================================*/
+  /* ============== Intro ==================*/
+  /* =======================================*/
+  .IntroShadowContainer {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
   }
 
   /* =======================================*/
