@@ -292,3 +292,17 @@ Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid e
 
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
+
+
+Retrospec 1
+Deel 1:
+
+
+2:
+Pros
+- Hiërarchie, Typografie, kleur gebruik, visuele hiërarchie
+Cons
+- Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
+
+Deel 2:
+
