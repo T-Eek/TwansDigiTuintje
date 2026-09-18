@@ -155,7 +155,7 @@ Website voor inspiratie, OVERNEMEN!!!
                                         <img src="assets/Images/2Sep/LCimageSchild.png" alt="LC Image Schild"
                                             width="500" height="600">
                                     </a>
-                                    <div class="desc">In deze opdracht moesten we een schild maken met daarin 4 van je belangrijkste, unieke, positieve eigenschappen/ kennis die je zelf hebt, ik heb mijn familie getekend omdat mijn familie dicht bij mij staat, dan <strong>>L / R</strong> dit komt omdat ik met mijn rechterhand schrijf maar met mijn linkerhand tennis, basketbal, vis en een deksel open draai, dit legt ook voor mijn linker voet waar ik mee voetbal en schiet, maar ik kan knippen met een schaar en tanden poetsen met alle bij.</div>
+                                    <div class="desc">In deze opdracht moesten we een schild maken met daarin 4 van je belangrijkste, unieke, positieve eigenschappen/ kennis die je zelf hebt, ik heb mijn familie getekend omdat mijn familie dicht bij mij staat, dan <strong>L / R</strong> dit komt omdat ik met mijn rechterhand schrijf maar met mijn linkerhand tennis, basketbal, vis en een deksel open draai, dit legt ook voor mijn linker voet waar ik mee voetbal en schiet, maar ik kan knippen met een schaar en tanden poetsen met alle bij.</div>
                                 </div>
                             </div>
                         </div>
