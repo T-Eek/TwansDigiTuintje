@@ -260,7 +260,7 @@ Imperfection & Learing in Public
   - Dat de wbesites erg oud zijn
   - Dat het je eigen tuintje is inplaats van een blog of kopje
  
-    <h3><11 September/h3>
+    <h3>11 September/h3>
       <span class="SeptemberKopje2">
         <h3>Check-out Les Week 4:</h3>
         <ul>
