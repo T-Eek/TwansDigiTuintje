@@ -298,11 +298,12 @@ Welk principe neem je mee in een laatste iteratie van je ontwerp?
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
 Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de plaatjes/ schetsen rank geschikt van mins goed naar best.
 <p>Daarna hebben we de Do's en Don't (Heb ik in Pros en Cons) neer gezet:</p>
-<p><strong>Pros</strong></p>
+<p><strong>Pros</strong>
 - Hiërarchie, Typografie, kleur gebruik, visuele hiërarchie
-<p><strong>Cons</strong></p>
+</p>
+<p><strong>Cons</strong>
 - Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
-
+</p>
 <img width="2382" height="1644" alt="image" src="https://github.com/user-attachments/assets/49cf5b55-31cf-41c5-9ccf-f93a2b0bb663" />
 
 <img width="2306" height="1682" alt="image" src="https://github.com/user-attachments/assets/4c6abf7a-30af-4379-9e41-f56972d14c3d" />
