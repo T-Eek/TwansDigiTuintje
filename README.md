@@ -294,6 +294,19 @@ Welk principe neem je mee in een laatste iteratie van je ontwerp?
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
 
 
+
+<img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
+
+<img width="2382" height="1644" alt="image" src="https://github.com/user-attachments/assets/49cf5b55-31cf-41c5-9ccf-f93a2b0bb663" />
+
+<img width="2306" height="1682" alt="image" src="https://github.com/user-attachments/assets/4c6abf7a-30af-4379-9e41-f56972d14c3d" />
+
+<img width="2165" height="1499" alt="image" src="https://github.com/user-attachments/assets/d4182d1d-b38e-46ce-9125-3e7266168120" />
+
+<img width="2492" height="1755" alt="image" src="https://github.com/user-attachments/assets/5757cfee-f366-4451-bf88-9a7c10d5d11c" />
+
+
+
 Retrospec 1
 Deel 1:
 
