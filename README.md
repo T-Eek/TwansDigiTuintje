@@ -218,7 +218,6 @@ Website voor inspiratie, OVERNEMEN!!!
       </span>
     </div>
     <h1></h1>
-
     <h3>9 September</h3>
     <p>Tijdens deze opdracht moesten we een artikel <strong>verkennend</strong> lezen en een korte samenhang vertellen wat je uit de tekst hebt opgedaan</p>
 THe Digital Garden:
@@ -260,7 +259,7 @@ Imperfection & Learing in Public
   - Dat de wbesites erg oud zijn
   - Dat het je eigen tuintje is inplaats van een blog of kopje
  
-    <h3>11 September/h3>
+    <h3>11 September</h3>
       <span class="SeptemberKopje2">
         <h3>Check-out Les Week 4:</h3>
         <ul>
