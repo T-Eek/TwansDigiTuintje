@@ -296,6 +296,7 @@ Welk principe neem je mee in een laatste iteratie van je ontwerp?
 
 
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
+Ik heb samen met Giel 
 
 <img width="2382" height="1644" alt="image" src="https://github.com/user-attachments/assets/49cf5b55-31cf-41c5-9ccf-f93a2b0bb663" />
 
