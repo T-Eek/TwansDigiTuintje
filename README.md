@@ -315,8 +315,11 @@ Voor mijn dal tekening had ik er eerst <strong>super!</strong> veel zin in, toen
 <img width="2492" height="1755" alt="image" src="https://github.com/user-attachments/assets/5757cfee-f366-4451-bf88-9a7c10d5d11c" />
 Voor de afsluiting van Sprint 1 heb ik als titel: <strong>SCHOKKENDE KENNIS</strong> waarbij de zon de leerstof is van de afgelopen 2weken en de zonnepanelen en de stroom in het huis mij is, dat ik de theorie gebruik in 'mijn huisje' en het omzet in positive energie.
 
-Feedback Sprint 1:
-(Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
+
+<h2>Feedback Sprint 1:</h2>
+<p>
+  (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
+</p>
 
 
 
