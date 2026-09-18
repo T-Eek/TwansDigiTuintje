@@ -196,7 +196,6 @@ Website voor inspiratie, OVERNEMEN!!!
                 </div>
             </div>
         </div>
-        <h1></h1>
     <div class="SeptemberContent2">
       <span class="SeptemberKopje2">
         <h3>Check-out vragen Sprint 1:</h3>
@@ -218,6 +217,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </ul>
       </span>
     </div>
+    <h1></h1>
     <p>Tijdens deze opdracht moesten we een artikel (Van de Weekly Geek) <strong>verkennend</strong> lezen en een korte samenhang vertellen wat je uit de tekst hebt opgedaan</p>
 THe Digital Garden:
 
