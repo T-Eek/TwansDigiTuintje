@@ -277,7 +277,8 @@ Imperfection & Learing in Public
       </span>
       <h1></h1>
 
-Check-out 16-19-2026:
+<h3>16 September</h3>
+Check-out 16-09-2026:
 Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
 1. Continuïteit: Elementen die soepel te volgen zijn, in een soort flow status
 2. Semitrie: Zijn Elementen die hetzelfde zijn
