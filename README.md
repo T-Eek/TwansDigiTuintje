@@ -294,7 +294,7 @@ Welk principe neem je mee in een laatste iteratie van je ontwerp?
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
 
 
-
+<h1>18 September</h1>
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
 Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de plaatjes/ schetsen rank geschikt van mins goed naar best.
 <p>Daarna hebben we de Do's en Don't (Heb ik in Pros en Cons) neer gezet:</p>
