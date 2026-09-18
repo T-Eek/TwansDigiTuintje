@@ -260,15 +260,20 @@ Imperfection & Learing in Public
 
 <h3>Check-out</h3>
 - De checkout vragen voor vandaag:
-Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
+<span>
+<p>Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.</p>
 <strong>- Een digital garden is een web dagboek die je bij houd waar je je ideeën, passie toont en dit gebeurd niet op een normale website</strong>
+</span>
 
-Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
+<span>
+<p>Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</p>
 <strong>- Webby website maken het interactief en zijn dynamische</strong>
+</span>
 
-Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
+<span>
+<p>Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.</p>
 <strong>- het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen</strong>
-
+</span>
 
 Check-out 16-19-2026:
 Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
