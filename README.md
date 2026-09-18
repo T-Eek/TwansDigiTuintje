@@ -275,6 +275,7 @@ Imperfection & Learing in Public
           </li>
         </ul>
       </span>
+      <h1></h1>
 
 Check-out 16-19-2026:
 Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
