@@ -313,6 +313,7 @@ Voor mijn dal tekening had ik er eerst <strong>super!</strong> veel zin in, toen
 <img width="2165" height="1499" alt="image" src="https://github.com/user-attachments/assets/d4182d1d-b38e-46ce-9125-3e7266168120" />
 
 <img width="2492" height="1755" alt="image" src="https://github.com/user-attachments/assets/5757cfee-f366-4451-bf88-9a7c10d5d11c" />
+Voor de afsluiting van Sprint 1 heb ik als titel: <strong>SCHOKKENDE KENNIS</strong> waarbij de zon de leerstof is van de afgelopen 2weken en de zonnepanelen en de stroom in het huis mij is, dat ik de theorie gebruik in 'mijn huisje' en het omzet in positive energie.
 
 
 
