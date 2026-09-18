@@ -279,7 +279,7 @@ Imperfection & Learing in Public
       <h1></h1>
 
 <h3>16 September</h3>
-Check-out 16-09-2026:
+Check-out:
 Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
 1. Continuïteit: Elementen die soepel te volgen zijn, in een soort flow status
 2. Semitrie: Zijn Elementen die hetzelfde zijn
@@ -290,6 +290,7 @@ Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid e
 
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
+<h1></h1>
 
 
 <h1>18 September</h1>
