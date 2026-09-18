@@ -258,22 +258,23 @@ Imperfection & Learing in Public
   - Dat de wbesites erg oud zijn
   - Dat het je eigen tuintje is inplaats van een blog of kopje
 
-<h3>Check-out</h3>
-- De checkout vragen voor vandaag:
-<span>
-<p>Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.</p>
-<strong>- Een digital garden is een web dagboek die je bij houd waar je je ideeën, passie toont en dit gebeurd niet op een normale website</strong>
-</span>
-
-<span>
-<p>Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</p>
-<strong>- Webby website maken het interactief en zijn dynamische</strong>
-</span>
-
-<span>
-<p>Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.</p>
-<strong>- het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen</strong>
-</span>
+      <span class="SeptemberKopje2">
+        <h3>Check-out Les Week 4:</h3>
+        <ul>
+          <li class="SeptemberVraag1">
+            <strong>1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.</strong>
+                - Een digital garden is een web dagboek die je bij houd waar je je ideeën, passie toont en dit gebeurd niet op een normale website
+          </li>
+          <li class="SeptemberVraag2">
+            <strong>2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</strong>
+            - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive en Webby websites maken het interactief.
+          </li>
+          <li class="SeptemberVraag3">
+            <strong>3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.</strong>
+            - het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen
+          </li>
+        </ul>
+      </span>
 
 Check-out 16-19-2026:
 Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
