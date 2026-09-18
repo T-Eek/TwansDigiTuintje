@@ -305,7 +305,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 - Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
 </p>
 <img width="2382" height="1644" alt="image" src="https://github.com/user-attachments/assets/49cf5b55-31cf-41c5-9ccf-f93a2b0bb663" />
-
+Voor mijn metafoor heb ik de centrale gekozen omdat ik 1-2 concepten heb gekozen (Minions/ Ikea) en hieruit wil ik op mijn website hun Enthousiast houdingen, Duidelijk, Opvallend, Abstract vormen vormgeven op mijn website doormiddel van velle kleuren, micro-interacties en lettertypes.
 
 <img width="2306" height="1682" alt="image" src="https://github.com/user-attachments/assets/4c6abf7a-30af-4379-9e41-f56972d14c3d" />
 
