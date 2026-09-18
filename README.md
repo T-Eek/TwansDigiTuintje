@@ -35,14 +35,13 @@ Website voor inspiratie, OVERNEMEN!!!
               <a target="_blank" href="assets/Images//31Aug/HWIVIZelfTestimage1.png">
                 <img src="assets/Images//31Aug/HWIVIZelfTestimage1.png" alt="HWIVI Self Test Image 1" width="600" height="auto">
               </a>
-              <p class="desc">Add a description of the image here</p>
             </div>
           <div class="responsiveGALLERY">
             <div class="gallery">
               <a target="_blank" href="assets/Images/31Aug/HWIVIZelfTestimage2.png">
                 <img src="assets/Images/31Aug/HWIVIZelfTestimage2.png" alt="HWIVI Self Test Image 2" width="600" height="auto">
               </a>
-              <p class="desc">Add a description of the image here</p>
+              <p class="desc">Voor de HWIVI Zelftest heb ik vooral gekeken naar wat ik nog goed wist van de vorige blokken en heb hierbij mijn eerlijke beoordeling over gedeeld, waardoor ik later er later op terug kan reflecteren en belissen of het zo is gebleven of veranderd is</p>
             </div>
           </div>
         </div>
@@ -84,7 +83,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/AppIdeeimage.png">
                   <img src="assets/Images/2Sep/AppIdeeimage.png" alt="App Idea Image">
                 </a>
-                <div class="desc">Add a description of the image here</div>
+                <div class="desc">Bij deze opdracht moesten we de layout, context, typografie, hiërarchie en interacties veranderen naar een verbeterde versie.</div>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -92,7 +91,6 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/SchetsimageFeedback1.png">
                   <img src="assets/Images/2Sep/SchetsimageFeedback1.png" alt="Schets Image Feedback 1" width="500" height="500">
                 </a>
-                <div class="desc">Add a description of the image here</div>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -100,7 +98,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/SchetsimageReflectie2.png">
                   <img src="assets/Images/2Sep/SchetsimageReflectie2.png" alt="Schets Image Reflectie 2" width="500" height="700">
                 </a>
-                <div class="desc">Add a description of the image here</div>
+                <div class="desc">Na de eetste opdracht moesten we reflecteren op onze oude schetsen en verkennend zoeken en opschrijven wat er nog meer in je eigen schetsten misten qua verduidelijking, zoals in kleur, typografie en hierarchie.</div>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -108,7 +106,6 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/Linesimage1.png">
                   <img src="assets/Images/2Sep/Linesimage1.png" alt="Lines Image 1" width="600" height="400">
                 </a>
-                <div class="desc">Add a description of the image here</div>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -116,7 +113,6 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/Linesimage2.png">
                   <img src="assets/Images/2Sep/Linesimage2.png" alt="Lines Image 2" width="600" height="400">
                 </a>
-                <div class="desc">Add a description of the image here</div>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -124,7 +120,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/Vierkantimage.png">
                   <img src="assets/Images/2Sep/Vierkantimage.png" alt="Vierkant Image" width="600" height="400">
                 </a>
-                <div class="desc">Add a description of the image here</div>
+                <div class="desc">Na de opdracht van de schetsen moesten we weer schetsen maar dit keer was het voor lijnen en vormen, om te kijken waar je zelf staat, of je misschien meer moet oefenen om je toekomstige schetsen te verbeteren en te verduidelijken, of dat je al op de goede weg bent</div>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -132,7 +128,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/SchetsimageDepth.png">
                   <img src="assets/Images/2Sep/SchetsimageDepth.png" alt="Schets Image Depth" width="500" height="400">
                 </a>
-                <div class="desc">Add a description of the image here</div>
+                <div class="desc">In dezelfde opdracht moesten we ook je telefoon omring na tekenen uit de losse pols en dat viel niet zo erg mee, maar ik kreeg zelf een goed inzicht van hoe erg afhankelijk of perfectionistische kan zijn om iets simpels te tekenen zoals een telefoon, rondje, lijn en of vierkant</div>
               </div>
             </div>
                             <div class="responsiveGALLERY">
