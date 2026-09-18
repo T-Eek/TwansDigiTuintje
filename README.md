@@ -258,21 +258,16 @@ Imperfection & Learing in Public
   - Dat de wbesites erg oud zijn
   - Dat het je eigen tuintje is inplaats van een blog of kopje
 
-Check-out
-
+<h3>Check-out</h3>
 - De checkout vragen voor vandaag:
-
 Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
-
-- Een digital garden is een web dagboek die je bij houd waar je je ideeen, passie toont en dit gebeurd niet op een normale website
+<strong>- Een digital garden is een web dagboek die je bij houd waar je je ideeën, passie toont en dit gebeurd niet op een normale website</strong>
 
 Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
-
-- Webby website maken het interactief en zijn dynamische
+<strong>- Webby website maken het interactief en zijn dynamische</strong>
 
 Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
-
-- het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen
+<strong>- het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen</strong>
 
 
 Check-out 16-19-2026:
