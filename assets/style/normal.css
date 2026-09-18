@@ -32,6 +32,7 @@ html:has( [value="auto"]:checked) {
     color: var(--color-LightDark);
     /*background-image: linear-gradient(to right, black, black, white, white, white );*/
   }
+
 }
 
 /* Light Mode */
@@ -41,7 +42,9 @@ html:has( [value="light"]:checked) {
     /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
     background-image: linear-gradient(to right, white, white, white, black, black, black);
     line-height: 1.5em;
-    text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
+    text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
+    transition: 0.4s ease-in-out;
+
   }
 
   .IntroHeaderShadow {
@@ -67,6 +70,8 @@ html:has( [value="dark"]:checked) {
     /*text-shadow: 0px 0px 21px black;*/
     line-height: 1.5em;
     text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
+    transition: 0.4s ease-in-out;
+
 
   }
 
@@ -315,11 +320,13 @@ html:has( [value="dark"]:checked) {
   align-content: center;
 }
 
-.SCImage1, .SCImage2 {
+.SCImage1, .SCImage2, .SCImage3, .SCImage4 {
   max-width: 15vw;
+  transition: 0.4s ease-in-out;
+
 }
 
-.SCImage1:hover, .SCImage2:hover {
+.SCImage1:hover, .SCImage2:hover, .SCImage3:hover, .SCImage4:hover {
   max-width: 25vw;
   cursor: pointer;
 }
