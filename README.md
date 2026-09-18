@@ -296,7 +296,12 @@ Welk principe neem je mee in een laatste iteratie van je ontwerp?
 
 
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
-Ik heb samen met Giel 
+Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de plaatjes/ schetsen rank geschikt van mins goed naar best.
+Daarna hebben we de Do's en Don't (Heb ik in Pros en Cons) neer gezet:
+Pros
+- Hiërarchie, Typografie, kleur gebruik, visuele hiërarchie
+Cons
+- Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
 
 <img width="2382" height="1644" alt="image" src="https://github.com/user-attachments/assets/49cf5b55-31cf-41c5-9ccf-f93a2b0bb663" />
 
@@ -313,10 +318,6 @@ Deel 1:
 
 
 2:
-Pros
-- Hiërarchie, Typografie, kleur gebruik, visuele hiërarchie
-Cons
-- Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
 
 Deel 2:
 Mijn metafoor is een huis die draait op zonnen energie want de zon geeft constant zon (kennis/ informatie) die de zonnepanelen opvangen en dat wordt om gezet in elektriciteit die de person (ik) kan gebruiken. 
