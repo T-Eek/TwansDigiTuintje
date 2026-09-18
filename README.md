@@ -308,6 +308,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 Voor mijn metafoor heb ik de centrale gekozen omdat ik 1-2 concepten heb gekozen (Minions/ Ikea) en hieruit wil ik op mijn website hun Enthousiast houdingen, Duidelijk, Opvallend, Abstract vormen vormgeven op mijn website doormiddel van velle kleuren, micro-interacties en lettertypes.
 
 <img width="2306" height="1682" alt="image" src="https://github.com/user-attachments/assets/4c6abf7a-30af-4379-9e41-f56972d14c3d" />
+Voor mijn dal tekening had ik er eerst <strong>super!</strong> veel zin in, toen we de randvoorwaarden en eisen kregen te horen/ de opdrachten daarnaast ging het naar beneden, toen ik de opdrachten/ eisen na ging en mijn website meer structuur kreeg, kreeg ik er ook weer meer zin in om verder er aan te werken!
 
 <img width="2165" height="1499" alt="image" src="https://github.com/user-attachments/assets/d4182d1d-b38e-46ce-9125-3e7266168120" />
 
