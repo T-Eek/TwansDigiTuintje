@@ -181,7 +181,6 @@ Website voor inspiratie, OVERNEMEN!!!
                                     <a target="_blank" href="assets/Images/4Sep/CodePenHTMLimage2.png">
                                         <img src="assets/Images/4Sep/CodePenHTMLimage2.png" alt="CodePen HTML Image">
                                     </a>
-                                    <div class="desc">Add a description of the image here</div>
                                 </div>
                             </div>
                             <div class="responsiveGALLERY">
@@ -189,7 +188,7 @@ Website voor inspiratie, OVERNEMEN!!!
                                     <a target="_blank" href="assets/Images/4Sep/CodePenHTMLimage.png">
                                         <img src="assets/Images/4Sep/CodePenHTMLimage.png" alt="CodePen HTML Image">
                                     </a>
-                                    <div class="desc">Add a description of the image here</div>
+                                    <div class="desc">Tijdens de Codepen opdracht moesten we een <strong>"lelijke"</strong> HTML pagina stylen, dit heb ik met CSS allemaal verbeterd."</div>
                                 </div>
                             </div>
                         </div>
@@ -221,6 +220,7 @@ Website voor inspiratie, OVERNEMEN!!!
     </div>
               <h1></h1>
 
+<p>Tijdens deze opdracht moesten we een artikel (Van de Weekly Geek) <strong>verkennend</strong> lezen en een korte samenhang vertellen wat je uit de tekst hebt opgedaan</p>
 THe Digital Garden:
 
 The Six patterens of Gardening (de 6 patronen van de tuin)
