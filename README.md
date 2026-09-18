@@ -292,3 +292,35 @@ Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid e
 
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
+
+
+<h1>18 September</h1>
+<img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
+Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de plaatjes/ schetsen rank geschikt van mins goed naar best.
+<p>Daarna hebben we de Do's en Don't (Heb ik in Pros en Cons) neer gezet:</p>
+<p><strong>Pros</strong>
+- Hiërarchie, Typografie, kleur gebruik, visuele hiërarchie
+</p>
+<p><strong>Cons</strong>
+- Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
+</p>
+<img width="2382" height="1644" alt="image" src="https://github.com/user-attachments/assets/49cf5b55-31cf-41c5-9ccf-f93a2b0bb663" />
+Voor mijn metafoor heb ik de centrale gekozen omdat ik 1-2 concepten heb gekozen (Minions/ Ikea) en hieruit wil ik op mijn website hun Enthousiast houdingen, Duidelijk, Opvallend, Abstract vormen vormgeven op mijn website doormiddel van velle kleuren, micro-interacties en lettertypes.
+
+<img width="2306" height="1682" alt="image" src="https://github.com/user-attachments/assets/4c6abf7a-30af-4379-9e41-f56972d14c3d" />
+Voor mijn dal tekening had ik er eerst <strong>super!</strong> veel zin in, toen we de randvoorwaarden en eisen kregen te horen/ de opdrachten daarnaast ging het naar beneden, toen ik de opdrachten/ eisen na ging en mijn website meer structuur kreeg, kreeg ik er ook weer meer zin in om verder er aan te werken!
+
+<img width="2165" height="1499" alt="image" src="https://github.com/user-attachments/assets/d4182d1d-b38e-46ce-9125-3e7266168120" />
+
+<img width="2492" height="1755" alt="image" src="https://github.com/user-attachments/assets/5757cfee-f366-4451-bf88-9a7c10d5d11c" />
+Voor de afsluiting van Sprint 1 heb ik als titel: <strong>SCHOKKENDE KENNIS</strong> waarbij de zon de leerstof is van de afgelopen 2weken en de zonnepanelen en de stroom in het huis mij is, dat ik de theorie gebruik in 'mijn huisje' en het omzet in positive energie.
+
+
+<h2>Feedback Sprint 1:</h2>
+<p>
+  (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
+</p>
+
+
+
+
