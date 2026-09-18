@@ -305,4 +305,4 @@ Cons
 - Veel kleuren, samen geperste tekst, pijltjes, geen goede balans, slechte samenhang
 
 Deel 2:
-
+Mijn metafoor is een huis die draait op zonnen energie want de zon geeft constant zon (kennis/ informatie) die de zonnepanelen opvangen en dat wordt om gezet in elektriciteit die de person (ik) kan gebruiken. 
