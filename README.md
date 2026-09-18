@@ -218,9 +218,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </ul>
       </span>
     </div>
-              <h1></h1>
-
-<p>Tijdens deze opdracht moesten we een artikel (Van de Weekly Geek) <strong>verkennend</strong> lezen en een korte samenhang vertellen wat je uit de tekst hebt opgedaan</p>
+    <p>Tijdens deze opdracht moesten we een artikel (Van de Weekly Geek) <strong>verkennend</strong> lezen en een korte samenhang vertellen wat je uit de tekst hebt opgedaan</p>
 THe Digital Garden:
 
 The Six patterens of Gardening (de 6 patronen van de tuin)
