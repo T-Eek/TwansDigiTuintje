@@ -230,6 +230,7 @@ Website voor inspiratie, OVERNEMEN!!!
                                             <li>
                                                <strong>13. --step-5: clamp(2.4883rem, -8.0796rem + 52.8398cqi, 7.7723rem);</strong>
                                             </li>
+                                            <h1></h1>
                                             <li class="SeptemberVraag2">
                                               <strong>2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</strong>
                                               - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive en Webby websites maken het interactief.
