@@ -193,20 +193,47 @@ Website voor inspiratie, OVERNEMEN!!!
                                           <ul>
                                             <li class="SeptemberVraag1">
                                               <strong>1. --accent-color: deeppink;</strong>
-                                              <strong>2. --border-width: .1em;</strong>
-                                              <strong>3. --whitespace-s: 1.5rem;</strong>
-                                              <strong>4. --whitespace-m: calc( var(--whitespace-s) * 2 );</strong>
-                                              <strong>5. --whitespace-l: calc( var(--whitespace-s) * 4 );</strong>
-                                              <strong>6. --whitespace-xs: calc( var(--whitespace-s) * 0.5 );</strong>
-                                              <strong>7. --factor: 1.6: deeppink;</strong>
-                                              <strong>8. --step-0: clamp(1rem, 0.25rem + 3.75cqi, 1.375rem);</strong>
-                                              <strong>9. --step-1: clamp(1.2rem, -0.2885rem + 7.4425cqi, 1.9443rem);</strong>
-                                              <strong>10. --step-2: clamp(1.44rem, -1.1783rem + 13.0917cqi, 2.7492rem);</strong>
-                                              <strong>11. --step-3: clamp(1.728rem, -2.5907rem + 21.5933cqi, 3.8873rem);</strong>
-                                              <strong>12. --step-4: clamp(2.0736rem, -4.7726rem + 34.2308cqi, 5.4967rem);</strong>
-                                              <strong>13. --step-5: clamp(2.4883rem, -8.0796rem + 52.8398cqi, 7.7723rem);</strong>
-                                              - 1 is voor de kleur van de tekst: "Deeppink" in dit geval, 2 is de breedte van de input, selectie en textarea velden in het formulier, 3 is de wit regel tussen de teksten: deze is klein, dit is aan gegeven doormiddel van een "s"
                                             </li>
+                                            <li>
+                                              <strong>2. --border-width: .1em;</strong>
+                                            </li>
+                                            <li>
+                                              <strong>3. --whitespace-s: 1.5rem;</strong>
+                                            </li>
+                                            <li>
+                                              <strong>3. --whitespace-s: 1.5rem;</strong>
+                                            </li>
+                                            <li>
+                                              <strong>4. --whitespace-m: calc( var(--whitespace-s) * 2 );</strong>
+                                            </li>
+                                            <li>
+                                             <strong>5. --whitespace-l: calc( var(--whitespace-s) * 4 );</strong>
+                                            </li>
+                                            <li>
+                                            <strong>6. --whitespace-xs: calc( var(--whitespace-s) * 0.5 );</strong>
+                                            </li>
+                                            <li>
+                                            <strong>7. --factor: 1.6: deeppink;</strong>
+                                            </li>
+                                            <li>
+                                              <strong>8. --step-0: clamp(1rem, 0.25rem + 3.75cqi, 1.375rem);</strong>
+                                            </li>
+                                            <li>
+                                              <strong>9. --step-1: clamp(1.2rem, -0.2885rem + 7.4425cqi, 1.9443rem);</strong>
+                                            </li>
+                                            <li>
+                                             <strong>10. --step-2: clamp(1.44rem, -1.1783rem + 13.0917cqi, 2.7492rem);</strong>
+                                            </li>
+                                            <li>
+                                              <strong>11. --step-3: clamp(1.728rem, -2.5907rem + 21.5933cqi, 3.8873rem);</strong>
+                                            </li>
+                                            <li>
+                                               <strong>12. --step-4: clamp(2.0736rem, -4.7726rem + 34.2308cqi, 5.4967rem);</strong>
+                                            </li>
+                                            <li>
+                                               <strong>13. --step-5: clamp(2.4883rem, -8.0796rem + 52.8398cqi, 7.7723rem);</strong>
+                                            </li>
+                                              - 1 is voor de kleur van de tekst: "Deeppink" in dit geval, 2 is de breedte van de input, selectie en textarea velden in het formulier, 3 is de wit regel tussen de teksten: deze is klein, dit is aan gegeven doormiddel van een "s"
                                             <li class="SeptemberVraag2">
                                               <strong>2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</strong>
                                               - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive en Webby websites maken het interactief.
