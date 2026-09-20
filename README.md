@@ -201,16 +201,13 @@ Website voor inspiratie, OVERNEMEN!!!
                                               <strong>3. --whitespace-s: 1.5rem;</strong> - is de wit regel tussen de teksten: deze is klein, dit is aan gegeven doormiddel van een "s"
                                             </li>
                                             <li>
-                                              <strong>3. --whitespace-s: 1.5rem;</strong>
+                                              <strong>4. --whitespace-m: calc( var(--whitespace-s) * 2 );</strong> - is de wit regel tussen de teksten: deze is normaal, dit is aan gegeven doormiddel van een "m"
                                             </li>
                                             <li>
-                                              <strong>4. --whitespace-m: calc( var(--whitespace-s) * 2 );</strong>
+                                             <strong>5. --whitespace-l: calc( var(--whitespace-s) * 4 );</strong> - is de wit regel tussen de teksten: deze is groot, dit is aan gegeven doormiddel van een "l"
                                             </li>
                                             <li>
-                                             <strong>5. --whitespace-l: calc( var(--whitespace-s) * 4 );</strong>
-                                            </li>
-                                            <li>
-                                            <strong>6. --whitespace-xs: calc( var(--whitespace-s) * 0.5 );</strong>
+                                            <strong>6. --whitespace-xs: calc( var(--whitespace-s) * 0.5 );</strong> - is de wit regel tussen de teksten: deze is extra klein, dit is aan gegeven doormiddel van een "xs"
                                             </li>
                                             <li>
                                             <strong>7. --factor: 1.6: deeppink;</strong>
