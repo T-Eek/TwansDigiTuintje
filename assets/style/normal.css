@@ -1,6 +1,20 @@
 @font-face {
+  font-family: "Slackey"; /*sans-serif*/ 
+  src: url(../type/Slackey-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*@font-face {
   font-family: "Comic Relief";
   src: url(../type/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+@font-face {
+  font-family: "Oi"; /* serif */
+  src: url(../type/Oi-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
@@ -11,53 +25,122 @@ html {
   --color-LightDark: light-dark(black, white);
   --background-Dark: linear-gradient(to right, black, black, white, white, white);
   --background-Light: linear-gradient(to right, white, white, black, black, black);
+
+
+  --Custom-ColorB: black;
+  --Custom-ColorW: white;
+  --Nav-Cutom-Color: white;
+  --Nav-Custom-backgroundOverlay: black;
+  --Cutom-Standaard-Color: #bbbbbb;
+  --Boder-bottom-Custom1: yellow;
+  --Border-bottom-Custum2: blue;
 }
 
 
 body {
-  font-family: "Comic Relief", system-ui;
+  font-family: "Slackey";
   margin: 0;
   background-color: var(--background);
 }
 
 
 /* =======================================*/
-/* ============ index.html ===============*/
+/* ============ Navigatie ================*/
 /* =======================================*/
-html:has( [value="auto"]:checked) {
-	color-scheme:auto;
-  .IntroRealHeader {
-    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
-    background-image: var(--background-Dark, --background-Light);
-    color: var(--color-LightDark);
-    /*background-image: linear-gradient(to right, black, black, white, white, white );*/
-  }
-
+.HBNAVContent { /* Hamburger Menu */
+  display: block;
+  padding: 15px;
+  cursor: pointer;
 }
 
+.HBLINE1, .HBLINE2 { /* Hamburger Menu Style */
+  background-color: CanvasText;
+  padding: 3px 20px;
+  margin: 4px 0px;
+  border-radius: 2px;
+}
+
+.NavOVERLAY { /*Bron van de Overlay: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2*/
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--Nav-Custom-backgroundOverlay);
+  overflow: hidden;
+  transition: 0.5s;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Nav-overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  display: block;
+}
+
+.NavOVERLAY a {
+  text-decoration: none;
+  font-size: 7vw;
+  transition: 0.3s;
+}
+
+.NavOVERLAY a:hover, .NavOVERLAY a:focus {
+  color: var(--Nav-Cutom-Color);
+}
+
+.NavOVERLAY .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.N-overlay-content {
+  padding: 0px;
+  position: absolute;
+  top: 10%;
+}
+
+.listSTYLE { /* Nav links */
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  padding: 2.5rem;
+  transition: border-bottom 1.5s;
+}
+
+.listSTYLE:hover {
+  border-bottom: 8px solid var(--Nav-Cutom-Color);
+}
+
+.listLINK {
+  text-decoration: none;
+  display: block;
+}
+
+/* =======================================*/
+/* ============ index.html ===============*/
+/* =======================================*/
 /* Light Mode */
 html:has( [value="light"]:checked) {
   color-scheme:light;
   .IntroRealHeader {
+    font-family: "Oi";
     /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
     background-image: linear-gradient(to right, white, white, white, black, black, black);
     line-height: 1.5em;
     text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
     transition: 0.4s ease-in-out;
-
-  }
-
-  .IntroHeaderShadow {
-    background-clip: content-box;
-    background-image: linear-gradient(to right, #bbbbbb, white, white, black, black);
-    animation: INTROmove 40s linear infinite;
-    box-shadow: 0px 1rem 2rem black;
-    border-radius: 25%;
   }
 
   .IntroRealHeader:hover {
-    text-shadow: 0px 0px 0px black;
+    text-shadow: 0px 0px 0px var(--Custom-ColorB);
     font-size: 5vw;
+    font-family: "Slackey";
   }
 }
 
@@ -65,19 +148,19 @@ html:has( [value="light"]:checked) {
 html:has( [value="dark"]:checked) {
 	color-scheme:dark;
   .IntroRealHeader {
+    font-family: "Oi";
     /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
     background-image: linear-gradient(to right, black, black, black, white, white, white);
     /*text-shadow: 0px 0px 21px black;*/
     line-height: 1.5em;
     text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
     transition: 0.4s ease-in-out;
-
-
   }
 
   .IntroRealHeader:hover {
-    text-shadow: 0px 0px 0px white;
+    text-shadow: 0px 0px 0px var(--Custom-ColorW);
     font-size: 5vw;
+    font-family: "Slackey";
   }
 }
 
@@ -111,7 +194,7 @@ html:has( [value="dark"]:checked) {
 
 .IntroLINK {
   text-decoration: none;
-  color: black;
+  color: var(--Custom-ColorB);
 }
 
 
@@ -202,75 +285,6 @@ html:has( [value="dark"]:checked) {
 	}
 }
 
-.HBNAVContent { /* Hamburger Menu */
-  display: block;
-  padding: 15px;
-  cursor: pointer;
-}
-
-.HBLINE1, .HBLINE2 { /* Hamburger Menu Style */
-  background-color: CanvasText;
-  padding: 3px 20px;
-  margin: 4px 0px;
-  border-radius: 2px;
-}
-
-.NavOVERLAY { /*Bron van de Overlay: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2*/
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  overflow: hidden;
-  transition: 0.5s;
-
-  display: flex;
-  justify-content: center;
-}
-
-.Nav-overlay-content {
-  position: relative;
-  top: 10%;
-  width: 100%;
-  display: block;
-}
-
-.NavOVERLAY a {
-  text-decoration: none;
-  font-size: 36px;
-  transition: 0.3s;
-}
-
-.NavOVERLAY a:hover, .NavOVERLAY a:focus {
-  color: #f1f1f1;
-}
-
-.NavOVERLAY .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-.listSTYLE { /* Nav links */
-  display: flex;
-  justify-content: center;
-  font-size: 1em;
-  padding: 2.5rem;
-  transition: border-bottom 1.5s;
-}
-
-.listSTYLE:hover {
-  border-bottom: 8px solid white;
-}
-
-.listLINK {
-  text-decoration: none;
-  display: block;
-}
-
 .modelrepoCONTAINER {
   display: flex;
   justify-content: end;
@@ -279,20 +293,20 @@ html:has( [value="dark"]:checked) {
 .modelREPO {
   font-size: 12px;
   font-style: normal;
-  color: #bbbbbb;
+  color: var(--Cutom-Standaard-Color);
   margin: 0px 15%;
 }
 
 .borderLINE {
-  border-bottom: 2px dotted #fd1d1d;
+  border-bottom: 2px dotted var(--color-LightDark);
   animation: mymove 10s infinite;
 }
 
 @keyframes mymove {
-  25% {border-bottom: 5px dotted #f56040;
+  25% {border-bottom: 10px dotted var(--Boder-bottom-Custom1);
   }
   75% {
-    border-bottom: 11px dotted #7638FA;
+    border-bottom: 21px dotted var(--Border-bottom-Custum2);
   }
 }
 
@@ -328,7 +342,7 @@ html:has( [value="dark"]:checked) {
 
     .ShowCaseText4 {
     transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, #0000ff 55%, #ffff00 65%);
+    background: linear-gradient(to bottom, blue 40%, yellow 60%);
     background-clip: text;
     color: transparent;
     text-shadow: none;
@@ -344,7 +358,9 @@ html:has( [value="dark"]:checked) {
 .SCImage1, .SCImage2, .SCImage3, .SCImage4 {
   max-width: 15vw;
   transition: 0.4s ease-in-out;
-}.SCImage1:hover, .SCImage2:hover, .SCImage3:hover, .SCImage4:hover {
+}
+
+.SCImage1:hover, .SCImage2:hover, .SCImage3:hover, .SCImage4:hover {
   max-width: 25vw;
   cursor: pointer;
 }
@@ -370,15 +386,49 @@ html:has( [value="dark"]:checked) {
   display: block;
 }
 
+.InfoSCImgContainer1:hover, .InfoSCImgContainer2:hover {
+  .InfoSCImage1, .InfoSCImage2 {
+    transform: scale(1.1);
+  }
+
+    .ShowCaseText3 {
+    transition: 0.4s ease-in-out;
+    color: yellow;
+  }
+
+    .ShowCaseText4 {
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to bottom, blue 40%, yellow 60%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }
+}
+
+
 .InfoSCImage1, .InfoSCImage2 {
   width: 200px;
   transition: transform 0.5s ease-in-out;
   cursor: pointer;
 }
 
-.InfoSCImage1:hover, .InfoSCImage2:hover {
+/*.InfoSCImage1:hover, .InfoSCImage2:hover {
   transform: scale(1.1);
-}
+
+    .ShowCaseText3 {
+    transition: 0.4s ease-in-out;
+    color: yellow;
+  }
+
+    .ShowCaseText4 {
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to bottom, #0000ff 55%, #ffff00 65%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }
+
+}*/
 
 .Info-SCT-CONTAINER {
 
@@ -450,7 +500,7 @@ html:has( [value="dark"]:checked) {
 
 
 .gallery {
-  border: 1px solid #bbbbbb;
+  border: 1px solid var(--Cutom-Standaard-Color);
   margin: 5px 5px;
 }
 
@@ -476,8 +526,8 @@ html:has( [value="dark"]:checked) {
 
 
 .fo-Copyright-tekst {
-  font-family: 'Instagram Sans Headline', sans-serif;
-  color:#bbbbbb;
+  font-family: 'Slackey';
+  color: var(--Cutom-Standaard-Color);
   margin: 0%;
 }
 
@@ -488,21 +538,17 @@ html:has( [value="dark"]:checked) {
   /* =======================================*/
   /* ============= Navigatie ===============*/
   /* =======================================*/
-  .nav {
-    justify-content: end;
-    padding: 0 15px;
+
+  .N-overlay-content {
+
+    position: absolute;
+    top: 25%;
+
+    padding: 0px;
   }
 
-  .HBNAV {
-    display: block; 
-  }
 
-  .navLIST {
-    display: none; 
-    flex-direction: column;
-    width: 100%;
-    left: 0;
-  }
+
   .listSTYLE {
     display: flex;
     justify-content: center;
@@ -585,14 +631,9 @@ html:has( [value="dark"]:checked) {
   }
 
   .Info-SCT-CONTAINER {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
-
-
-
-
-  
   /* =======================================*/
   /* ============== Footer =================*/
   /* =======================================*/
