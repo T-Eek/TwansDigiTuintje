@@ -192,13 +192,13 @@ Website voor inspiratie, OVERNEMEN!!!
                                   <p>In de CSS heb ik meerdere Custom CSS properties gemaakt zoals:
                                           <ul>
                                             <li class="SeptemberVraag1">
-                                              <strong>1. --accent-color: deeppink;</strong>
+                                              <strong>1. --accent-color: deeppink;</strong> - is voor de kleur van de tekst: "Deeppink" in dit geval.
                                             </li>
                                             <li>
-                                              <strong>2. --border-width: .1em;</strong>
+                                              <strong>2. --border-width: .1em;</strong> - is de breedte van de input, selectie en textarea velden in het formulier
                                             </li>
                                             <li>
-                                              <strong>3. --whitespace-s: 1.5rem;</strong>
+                                              <strong>3. --whitespace-s: 1.5rem;</strong> - is de wit regel tussen de teksten: deze is klein, dit is aan gegeven doormiddel van een "s"
                                             </li>
                                             <li>
                                               <strong>3. --whitespace-s: 1.5rem;</strong>
@@ -233,7 +233,6 @@ Website voor inspiratie, OVERNEMEN!!!
                                             <li>
                                                <strong>13. --step-5: clamp(2.4883rem, -8.0796rem + 52.8398cqi, 7.7723rem);</strong>
                                             </li>
-                                              - 1 is voor de kleur van de tekst: "Deeppink" in dit geval, 2 is de breedte van de input, selectie en textarea velden in het formulier, 3 is de wit regel tussen de teksten: deze is klein, dit is aan gegeven doormiddel van een "s"
                                             <li class="SeptemberVraag2">
                                               <strong>2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</strong>
                                               - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive en Webby websites maken het interactief.
