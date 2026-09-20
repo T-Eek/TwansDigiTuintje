@@ -29,11 +29,18 @@ html {
 
   --Custom-ColorB: black;
   --Custom-ColorW: white;
+  --Custom-ColorC: cyan;
+  --Custom-ColorS: Salmon;
+  --Custom-ColorY: yellow;
+  --Custom-ColorG: Gold;
+  --Custom-ColorBL: blue;
+
+
   --Nav-Cutom-Color: white;
   --Nav-Custom-backgroundOverlay: black;
   --Cutom-Standaard-Color: #bbbbbb;
-  --Boder-bottom-Custom1: yellow;
-  --Border-bottom-Custum2: blue;
+  --Boder-bottom-CustomY: yellow;
+  --Border-bottom-CustumB: blue;
 }
 
 
@@ -86,10 +93,11 @@ body {
   text-decoration: none;
   font-size: 7vw;
   transition: 0.3s;
+  color: var(--Custom-ColorG);
 }
 
 .NavOVERLAY a:hover, .NavOVERLAY a:focus {
-  color: var(--Nav-Cutom-Color);
+  color: var(--Custom-ColorBL);
 }
 
 .NavOVERLAY .closebtn {
@@ -114,7 +122,7 @@ body {
 }
 
 .listSTYLE:hover {
-  border-bottom: 8px solid var(--Nav-Cutom-Color);
+  border-bottom: 8px solid var(--Custom-ColorBL);
 }
 
 .listLINK {
@@ -303,10 +311,10 @@ html:has( [value="dark"]:checked) {
 }
 
 @keyframes mymove {
-  25% {border-bottom: 10px dotted var(--Boder-bottom-Custom1);
+  25% {border-bottom: 10px dotted var(--Boder-bottom-CustomY);
   }
   75% {
-    border-bottom: 21px dotted var(--Border-bottom-Custum2);
+    border-bottom: 21px dotted var(--Border-bottom-CustumB);
   }
 }
 
@@ -322,27 +330,27 @@ html:has( [value="dark"]:checked) {
 }
 
 .WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
-  box-shadow: 0rem 0rem 5rem gold;
+  box-shadow: 0rem 0rem 5rem var(--Custom-ColorG);
   cursor: pointer;
 
   .ShowCaseText{
     transition: 0.4s ease-in-out;
-    color: cyan;
+    color: var(--Custom-ColorC);
   }
 
   .ShowCaseText2 {
     transition: 0.4s ease-in-out;
-    color: rgb(230 127 138);
+    color: var(--Custom-ColorS);
   }
 
     .ShowCaseText3 {
     transition: 0.4s ease-in-out;
-    color: yellow;
+    color: var(--Custom-ColorY);
   }
 
     .ShowCaseText4 {
     transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, blue 40%, yellow 60%);
+    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
     background-clip: text;
     color: transparent;
     text-shadow: none;
@@ -393,12 +401,12 @@ html:has( [value="dark"]:checked) {
 
     .ShowCaseText3 {
     transition: 0.4s ease-in-out;
-    color: yellow;
+    color: var(--Custom-ColorY);
   }
 
     .ShowCaseText4 {
     transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, blue 40%, yellow 60%);
+    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
     background-clip: text;
     color: transparent;
     text-shadow: none;
@@ -547,12 +555,12 @@ html:has( [value="dark"]:checked) {
     padding: 0px;
   }
 
-
-
   .listSTYLE {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #ffadff;
+    color: var(--Boder-bottom-CustomY);
+    /*border-bottom: 1px solid #ffadff;*/
+    border-bottom: 1px solid var(--Border-bottom-CustumB);
   }
 
   .listSTYLE:not(:last-child) {
