@@ -239,9 +239,7 @@ Website voor inspiratie, OVERNEMEN!!!
                                               - het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen
                                               </li>
                                           </ul>
-                                  
-                                  
-                                  </p>
+                                </p>
                                 </div>
                             </div>
                         </div>
