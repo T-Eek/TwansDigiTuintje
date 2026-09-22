@@ -16,7 +16,6 @@ Website voor inspiratie, OVERNEMEN!!!
 </div>
 
 <h1 class="RealHeader">## Learning Log...</h1>
-<!-- <h1>[Digitaal Tuintje van ...]</h1> -->
   <div class="LogCONTAINER">
     <div class="AugustCONTAINER">
       <div class="DropDown">
@@ -98,7 +97,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/SchetsimageReflectie2.png">
                   <img src="assets/Images/2Sep/SchetsimageReflectie2.png" alt="Schets Image Reflectie 2" width="500" height="700">
                 </a>
-                <div class="desc">Na de eetste opdracht moesten we reflecteren op onze oude schetsen en verkennend zoeken en opschrijven wat er nog meer in je eigen schetsten misten qua verduidelijking, zoals in kleur, typografie en hierarchie.</div>
+                <p class="desc">Na de eetste opdracht moesten we reflecteren op onze oude schetsen en verkennend zoeken en opschrijven wat er nog meer in je eigen schetsten misten qua verduidelijking, zoals in kleur, typografie en hierarchie.</p></ br>
               </div>
             </div>
             <div class="responsiveGALLERY">
@@ -120,7 +119,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/Vierkantimage.png">
                   <img src="assets/Images/2Sep/Vierkantimage.png" alt="Vierkant Image" width="600" height="400">
                 </a>
-                <div class="desc">Na de opdracht van de schetsen moesten we weer schetsen maar dit keer was het voor lijnen en vormen, om te kijken waar je zelf staat, of je misschien meer moet oefenen om je toekomstige schetsen te verbeteren en te verduidelijken, of dat je al op de goede weg bent</div>
+                <p class="desc">Na de opdracht van de schetsen moesten we weer schetsen maar dit keer was het voor lijnen en vormen, om te kijken waar je zelf staat, of je misschien meer moet oefenen om je toekomstige schetsen te verbeteren en te verduidelijken, of dat je al op de goede weg bent</p></ br>
               </div>
             </div>
             <div class="responsiveGALLERY">
