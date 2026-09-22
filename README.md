@@ -83,7 +83,7 @@ Website voor inspiratie, OVERNEMEN!!!
                 <a target="_blank" href="assets/Images/2Sep/AppIdeeimage.png">
                   <img src="assets/Images/2Sep/AppIdeeimage.png" alt="App Idea Image">
                 </a>
-                <div class="desc">Bij deze opdracht moesten we de layout, context, typografie, hiërarchie en interacties veranderen naar een verbeterde versie.</div>
+                <div class="desc">Bij deze opdracht moesten we de layout, context, typografie, hiërarchie en interacties veranderen naar een verbeterde versie.</div></ br>
               </div>
             </div>
             <div class="responsiveGALLERY">
