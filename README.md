@@ -422,7 +422,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
                 </p>
               </span>
         </main>'''
-        
         --Dit is een 'geneste' HTML format
       </p>
     </li>
