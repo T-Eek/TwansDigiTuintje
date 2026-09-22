@@ -337,17 +337,28 @@ Imperfection & Learing in Public
       <h1></h1>
 
 <h3>16 September</h3>
-<span>Check-out:</span>
-<strong>Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.</strong>
-1. Continuïteit: Elementen die soepel te volgen zijn, in een soort flow status
-2. Semitrie: Zijn Elementen die hetzelfde zijn
-3. Nabijheid: Elementen die bij elkaar staan worden als groep gezien
-
-Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?
-- Dat je brij bent om een grid te gebruiken maar een grid bied vastheid voor een behaalde structuur.
-
-Welk principe neem je mee in een laatste iteratie van je ontwerp?
-- Hoe het simpel en duidelijk anders ga je veelste groot denken.<br>
+<span><h3>Check-out:</h3>
+<ul>
+  <strong>Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.</strong>
+<li>
+  1. Continuïteit: Elementen die soepel te volgen zijn, in een soort flow status
+</li>
+<li>
+  2. Semitrie: Zijn Elementen die hetzelfde zijn
+</li>
+<li>
+  3. Nabijheid: Elementen die bij elkaar staan worden als groep gezien
+</li>
+</ul>
+  <p>
+    <strong>Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?</strong>
+    - Dat je brij bent om een grid te gebruiken maar een grid bied vastheid voor een behaalde structuur.
+</p>
+  <p>
+    <strong>Welk principe neem je mee in een laatste iteratie van je ontwerp?</strong>
+    - Hoe het simpel en duidelijk anders ga je veelste groot denken.<br>
+</p>
+</span>
 
 <h1>18 September</h1>
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
