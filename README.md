@@ -397,6 +397,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <storng>Een nieuwe sprint, dit betekend nieuwe theorie, in deze les ging het over de structuur van je HTML en wat voor duidelijke/ onduidelijke informatie er in een cookie pop-up medling staat.</storng>
 </p>
 <img width="2096" height="1470" alt="image" src="https://github.com/user-attachments/assets/5eef5330-1453-4ee7-ab23-a31df13cf9f2" />
+<img width="1051" height="736" alt="image" src="https://github.com/user-attachments/assets/00f637dc-25d3-43b0-a51d-cd0271129070" />
+
 <span>
   <h2>Check-out:</h2>
   <ul>
