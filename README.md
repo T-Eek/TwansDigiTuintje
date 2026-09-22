@@ -412,7 +412,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <strong>Wat zijn heading elementen en hoe horen deze 'genest' te worden?</strong>
       <p>
         - HTML, HEADER, H1, NAV: ze zorgen voor stuctuur in je code, om te weten welke heading elementen genest zijn in je heading, main of footer.
-        Bijvoorbeeld:
+        Bijvoorbeeld:</p>
         
         '''<main>
               <h1></h1>
@@ -422,13 +422,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
                 </p>
               </span>
         </main>'''
+        <p>
         --Dit is een 'geneste' HTML format
-      </p>
-    </li>
-    <li>
-      <strong>Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
-    </li>
-</span>
+        </p>
+        </li>
+        <li>
+        <strong>Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
+        </li>
+        </span>
 
 
 
