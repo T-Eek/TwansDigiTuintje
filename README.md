@@ -417,14 +417,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
       Bijvoorbeeld
-        '''<main>
+        <!--<main>
               <h1></h1>
               <span>
                 <p>
                   <strong></strong>
                 </p>
               </span>
-        </main>'''
+        </main>-->
         --Dit is een 'geneste' HTML format
         <span>
           <ul>
