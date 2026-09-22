@@ -413,6 +413,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         - HTML, HEADER, H1, NAV: ze zorgen voor stuctuur in je code, om te weten welke heading elementen genest zijn in je heading, main of footer.
         Bijvoorbeeld:
+        
         '''<main>
               <h1></h1>
               <span>
@@ -421,6 +422,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
                 </p>
               </span>
         </main>'''
+        
         --Dit is een 'geneste' HTML format
       </p>
     </li>
