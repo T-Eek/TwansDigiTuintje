@@ -359,8 +359,9 @@ Imperfection & Learing in Public
     - Hoe het simpel en duidelijk anders ga je veelste groot denken.<br>
 </p>
 </span>
+<h1></h1>
 
-<h1>18 September</h1>
+<h3>18 September</h3>
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
 Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de plaatjes/ schetsen rank geschikt van mins goed naar best.
 <p>Daarna hebben we de Do's en Don't (Heb ik in Pros en Cons) neer gezet:</p>
@@ -384,7 +385,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   Voor de afsluiting van Sprint 1 heb ik als titel: <strong>SCHOKKENDE KENNIS</strong> waarbij de zon de leerstof is van de afgelopen 2weken en de zonnepanelen en de stroom in het huis mij is, dat ik de theorie gebruik in 'mijn huisje' en het omzet in positive energie.
 </p></ br>
-<h2>Feedback Sprint 1:</h2>
+<h1></h1>
+<h3>Feedback Sprint 1:</h3>
 <p>
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
