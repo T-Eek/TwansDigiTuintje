@@ -314,6 +314,8 @@ Imperfection & Learing in Public
 - 20 jaar heel erg in was
   - Dat de wbesites erg oud zijn
   - Dat het je eigen tuintje is inplaats van een blog of kopje
+<h1></h1>
+
 <h3>11 September</h3>
       <span class="SeptemberKopje2">
         <h3>Check-out Les Week 4:</h3>
@@ -335,8 +337,8 @@ Imperfection & Learing in Public
       <h1></h1>
 
 <h3>16 September</h3>
-Check-out:
-Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
+<span>Check-out:</span>
+<strong>Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.</strong>
 1. Continuïteit: Elementen die soepel te volgen zijn, in een soort flow status
 2. Semitrie: Zijn Elementen die hetzelfde zijn
 3. Nabijheid: Elementen die bij elkaar staan worden als groep gezien
@@ -345,9 +347,7 @@ Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid e
 - Dat je brij bent om een grid te gebruiken maar een grid bied vastheid voor een behaalde structuur.
 
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
-- Hoe het simpel en duidelijk anders ga je veelste groot denken.
-<h1></h1>
-
+- Hoe het simpel en duidelijk anders ga je veelste groot denken.<br>
 
 <h1>18 September</h1>
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
@@ -377,7 +377,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
-
 
 
 
