@@ -416,7 +416,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
-      Bijvoorbeeld
+      Bijvoorbeeld<br>
       -- main --<br>
         -- h1 -- -- /h1 --<br>
             -- span --<br>
