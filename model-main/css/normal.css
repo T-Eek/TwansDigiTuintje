@@ -1,0 +1,201 @@
+/**************************
+* MARK: Fonts
+**************************/
+
+@font-face {
+  font-family: "Comic Relief";
+  src: url(../fonts/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
+html {
+  color-scheme: light dark;
+  --accent-color: deeppink;
+  --border-width: .1em;
+  --color-cyan:light-dark(darkcyan, cyan);
+  --color-magenta: light-dark(darkmagenta, magenta);
+  --color-yellow:light-dark(goldenrod, yellow);
+  --color-dark: #333333;
+  --color-light: #fefefe;
+  --color-background: light-dark(var(--color-light), (var(--color-dark)));
+  --color-text: light-dark(var(--color-light), (var(--color-dark)));
+  --whitespace: 2em;
+
+
+  --border-width: .1em;
+
+
+
+
+
+
+  --step-0: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
+  --step-1: clamp(1.2rem, 0.975rem + 1vw, 1.875rem);
+  --step-2: clamp(1.44rem, 0.9825rem + 2.0333vw, 2.8125rem);
+  --step-3: clamp(1.728rem, 0.8978rem + 3.69vw, 4.2188rem);
+  --step-4: clamp(2.0736rem, 0.6554rem + 6.303vw, 6.3281rem);
+  --step-5: clamp(2.4883rem, 0.1537rem + 10.3761vw, 9.4922rem);
+}
+
+html { --factor: 2; }
+h1 { font-size: calc( pow( var(--factor), 3 ) * 1rem); }
+h2 { font-size: calc( pow( var(--factor), 2 ) * 1rem); }
+h3 { font-size: calc( pow( var(--factor), 1 ) * 1rem); }
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.17rem; }
+h4 { font-size: 1.00rem; }
+
+h1 { font-size: var(--step-4); }
+h2 { font-size: var(--step-3); }
+h3 { font-size: var(--step-2); }
+h4 { font-size: var(--step-1); }
+
+a:hover {
+  color: deeppink;
+}
+
+a:focus {
+ color: deeppink;
+ outline: .2em dashed deeppink;
+}
+
+label {
+    display: grid;
+}
+
+label:has([type="checkbox"]) {
+    display: flex;
+    align-items: baseline;
+}
+
+fieldset {
+    border-radius: var(--whitespace-s);
+    border: var(--border-width) solid var(--accent-color);
+    padding-block: var(--whitespace-xs) var(--whitespace-s);
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img, svg, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  /*font-family: "Comic Relief", system-ui;*/
+  font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+  font-weight: normal;
+
+  display: grid;
+  grid-template-areas: "header " "main" "footer";
+
+  @media (width < 30em) {
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-areas: "header" "main" "footer";
+  }
+
+
+
+
+}
+
+article {
+  max-width: 100%;
+}
+
+button, summary {
+  cursor: pointer;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+* MARK: Header
+**************************/
+
+header {
+  grid-area: header;
+  background: var(--color-cyan);
+  padding: var(--whitespace);
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+  grid-area: footer;
+  background: var(--color-yellow);
+
+  padding: var(--whitespace);
+}
+
+footer nav h2 {
+  display: none;
+
+  ul {
+    &::before {
+      content: "🍄" / 'De Digital Garden Webring';
+    }
+    &::after {
+      content: "🎏" / 'De Digital Garden Webring';
+    }
+
+    padding: 0;
+    display: flex;
+    gap: var(--whitespace);
+  }
+  li {
+    list-style: none;
+  }
+}
+
+/**************************
+* MARK: Main
+**************************/
+
+main {
+  grid-area: main;
+  background: var(--color-magenta);
+  padding: var(--whitespace);
+
+  display: grid;
+  gap: var(--whitespace);
+  grid-template-columns: repeat(auto-fit, minmax(12em));
+}
+
+/**************************
+* MARK: Section ...
+**************************/
+

@@ -310,25 +310,25 @@ Imperfection & Learing in Public
 - 20 jaar heel erg in was
   - Dat de wbesites erg oud zijn
   - Dat het je eigen tuintje is inplaats van een blog of kopje
-<h3>11 September</h3>
-      <span class="SeptemberKopje2">
-        <h3>Check-out Les Week 4:</h3>
-        <ul>
-          <li class="SeptemberVraag1">
-            <strong>1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.</strong>
-                - Een digital garden is een web dagboek die je bij houd waar je je ideeën, passie toont en dit gebeurd niet op een normale website
-          </li>
-          <li class="SeptemberVraag2">
-            <strong>2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</strong>
-            - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive en Webby websites maken het interactief.
-          </li>
-          <li class="SeptemberVraag3">
-            <strong>3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.</strong>
-            - het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen
-          </li>
-        </ul>
-      </span>
-      <h1></h1>
+  <h3>11 September</h3>
+        <span class="SeptemberKopje2">
+          <h3>Check-out Les Week 4:</h3>
+          <ul>
+            <li class="SeptemberVraag1">
+              <strong>1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.</strong>
+                  - Een digital garden is een web dagboek die je bij houd waar je je ideeën, passie toont en dit gebeurd niet op een normale website
+            </li>
+            <li class="SeptemberVraag2">
+              <strong>2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.</strong>
+              - Doormiddel van @media elementen voor verschillende mobiel waardes kan je je website schalen tot een mobiel formaat en is hierdoor responsive en Webby websites maken het interactief.
+            </li>
+            <li class="SeptemberVraag3">
+              <strong>3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.</strong>
+              - het responsive te maken voor web en mobiel en dat mijn interacties er in voor komen
+            </li>
+          </ul>
+        </span>
+        <h1></h1>
 
 <h3>16 September</h3>
 Check-out:
@@ -338,12 +338,13 @@ Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
 3. Nabijheid: Elementen die bij elkaar staan worden als groep gezien
 
 Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?
+
 - Dat je brij bent om een grid te gebruiken maar een grid bied vastheid voor een behaalde structuur.
 
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
+
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
 <h1></h1>
-
 
 <h1>18 September</h1>
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
@@ -366,12 +367,7 @@ Voor mijn dal tekening had ik er eerst <strong>super!</strong> veel zin in, toen
 <img width="2492" height="1755" alt="image" src="https://github.com/user-attachments/assets/5757cfee-f366-4451-bf88-9a7c10d5d11c" />
 Voor de afsluiting van Sprint 1 heb ik als titel: <strong>SCHOKKENDE KENNIS</strong> waarbij de zon de leerstof is van de afgelopen 2weken en de zonnepanelen en de stroom in het huis mij is, dat ik de theorie gebruik in 'mijn huisje' en het omzet in positive energie.
 
-
 <h2>Feedback Sprint 1:</h2>
 <p>
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
-
-
-
-
