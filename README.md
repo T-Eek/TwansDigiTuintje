@@ -417,16 +417,13 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
       Bijvoorbeeld
-      
-      <main>
-      <h1></h1>
-      <span>
-      <p>
-      <strong></strong>
-      </p>
-      </span>
-      </main>
-      --Dit is een 'geneste' HTML format
+      -- main --
+        -- h1 -- -- /h1 --
+            -- span --
+                -- p -- -- strong -- Test -- /strong -- -- /p --
+            -- /span --
+      -- /main --
+      <li>Dit is een 'geneste' HTML format</li>
         <span>
           <ul>
             <li>
