@@ -391,7 +391,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
 <h1></h1>
-<h1>Sprint 2</h1>
+<h3>Sprint 2</h3>
 <h3>21 September</h3>
 <p>
   <storng>Een nieuwe sprint, dit betekend nieuwe theorie, in deze les ging het over de structuur van je HTML en wat voor duidelijke/ onduidelijke informatie er in een cookie pop-up medling staat.</storng>
