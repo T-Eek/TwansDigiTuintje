@@ -423,7 +423,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
                 -- p -- -- strong -- Test -- /strong -- -- /p --<br>
             -- /span --<br>
       -- /main --<br>
-      -Dit is een 'geneste' HTML format
+      -Dit is een 'geneste' HTML format<br>
         <span>
           <ul>
             <li>
