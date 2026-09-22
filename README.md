@@ -389,7 +389,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <img width="1051" height="736" alt="image" src="https://github.com/user-attachments/assets/00f637dc-25d3-43b0-a51d-cd0271129070" />
 
 <span>
-  <h2>Check-out:</h2>
+  <h3>Check-out:</h3>
   <ul>
     <li>
       <strong>Wat zijn HTML landmark role elements?</strong>
@@ -422,3 +422,4 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
             </li>
           </ul>
         </span>
+        <h1></h1>
