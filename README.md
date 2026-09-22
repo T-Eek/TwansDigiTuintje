@@ -388,6 +388,41 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
+<h1>Sprint 2</h1>
+<h2>21 September</h2>
+<p>
+  <storng>Een nieuwe sprint, dit betekend nieuwe theorie, in deze les ging het over de structuur van je HTML en wat voor duidelijke/ onduidelijke informatie er in een cookie pop-up medling staat.</storng>
+</p>
+<img width="2096" height="1470" alt="image" src="https://github.com/user-attachments/assets/5eef5330-1453-4ee7-ab23-a31df13cf9f2" />
+<span>
+  <h2>Check-out:</h2>
+  <ul>
+    <li>
+      <strong>Wat zijn HTML landmark role elements?</strong>
+      <p>
+        Dit zijn elementen zoals een HTML, HRAD, HEADER, MAIN, NAV, BODY en FOOTER
+      </p>
+    </li>
+    <li>
+      <strong>Wat zijn heading elementen en hoe horen deze 'genest' te worden?</strong>
+      <p>
+        - HTML, HEADER, H1, NAV: ze zorgen voor stuctuur in je code, om te weten welke heading elementen genest zijn in je heading, main of footer.
+        Bijvoorbeeld:
+        '''<main>
+              <h1></h1>
+              <span>
+                <p>
+                  <strong></strong>
+                </p>
+              </span>
+        </main>'''
+        --Dit is een 'geneste' HTML format
+      </p>
+    </li>
+    <li>
+      <strong>Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
+    </li>
+</span>
 
 
 
