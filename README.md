@@ -423,11 +423,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
                 -- p -- -- strong -- Test -- /strong -- -- /p --<br>
             -- /span --<br>
       -- /main --<br>
-      <li>Dit is een 'geneste' HTML format</li>
+      -Dit is een 'geneste' HTML format
         <span>
           <ul>
             <li>
               <strong>Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
+              <p>Ik zorg ervoor dat ik de cookies hand matig aanpas, zodat ik voor mijzelf zo min mogelijk wordt getrackt door de website, in plaats van dat ik alles accepteer, er is niets veranderd, ik blijf doen wat ik altijd heb gedaan en wil dit blijven doen met de cookies</p>
             </li>
           </ul>
         </span>
