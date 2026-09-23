@@ -28,6 +28,30 @@ https://fonts.google.com/specimen/Slackey?preview.layout=grid&categoryFilters=Fe
 font-family: "Slackey", system-ui;
 
 -->
+<!--
+      HuiswerK Woensdag: "Weet jij waarmee je precies akkoord gaat als je op “accepteren” klikt?"
+      Volgens de artikelen is het antwoord in de praktijk vaak nee, en dat komt door de manier waarop deze pop-ups en keuzes worden ontworpen.
+      Het gebruik van 'Sludge' (onnodige frictie om te weigeren):
+      Artikel 1 (onder het kopje Origin and Evolution).
+      - Toelichting: De auteur legt uit dat sommige misleidende patronen bestaan uit sludge: keuzearchitectuur met opzettelijke frictie die het moeilijk maakt om een keuze te maken die in je eigen voordeel is. Als voorbeeld wordt direct een cookie-consent dialog genoemd: "For instance, a cookie-consent dialog that makes the user click through many screens to reject targeting or marketing cookies is an example of sludge." Als je op "accepteren" klikt, doe je dat vaak omdat weigeren simpelweg te veel moeite kost.
+      
+      Het risico van onbewust akkoord gaan door verbergen of onduidelijkheid:
+      Artikel 2 (onder de kopjes What are dark patterns in UX? en Trick questions / Design for transparency).
+      - Toelichting: Dark patterns gebruiken misleiding als conversietool. Ze verbergen de werkelijke impact achter normale interface-elementen. Mensen worden ertoe gebracht om snel op 'accepteren' te klikken doordat de optie om te weigeren verstopt zit, onduidelijk is geformuleerd, of doordat er gebruik wordt gemaakt van subtiele taal (zoals dubbele ontkenningen of verplichte vinkjes die je zelf moet weghalen).
+      
+      Wettelijke verplichting versus praktijk (AVG / GDPR):
+      Artikel 1 (onder Examples of Deceptive Patterns).
+      - Toelichting: Er staat vermeld dat veel van dit soort praktijken inmiddels illegaal zijn onder de AVG (EU's General Data Protection Regulation), omdat het verwerken
+      van data zonder expliciete en eerlijke toestemming niet mag. Toch proberen bedrijven via subtiele trucs (zoals visuele manipulatie) te zorgen dat je toch voor de voor hen meest winstgevende optie (alles accepteren) kiest.
+-->
+
+
+
+
+
+
+
+
 
 <!--LEARING LOG -->
 

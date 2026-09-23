@@ -423,3 +423,43 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
           </ul>
         </span>
         <h1></h1>
+<h3>23 September</h3>
+<p>
+  <storng></storng>
+</p>
+
+<span>
+  <h3>Check-out:</h3>
+  <ul>
+    <li>
+      <strong>Wat zijn HTML landmark role elements?</strong>
+      <p>
+        Dit zijn elementen zoals een HTML, HRAD, HEADER, MAIN, NAV, BODY en FOOTER
+      </p>
+    </li>
+    <li>
+      <strong>Wat zijn heading elementen en hoe horen deze 'genest' te worden?</strong>
+      <p>
+        - HTML, HEADER, H1, NAV: ze zorgen voor stuctuur in je code, om te weten welke heading elementen genest zijn in je heading, main of footer.
+      </p>
+    </li>
+  </ul>
+</span>
+      Bijvoorbeeld<br>
+      -- main --<br>
+        -- h1 -- -- /h1 --<br>
+            -- span --<br>
+                -- p -- -- strong -- Test -- /strong -- -- /p --<br>
+            -- /span --<br>
+      -- /main --<br>
+      -Dit is een 'geneste' HTML format
+      -Dit is een 'geneste' HTML format<br>
+        <span>
+          <ul>
+            <li>
+              <strong>Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
+              <p>Ik zorg ervoor dat ik de cookies hand matig aanpas, zodat ik voor mijzelf zo min mogelijk wordt getrackt door de website, in plaats van dat ik alles accepteer, er is niets veranderd, ik blijf doen wat ik altijd heb gedaan en wil dit blijven doen met de cookies</p>
+            </li>
+          </ul>
+        </span>
+        <h1></h1>
