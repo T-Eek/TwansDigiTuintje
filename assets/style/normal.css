@@ -36,9 +36,9 @@ html {
   --Custom-ColorBL: blue;
 
 
-  --Nav-Cutom-Color: white;
+  --Nav-Custom-Color: white;
   --Nav-Custom-backgroundOverlay: black;
-  --Cutom-Standaard-Color: #bbbbbb;
+  --Custom-Standaard-Color: #bbbbbb;
   --Boder-bottom-CustomY: yellow;
   --Border-bottom-CustumB: blue;
 }
@@ -301,7 +301,7 @@ html:has( [value="dark"]:checked) {
 .modelREPO {
   font-size: 12px;
   font-style: normal;
-  color: var(--Cutom-Standaard-Color);
+  color: var(--Custom-Standaard-Color);
   margin: 0px 15%;
 }
 
@@ -340,7 +340,7 @@ html:has( [value="dark"]:checked) {
 
   .ShowCaseText2 {
     transition: 0.4s ease-in-out;
-    color: var(--Custom-ColorS);
+    color: var(--Custom-Standaard-Color);
   }
 
     .ShowCaseText3 {
@@ -514,7 +514,7 @@ html:has( [value="dark"]:checked) {
 
 
 .gallery {
-  border: 1px solid var(--Cutom-Standaard-Color);
+  border: 1px solid var(--Custom-Standaard-Color);
   margin: 5px 5px;
 }
 
