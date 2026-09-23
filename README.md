@@ -438,6 +438,16 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   - Alles op deze website is zelf gemaakt, naast mijn Google Font en de repository en de webling
 
   <li>3. Op welke manier kan je instemming vragen? <br>Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web.</li>
+    <li>1.</li>
+    <li>2.</li>
+    <li>3.</li>
+    <li>4.</li>
+    <li>5.</li>
+    <li>6.</li>
+    <li>7.</li>
+    <li>8.</li>
+    <li>9.</li>
+    <li>10.</li>
 
   <li>4. Denk na over een manier van werken die past binnen de layout van jouw digital garden? </li>
 </p>
