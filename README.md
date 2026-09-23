@@ -449,30 +449,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <h3>Check-out:</h3>
   <ul>
     <li>
-      <strong></strong>
-      <p>
-      </p>
-    </li>
-    <li>
-      <strong></strong>
-      <p>
-      </p>
-    </li>
-  </ul>
-</span><span>
-          <ul>
-            <li>
-              <strong></strong>
-              <p></p>
-            </li>
-          </ul>
-        </span>
-        <h1></h1>
-
-<span>
-  <h3>Check-out:</h3>
-  <ul>
-    <li>
       <strong>1. Wat is een wireflow en wat heb je er aan?</strong>
       <p>
         - Om aan te geven waar een dark pattern is op een website<br>
@@ -495,3 +471,4 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
+<h1></h1>
