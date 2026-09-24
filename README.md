@@ -430,7 +430,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 
 <p>
   <storng>Human Consent Component</storng>
-  <li>1. Bespreek in jouw groepje welke gegevens op jouw digital garden van gebruikers verwerkt worden. <br>Houdt daarbij in de gaten welke diensten je allemaal gebruikt. <br>Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component.
+  <li>1. Bespreek in jouw groepje welke gegevens op jouw digital garden van gebruikers verwerkt worden. <br>
+    Houdt daarbij in de gaten welke diensten je allemaal gebruikt. <br>
+    Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component.
   </li>
   - Github voor de Repository/ digitaal tuintje, webling, Google font: voor mijn Typografie/ Font
 
@@ -438,16 +440,29 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   - Alles op deze website is zelf gemaakt, naast mijn Google Font en de repository en de webling
 
   <li>3. Op welke manier kan je instemming vragen? <br>Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web.</li>
-    <li>1.</li>
-    <li>2.</li>
-    <li>3.</li>
-    <li>4.</li>
-    <li>5.</li>
-    <li>6.</li>
-    <li>7.</li>
-    <li>8.</li>
-    <li>9.</li>
-    <li>10.</li>
+    <li>1.De traditionele cookiebanner (boven- of onderaan) Hoe het werkt: Een balk die plakt aan de onderkant of bovenkant van het scherm met een korte uitleg en knopp voor 'Accepteren' en 'Instellingen wijzigen'. Waar je het ziet: Op de meeste nieuwswebsites en blogs.</li>
+    <li>2.De 'Layered' (gelaagde) pop-up. Hoe het werkt: Een centraal venster dat de inhoud blokkeert totdat je een keuze maakt. Vaak heeft dit direct een knop om alles te accepteren, maar ook een duidelijke link naar 'Voorkeuren instellen' voor meer controle per categorie.</li>
+    <li>3.Opt-in vinkjes bij formulieren (Granular Consent) Hoe het werkt: Losse, niet-vooraf aangevinkte selectievakjes (checkmarks) bij bijvoorbeeld een contactformulier of aanmeldpagina waarmee gebruikers specifiek akkoord gaan met het opslaan van hun gegevens of het ontvangen van de nieuwsbrief.</li>
+    <li>4.De Cookie-muur (Pay-or-Okay / Ingetogen blokkade) Hoe het werkt: De website vraagt expliciet om akkoord voor tracking. Wie niet akkoord gaat, krijgt de website niet te zien (of moet bijvoorbeeld betalen voor een abonnement). Let op: Dit staat privacy-technisch tegenwoordig vaak ter discussie.</li>
+    <li>5.Scroll-as-Consent (Scrollen is akkoord)
+      Hoe het werkt: Een melding waarin staat dat door te, surfen, klikken of te scrollen op de website, de gebruiker automatisch akkoord gaat met het plaatsen van cookies. (Dit is volgens strenge privacywetten zoals de AVG/GDPR in veel gevallen niet meer toegestaan, maar komt nog vaak voor als voorbeeld van hoe het niet hoort of in andere landen).
+    </li>
+    <li>6.Just-in-Time Consent (Contextuele toestemming)
+      Hoe het werkt: In plaats van een algemene pop-up bij binnenkomst, vraagt de website pas om toestemming op het moment dat je een specifieke functie gebruikt. Bijvoorbeeld een melding in je browser of op de pagina: "Wil je je locatie delen?" of wanneer je een Google Font laadt dat data deelt.
+    </li>
+    <li>7.Voorkeuren per categorie met schuifjes (Toggles)
+      Hoe het werkt: In het privacy-instellingenscherm zie je per categorie (noodzakelijk, analytisch, marketing) een schuifknop (toggle) staan die je zelf aan- of uitzetten kunt voordat je op 'Opslaan' klikt.
+    </li>
+    <li>8.Gedwongen keuze tussen alles accepteren of weigeren (Binary choice)
+      Hoe het werkt: Een pop-up met twee even grote knoppen direct in het oog: 'Alles accepteren' en 'Alleen noodzakelijke cookies'.
+      Dit voorkomt dat de weiger-knop verstopt zit.
+    </li>
+    <li>9.De 'Notice and Choice' banner met privacy-icoon
+      Hoe het werkt: Een subtiel icoon (vaaklinkend naar een privacy-beleid of een klein schildje in de hoek van de pagina) waarmee gebruikers te allen tijde zelf hun toestemming kunnen intrekken of inzien, gekoppeld aan een initiële melding.
+    </li>
+    <li>10.Impliciete toestemming via een 'Privacy Center' of Footer-link
+      Hoe het werkt: Een vaste link in de footer (voettekst) van de website (bijv. "Privacybeleid" of "Cookievoorkeuren") waar gebruikers op elk gewenst moment naartoe kunnen navigeren om hun toestemming aan te passen of in te trekken.
+    </li>
 
   <li>4. Denk na over een manier van werken die past binnen de layout van jouw digital garden? </li>
 </p>

@@ -17,3 +17,8 @@ function toggleMenu() {
         h.style.display = "none";
     }
 }
+
+// Functie om de overlay te verbergen wanneer de gebruiker akkoord gaat
+  function acceptConsent() {
+    document.getElementById("consentOverlay").style.display = "none";
+  }
