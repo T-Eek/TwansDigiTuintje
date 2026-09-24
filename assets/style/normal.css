@@ -34,6 +34,8 @@ html {
   --Custom-ColorY: yellow;
   --Custom-ColorG: Gold;
   --Custom-ColorBL: blue;
+  --Custom-Color-Toggle: mediumslateblue;
+  --Custom-BorderColor-Toggle: darkslategrey;
 
 
   --Nav-Custom-Color: white;
@@ -133,8 +135,10 @@ body {
 /* =======================================*/
 /* ============ index.html ===============*/
 /* =======================================*/
-/* Light Mode */
-html:has( [value="light"]:checked) {
+
+
+/* =============================== Oude Light-Dark Mode ================================ */
+html:has( [value="light"]:checked) { /* Light Mode */
   color-scheme:light;
   .IntroRealHeader {
     font-family: "Oi";
@@ -152,8 +156,7 @@ html:has( [value="light"]:checked) {
   }
 }
 
-/* Dark Mode */
-html:has( [value="dark"]:checked) {
+html:has( [value="dark"]:checked) {/* Dark Mode */
 	color-scheme:dark;
   .IntroRealHeader {
     font-family: "Oi";
@@ -177,6 +180,7 @@ html:has( [value="dark"]:checked) {
   justify-content: space-evenly;
   font-size: x-large;
 }
+/* =============================== Oude Light-Dark Mode ================================ */
 
 .IntroHeaderContainer {
   position: fixed;
@@ -197,8 +201,132 @@ html:has( [value="dark"]:checked) {
   font-size: 4vw;
 
   /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
-
 }
+
+/* ===================================== NEW Toggle Switch ===================================================== */
+html:has( [value="LightDark-ToggleSwitch"]) {
+  color-scheme:light;
+  .IntroRealHeader {
+    font-family: "Oi";
+    /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
+    background-image: linear-gradient(to right, white, white, white, black, black, black);
+    line-height: 1.5em;
+    text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
+    transition: 0.4s ease-in-out;
+  }
+
+  .IntroRealHeader:hover {
+    text-shadow: 0px 0px 0px var(--Custom-ColorB);
+    font-size: 5vw;
+    font-family: "Slackey";
+  }
+}
+
+html:has( [value="LightDark-ToggleSwitch"]:checked) {
+	color-scheme:dark;
+  .IntroRealHeader {
+    font-family: "Oi";
+    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
+    background-image: linear-gradient(to right, black, black, black, white, white, white);
+    /*text-shadow: 0px 0px 21px black;*/
+    line-height: 1.5em;
+    text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .IntroRealHeader:hover {
+    text-shadow: 0px 0px 0px var(--Custom-ColorW);
+    font-size: 5vw;
+    font-family: "Slackey";
+  }
+}
+
+.LightSwitch-CONTAINER{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5%;
+}
+
+
+.LightSwitch-INTROCONTAINER {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+
+.LightSwitch {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  width: 100px;
+  height: 150px;
+}
+
+.toggle-switch { /*https://www.geeksforgeeks.org/css/how-to-create-toggle-switch-by-using-html-and-css/*/
+    position: relative;
+    display: flex;
+    width: 70px;
+}
+
+.toggle-switch input { /* Checkbox verbergen */
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--Custom-ColorY);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.slider2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 35%;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: var(--Custom-ColorW);
+    border-radius: 50%;
+    border: 10px solid var(--Custom-BorderColor-Toggle);
+    transition: transform 0.3s;
+}
+
+.slider2::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: var(--Custom-ColorB);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.toggle-switch input:checked+.slider {
+  background-color: var(--Custom-Color-Toggle);
+}
+
+.toggle-switch input:checked+.slider::before {
+  transform: translateY(80px);
+}
+
+.toggle-switch input:checked+ .slider .slider2::before {
+  transform: translateY(95px) translateX(16px) scale(2);
+}
+/* ===================================== NEW Toggle Switch ===================================================== */
 
 .IntroLINK {
   text-decoration: none;
@@ -355,7 +483,21 @@ html:has( [value="dark"]:checked) {
     color: transparent;
     text-shadow: none;
   }
+
+  .ShowCaseText5 {
+    background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: ShowCaseMove 360s linear infinite;
+    cursor: pointer;
+  }
 }
+
+  @keyframes ShowCaseMove {
+	  to {
+		  background-position: 2300vh;
+	  }
+  }
 
 .SCImgContainer {
   display: flex;
@@ -544,7 +686,6 @@ html:has( [value="dark"]:checked) {
   color: var(--Cutom-Standaard-Color);
   margin: 0%;
 }
-
 
 /* --- MOBIELE RESPONSIVE STIJL --- */
 @media screen and (max-width: 768px) {
