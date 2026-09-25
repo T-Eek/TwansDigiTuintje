@@ -520,10 +520,36 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       3. Speels met de hovers en tekst style
     </li>
   </ul>
+
+<span>
+  <h3>Check-out:</h3>
+  <ul>
+    <li>
+      <strong>1. Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?</strong>
+      <p>
+        - Dat ik blijkbaar geen VALUE mag gebruiken op een H1 element<br>
+        - Bij Floris viel het op dat zijn code goed was, geen fouten.
+      </p>
+    </li>
+        <li>
+      <strong>Welke dingen vielen je op?</strong>
+      <p>
+        <li>1. Dat ik blijkbaar geen VALUE mag gebruiken op een H1 element</li>
+        <li>2. FOMO</li>
+        <li>3. Fake Social Proof</li>
+      </p>
+    </li>
+        <li>
+      <strong>Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?</strong>
+      <p>
+        - Dat je het duidelijk en simpel meld op je website en dat de gebruikers duidelijk weten wat er op je website wordt bekeken/ getracked.
+      </p>
+    </li>
+  </ul>
+</span>
 <h1></h1>
 
 <h3>26 September</h3>
 <p>
   - Ik ben naar andere Google fonts opzoek gegaan en wilde dat speelse, vloeiende van een lettertype, ik heb er 3 geselecteerd dit zijn: Lobster Two, Dancing Script en Caveat. Ik ben voor <strong>Caveat</strong> gegaan omdat hij het speelse en vloeiende leesbaarheid ook heeft op kleinere voormaat.
 </p>
-
