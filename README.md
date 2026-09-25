@@ -497,7 +497,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
 <h1></h1>
-<h2>25 September</h2>
+<h3>25 September</h3>
 <h3>Vrijdag Feedback Sprint 2:</h3>
 <p>
   (Charley) Muhren, C.J. en (Justus) Sturkenboom, J.P. hebben mij feedback gegeven over mijn website:
