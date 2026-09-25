@@ -497,3 +497,27 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
 <h1></h1>
+<h2>25 September</h2>
+<h3>Vrijdag Feedback Sprint 2:</h3>
+<p>
+  (Charley) Muhren, C.J. en (Justus) Sturkenboom, J.P. hebben mij feedback gegeven over mijn website:
+</p>
+  <ul>
+    - Over de Cookie Banner:
+    <li>
+      1. Dat het thema van mijn website er meer terug in voor moet komen.
+      2. Dat er nog een button met "Sluiten" of "Weigeren" mag komen.
+    </li>
+    - Mijn Digi Tuintje:
+    <li>
+      1.Betere alinement tussen de kopjes, plaatjes en teksten
+      2. Andere font zoeken voor nornale teksten.
+    </li>
+    - Pros:
+    <li>
+      1. Bijpassend intro scherm
+      2. Enthousiaste micro-interacties
+      3. Speels met de hovers en tekst style
+    </li>
+  </ul>
+<h1></h1>
