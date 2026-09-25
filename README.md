@@ -521,3 +521,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 <h1></h1>
+
+<h3>26 September</h3>
+<p>
+  - Ik ben naar andere Google fonts opzoek gegaan en wilde dat speelse, vloeiende van een lettertype, ik heb er 3 geselecteerd dit zijn: Lobster Two, Dancing Script en Caveat. Ik ben voor <strong>Caveat</strong> gegaan omdat hij het speelse en vloeiende leesbaarheid ook heeft op kleinere voormaat.
+</p>
+
