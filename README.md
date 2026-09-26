@@ -478,6 +478,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <img width="2614" height="1288" alt="image" src="https://github.com/user-attachments/assets/fb2ba29f-6096-473e-926d-66a9fb43bb2b" />
 
 <img width="2657" height="1476" alt="image" src="https://github.com/user-attachments/assets/73736355-87de-4a92-b935-9661d1f0da58" />
+- Voor de opdracht moesten we in een groepje een website zoeken en een cookie vinden en deze over schetsen, daarna moesten we noteren welke cons de cookie had, daarna moesten we verbeteringen schetsen.
+  (als te zien is in mijn schetsen van Booking.com)
 
 
 
