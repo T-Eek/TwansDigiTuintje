@@ -387,6 +387,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
 <img width="2096" height="1470" alt="image" src="https://github.com/user-attachments/assets/5eef5330-1453-4ee7-ab23-a31df13cf9f2" />
 <img width="1051" height="736" alt="image" src="https://github.com/user-attachments/assets/00f637dc-25d3-43b0-a51d-cd0271129070" />
+- Voor de Welingelichte Cookie Consent moesten we in groepjes van 3 verschillende cookie banners of cookie pop-ups verkennen en de vragen beantwoorden, dit heb ik samen met Danial en Christina beantwoord.
 
 <span>
   <h3>Check-out:</h3>
@@ -431,13 +432,13 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   <storng>Human Consent Component</storng>
   <li>1. Bespreek in jouw groepje welke gegevens op jouw digital garden van gebruikers verwerkt worden. <br>
-    Houdt daarbij in de gaten welke diensten je allemaal gebruikt. <br>
+    Houdt daarbij in de gaten welke diensten je allemaal gebruikt.<br>
     Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component.
   </li>
-  - Github voor de Repository/ digitaal tuintje, webling, Google font: voor mijn Typografie/ Font
+  - Github voor de Repository/ digitaal tuintje, webling, Google font: voor mijn Typografie/ Font<br>
 
   <li>2. Informeren van gebruikers is een plicht die je hebt als websitemaker: Hoe kan je gebruikers informeren over het gebruik van hun gegevens op jouw website?</li>
-  - Alles op deze website is zelf gemaakt, naast mijn Google Font en de repository en de webling
+  - Alles op deze website is zelf gemaakt, naast mijn Google Font en de repository en de webling<br>
 
   <li>3. Op welke manier kan je instemming vragen? <br>Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web.</li>
     <li>1.De traditionele cookiebanner (boven- of onderaan) Hoe het werkt: Een balk die plakt aan de onderkant of bovenkant van het scherm met een korte uitleg en knopp voor 'Accepteren' en 'Instellingen wijzigen'. Waar je het ziet: Op de meeste nieuwswebsites en blogs.</li>
@@ -445,7 +446,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>3.Opt-in vinkjes bij formulieren (Granular Consent) Hoe het werkt: Losse, niet-vooraf aangevinkte selectievakjes (checkmarks) bij bijvoorbeeld een contactformulier of aanmeldpagina waarmee gebruikers specifiek akkoord gaan met het opslaan van hun gegevens of het ontvangen van de nieuwsbrief.</li>
     <li>4.De Cookie-muur (Pay-or-Okay / Ingetogen blokkade) Hoe het werkt: De website vraagt expliciet om akkoord voor tracking. Wie niet akkoord gaat, krijgt de website niet te zien (of moet bijvoorbeeld betalen voor een abonnement). Let op: Dit staat privacy-technisch tegenwoordig vaak ter discussie.</li>
     <li>5.Scroll-as-Consent (Scrollen is akkoord)
-      Hoe het werkt: Een melding waarin staat dat door te, surfen, klikken of te scrollen op de website, de gebruiker automatisch akkoord gaat met het plaatsen van cookies. (Dit is volgens strenge privacywetten zoals de AVG/GDPR in veel gevallen niet meer toegestaan, maar komt nog vaak voor als voorbeeld van hoe het niet hoort of in andere landen).
+      Hoe het werkt: Een melding waarin staat dat door te, surfen, klikken of te scrollen op de website, de gebruiker automatisch akkoord gaat met het plaatsen van cookies. (Dit is volgens strenge privacywetten zoals de AVG/GDPR in veel gevallen niet meer toegestaan, maar komt nog vaak voor als voorbeeld van hoe het niet           hoort of in andere landen).
     </li>
     <li>6.Just-in-Time Consent (Contextuele toestemming)
       Hoe het werkt: In plaats van een algemene pop-up bij binnenkomst, vraagt de website pas om toestemming op het moment dat je een specifieke functie gebruikt. Bijvoorbeeld een melding in je browser of op de pagina: "Wil je je locatie delen?" of wanneer je een Google Font laadt dat data deelt.
@@ -467,8 +468,21 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <li>4. Denk na over een manier van werken die past binnen de layout van jouw digital garden? </li>
 </p>
 <p>
-  <storng></storng>
-</p>
+  <storng> Ik wil mijn layout simpel houden, misschien in de style van mijn wbesite, of misschien meer neurtaal want een cookie is daar om jouw informatie op te slaan en eventueel te verwerken</storng>
+</p><br>
+
+<img width="1696" height="2496" alt="image" src="https://github.com/user-attachments/assets/db5a9f11-942d-4639-844d-0b0b39721b31" />
+
+<img width="800" height="540" alt="image" src="https://github.com/user-attachments/assets/7be28208-d09f-4542-8346-c5f1abe23e72" />
+
+<img width="2614" height="1288" alt="image" src="https://github.com/user-attachments/assets/fb2ba29f-6096-473e-926d-66a9fb43bb2b" />
+
+<img width="2657" height="1476" alt="image" src="https://github.com/user-attachments/assets/73736355-87de-4a92-b935-9661d1f0da58" />
+- Voor de opdracht moesten we in een groepje: <strong>Samen met Giel en Wessel</strong> een website zoeken en een cookie vinden en deze over schetsen, daarna moesten we noteren welke cons de cookie had, daarna moesten we verbeteringen schetsen.
+  (als te zien is in mijn schetsen van Booking.com)
+
+
+
 
 <span>
   <h3>Check-out:</h3>
