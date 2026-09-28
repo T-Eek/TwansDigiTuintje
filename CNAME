@@ -27,6 +27,23 @@ https://fonts.google.com/specimen/Slackey?preview.layout=grid&categoryFilters=Fe
 
 font-family: "Slackey", system-ui;
 
+
+
+Animation of z-index
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_anim_z-index
+
+
+Animation of translate
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_anim_translate
+
+
+Animation of order
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_anim_order
+
+Animation of flex
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_anim_flex
+
+
 -->
 <!--
       HuiswerK Woensdag: "Weet jij waarmee je precies akkoord gaat als je op “accepteren” klikt?"
@@ -273,3 +290,122 @@ font-family: "Slackey", system-ui;
         </div>
     </div>
 </main>
+
+
+.ShowCaseContainer { /*https://www.w3schools.com/css/css3_images.asp */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0px;
+  overflow-x: scroll;
+  width: 100%;
+
+}
+
+.WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
+  transition: padding 5s, box-shadow 5s;
+}
+
+.WorkShowCase3 {
+  border-right: var(--border-right);
+  border-left: var(--border-left);
+  margin: 0px 1%;
+}
+
+.WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
+  box-shadow: 0rem 0rem 5rem var(--Custom-ColorG);
+  cursor: pointer;
+
+  .ShowCaseText{
+    transition: 0.4s ease-in-out;
+    color: var(--Custom-ColorC);
+  }
+
+  .ShowCaseText2 {
+    transition: 0.4s ease-in-out;
+    color: var(--Custom-Standaard-Color);
+  }
+
+    .ShowCaseText3 {
+    transition: 0.4s ease-in-out;
+    color: var(--Custom-ColorY);
+  }
+
+    .ShowCaseText4 {
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }
+
+  .ShowCaseText5 {
+    background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: ShowCaseMove 360s linear infinite;
+    cursor: pointer;
+  }
+}
+
+  @keyframes ShowCaseMove {
+	  to {
+		  background-position: 2300vh;
+	  }
+  }
+
+.SCImgContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.SCImage1, .SCImage2, .SCImage3, .SCImage4 {
+  max-width: 15vw;
+  transition: 0.4s ease-in-out;
+}
+
+.SCImage1:hover, .SCImage2:hover, .SCImage3:hover, .SCImage4:hover {
+  max-width: 25vw;
+  cursor: pointer;
+}
+
+.InfoCONTAINER {
+  display: block;
+  column-count: 1;
+  margin: 1rem 0px;
+}
+
+.InfoShowCase1, .InfoShowCase2, .InfoShowCase3, .InfoShowCase4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ISC-Container {
+  display: block;
+  padding: 0px 3rem;
+}
+
+.InfoSCImgContainer1, .InfoSCImgContainer2 {
+  display: block;
+}
+
+.InfoSCImgContainer1:hover, .InfoSCImgContainer2:hover {
+  .InfoSCImage1, .InfoSCImage2 {
+    transform: scale(1.1);
+  }
+
+    .ShowCaseText3 {
+    transition: 0.4s ease-in-out;
+    color: var(--Custom-ColorY);
+  }
+
+    .ShowCaseText4 {
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }
+}

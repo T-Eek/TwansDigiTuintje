@@ -1,3 +1,6 @@
+/*
+MARK: FONTS
+*/
 @font-face {
   font-family: "Slackey"; /*sans-serif*/ 
   src: url(../type/Slackey-Regular.ttf);
@@ -27,12 +30,21 @@
   font-style: normal;
 }*/
 
+/* 
+MARK: HTML
+*/
 html {
   color-scheme: light dark;
   --background: light-dark(white, black);
   --color-LightDark: light-dark(black, white);
   --background-Dark: linear-gradient(to right, black, black, white, white, white);
   --background-Light: linear-gradient(to right, white, white, black, black, black);
+  --background-Ikea: linear-gradient(to bottom, yellow, yellow 55%, blue, blue 45%);
+
+
+
+  --border-left: 1px solid var(--color-LightDark);
+  --border-right: 1px solid var(--color-LightDark);
 
 
   --Custom-ColorB: black;
@@ -51,9 +63,13 @@ html {
   --Custom-Standaard-Color: #bbbbbb;
   --Boder-bottom-CustomY: yellow;
   --Border-bottom-CustumB: blue;
+
+  --Scroll: -webkit-scrollbar: width 20px;
 }
 
-
+/*
+MARK: BODY/ MAIN
+*/
 body, h1, h2, h3, strong, button {
   font-family: "Slackey";
   margin: 0;
@@ -64,6 +80,9 @@ p {
   font-family: "Caveat";
 }
 
+/*
+MARK: NAV Menu
+*/
 /* =======================================*/
 /* ============ Navigatie ================*/
 /* =======================================*/
@@ -146,14 +165,12 @@ p {
 /* =======================================*/
 /* ============ index.html ===============*/
 /* =======================================*/
-
-
-/* =============================== Oude Light-Dark Mode ================================ */
-html:has( [value="light"]:checked) { /* Light Mode */
+/* =============================== Oude Light-Dark Mode ================================ 
+html:has( [value="light"]:checked) {  --Light Mode 
   color-scheme:light;
   .IntroRealHeader {
     font-family: "Oi";
-    /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
+    /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;
     background-image: linear-gradient(to right, white, white, white, black, black, black);
     line-height: 1.5em;
     text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
@@ -162,18 +179,17 @@ html:has( [value="light"]:checked) { /* Light Mode */
 
   .IntroRealHeader:hover {
     text-shadow: 0px 0px 0px var(--Custom-ColorB);
-    font-size: 5vw;
     font-family: "Slackey";
   }
 }
 
-html:has( [value="dark"]:checked) {/* Dark Mode */
+html:has( [value="dark"]:checked) { --Dark Mode 
 	color-scheme:dark;
   .IntroRealHeader {
     font-family: "Oi";
-    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
+    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;
     background-image: linear-gradient(to right, black, black, black, white, white, white);
-    /*text-shadow: 0px 0px 21px black;*/
+    /*text-shadow: 0px 0px 21px black;
     line-height: 1.5em;
     text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
     transition: 0.4s ease-in-out;
@@ -181,7 +197,6 @@ html:has( [value="dark"]:checked) {/* Dark Mode */
 
   .IntroRealHeader:hover {
     text-shadow: 0px 0px 0px var(--Custom-ColorW);
-    font-size: 5vw;
     font-family: "Slackey";
   }
 }
@@ -193,6 +208,115 @@ html:has( [value="dark"]:checked) {/* Dark Mode */
 }
 /* =============================== Oude Light-Dark Mode ================================ */
 
+/*
+MARK: INDEX.HTML
+*/
+
+/*
+MARK: Cookie Pop-up
+*/
+/* Overlay achtergrond (schermdonkerkleuring) */
+#consentOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Het infovenster zelf */
+.consent-card {
+  background: #ffffff;
+  color: #2d3748;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.consent-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #1a202c;
+}
+
+.consent-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #4a5568;
+}
+
+/* Specificatie van de diensten */
+.consent-details {
+  background: #f7fafc;
+  border-left: 4px solid #3182ce;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.consent-details h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  color: #3182ce;
+}
+
+.consent-details ul {
+  margin: 8px 0;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.consent-details li {
+  margin-bottom: 6px;
+}
+
+/* Knop styling */
+.consent-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.btn-accept {
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.btn-accept:hover {
+  background-color: mediumslateblue;
+}
+
+@media (min-width: 480px) {
+  .btn-accept {
+    width: auto;
+  }
+}
+
+/*
+MARK: Intro Header
+*/
 .IntroHeaderContainer {
   position: fixed;
   bottom: 50%;
@@ -214,7 +338,9 @@ html:has( [value="dark"]:checked) {/* Dark Mode */
   /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
 }
 
-/* ===================================== NEW Toggle Switch ===================================================== */
+/*
+MARK: Toggle Switch L/D
+*/
 html:has( [value="LightDark-ToggleSwitch"]) {
   color-scheme:light;
   .IntroRealHeader {
@@ -228,7 +354,6 @@ html:has( [value="LightDark-ToggleSwitch"]) {
 
   .IntroRealHeader:hover {
     text-shadow: 0px 0px 0px var(--Custom-ColorB);
-    font-size: 5vw;
     font-family: "Slackey";
   }
 }
@@ -247,7 +372,6 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
 
   .IntroRealHeader:hover {
     text-shadow: 0px 0px 0px var(--Custom-ColorW);
-    font-size: 5vw;
     font-family: "Slackey";
   }
 }
@@ -339,13 +463,15 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
 .toggle-switch input:checked+ .slider .slider2::before {
   transform: translateY(95px) translateX(16px) scale(2);
 }
-/* ===================================== NEW Toggle Switch ===================================================== */
+
+/*
+MARK: Link Tekst
+*/
 
 .IntroLINK {
   text-decoration: none;
   color: var(--Custom-ColorB);
 }
-
 
 .IntroRealHeader:hover {
   text-shadow: 0px 0px 0px transparent;
@@ -393,6 +519,9 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
 /* =======================================*/
 /* ============ Intro.html ===============*/
 /* =======================================*/
+/*
+MARK: Intro.HTML
+*/
 .webTITEL {
   margin: 0px;
 }
@@ -459,19 +588,25 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   }
 }
 
-.ShowCaseContainer { /*https://www.w3schools.com/css/css3_images.asp */
+.ShowCaseContainer { 
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
   align-items: center;
-  margin: 1rem 0px;
+  overflow-x: auto;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding-bottom: 1rem;
+  width: 100%;
 }
 
-.WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
-  transition: padding 5s, box-shadow 5s;
+.WorkShowCase1, .WorkShowCase2, .WorkShowCase4, .WorkShowCase5 {
+  display: flex;
+  flex: 1 0 550px;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 2s ease-in-out;
 }
 
 .WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
-  box-shadow: 0rem 0rem 5rem var(--Custom-ColorG);
   cursor: pointer;
 
   .ShowCaseText{
@@ -506,84 +641,137 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   }
 }
 
-  @keyframes ShowCaseMove {
-	  to {
-		  background-position: 2300vh;
-	  }
-  }
+@keyframes ShowCaseMove {
+	to {
+		background-position: 2300vh;
+	}
+}
 
-.SCImgContainer {
+.WorkShowCase3 {
+  flex: 0 0 450px;
+  scroll-snap-align: center;
+  border-right: 2px solid var(--color-LightDark, #ccc);
+  border-left: 2px solid var(--color-LightDark, #ccc);
+  padding: 0 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
-}
-
-.SCImage1, .SCImage2, .SCImage3, .SCImage4 {
-  max-width: 15vw;
-  transition: 0.4s ease-in-out;
-}
-
-.SCImage1:hover, .SCImage2:hover, .SCImage3:hover, .SCImage4:hover {
-  max-width: 25vw;
-  cursor: pointer;
-}
-
-.InfoCONTAINER {
-  display: block;
-  column-count: 1;
-  margin: 1rem 0px;
-}
-
-.InfoShowCase1, .InfoShowCase2, .InfoShowCase3, .InfoShowCase4 {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  text-align: center;
 }
 
-.ISC-Container {
+.WSC-Container {
   display: block;
-  padding: 0px 3rem;
-}
-
-.InfoSCImgContainer1, .InfoSCImgContainer2 {
-  display: block;
-}
-
-.InfoSCImgContainer1:hover, .InfoSCImgContainer2:hover {
-  .InfoSCImage1, .InfoSCImage2 {
-    transform: scale(1.1);
-  }
-
-    .ShowCaseText3 {
-    transition: 0.4s ease-in-out;
-    color: var(--Custom-ColorY);
-  }
-
-    .ShowCaseText4 {
-    transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
-    background-clip: text;
-    color: transparent;
-    text-shadow: none;
-  }
-}
-
-
-.InfoSCImage1, .InfoSCImage2 {
-  width: 200px;
-  transition: transform 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-.InfoSCImage3, .InfoSCImage4 {
-  width: 200px;
-  transition: transform 0.5s ease-in-out;
-  cursor: pointer;
 }
 
 .TuintjeLINK {
   color: var(--color-LightDark);
   text-decoration: none;
+}
+
+.SCImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.SCImage1, .SCImage2, .SCImage3, .SCImage4 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; /* Voorkomt dat afbeeldingen uitreken / vervormen */
+  transition: transform 0.4s ease-in-out;
+}
+
+.SCImage1:hover, .SCImage2:hover, .SCImage3:hover, .SCImage4:hover {
+  transform: scale(1.5); /* Scaled de afbeedling, zonder dat de afbeeld uit zijn box breekt */
+  cursor: pointer;
+}
+
+.ShowCaseTitle {
+  display: block;
+  font-size: 24px;
+  white-space: normal; /* Zorgt dat tekst wel netjes afbreekt op een nieuwe regel */
+}
+
+.InfoCONTAINER {
+  display: flex;
+  flex-direction: column;
+  column-count: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoShowCase1, .InfoShowCase2, .InfoShowCase3, .InfoShowCase4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+
+  margin-bottom: 2em;
+}
+
+.InfoSCImgContainer1, .InfoSCImgContainer2 {
+  display: flex;
+  align-items: baseline;
+  overflow: hidden;
+}
+
+.InfoSCImage1 {
+  width: 500px;
+  height: 250px;
+  object-fit: cover; /* Voorkomt dat afbeeldingen uitreken / vervormen */
+  transition: transform 0.4s ease-in-out;
+}
+
+.InfoSCImage2 {
+  width: 400px;
+  height: 600px;
+  object-fit: cover; /* Voorkomt dat afbeeldingen uitreken / vervormen */
+  transition: transform 0.4s ease-in-out;
+}
+
+.InfoSCImage1:hover, .InfoSCImage2:hover {
+  transform: scale(1.5); /* Scaled de afbeedling, zonder dat de afbeeld uit zijn box breekt */
+  cursor: pointer;
+}
+
+
+.ISC-Container {
+  display: flex;
+  align-items: start;
+  padding: 0px 3rem;
+}
+
+.ISC-Container:hover {
+  .ShowCaseText3 {
+    font-size: 24px;
+    color: var(--Custom-ColorY);
+    transition: 0.4s ease-in-out;
+  }
+  .ShowCaseText4 {
+    font-size: 24px;
+
+    background-image: var(--background-Ikea);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s ease-in-out;
+  }
+}
+
+.Info-SCT-CONTAINER {
+  white-space: normal;
+  width: 50%;
+}
+
+.InfoSCImgContainer1:hover, .InfoSCImgContainer2:hover {
+  /*.ShowCaseText4 {
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }*/
 }
 
 /*.InfoSCImage1:hover, .InfoSCImage2:hover {
@@ -603,10 +791,6 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   }
 
 }*/
-
-.Info-SCT-CONTAINER {
-
-}
 
 .InfoSCText1 {
 
@@ -629,7 +813,9 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
 
 
 
-
+/*
+MARK: Footer Text
+*/
 .SC-Titel-H2 {
   font-size: 4vw;
   margin: 0px;
@@ -705,107 +891,6 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   margin: 0%;
 }
 
-
-/* Overlay achtergrond (schermdonkerkleuring) */
-  #consentOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: system-ui, -apple-system, sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
-  /* Het infovenster zelf */
-  .consent-card {
-    background: #ffffff;
-    color: #2d3748;
-    width: 100%;
-    max-width: 600px;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    max-height: 90vh;
-    overflow-y: auto;
-  }
-
-  .consent-card h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-    color: #1a202c;
-  }
-
-  .consent-card p {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: #4a5568;
-  }
-
-  /* Specificatie van de diensten */
-  .consent-details {
-    background: #f7fafc;
-    border-left: 4px solid #3182ce;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 4px;
-  }
-
-  .consent-details h3 {
-    font-size: 1rem;
-    margin-top: 0;
-    color: #3182ce;
-  }
-
-  .consent-details ul {
-    margin: 8px 0;
-    padding-left: 20px;
-    font-size: 0.9rem;
-    color: #4a5568;
-  }
-
-  .consent-details li {
-    margin-bottom: 6px;
-  }
-
-  /* Knop styling */
-  .consent-buttons {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-  }
-
-  .btn-accept {
-    background-color: #3182ce;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    width: 100%;
-  }
-
-  .btn-accept:hover {
-    background-color: mediumslateblue;
-  }
-
-  @media (min-width: 480px) {
-    .btn-accept {
-      width: auto;
-    }
-  }
-
-
 /* --- MOBIELE RESPONSIVE STIJL --- */
 @media screen and (max-width: 768px) {
 
@@ -814,10 +899,8 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   /* =======================================*/
 
   .N-overlay-content {
-
     position: absolute;
     top: 25%;
-
     padding: 0px;
   }
 
@@ -845,6 +928,23 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   /* =======================================*/
   /* ============== Intro ==================*/
   /* =======================================*/
+
+  .IntroRealHeader {
+    font-size: 23px;
+  }
+
+  .IntroRealHeader:hover {
+    text-shadow: 0px 0px 0px var(--Custom-ColorB);
+    font-size: 32px;
+    font-family: "Slackey";
+  }
+
+
+
+
+
+
+
   .IntroShadowContainer {
     position: absolute;
     bottom: 50%;
