@@ -596,6 +596,30 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
           Zo dwingt de EU techreuzen onder de DSA tot strengere regels zodra ze meer dan 45 miljoen gebruikers bereiken, en spannen bijna dertig Amerikaanse staten een rechtszaak aan tegen Meta omdat zij jongeren bewust verslaafd zouden maken en daarmee de wet overtreden.<br>
           De overheid stelt hiermee de grenzen aan wat commercieel wenselijk en legaal is ten koste van de volksgezondheid en veiligheid.<br>
     </p>
+    <p>
+      <strong>Spiekbrief: Toetsenbord-shortcuts & Screenreader</strong>
+        Je kunt deze spiekbrief direct opnemen in je learning log (handig voor het plannen van die reis met afgeplakt trackpad of uitgetrokken muis!):
+      # SPIEKBRIEF: Navigeren zonder muis & Screenreader
+
+## 1. Alleen-het-toetsenbord (Keyboard Navigation)
+*   TAB: Ga naar het volgende interactieve element (link, knop, invoerveld).
+*   SHIFT + TAB: Ga naar het *vorige* interactieve element.
+*   SPATIEBALK of ENTER: Activeer een knop, vink een selectievakje aan of open een link.
+*   PIJLJESTOETSEN: Om door keuzelijsten (dropdowns), radiobuttons of scrollbare gebieden te navigeren.
+*   ESCAPE (ESC): Sluit een pop-up, modal of menu.
+## 2. Screenreader (Standaard bediening)
+*(Let op: de exacte toetscombinaties verschillen een beetjes per screenreader zoals VoiceOver op Mac of Verteller/NVDA op Windows)*
+### macOS (VoiceOver)
+*   VO-toetsen = CTRL + OPTION (ingedrukt houden)
+*   VO + Pijl Rechts / Links: Ga naar het volgende of vorige element.
+*   VO + Spatiebalk: Activeer / klik op het huidige element.
+*   VO + U (VoiceOver Rotor): Open het menu om snel te wisselen tussen koppen, links of formuliervelden.
+### Windows (Verteller / Narrator / NVDA)
+*   CAPS LOCK of INSERT fungeert vaak als 'Modifier'-toets (NVDA-toets).
+*   Pijltje Omlaag / Omhoog: Lees de tekst regel voor regel voor.
+*   Tab / Shift + Tab: Spring door links en formuliervelden.
+*   H-toets (in sommige screenreaders): Spring direct naar de volgende kop (Heading).
+</p>
 <span>
   <h3>Check-out:</h3>
   <ul>
