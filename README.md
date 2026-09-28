@@ -600,6 +600,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <strong>Spiekbrief: Toetsenbord-shortcuts & Screenreader</strong>
         Je kunt deze spiekbrief direct opnemen in je learning log (handig voor het plannen van die reis met afgeplakt trackpad of uitgetrokken muis!):
         <img width="1920" height="862" alt="image" src="https://github.com/user-attachments/assets/11fdd75d-fe50-47e6-a002-7277b0f9b51a" />
+      
 ## SPIEKBRIEF: Navigeren zonder muis & Screenreader
 ### 1. Alleen-het-toetsenbord (Keyboard Navigation)
 *   TAB: Ga naar het volgende interactieve element (link, knop, invoerveld).
