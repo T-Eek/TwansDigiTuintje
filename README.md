@@ -620,7 +620,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 *   Tab / Shift + Tab: Spring door links en formuliervelden.
 *   H-toets (in sommige screenreaders): Spring direct naar de volgende kop (Heading).
 </p>
-<img width="741" height="588" alt="image" src="https://github.com/user-attachments/assets/4ecd23a6-6757-4d4e-8a5f-a3c28f716dcf" />
 <img width="1920" height="862" alt="image" src="https://github.com/user-attachments/assets/11fdd75d-fe50-47e6-a002-7277b0f9b51a" />
 <span>
   <h3>Check-out:</h3>
