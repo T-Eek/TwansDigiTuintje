@@ -567,7 +567,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   - Ik ben naar andere Google fonts opzoek gegaan en wilde dat speelse, vloeiende van een lettertype, ik heb er 3 geselecteerd dit zijn: Lobster Two, Dancing Script en Caveat. Ik ben voor <strong>Caveat</strong> gegaan omdat hij het speelse en vloeiende leesbaarheid ook heeft op kleinere voormaat.
 </p>
-
     <h3>28 September</h3>
     <p>Tijdens Bi-weekly geek 2 moesten we een artikel <strong>verkennend</strong> lezen en een video bekijken en een korte samenhang maken en een paar hoofdvragen beantwoorden:</p>
     - Artikel 1 (ChatGPT, Reddit en Roblox onder strengere EU-regels): De Europese Commissie heeft ChatGPT, Reddit en Roblox aangewezen als zeer grote online platforms of zoekmachines onder de Digital Services Act (DSA) omdat ze meer dan 45 miljoen maandelijkse gebruikers in de EU hebben. Hierdoor moeten ze strengere regels         naleven, zoals het verwijderen van illegale content en het beschermen van minderjarigen, op straffe van hoge boetes tot 6% van hun wereldwijde omzet.
@@ -584,7 +583,7 @@ Hoe grijpt de overheid in bij verslavende of schadelijke online diensten (zoals 
 <span>
   <h3>Check-out:</h3>
   <ul>
-      <strong>1. Overleg met een klasgenoot en beantwoord de volgende vragen in jouw Learning-Log:</strong>
+      <strong>Overleg met een klasgenoot en beantwoord de volgende vragen in jouw Learning-Log:</strong>
       <p>
         <strong>1. Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?</strong><br>
         <li>
