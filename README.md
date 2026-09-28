@@ -567,3 +567,51 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   - Ik ben naar andere Google fonts opzoek gegaan en wilde dat speelse, vloeiende van een lettertype, ik heb er 3 geselecteerd dit zijn: Lobster Two, Dancing Script en Caveat. Ik ben voor <strong>Caveat</strong> gegaan omdat hij het speelse en vloeiende leesbaarheid ook heeft op kleinere voormaat.
 </p>
+
+    <h3>28 September</h3>
+    <p>Tijdens Bi-weekly geek 2 moesten we een artikel <strong>verkennend</strong> lezen en een video bekijken en een korte samenhang maken en een paar hoofdvragen beantwoorden:</p>
+    - Artikel 1 (ChatGPT, Reddit en Roblox onder strengere EU-regels): De Europese Commissie heeft ChatGPT, Reddit en Roblox aangewezen als zeer grote online platforms of zoekmachines onder de Digital Services Act (DSA) omdat ze meer dan 45 miljoen maandelijkse gebruikers in de EU hebben. Hierdoor moeten ze strengere regels         naleven, zoals het verwijderen van illegale content en het beschermen van minderjarigen, op straffe van hoge boetes tot 6% van hun wereldwijde omzet.
+
+    - Artikel 2 (AI-chatbots citeren Russische propaganda): Onderzoek van denktank Demos toont aan dat grote taalmodellen (LLMs) zoals die van OpenAI en Mistral soms pro-Russische propaganda van de gesanctioneerde nep-mensenrechtenorganisatie r-FBI citeren en behandelen als legitieme informatie. Dit komt onder andere doordat         kwaadwillenden via Generative Engine Optimisation (GEO) de bronnen van AI-systemen proberen te beïnvloeden en zo desinformatie verspreiden.
+    
+    - Artikel 3 (Megarechtszaak tegen Meta in de VS): Bijna dertig Amerikaanse staten zijn een grote rechtszaak gestart tegen Meta (moederbedrijf van Facebook en Instagram). Meta wordt ervan beschuldigd jongeren bewust verslaafd te maken via algoritmes en eindeloos scrollen, illegale data van kinderen onder de 13 te                 verzamelen, en daarmee de mentale en fysieke gezondheid van jongeren te schaden. De staten eisen dat verslavende functies verdwijnen en een miljardencompensatie.
+
+Wie is er verantwoordelijk voor de betrouwbaarheid en veiligheid van het internet (en wie moet optreden tegen desinformatie en illegale content)?
+- Zowel de overheid als de techbedrijven dragen hier een grote verantwoordelijkheid in. De Europese Unie treedt streng op via wetgeving zoals de Digital Services Act (DSA) om bedrijven te dwingen illegale content te verwijderen en minderjarigen te beschermen. Aan de andere kant laat Artikel 2 zien dat techbedrijven (AI-          aanbieders) soms falen in het filteren van betrouwbare bronnen, waardoor ze onbedoeld Russische propaganda verspreiden. Bedrijven moeten daarom actieve systemen inzetten om misleiding tegen te gaan.
+
+Hoe grijpt de overheid in bij verslavende of schadelijke online diensten (zoals social media en AI)?
+- Overheden gebruiken juridische middelen en megarechtszaken om bedrijven te controleren. Zo dwingt de EU techreuzen onder de DSA tot strengere regels zodra ze meer dan 45 miljoen gebruikers bereiken, en spannen bijna dertig Amerikaanse staten een rechtszaak aan tegen Meta omdat zij jongeren bewust verslaafd zouden maken en     daarmee de wet overtreden. De overheid stelt hiermee de grenzen aan wat commercieel wenselijk en legaal is ten koste van de volksgezondheid en veiligheid.
+<span>
+  <h3>Check-out:</h3>
+  <ul>
+    <li>
+      <strong>1. Overleg met een klasgenoot en beantwoord de volgende vragen in jouw Learning-Log:</strong>
+      <p>
+        <li><strong>1. Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?</strong>
+          In de webontwikkeling gaat semantiek over het kiezen van de juiste, logische HTML-tags (zoals <article>, <nav> of <button>) om de betekenis van de inhoud goed over te brengen aan zoekmachines en screenreaders.
+          Als iemand zegt "semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML", dan bedoelt diegene dat de gebruikerservaring (UX) en interactiviteit van de HTML-elementen voor hem belangrijker zijn dan het strikt volgen van de theoretische regels van semantische code. Het gaat erom hoe het element                 aanvoelt en werkt voor de eindgebruiker in de praktijk.
+        </li>
+            <li><strong>2. Wat voor type beperkingen hebben invloed op het gebruiken van websites?</strong>
+            (POUR/WBBR) wordt er onderscheid gemaakt in vier hoofdcategorieën van beperkingen waar je rekening mee moet houden bij het ontwerpen van een website:
+            <li>Visueel: (Mensen met verminderd zicht, blindheid of kleurenblindheid; zij gebruiken bijvoorbeeld een screenreader).</li>
+            <li>Auditief: (Mensen met gehoorproblemen; zij hebben bijvoorbeeld ondertiteling nodig bij video's).</li>
+            <li>Motorisch: (Mensen met een verminderde fijne motoriek of minder kracht; zij kunnen vaak geen muis gebruiken en bedienen een website met alleen het toetsenbord).</li>
+            <li>Cognitief: (Mensen met leerproblemen, concentratieproblemen of dyslexie; zij hebben baat bij begrijpelijke taal, duidelijke structuur en kunnen ook een screenreader inzetten om tekst te laten voorlezen).</li>
+        </li>
+            <li> <strong>3. Noem drie manieren om door een website te navigeren met jouw screenreader.</strong>
+              -Met een screenreader kun je op verschillende manieren door een webpagina navigeren zonder dat je de muis gebruikt:
+              <li>Navigeren via koppen (Headings - bijv. H1, H2, H3): Screenreader-gebruikers springen vaak snel van kop naar kop om de structuur van de pagina te begrijpen en te bepalen waar ze willen lezen.</li>
+              <li>Navigeren via links en knoppen: Je kunt van interactief element naar interactief element springen om te kijken waar je kunt klikken of actie kunt ondernemen.</li>
+              <li>Regel voor regel / teken voor teken voorlezen: Met de pijltjestoetsen op het toetsenbord kun je de tekst lineair (opeenvolgend) van boven naar beneden laten voorlezen door de screenreader.</li>
+            </li>
+      </p>
+    </li>
+        <li>
+      <strong>Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?</strong>
+      <p>
+        - Dat je het duidelijk en simpel meld op je website en dat de gebruikers duidelijk weten wat er op je website wordt bekeken/ getracked.
+      </p>
+    </li>
+  </ul>
+</span>
+<h1></h1>
