@@ -584,7 +584,6 @@ Hoe grijpt de overheid in bij verslavende of schadelijke online diensten (zoals 
 <span>
   <h3>Check-out:</h3>
   <ul>
-    <li>
       <strong>1. Overleg met een klasgenoot en beantwoord de volgende vragen in jouw Learning-Log:</strong>
       <p>
         <strong>1. Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?</strong><br>
@@ -604,7 +603,6 @@ Hoe grijpt de overheid in bij verslavende of schadelijke online diensten (zoals 
               <li>Navigeren via links en knoppen: Je kunt van interactief element naar interactief element springen om te kijken waar je kunt klikken of actie kunt ondernemen.</li>
               <li>Regel voor regel / teken voor teken voorlezen: Met de pijltjestoetsen op het toetsenbord kun je de tekst lineair (opeenvolgend) van boven naar beneden laten voorlezen door de screenreader.</li>
           </p>
-    </li>
         <li>
       <strong>Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?</strong>
       <p>
