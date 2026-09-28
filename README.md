@@ -623,26 +623,30 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
 <span>
   <h3>Check-out:</h3>
-  <ul>
-      <strong>Overleg met een klasgenoot en beantwoord de volgende vragen in jouw Learning-Log:</strong>
+  <p>
+    <strong>Overleg met een klasgenoot en beantwoord de volgende vragen in jouw Learning-Log:</strong>
+  </p>
       <p>
         <strong>1. Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?</strong><br>
-        <li>
           In de webontwikkeling gaat semantiek over het kiezen van de juiste, logische HTML-tags (zoals <article>, <nav> of <button>) om de betekenis van de inhoud goed over te brengen aan zoekmachines en screenreaders.<br>
-          Als iemand zegt "semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML", dan bedoelt diegene dat de gebruikerservaring (UX) en interactiviteit van de HTML-elementen voor hem belangrijker zijn dan het strikt volgen van de theoretische regels van semantische code. Het gaat erom hoe het element                 aanvoelt en werkt voor de eindgebruiker in de praktijk.
-        </li><br>
+          Als iemand zegt "semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML", dan bedoelt diegene dat de gebruikerservaring (UX) en interactiviteit van de HTML-elementen voor hem belangrijker zijn dan het strikt volgen van de theoretische regels van semantische code.<br>
+          Het gaat erom hoe het element aanvoelt en werkt voor de eindgebruiker in de praktijk.
+      </p>
+      <p>
         <strong>2. Wat voor type beperkingen hebben invloed op het gebruiken van websites?</strong>
             (POUR/WBBR) wordt er onderscheid gemaakt in vier hoofdcategorieën van beperkingen waar je rekening mee moet houden bij het ontwerpen van een website:
             <li>Visueel: (Mensen met verminderd zicht, blindheid of kleurenblindheid; zij gebruiken bijvoorbeeld een screenreader).</li>
             <li>Auditief: (Mensen met gehoorproblemen; zij hebben bijvoorbeeld ondertiteling nodig bij video's).</li>
             <li>Motorisch: (Mensen met een verminderde fijne motoriek of minder kracht; zij kunnen vaak geen muis gebruiken en bedienen een website met alleen het toetsenbord).</li>
             <li>Cognitief: (Mensen met leerproblemen, concentratieproblemen of dyslexie; zij hebben baat bij begrijpelijke taal, duidelijke structuur en kunnen ook een screenreader inzetten om tekst te laten voorlezen).</li><br>
+      </p>
+      <p>
         <strong>3. Noem drie manieren om door een website te navigeren met jouw screenreader.</strong><br>
-              -Met een screenreader kun je op verschillende manieren door een webpagina navigeren zonder dat je de muis gebruikt:
-              <li>Navigeren via koppen (Headings - bijv. H1, H2, H3): Screenreader-gebruikers springen vaak snel van kop naar kop om de structuur van de pagina te begrijpen en te bepalen waar ze willen lezen.</li>
-              <li>Navigeren via links en knoppen: Je kunt van interactief element naar interactief element springen om te kijken waar je kunt klikken of actie kunt ondernemen.</li>
-              <li>Regel voor regel / teken voor teken voorlezen: Met de pijltjestoetsen op het toetsenbord kun je de tekst lineair (opeenvolgend) van boven naar beneden laten voorlezen door de screenreader.</li>
-          </p>
+        -Met een screenreader kun je op verschillende manieren door een webpagina navigeren zonder dat je de muis gebruikt:
+        <li>Navigeren via koppen (Headings - bijv. H1, H2, H3): Screenreader-gebruikers springen vaak snel van kop naar kop om de structuur van de pagina te begrijpen en te bepalen waar ze willen lezen.</li>
+        <li>Navigeren via links en knoppen: Je kunt van interactief element naar interactief element springen om te kijken waar je kunt klikken of actie kunt ondernemen.</li>
+        <li>Regel voor regel / teken voor teken voorlezen: Met de pijltjestoetsen op het toetsenbord kun je de tekst lineair (opeenvolgend) van boven naar beneden laten voorlezen door de screenreader.</li>
+      </p>
         <li>
       <strong>Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?</strong>
       <p>
