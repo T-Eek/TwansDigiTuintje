@@ -599,15 +599,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <p>
       <strong>Spiekbrief: Toetsenbord-shortcuts & Screenreader</strong>
         Je kunt deze spiekbrief direct opnemen in je learning log (handig voor het plannen van die reis met afgeplakt trackpad of uitgetrokken muis!):
-      # SPIEKBRIEF: Navigeren zonder muis & Screenreader
-
-## 1. Alleen-het-toetsenbord (Keyboard Navigation)
+## SPIEKBRIEF: Navigeren zonder muis & Screenreader
+### 1. Alleen-het-toetsenbord (Keyboard Navigation)
 *   TAB: Ga naar het volgende interactieve element (link, knop, invoerveld).
 *   SHIFT + TAB: Ga naar het *vorige* interactieve element.
 *   SPATIEBALK of ENTER: Activeer een knop, vink een selectievakje aan of open een link.
 *   PIJLJESTOETSEN: Om door keuzelijsten (dropdowns), radiobuttons of scrollbare gebieden te navigeren.
 *   ESCAPE (ESC): Sluit een pop-up, modal of menu.
-## 2. Screenreader (Standaard bediening)
+### 2. Screenreader (Standaard bediening)
 *De exacte toetscombinaties verschillen een beetjes per screenreader had ik door research gevonden zoals VoiceOver op Mac of Verteller/NVDA op Windows)*
 ### macOS (VoiceOver)
 *   VO-toetsen = CTRL + OPTION (ingedrukt houden)
