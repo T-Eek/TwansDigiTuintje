@@ -608,7 +608,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 *   PIJLJESTOETSEN: Om door keuzelijsten (dropdowns), radiobuttons of scrollbare gebieden te navigeren.
 *   ESCAPE (ESC): Sluit een pop-up, modal of menu.
 ## 2. Screenreader (Standaard bediening)
-*(Let op: de exacte toetscombinaties verschillen een beetjes per screenreader zoals VoiceOver op Mac of Verteller/NVDA op Windows)*
+*De exacte toetscombinaties verschillen een beetjes per screenreader had ik door research gevonden zoals VoiceOver op Mac of Verteller/NVDA op Windows)*
 ### macOS (VoiceOver)
 *   VO-toetsen = CTRL + OPTION (ingedrukt houden)
 *   VO + Pijl Rechts / Links: Ga naar het volgende of vorige element.
