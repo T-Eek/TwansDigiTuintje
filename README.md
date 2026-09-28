@@ -568,17 +568,34 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   - Ik ben naar andere Google fonts opzoek gegaan en wilde dat speelse, vloeiende van een lettertype, ik heb er 3 geselecteerd dit zijn: Lobster Two, Dancing Script en Caveat. Ik ben voor <strong>Caveat</strong> gegaan omdat hij het speelse en vloeiende leesbaarheid ook heeft op kleinere voormaat.
 </p>
     <h3>28 September</h3>
-    <p>Tijdens Bi-weekly geek 2 moesten we een artikel <strong>verkennend</strong> lezen en een video bekijken en een korte samenhang maken en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen</p>
-    - <strong>Artikel 1 (ChatGPT, Reddit en Roblox onder strengere EU-regels): </strong>De Europese Commissie heeft ChatGPT, Reddit en Roblox aangewezen als zeer grote online platforms of zoekmachines onder de Digital Services Act (DSA) omdat ze meer dan 45 miljoen maandelijkse gebruikers in de EU hebben.<br>
-        Hierdoor moeten ze strengere regels naleven, zoals het verwijderen van illegale content en het beschermen van minderjarigen, op straffe van hoge boetes tot 6% van hun wereldwijde omzet.<br>
-    - <strong>Artikel 2 (AI-chatbots citeren Russische propaganda): </strong>Onderzoek van denktank Demos toont aan dat grote taalmodellen (LLMs) zoals die van OpenAI en Mistral soms pro-Russische propaganda van de gesanctioneerde nep-mensenrechtenorganisatie r-FBI citeren en behandelen als legitieme informatie.<br>
-      Dit komt onder andere doordat kwaadwillenden via Generative Engine Optimisation (GEO) de bronnen van AI-systemen proberen te beïnvloeden en zo desinformatie verspreiden.<br>
-    - <strong>Artikel 3 (Megarechtszaak tegen Meta in de VS): </strong>Bijna dertig Amerikaanse staten zijn een grote rechtszaak gestart tegen Meta (moederbedrijf van Facebook en Instagram).<br>
+    <p>
+      Tijdens Bi-weekly geek 2 moesten we een artikel <strong>verkennend</strong> lezen en een video bekijken en een korte samenhang maken en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen
+    </p>
+    <p>
+       - <strong>Artikel 1 (ChatGPT, Reddit en Roblox onder strengere EU-regels): </strong>De Europese Commissie heeft ChatGPT, Reddit en Roblox aangewezen als zeer grote online platforms of zoekmachines onder de Digital Services Act (DSA) omdat ze meer dan 45 miljoen maandelijkse gebruikers in de EU hebben.<br>
+        Hierdoor moeten ze strengere regels naleven, zoals het verwijderen van illegale content en het beschermen van minderjarigen, op straffe van hoge boetes tot 6% van hun wereldwijde omzet.
+    </p>
+    <p>
+      - <strong>Artikel 2 (AI-chatbots citeren Russische propaganda): </strong>Onderzoek van denktank Demos toont aan dat grote taalmodellen (LLMs) zoals die van OpenAI en Mistral soms pro-Russische propaganda van de gesanctioneerde nep-mensenrechtenorganisatie r-FBI citeren en behandelen als legitieme informatie.<br>
+      Dit komt onder andere doordat kwaadwillenden via Generative Engine Optimisation (GEO) de bronnen van AI-systemen proberen te beïnvloeden en zo desinformatie verspreiden.
+    </p>
+    <p>
+      - <strong>Artikel 3 (Megarechtszaak tegen Meta in de VS): </strong>Bijna dertig Amerikaanse staten zijn een grote rechtszaak gestart tegen Meta (moederbedrijf van Facebook en Instagram).<br>
         Meta wordt ervan beschuldigd jongeren bewust verslaafd te maken via algoritmes en eindeloos scrollen, illegale data van kinderen onder de 13 te verzamelen, en daarmee de mentale en fysieke gezondheid van jongeren te schaden. De staten eisen dat verslavende functies verdwijnen en een miljardencompensatie.<br>
-<strong>Wie is er verantwoordelijk voor de betrouwbaarheid en veiligheid van het internet (en wie moet optreden tegen desinformatie en illegale content)?</strong><br>
-- Zowel de overheid als de techbedrijven dragen hier een grote verantwoordelijkheid in. De Europese Unie treedt streng op via wetgeving zoals de Digital Services Act (DSA) om bedrijven te dwingen illegale content te verwijderen en minderjarigen te beschermen. Aan de andere kant laat Artikel 2 zien dat techbedrijven (AI-          aanbieders) soms falen in het filteren van betrouwbare bronnen, waardoor ze onbedoeld Russische propaganda verspreiden. Bedrijven moeten daarom actieve systemen inzetten om misleiding tegen te gaan.<br>
-<strong>Hoe grijpt de overheid in bij verslavende of schadelijke online diensten (zoals social media en AI)?</strong><br>
-- Overheden gebruiken juridische middelen en megarechtszaken om bedrijven te controleren. Zo dwingt de EU techreuzen onder de DSA tot strengere regels zodra ze meer dan 45 miljoen gebruikers bereiken, en spannen bijna dertig Amerikaanse staten een rechtszaak aan tegen Meta omdat zij jongeren bewust verslaafd zouden maken en     daarmee de wet overtreden. De overheid stelt hiermee de grenzen aan wat commercieel wenselijk en legaal is ten koste van de volksgezondheid en veiligheid.<br>
+    </p>
+    <p>
+      <strong>Wie is er verantwoordelijk voor de betrouwbaarheid en veiligheid van het internet (en wie moet optreden tegen desinformatie en illegale content)?</strong><br>
+        - Zowel de overheid als de techbedrijven dragen hier een grote verantwoordelijkheid in.<br>
+          De Europese Unie treedt streng op via wetgeving zoals de Digital Services Act (DSA) om bedrijven te dwingen illegale content te verwijderen en minderjarigen te beschermen.<br>
+          Aan de andere kant laat Artikel 2 zien dat techbedrijven (AI-aanbieders) soms falen in het filteren van betrouwbare bronnen, waardoor ze onbedoeld Russische propaganda verspreiden.<br>
+          Bedrijven moeten daarom actieve systemen inzetten om misleiding tegen te gaan.<br>
+    </p>
+    <p>
+      <strong>Hoe grijpt de overheid in bij verslavende of schadelijke online diensten (zoals social media en AI)?</strong><br>
+        - Overheden gebruiken juridische middelen en megarechtszaken om bedrijven te controleren.<br>
+          Zo dwingt de EU techreuzen onder de DSA tot strengere regels zodra ze meer dan 45 miljoen gebruikers bereiken, en spannen bijna dertig Amerikaanse staten een rechtszaak aan tegen Meta omdat zij jongeren bewust verslaafd zouden maken en daarmee de wet overtreden.<br>
+          De overheid stelt hiermee de grenzen aan wat commercieel wenselijk en legaal is ten koste van de volksgezondheid en veiligheid.<br>
+    </p>
 <span>
   <h3>Check-out:</h3>
   <ul>
