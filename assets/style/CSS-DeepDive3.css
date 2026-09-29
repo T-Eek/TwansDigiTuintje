@@ -1,0 +1,416 @@
+/**************/
+/* @FONT-FACE */
+/**************/
+
+/* alle fonts hier */
+
+
+
+
+
+
+/*****************************/
+/* JOUW CODE VOOR DE BLOKJES */
+/*****************************/
+
+/* met deze selector selecteer je de eerste li */
+li:nth-of-type(1) {
+	rotate:2deg;
+	
+	display:grid;
+	place-items:center;
+    background-color: rgb(60% 60% 60%);
+
+	/* je kunt css selectors nesten */
+	/* zo kun je makkelijker zien wat bij elkaar hoort */
+	/* met deze selector selecteer je de h2 in de eerste li */
+	h2 {
+        font-family: 'black han', sans-serif;
+        font-size: 4em;
+        text-shadow: .125em .125em .125em rgb(0% 0% 0% / .5);
+        text-transform: uppercase;
+        line-height: 1em;
+        color: rgb(60% 60% 60%);
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            text-shadow: 0 0 0 rgb(0 0 0 / .5);
+            color: rgb(40% 40% 40%);
+        }
+    }
+}
+
+
+/* met deze selector selecteer je de tweede li */
+li:nth-of-type(2) {
+
+    display:grid;
+	place-items:center;
+	background-image: linear-gradient(in oklch, limegreen, midnightblue);
+	
+	h2 {
+	    font-family: "ubuntu", sans-serif;
+        font-size: 2.2em;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            filter: drop-shadow(0 0 1px DeepSkyBlue) drop-shadow(0 0 1px cyan) drop-shadow(0 0 2px cyan) drop-shadow(0 0 3px #fff9);
+        }
+    }
+}
+
+/* met deze selector selecteer je de derde li */
+li:nth-of-type(3) {
+
+	display: grid;
+    place-items: center;
+    background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/IkeaFashion-image.png);
+    background-size: cover;
+    background-position: center;
+	
+	h2 {
+		background-image: linear-gradient(to right, yellow, blue); /* background-image: linear-gradient(to right in oklch, cyan, midnightblue); */
+        background-size: 400% 100%;
+        background-clip: text;
+        font-family: 'ubuntu', sans-serif;
+        font-size: 3em;
+        color: transparent;
+        text-transform: uppercase;
+        animation: --hello-ani 2s infinite linear paused;
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            animation-play-state: running;
+        }
+    }
+}
+
+@keyframes --hello-ani {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+
+/* met deze selector selecteer je de vierde li */
+li:nth-of-type(4) {
+
+	display: grid;
+    place-items: center;
+    background-color: goldenrod; /*background-color: rebeccapurple;*/
+	
+	h2 {
+        font-family: "aldrich", sans-serif;
+        font-weight: 400;
+        font-size: 4em;
+        letter-spacing: .1em;
+        color: white;
+        text-shadow: -.05em -.05em 0 cyan, .05em -.05em 0 magenta, .05em .05em 0 yellow, -.05em .05em 0 black;
+        text-box: trim-both cap alphabetic;
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            text-shadow: 0em -2em 0 cyan, 0em -1em 0 magenta, 0em 1em 0 yellow, 0em 2em 0 black;
+        }
+    }
+}
+
+/* met deze selector selecteer je de vijfde li */
+li:nth-of-type(5) {
+
+	display: grid;
+    place-items: center;
+    background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/MinionQoute-image.png);
+    background-size: cover;
+    background-position: center;
+	
+	h2 {
+		padding: .5em 1.5em;
+        background-image: linear-gradient(45deg, yellow, blue); /* background-image: linear-gradient(45deg in oklch, LightSkyBlue, SteelBlue); */
+        border: solid 1px steelblue;
+        border-radius: 2em;
+        box-shadow: 0 0 .25em white, 0 0 .5em white, 0 0 1em white;
+        font-family: "montserrat alternates", sans-serif;
+        font-size: 2em;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: black;
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            border-color: black; /* Crimson */
+            background-image: linear-gradient(45deg, orange, purple); /* background-image: linear-gradient(45deg in oklch, DarkOrange, Crimson); */
+            box-shadow: 0 0 .25em #0009, 0 0 .5em #0009, 0 0 1em #0009;
+            text-transform: lowercase;
+            color: #000;
+        }
+    }
+}
+
+/* met deze selector selecteer je de zesde li */
+li:nth-of-type(6) {
+
+	display: grid;
+    place-items: center;
+    background-image: linear-gradient(45deg, color(display-p3 0 0 0.96) 50%, color(display-p3 1 1 0.331) 50%);
+	
+	h2 {
+		width: min-content;
+        rotate: 45deg;
+        font-family: 'black han', sans-serif;
+        font-size: 2.5em;
+        line-height: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+        text-shadow: 5px 1px 3px black;
+        unicode-bidi: isolate;
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            rotate: 225deg;
+        }
+    }
+
+    em {
+        display: block;
+        font-style: normal;
+        color: transparent;
+        -webkit-text-stroke-width: 5px;
+        -webkit-text-stroke-color: white;
+        transition: .5s;
+    }
+    &:hover {
+        em {
+            rotate: 180deg;
+        }
+
+    }
+
+    span {
+        display: block;
+        transition: .5s;
+    }
+    &:hover {
+        span {
+            rotate: -180deg;
+        }
+    }
+}
+
+/* met deze selector selecteer je de sevende li */
+li.ticket {
+    display: grid;
+    place-items: center;
+    background-color: #ff3300;
+    rotate: 0deg;
+
+	/* je kunt css selectors nesten */
+	/* zo kun je makkelijker zien wat bij elkaar hoort */
+	/* met deze selector selecteer je de h2 in de eerste li */
+	h2 {
+        @supports (text-box:trim-both cap alphabetic) {
+            padding: .75em .25em;
+            text-box: trim-both cap alphabetic;
+        }
+
+        rotate: -5deg;
+        scale: 1;
+        background-color: #66ccff;
+        border: solid .1em currentcolor;
+        border-radius: .4em;
+        corner-shape: scoop;
+        box-shadow: .15em .3em .4em currentcolor;
+        font-family: "bitcount prop double";
+        font-weight: 400;
+        font-size: 3em;
+        color: #000066;
+        letter-spacing: .1em;
+	}
+    &:hover {
+        h2 {
+            rotate: 0deg;
+            scale: .8;
+            box-shadow: 0 0 0 currentcolor;
+            text-shadow: none;
+            color: #000066;
+        }
+    }
+}
+
+/* met deze selector selecteer je de achste li */
+li.puff {
+    display: grid;
+    place-items: center;
+    background-image: radial-gradient( gold 70%, blue 30%); /* background-image: radial-gradient(in oklch, Yellow, LimeGreen); */
+
+	/* je kunt css selectors nesten */
+	/* zo kun je makkelijker zien wat bij elkaar hoort */
+	/* met deze selector selecteer je de h2 in de eerste li */
+	h2 {
+        font-family: "dyna puff";
+        font-size: 5em;
+        color: blue;
+        -webkit-text-stroke-width: .4em;
+        -webkit-text-stroke-color: goldenrod; /* -webkit-text-stroke-color: limegreen; */
+        paint-order: stroke;
+        animation: --puff-ani 1.5s infinite alternate ease-in-out paused;
+	}
+    &:hover {
+        h2 {
+            animation-play-state: running;
+        }
+    }
+}
+
+@keyframes --puff-ani {
+    0% {
+        letter-spacing: 0em;
+        font-size: 5em;
+    }
+    100% {
+        letter-spacing: .25em;
+        font-size: 4.5em;
+        padding-left: .25em;
+    }
+}
+
+/* met deze selector selecteer je de negenste li */
+li.banana {
+    display: grid;
+    place-items: center;
+    background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/MinionQoute-image.png);
+    background-size: 20% 20%;
+
+	/* je kunt css selectors nesten */
+	/* zo kun je makkelijker zien wat bij elkaar hoort */
+	/* met deze selector selecteer je de h2 in de eerste li */
+	.bananaTekst {
+        padding: .25em 1em;
+        rotate: 10deg;
+        background-image: linear-gradient(90deg, #ffffcc 60%, #f1c62d 0);
+        background-size: 167% 100%;
+        background-position: right;
+        background-clip: border-box;
+        color: darkslategray;
+        border-radius: .25em 80% 80% .25em / .25em 50% 50% .25em;
+        border-radius: 45% / 50%;
+        border: .1em solid  darkslategray;
+        font-family: "dyna puff";
+        font-size: 2.5em;
+        letter-spacing: -.05em;
+        transition: rotate 2.5s linear(0, 0.01, 0.04 1.6%, 0.161 3.3%, 0.816 9.4%, 1.046, 1.189 14.4%, 1.231, 1.254 17%, 1.259, 1.257 18.6%, 1.236, 1.194 22.3%, 1.057 27%, 0.999 29.4%, 0.955 32.1%, 0.942, 0.935 34.9%, 0.933, 0.939 38.4%, 1 47.3%, 1.011, 1.017 52.6%, 1.016 56.4%, 1 65.2%, 0.996 70.2%, 1.001 87.2%, 1), background-position .25s ease-in, translate 2.5s linear(0, 0.004, 0.016 2.5%, 0.063, 0.141, 0.25 10.1%, 0.562, 1 20.2%, 0.783, 0.627, 0.534 30.9%, 0.511, 0.503, 0.511, 0.534 38%, 0.627, 0.782, 1 48.7%, 0.892, 0.815, 0.769 56.3%, 0.757, 0.753, 0.757, 0.769 61.3%, 0.815, 0.892, 1 68.8%, 0.908 72.4%, 0.885, 0.878, 0.885, 0.908 79.4%, 1 83%, 0.954 85.5%, 0.943, 0.939, 0.943, 0.954 90.5%, 1 93%, 0.977, 0.97, 0.977, 1);
+	}
+    &:hover {
+        background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/7de6676888e7aaace80a65aaf08097c8.gif);
+        .bananaTekst {
+            translate: -1em -60em;
+            rotate: 80deg;
+            background-position: left;
+            transition: rotate .375s cubic-bezier(0.895, 0.030, 0.685, 0.220), background-position .25s ease-in, translate .5s .1s cubic-bezier(0.895, 0.030, 0.685, 0.220);
+        }
+    }
+}
+
+/* met deze selector selecteer je de tiende li */
+li.coffee {
+    display: grid;
+    place-items: center;
+    background-image: conic-gradient(from -40deg in oklch, Thistle, MediumVioletRed, Purple 30% 70%, MediumVioletRed, Thistle);
+
+	/* je kunt css selectors nesten */
+	/* zo kun je makkelijker zien wat bij elkaar hoort */
+	/* met deze selector selecteer je de h2 in de eerste li */
+	h2 {
+        width: min-content;
+        padding: 1.5em .9em;
+        background-color: #000;
+        border: solid .3em Purple;
+        box-shadow: inset 0 0 0 .6em White;
+        text-shadow: none;
+        border-radius: 0 1em 0 0;
+        /*corner-shape: scoop; --corners werken niet op sommige browsers */
+        font-family: 'ubuntu', sans-serif;
+        color: white;
+        line-height: 1.3em;
+        font-size: 2em;
+        text-transform: uppercase;
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            padding: .9em 1em;
+            border-radius: 0 0 0 1em;
+            text-shadow: none;
+        }
+    }
+}
+
+/* met deze selector selecteer je de elfde li */
+li:nth-of-type(11) {
+	rotate:2deg;
+	
+	display:grid;
+	place-items:center;
+    background-color: rgb(60% 60% 60%);
+
+	/* je kunt css selectors nesten */
+	/* zo kun je makkelijker zien wat bij elkaar hoort */
+	/* met deze selector selecteer je de h2 in de eerste li */
+	h2 {
+        font-family: 'black han', sans-serif;
+        font-size: 4em;
+        text-shadow: .125em .125em .125em rgb(0% 0% 0% / .5);
+        text-transform: uppercase;
+        line-height: 1em;
+        color: rgb(60% 60% 60%);
+        transition: .5s;
+	}
+    &:hover {
+        h2 {
+            text-shadow: 0 0 0 rgb(0 0 0 / .5);
+            color: rgb(40% 40% 40%);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*************************************/
+/* BASIS - HOEF JE NIETS MEE TE DOEN */
+/*************************************/
+
+@layer basis {
+  *, *::after, *::before {
+    box-sizing:border-box;  
+  }
+
+    .HeaderLINK {
+        color: var(--color-LightDark);
+        text-decoration: none;
+        display: block;
+    }
+
+	:root * {
+		--template-size-blokje:min(calc(12em + 8vw), 16em);
+		--template-number-blokjes:3;
+	}
+}
