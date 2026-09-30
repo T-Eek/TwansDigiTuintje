@@ -656,3 +656,32 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
 <h1></h1>
+
+<h3>30 September</h3>
+<h3>Woensdag WCAG checklist</h3>
+<p>
+ Met Bera heb ik de WCAG checklist ingevuld en de eerste test gedaan. 
+</p>
+  <ul>
+    - Over de WCAG checklist:
+    <li>
+      <strong>Content</strong>
+      <img width="1616" height="2261" alt="image" src="https://github.com/user-attachments/assets/4f303d89-bb8f-49ea-babb-9403f698ba0b" />
+      <img width="1231" height="144" alt="image" src="https://github.com/user-attachments/assets/e2aa9435-bde7-4a6f-868b-93c84851d07d" />
+      <img width="1262" height="215" alt="image" src="https://github.com/user-attachments/assets/b86dc181-e12d-4156-9d52-da9fa14cab48" />
+    </li>
+    - Mijn Digi Tuintje:
+    <li>
+      1.Betere alinement tussen de kopjes, plaatjes en teksten
+      2. Andere font zoeken voor nornale teksten.
+    </li>
+    - Pros:
+    <li>
+      1. Bijpassend intro scherm
+      2. Enthousiaste micro-interacties
+      3. Speels met de hovers en tekst style
+    </li>
+  </ul>
+
+
+
