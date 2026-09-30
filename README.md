@@ -676,17 +676,41 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1519" height="2159" alt="image" src="https://github.com/user-attachments/assets/8e1a888b-dcbf-456d-a2f2-7ac96b82dfcc" />
       <img width="442" height="58" alt="image" src="https://github.com/user-attachments/assets/cbbd61b0-1d53-4feb-8f21-d713292e4828" />
       <img width="1919" height="222" alt="image" src="https://github.com/user-attachments/assets/29f2e40d-6e90-4c02-8902-2bc66bb94b75" />
-
-
-
       1.Betere alinement tussen de kopjes, plaatjes en teksten
       2. Andere font zoeken voor nornale teksten.
     </li>
     - Pros:
     <li>
+      <strong>Images</strong>
       1. Bijpassend intro scherm
       2. Enthousiaste micro-interacties
       3. Speels met de hovers en tekst style
+    </li>
+    <li>
+      <strong>Media (Video and Audio</strong>
+      <img width="1585" height="1604" alt="image" src="https://github.com/user-attachments/assets/1591a42a-638f-40f8-a3ec-23b72c0f7e25" />
+      1.Betere alinement tussen de kopjes, plaatjes en teksten
+      2. Andere font zoeken voor nornale teksten.
+    </li>
+    - Pros:
+    <li>
+      <strong>Controls</strong>
+      1. Bijpassend intro scherm
+      2. Enthousiaste micro-interacties
+      3. Speels met de hovers en tekst style
+    </li>
+    <li>
+      <strong>Animation</strong>
+      <img width="1630" height="2326" alt="image" src="https://github.com/user-attachments/assets/369f6959-5b69-4878-a548-63f6f2cf5ef6" />
+      1. Bijpassend intro scherm
+      2. Enthousiaste micro-interacties
+      3. Speels met de hovers en tekst style
+    </li>
+    <li>
+      <strong>Color contrast</strong>
+      <img width="1585" height="1604" alt="image" src="https://github.com/user-attachments/assets/1591a42a-638f-40f8-a3ec-23b72c0f7e25" />
+      1.Betere alinement tussen de kopjes, plaatjes en teksten
+      2. Andere font zoeken voor nornale teksten.
     </li>
   </ul>
 
