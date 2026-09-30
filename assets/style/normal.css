@@ -40,6 +40,8 @@ html {
   --background-Dark: linear-gradient(to right, black, black, white, white, white);
   --background-Light: linear-gradient(to right, white, white, black, black, black);
   --background-Ikea: linear-gradient(to bottom, yellow, yellow 55%, blue, blue 45%);
+  --background-Rainbow: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
+  --boxshadow-Rainbow: -15px -10px 8px #FF7A00, 20px -20px 8px #FF0069, -15px 10px 8px #D300C5, 20px 20px 8px #7638FA;
 
 
 
@@ -54,8 +56,11 @@ html {
   --Custom-ColorY: yellow;
   --Custom-ColorG: Gold;
   --Custom-ColorBL: blue;
+  --Custom-ColorExtraBL: #3182ce;
+  --Custom-ColorR: red;
   --Custom-Color-Toggle: mediumslateblue;
   --Custom-BorderColor-Toggle: darkslategrey;
+  --white-space: padding 10rem;
 
 
   --Nav-Custom-Color: white;
@@ -123,7 +128,7 @@ MARK: NAV Menu
 
 .NavOVERLAY a {
   text-decoration: none;
-  font-size: 6vw;
+  font-size: 5vw;
   transition: 0.3s;
   color: var(--Custom-ColorG);
 }
@@ -148,7 +153,7 @@ MARK: NAV Menu
 .listSTYLE { /* Nav links */
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.2rem;
   transition: border-bottom 1.5s;
 }
 
@@ -208,10 +213,6 @@ html:has( [value="dark"]:checked) { --Dark Mode
 /* =============================== Oude Light-Dark Mode ================================ */
 
 /*
-MARK: INDEX.HTML
-*/
-
-/*
 MARK: Cookie Pop-up
 */
 /* Overlay achtergrond (schermdonkerkleuring) */
@@ -233,7 +234,7 @@ MARK: Cookie Pop-up
 
 /* Het infovenster zelf */
 .consent-card {
-  background: #ffffff;
+  background: var(--Custom-ColorW);
   color: #2d3748;
   width: 100%;
   max-width: 600px;
@@ -259,8 +260,8 @@ MARK: Cookie Pop-up
 
 /* Specificatie van de diensten */
 .consent-details {
-  background: #f7fafc;
-  border-left: 4px solid #3182ce;
+  background: var(--Custom-ColorW);
+  border-left: 4px solid var(--Custom-ColorExtraBL);
   padding: 15px;
   margin: 20px 0;
   border-radius: 4px;
@@ -269,7 +270,7 @@ MARK: Cookie Pop-up
 .consent-details h3 {
   font-size: 1rem;
   margin-top: 0;
-  color: #3182ce;
+  color: var(--Custom-ColorExtraBL);
 }
 
 .consent-details ul {
@@ -291,8 +292,8 @@ MARK: Cookie Pop-up
 }
 
 .btn-accept {
-  background-color: #3182ce;
-  color: white;
+  background-color: var(--Custom-ColorExtraBL);
+  color: var(--Custom-ColorW);
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -304,7 +305,7 @@ MARK: Cookie Pop-up
 }
 
 .btn-accept:hover {
-  background-color: mediumslateblue;
+  background-color: var(--Custom-Color-Toggle);
 }
 
 @media (min-width: 480px) {
@@ -318,8 +319,10 @@ MARK: Intro Header
 */
 .IntroHeaderContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 500px;
+  align-items: center;
+  height: 42rem;
 }
 
 .IntroRealHeader {
@@ -335,6 +338,32 @@ MARK: Intro Header
   font-size: 4vw;
 
   /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
+
+  &:hover {
+    text-shadow: 0px 0px 0px transparent;
+    font-size: 5vw;
+    text-decoration: underline var(--Custom-ColorBL);
+
+  + .IntroTekst {
+      color: var(--Custom-ColorR);
+      opacity: 100%;
+    }
+  }
+}
+
+@keyframes INTROmove {
+	to {
+		background-position: 500vh;
+	}
+}
+
+.IntroTekst {
+  display: flex;
+  width: 60%;
+  opacity: 0%;
+
+  margin: 0px;
+  font-size: 2vw;
 }
 
 .HeaderLINK {
@@ -343,8 +372,21 @@ MARK: Intro Header
   display: block;
 }
 .HeaderLINK:hover {
-  text-decoration: underline;
+  text-decoration: underline var(--Custom-ColorBL);
 }
+
+/*
+MARK: Intro Header Link
+*/
+.IntroLINK {
+  text-decoration: none;
+  color: var(--Custom-ColorB);
+}
+
+/*.IntroRealHeader:active {
+  text-shadow: 0px 0px 0px transparent;
+  font-size: 5vw;
+}*/
 
 /*
 MARK: Toggle Switch L/D
@@ -363,6 +405,10 @@ html:has( [value="LightDark-ToggleSwitch"]) {
   .IntroRealHeader:hover {
     text-shadow: 0px 0px 0px var(--Custom-ColorB);
     font-family: "Slackey";
+
+    .IntroTekst {
+      opacity: 100%;
+    }
   }
 }
 
@@ -379,6 +425,9 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   }
 
   .IntroRealHeader:hover {
+    .IntroTekst {
+      opacity: 100%;
+    }
     text-shadow: 0px 0px 0px var(--Custom-ColorW);
     font-family: "Slackey";
   }
@@ -426,8 +475,14 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   border-radius: 10px;
   width: 100%;
   height: 100%;
-  transition: background-color 0.3s;
-  box-shadow: -5px -15px 2px var(--color-LightDark), 5px -15px 2px var(--color-LightDark);
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 5px -8px 5px var(--color-LightDark);
+
+  .SliderTekst {
+    margin: 45px 0px;
+    font-size: 17px;
+    transition: margin 0.3s ease-in-out; /* Zorgt voor een soepele overgang */
+  }
 
 }
 
@@ -460,7 +515,7 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   transition: transform 0.3s;
 }
 
-.toggle-switch input:checked+.slider {
+/*.toggle-switch input:checked+.slider {
   background-color: var(--Custom-Color-Toggle);
 }
 
@@ -470,33 +525,29 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
 
 .toggle-switch input:checked+ .slider .slider2::before {
   transform: translateY(95px) translateX(16px) scale(2);
+}*/
+
+.toggle-switch {
+  input {
+    &:checked {
+      & + .slider {
+        background-color: var(--Custom-Color-Toggle);
+
+        .SliderTekst {
+          margin: -45px 0px;
+        }
+
+        &::before {
+          transform: translateY(80px);
+        }
+      }
+
+      & + .slider .slider2::before {
+        transform: translateY(95px) translateX(16px) scale(2);
+      }
+    }
+  }
 }
-
-/*
-MARK: Link Tekst
-*/
-
-.IntroLINK {
-  text-decoration: none;
-  color: var(--Custom-ColorB);
-}
-
-.IntroRealHeader:hover {
-  text-shadow: 0px 0px 0px transparent;
-  font-size: 5vw;
-}
-
-.IntroRealHeader:active {
-  text-shadow: 0px 0px 0px transparent;
-  font-size: 5vw;
-}
-
-@keyframes INTROmove {
-	to {
-		background-position: 500vh;
-	}
-}
-
 /* Pulse animatie */
 /*@keyframes pulse {
   0% {
@@ -557,8 +608,8 @@ MARK: Intro.HTML
   transition: padding 20s, box-shadow 8s; /*https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2*/
 }
 .RealHeader:hover {
-  background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
-  box-shadow: -15px -10px 8px #FF7A00, 20px -20px 8px #FF0069, -15px 10px 8px #D300C5, 20px 20px 8px #7638FA; /*https://www.w3schools.com/cssref/tryit.php?filename=trycss3_box-shadow*/
+  background-image: var(--background-Rainbow);
+  box-shadow: var(--boxshadow-Rainbow); /*https://www.w3schools.com/cssref/tryit.php?filename=trycss3_box-shadow*/
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: move 35s linear infinite;
@@ -632,16 +683,16 @@ MARK: Intro.HTML
     color: var(--Custom-ColorY);
   }
 
-    .ShowCaseText4 {
+    /*.ShowCaseText4 {
     transition: 0.4s ease-in-out;
     background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
     background-clip: text;
     color: transparent;
     text-shadow: none;
-  }
+  }*/
 
   .ShowCaseText5 {
-    background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
+    background-image: var(--background-Rainbow);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: ShowCaseMove 360s linear infinite;
@@ -706,7 +757,6 @@ MARK: Intro.HTML
   display: flex;
   flex-direction: column;
   column-count: 1;
-  justify-content: center;
   align-items: center;
 }
 
@@ -716,25 +766,28 @@ MARK: Intro.HTML
   align-items: center;
   width: 70%;
 
-  margin-bottom: 2em;
+  margin: 1em 0px;
 }
 
 .InfoSCImgContainer1, .InfoSCImgContainer2 {
   display: flex;
-  align-items: baseline;
   overflow: hidden;
 }
 
 .InfoSCImage1 {
-  width: 500px;
-  height: 250px;
+  width: 100%;
+  height: 30rem;
   object-fit: cover; /* Voorkomt dat afbeeldingen uitreken / vervormen */
   transition: transform 0.4s ease-in-out;
 }
 
+.Info-SCT-CONTAINER {
+  font-size: 28px;
+}
+
 .InfoSCImage2 {
-  width: 400px;
-  height: 600px;
+  width: 100%;
+  height: 80rem;
   object-fit: cover; /* Voorkomt dat afbeeldingen uitreken / vervormen */
   transition: transform 0.4s ease-in-out;
 }
@@ -746,8 +799,7 @@ MARK: Intro.HTML
 
 
 .ISC-Container {
-  display: flex;
-  align-items: start;
+  display: block;
   padding: 0px 3rem;
 }
 
@@ -757,19 +809,25 @@ MARK: Intro.HTML
     color: var(--Custom-ColorY);
     transition: 0.4s ease-in-out;
   }
+
   .ShowCaseText4 {
     font-size: 24px;
+    transition: 0.4s ease-in-out;
+    background: var(--background-Ikea);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }
 
-    background-image: var(--background-Ikea);
+  .ShowCaseText5 {
+    font-size: 24px;
+    background-image: var(--background-Rainbow);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: ShowCaseMove 360s linear infinite;
     transition: 0.4s ease-in-out;
+    cursor: pointer;
   }
-}
-
-.Info-SCT-CONTAINER {
-  white-space: normal;
-  width: 50%;
 }
 
 .InfoSCImgContainer1:hover, .InfoSCImgContainer2:hover {
@@ -799,26 +857,6 @@ MARK: Intro.HTML
   }
 
 }*/
-
-.InfoSCText1 {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -898,12 +936,14 @@ MARK: Footer Text
 }
 
 /* --- MOBIELE RESPONSIVE STIJL --- */
+/*
+MARK: Mobiel screen 768px (iphone 17)
+*/
 @media screen and (max-width: 768px) {
 
-  /* =======================================*/
-  /* ============= Navigatie ===============*/
-  /* =======================================*/
-
+/*
+  MARK: Mobiel Nav
+*/
   .N-overlay-content {
     position: absolute;
     top: 25%;
@@ -926,15 +966,16 @@ MARK: Footer Text
     height: 3rem;
   }
 
-
+/*
+  MARK: Mobiel Repo
+*/
   .modelrepoCONTAINER {
     display: inline-flex;
   }
 
-  /* =======================================*/
-  /* ============== Intro ==================*/
-  /* =======================================*/
-
+/*
+  MARK: Mobiel Header
+*/
   .IntroRealHeader {
     font-size: 23px;
   }
@@ -945,32 +986,26 @@ MARK: Footer Text
     font-family: "Slackey";
   }
 
-
-
-
-
-
-
   .IntroShadowContainer {
     position: absolute;
     bottom: 50%;
     width: 100%;
   }
 
-  /* =======================================*/
-  /* =========== Al MIJN WERK ==============*/
-  /* =======================================*/
+/*
+  MARK: Mobiel Mijn Werk
+*/
   .ShowCaseContainer {
     display: block;
+    margin: 0px;
   }
 
-  .WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5 {
+  .WorkShowCase1, .WorkShowCase2, .WorkShowCase3, .WorkShowCase4, .WorkShowCase5:not(:last-child) {
     display: flex;
     justify-content: left;
     align-content: baseline;
     border-bottom: 1px solid var(--color-LightDark);
-    border-top: 1px solid var(--color-LightDark);
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .WorkShowCase1:hover, .WorkShowCase2:hover, .WorkShowCase4:hover, .WorkShowCase5:hover {
@@ -989,11 +1024,12 @@ MARK: Footer Text
   }
 
   .SCImage1, .SCImage2, .SCImage3, .SCImage4 {
-    max-width: 25vw;
+    max-width: 24vw;
+    max-height: 13vw;
   }
 
   .ShowCaseTitle {
-    font-size: 6vw;
+    font-size: 3.5vw;
   }
 
   .SC-Titel-H2 {
@@ -1001,22 +1037,47 @@ MARK: Footer Text
   }
 
   .ISC-Container {
-    padding: 0px;
-    font-size: 3vw;
+    display: block;
+    padding: 0px 3rem;
+    width: 69%;
   }
 
 
-  .InfoSCImage1, .InfoSCImage2 {
-    width: 44vw;
+  /*
+  MARK: Mobiel Info
+*/
+  .InfoCONTAINER {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    justify-content: normal;
+    align-items: normal;
+  }
+
+  .InfoShowCase1, .InfoShowCase2, .InfoShowCase3, .InfoShowCase4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0px;
+  }
+
+  .InfoSCImage1 {
+    width: 69vw;
+    max-height: 28vw;
+  }
+
+  .InfoSCImage2 {
+    width: 69vw;
+    max-height: 86vw;
   }
 
   .Info-SCT-CONTAINER {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
-  /* =======================================*/
-  /* ============== Footer =================*/
-  /* =======================================*/
+/*
+  MARK: Mobiel Footer
+*/
   .fo-Copyright-tekst {
     font-size: 14px;
   }
