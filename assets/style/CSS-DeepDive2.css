@@ -113,6 +113,10 @@ html  {
     display: block;
   }
 
+  .HeaderLINK:hover {
+    text-decoration: underline;
+  }
+
   .CSS-DeepDive-2 {
     margin:0;
     padding:0;

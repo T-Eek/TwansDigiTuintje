@@ -123,7 +123,7 @@ MARK: NAV Menu
 
 .NavOVERLAY a {
   text-decoration: none;
-  font-size: 7vw;
+  font-size: 6vw;
   transition: 0.3s;
   color: var(--Custom-ColorG);
 }
@@ -142,14 +142,13 @@ MARK: NAV Menu
 .N-overlay-content {
   padding: 0px;
   position: absolute;
-  top: 10%;
+  top: 2%;
 }
 
 .listSTYLE { /* Nav links */
   display: flex;
   justify-content: center;
-  font-size: 1em;
-  padding: 2.5rem;
+  padding: 2rem;
   transition: border-bottom 1.5s;
 }
 
@@ -253,7 +252,7 @@ MARK: Cookie Pop-up
 }
 
 .consent-card p {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   color: #4a5568;
 }
@@ -318,9 +317,9 @@ MARK: Cookie Pop-up
 MARK: Intro Header
 */
 .IntroHeaderContainer {
-  position: fixed;
-  bottom: 50%;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
 }
 
 .IntroRealHeader {
@@ -336,6 +335,15 @@ MARK: Intro Header
   font-size: 4vw;
 
   /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
+}
+
+.HeaderLINK {
+  color: var(--color-LightDark);
+  text-decoration: none;
+  display: block;
+}
+.HeaderLINK:hover {
+  text-decoration: underline;
 }
 
 /*
@@ -877,7 +885,6 @@ MARK: Footer Text
 /* ============== Footer =================*/
 /* =======================================*/
 .CopyrightTekstCONTAINER{
-  position: static;
   display: flex;
   justify-content: center;
   margin: 1% 0px;

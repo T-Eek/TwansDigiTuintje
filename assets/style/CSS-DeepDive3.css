@@ -409,6 +409,10 @@ li:nth-of-type(11) {
         display: block;
     }
 
+    .HeaderLINK:hover {
+        text-decoration: underline;
+    }
+
 	:root * {
 		--template-size-blokje:min(calc(12em + 8vw), 16em);
 		--template-number-blokjes:3;
