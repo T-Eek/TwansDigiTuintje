@@ -232,6 +232,10 @@ MARK: Cookie Pop-up
   box-sizing: border-box;
 }
 
+.CookContainer {
+  display: flex;
+}
+
 /* Het infovenster zelf */
 .consent-card {
   background: var(--Custom-ColorW);
