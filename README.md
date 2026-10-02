@@ -481,9 +481,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 - Voor de opdracht moesten we in een groepje: <strong>Samen met Giel en Wessel</strong> een website zoeken en een cookie vinden en deze over schetsen, daarna moesten we noteren welke cons de cookie had, daarna moesten we verbeteringen schetsen.
   (als te zien is in mijn schetsen van Booking.com)
 
-
-
-
 <span>
   <h3>Check-out:</h3>
   <ul>
@@ -756,13 +753,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
 <h1></h1>
 <h3>Sprint 2</h3>
-<h3>21 September</h3>
-<p>
-  <storng>Een nieuwe sprint, dit betekend nieuwe theorie, in deze les ging het over de structuur van je HTML en wat voor duidelijke/ onduidelijke informatie er in een cookie pop-up medling staat.</storng>
-</p>
-<img width="2096" height="1470" alt="image" src="https://github.com/user-attachments/assets/5eef5330-1453-4ee7-ab23-a31df13cf9f2" />
-<img width="1051" height="736" alt="image" src="https://github.com/user-attachments/assets/00f637dc-25d3-43b0-a51d-cd0271129070" />
-- Voor de Welingelichte Cookie Consent moesten we in groepjes van 3 verschillende cookie banners of cookie pop-ups verkennen en de vragen beantwoorden, dit heb ik samen met Danial en Christina beantwoord.
 
 
 
