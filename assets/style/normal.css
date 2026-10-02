@@ -215,6 +215,8 @@ html:has( [value="dark"]:checked) { --Dark Mode
 /*
 MARK: Cookie Pop-up
 */
+
+/* Bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch */
 /* Overlay achtergrond (schermdonkerkleuring) */
 #consentOverlay {
   position: fixed;
@@ -531,9 +533,10 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   transform: translateY(95px) translateX(16px) scale(2);
 }*/
 
+/* Toggle Switch elementen heb ik apart gezet, zodat ik de hover animatie kan toepassen op de hele toggle switch, en niet alleen op de slider */
 .toggle-switch {
   input {
-    &:checked {
+    &:checked { /*heeft direct effect op de slider en slider2*/
       & + .slider {
         background-color: var(--Custom-Color-Toggle);
 
@@ -546,7 +549,7 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
         }
       }
 
-      & + .slider .slider2::before {
+      & + .slider .slider2::before { /* heeft direct effect op de slider2 */
         transform: translateY(95px) translateX(16px) scale(2);
       }
     }
@@ -907,8 +910,6 @@ MARK: Footer Text
   w3schools: https://www.w3schools.com/css/css3_columns.asp
   https://kulor.medium.com/pinterest-style-masonry-layout-using-pure-css-493c1206d01d
 */
-
-
 .gallery {
   border: 1px solid var(--Custom-Standaard-Color);
   margin: 5px 5px;
