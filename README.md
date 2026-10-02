@@ -752,7 +752,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   (Nicky) Heijmen, N.A. gaf mij als feedback dat ik mijn learning log meer up-to-date moest houden met veranderingen van mijn website, daarnaast moet ik mijn code erg opschonen, minder classes gebruiken.
 </p>
 <h1></h1>
-<h3>Sprint 2</h3>
 
 
 
