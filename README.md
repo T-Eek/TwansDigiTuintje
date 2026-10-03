@@ -763,17 +763,17 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <strong>In mijn Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel proberen om dezelfde CSS te behouden die ik er al aan had gegeven</strong>
       <p>
-        <strong>Oud:</strong>
+        <strong>Oud (met de code):</strong>
       </p>
       <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" />
+      <img width="845" height="708" alt="image" src="https://github.com/user-attachments/assets/902da4a0-8ac7-48e4-8b91-7fb40b603608" />
       <p>
-        <strong>Nieuw:</strong>
+        <strong>Nieuw (met de code):</strong>
       </p>
       <img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/841166ff-356a-4f7d-8652-cf95a75ded6a" />
       <p>
         <strong>Oud:</strong>
       </p>
-      <img width="845" height="708" alt="image" src="https://github.com/user-attachments/assets/902da4a0-8ac7-48e4-8b91-7fb40b603608" />
       <p>
         <strong>Nieuw:</strong>
       </p>
