@@ -760,8 +760,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
+    <p>In mijn Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel proberen om dezelfde CSS te behouden die ik er al aan had gegeven</p>
     <li>
-     <p>In mijn Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel proberen om dezelfde CSS te behouden die ik er al aan had gegeven</p>
       <p>
         <strong>Oud (met HTML & CSS code):</strong>
       </p>
