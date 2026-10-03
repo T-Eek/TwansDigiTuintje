@@ -779,15 +779,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <strong>Oud (met HTML & CSS code):</strong>
       </p>
       <img width="1920" height="756" alt="image" src="https://github.com/user-attachments/assets/09f05ffe-80af-462d-b445-6c1e9216eb1c" />
-      <img width="845" height="710" alt="image" src="https://github.com/user-attachments/assets/5be567c3-e76f-47b7-a850-21041dfecb51" />
-      <img width="564" height="878" alt="image" src="https://github.com/user-attachments/assets/b8a3d28b-e641-45f9-9976-a69e287c7b8b" />
-      <img width="574" height="968" alt="image" src="https://github.com/user-attachments/assets/4f14cb61-8648-4fb5-9b19-cba0213e1ab5" />
-      <img width="306" height="822" alt="image" src="https://github.com/user-attachments/assets/a8c57b43-750f-49d6-9987-b924f4db0b3e" />
-
-
+      <img width="1567" height="944" alt="image" src="https://github.com/user-attachments/assets/ba7ccc85-4fcc-4788-b204-03e0fe47ac7a" />
+      <img width="906" height="946" alt="image" src="https://github.com/user-attachments/assets/73163bce-eb3d-4c81-8385-3dd07c2597e6" />
       
-
-
       <p>
         <strong>Nieuw:</strong>
       </p>
