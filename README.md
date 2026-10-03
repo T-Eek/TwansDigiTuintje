@@ -766,11 +766,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <strong>Oud (met de code):</strong>
       </p>
       <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" />
-      <img width="845" height="708" alt="image" src="https://github.com/user-attachments/assets/902da4a0-8ac7-48e4-8b91-7fb40b603608" />
+      <img width="634" height="930" alt="image" src="https://github.com/user-attachments/assets/4a734a69-a87b-4550-a3ad-fc4373ac61e4" />
+
       <p>
         <strong>Nieuw (met de code):</strong>
       </p>
       <img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/841166ff-356a-4f7d-8652-cf95a75ded6a" />
+      <img width="629" height="859" alt="image" src="https://github.com/user-attachments/assets/880b8ef6-147a-48b9-97fa-23c64cb03009" />
+
       <p>
         <strong>Oud:</strong>
       </p>
