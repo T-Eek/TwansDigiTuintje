@@ -763,101 +763,75 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <p>Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel geprobeerd om dezelfde CSS te behouden die ik er al aan had gegeven</p>
     <li>
       <p>
-        <strong>Oud (met HTML & CSS code):</strong>
+        <strong>Oude Cookie banner (met HTML & CSS code):</strong>
       </p>
       <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" />
       <img width="634" height="930" alt="image" src="https://github.com/user-attachments/assets/4a734a69-a87b-4550-a3ad-fc4373ac61e4" />
       <img width="1015" height="974" alt="image" src="https://github.com/user-attachments/assets/a88e40ee-e72e-40e7-affd-a5830592082b" />
       <p>
-        <strong>Nieuw (met HTML & CSS code):</strong>
+        <strong>Nieuwe Cookie banner (met HTML & CSS code):</strong>
       </p>
       <img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/841166ff-356a-4f7d-8652-cf95a75ded6a" />
       <img width="629" height="859" alt="image" src="https://github.com/user-attachments/assets/880b8ef6-147a-48b9-97fa-23c64cb03009" />
       <img width="1008" height="988" alt="image" src="https://github.com/user-attachments/assets/38818959-1d3e-4d2c-b697-ab725a2dd58b" />
       <p>In mijn Intro.html heb ik: Mijn tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie van waar ik het allemaal vandaan heb (Miro bord)</p>
       <p>
-        <strong>Oud (met HTML & CSS code):</strong>
+        <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong>
       </p>
       <img width="1920" height="756" alt="image" src="https://github.com/user-attachments/assets/09f05ffe-80af-462d-b445-6c1e9216eb1c" />
       <img width="1567" height="944" alt="image" src="https://github.com/user-attachments/assets/ba7ccc85-4fcc-4788-b204-03e0fe47ac7a" />
       <img width="906" height="946" alt="image" src="https://github.com/user-attachments/assets/73163bce-eb3d-4c81-8385-3dd07c2597e6" />
       <img width="1685" height="948" alt="image" src="https://github.com/user-attachments/assets/3cf0be5d-b721-42ad-950f-70d0b36d00b7" />
       <p>
-        <strong>Nieuw:</strong>
+        <strong>Nieuwe tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS):</strong>
       </p>
-      <p>Hamburger Menu:</p>
       <p>
-        <strong>Oud:</strong>
+        <strong>Oude Hamburger Menu (met HTML & CSS):</strong>
       </p>
       <img width="1920" height="268" alt="image" src="https://github.com/user-attachments/assets/0e7df9f0-0303-4028-9797-aef0945191e6" />
       <img width="1920" height="985" alt="image" src="https://github.com/user-attachments/assets/b54cb9a9-f4b4-4a9b-9399-a97a34f5b193" />
       <img width="561" height="943" alt="image" src="https://github.com/user-attachments/assets/8699a1c1-4c57-4e40-9296-6f2378292ef2" />
 
       <p>
-        <strong>Nieuw:</strong>
+        <strong>Nieuwe (met HTML & CSS):</strong>
       </p>
       <p>
-        <strong>Oud:</strong>
+        <strong>Oude (met HTML & CSS):</strong>
       </p>
       <p>
-        <strong>Nieuw:</strong>
+        <strong>Nieuwe (met HTML & CSS):</strong>
       </p>
       <p>
-        <strong>Oud:</strong>
+        <strong>Oude (met HTML & CSS):</strong>
       </p>
       <p>
-        <strong>Nieuw:</strong>
+        <strong>Nieuwe (met HTML & CSS):</strong>
       </p>
     </li>
-    <p>
-      - In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS
-    </p>
+    <p></p>
     <li>
-      <strong>Headings</strong>
-      <img width="1519" height="2159" alt="image" src="https://github.com/user-attachments/assets/8e1a888b-dcbf-456d-a2f2-7ac96b82dfcc" />
-      <img width="442" height="58" alt="image" src="https://github.com/user-attachments/assets/cbbd61b0-1d53-4feb-8f21-d713292e4828" />
-      <img width="1919" height="222" alt="image" src="https://github.com/user-attachments/assets/29f2e40d-6e90-4c02-8902-2bc66bb94b75" />
-      <p>
-        - Ik gebruikt meerdere H1 elementen per page
-      </p>
-    </li>
-    - Pros:
-    <li>
-      <strong>Images</strong>
-      <p>
-        - Ik heb wel alt maar de alt uitleg kan beter (moet ik dus aanpassen)<br>
-      </p>
-      <p>
-        - Ik heb nog geen alternative tekst (zoals een chart/ map)
-      </p>
+      <p></p>
     </li>
     <li>
-      <strong>Media (Video and Audio</strong>
-      <img width="1585" height="1604" alt="image" src="https://github.com/user-attachments/assets/1591a42a-638f-40f8-a3ec-23b72c0f7e25" />
-      <p>
-        - N.V.T Ik heb nog geen video's/ Audio's
-      </p>
-    </li>
-    - Pros:
-    <li>
-      <strong>Controls</strong>
-      <p>
-        - Ik kan mijn links beter vormgeven.
-      </p>
+      <strong></strong>
+      <p></p>
+      <p></p>
     </li>
     <li>
-      <strong>Animation</strong>
-      <img width="1630" height="2326" alt="image" src="https://github.com/user-attachments/assets/369f6959-5b69-4878-a548-63f6f2cf5ef6" />
-      <p>
-        - N.V.T, Zou video's via een optie op pauze kunnen toevoegen
-      </p>
+      <strong></strong>
+      <p></p>
     </li>
     <li>
-      <strong>Color contrast</strong>
-      <img width="1585" height="1604" alt="image" src="https://github.com/user-attachments/assets/1591a42a-638f-40f8-a3ec-23b72c0f7e25" />
-      <p>
-        - Zou een ::selection voor kleuren kunnen gebruiken
-      </p>
+      <strong></strong>
+      <p></p>
+    </li>
+    <li>
+      <strong></strong>
+      <p></p>
+    </li>
+    <li>
+      <strong></strong>
+      <p></p>
     </li>
   </ul>
 
