@@ -782,17 +782,17 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1567" height="944" alt="image" src="https://github.com/user-attachments/assets/ba7ccc85-4fcc-4788-b204-03e0fe47ac7a" />
       <img width="906" height="946" alt="image" src="https://github.com/user-attachments/assets/73163bce-eb3d-4c81-8385-3dd07c2597e6" />
       <img width="1685" height="948" alt="image" src="https://github.com/user-attachments/assets/3cf0be5d-b721-42ad-950f-70d0b36d00b7" />
-
-
-
-
-      
       <p>
         <strong>Nieuw:</strong>
       </p>
+      <p>Hamburger Menu:</p>
       <p>
         <strong>Oud:</strong>
       </p>
+      <img width="1920" height="268" alt="image" src="https://github.com/user-attachments/assets/0e7df9f0-0303-4028-9797-aef0945191e6" />
+      <img width="1920" height="985" alt="image" src="https://github.com/user-attachments/assets/b54cb9a9-f4b4-4a9b-9399-a97a34f5b193" />
+      <img width="561" height="943" alt="image" src="https://github.com/user-attachments/assets/8699a1c1-4c57-4e40-9296-6f2378292ef2" />
+
       <p>
         <strong>Nieuw:</strong>
       </p>
