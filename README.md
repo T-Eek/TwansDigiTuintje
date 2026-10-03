@@ -753,5 +753,78 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
 <h1></h1>
 
-
+<h3>3 Oktober</h3>
+<h3>Feedback van sprint 2 verwerken...</h3>
+<p>
+ - In mijn Index.html heb ik grote veranderingen raad gepleegd, zowel als in mijn HTML als in mijn CSS 
+</p>
+  <ul>
+    - HTML & CSS aanpassingen:
+    <li>
+      <strong>In mijn Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel proberen om dezelfde CSS te behouden die ik er al aan had gegeven</strong>
+      <strong>Oud:</strong>
+      <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" />
+      <strong>Nieuw</strong>
+      <img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/841166ff-356a-4f7d-8652-cf95a75ded6a" />
+      <strong>Oud:</strong>
+      <img width="845" height="708" alt="image" src="https://github.com/user-attachments/assets/902da4a0-8ac7-48e4-8b91-7fb40b603608" />
+      <strong>Nieuw</strong>
+      <strong>Oud:</strong>
+      <strong>Nieuw</strong>
+      <strong>Oud:</strong>
+      <strong>Nieuw</strong>
+      <strong>Oud:</strong>
+      <strong>Nieuw</strong>
+    </li>
+    <p>
+      - In mijn Index.html heb ik grote veranderingen raad gepleegd, zowel als in mijn HTML als in mijn CSS
+    </p>
+    <li>
+      <strong>Headings</strong>
+      <img width="1519" height="2159" alt="image" src="https://github.com/user-attachments/assets/8e1a888b-dcbf-456d-a2f2-7ac96b82dfcc" />
+      <img width="442" height="58" alt="image" src="https://github.com/user-attachments/assets/cbbd61b0-1d53-4feb-8f21-d713292e4828" />
+      <img width="1919" height="222" alt="image" src="https://github.com/user-attachments/assets/29f2e40d-6e90-4c02-8902-2bc66bb94b75" />
+      <p>
+        - Ik gebruikt meerdere H1 elementen per page
+      </p>
+    </li>
+    - Pros:
+    <li>
+      <strong>Images</strong>
+      <p>
+        - Ik heb wel alt maar de alt uitleg kan beter (moet ik dus aanpassen)<br>
+      </p>
+      <p>
+        - Ik heb nog geen alternative tekst (zoals een chart/ map)
+      </p>
+    </li>
+    <li>
+      <strong>Media (Video and Audio</strong>
+      <img width="1585" height="1604" alt="image" src="https://github.com/user-attachments/assets/1591a42a-638f-40f8-a3ec-23b72c0f7e25" />
+      <p>
+        - N.V.T Ik heb nog geen video's/ Audio's
+      </p>
+    </li>
+    - Pros:
+    <li>
+      <strong>Controls</strong>
+      <p>
+        - Ik kan mijn links beter vormgeven.
+      </p>
+    </li>
+    <li>
+      <strong>Animation</strong>
+      <img width="1630" height="2326" alt="image" src="https://github.com/user-attachments/assets/369f6959-5b69-4878-a548-63f6f2cf5ef6" />
+      <p>
+        - N.V.T, Zou video's via een optie op pauze kunnen toevoegen
+      </p>
+    </li>
+    <li>
+      <strong>Color contrast</strong>
+      <img width="1585" height="1604" alt="image" src="https://github.com/user-attachments/assets/1591a42a-638f-40f8-a3ec-23b72c0f7e25" />
+      <p>
+        - Zou een ::selection voor kleuren kunnen gebruiken
+      </p>
+    </li>
+  </ul>
 
