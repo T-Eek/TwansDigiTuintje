@@ -767,7 +767,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       </p>
       <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" />
       <img width="634" height="930" alt="image" src="https://github.com/user-attachments/assets/4a734a69-a87b-4550-a3ad-fc4373ac61e4" />
-
       <p>
         <strong>Nieuw (met de code):</strong>
       </p>
