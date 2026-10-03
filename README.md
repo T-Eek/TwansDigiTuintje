@@ -756,11 +756,11 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <h3>3 Oktober</h3>
 <h3>Feedback van sprint 2 verwerken...</h3>
 <p>
- - In mijn Index.html heb ik grote veranderingen raad gepleegd, zowel als in mijn HTML als in mijn CSS 
+ - In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS 
 </p>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
-    <p>In mijn Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel proberen om dezelfde CSS te behouden die ik er al aan had gegeven</p>
+    <p>Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel geprobeerd om dezelfde CSS te behouden die ik er al aan had gegeven</p>
     <li>
       <p>
         <strong>Oud (met HTML & CSS code):</strong>
@@ -774,6 +774,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/841166ff-356a-4f7d-8652-cf95a75ded6a" />
       <img width="629" height="859" alt="image" src="https://github.com/user-attachments/assets/880b8ef6-147a-48b9-97fa-23c64cb03009" />
       <img width="1008" height="988" alt="image" src="https://github.com/user-attachments/assets/38818959-1d3e-4d2c-b697-ab725a2dd58b" />
+      <p>In mijn Intro.html heb ik: Mijn tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie van waar ik het allemaal vandaan heb (Miro bord)</p>
       <p>
         <strong>Oud:</strong>
       </p>
@@ -800,7 +801,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       </p>
     </li>
     <p>
-      - In mijn Index.html heb ik grote veranderingen raad gepleegd, zowel als in mijn HTML als in mijn CSS
+      - In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS
     </p>
     <li>
       <strong>Headings</strong>
