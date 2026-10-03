@@ -791,10 +791,11 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1920" height="268" alt="image" src="https://github.com/user-attachments/assets/0e7df9f0-0303-4028-9797-aef0945191e6" />
       <img width="1920" height="985" alt="image" src="https://github.com/user-attachments/assets/b54cb9a9-f4b4-4a9b-9399-a97a34f5b193" />
       <img width="561" height="943" alt="image" src="https://github.com/user-attachments/assets/8699a1c1-4c57-4e40-9296-6f2378292ef2" />
-
       <p>
-        <strong>Nieuwe (met HTML & CSS):</strong>
+        <strong>Nieuwe Hamburger Menu (met HTML & CSS):</strong>
       </p>
+      <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/ca751d49-457d-4b93-839e-132ffe20cfb4" />
+      <img width="312" height="969" alt="image" src="https://github.com/user-attachments/assets/a1bec97e-ca39-4370-b11e-24b4fe0be922" />
       <p>
         <strong>Oude (met HTML & CSS):</strong>
       </p>
