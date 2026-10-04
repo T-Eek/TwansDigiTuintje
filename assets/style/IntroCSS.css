@@ -1,0 +1,184 @@
+/* Model repo tekst rechts uitgelijnd */
+body > aside:first-of-type {
+  display: flex;
+  justify-content: end;
+}
+
+body > aside:first-of-type p {
+  font-size: 12px;
+  font-style: normal;
+  color: var(--Custom-Standaard-Color);
+  margin: 0px 15%;
+}
+
+/* Animatielijn */
+hr {
+  border: none;
+  border-bottom: 2px dotted var(--color-LightDark);
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  25% {
+    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+  }
+  75% {
+    border-bottom: 21px dotted var(--Border-bottom-CustumB);
+  }
+}
+
+/* Showcase Galerij */
+main > article { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+main > article > article:not(:nth-child(3)) {
+  display: flex;
+  flex: 1 0 550px;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 2s ease-in-out;
+}
+
+main > article > article:not(:nth-child(3)):hover {
+  cursor: pointer;
+}
+
+/* Kleurwissels bij hover op showcases */
+main > article > article:nth-child(1):hover b {
+  transition: 0.4s ease-in-out;
+  color: var(--Custom-ColorC);
+}
+
+main > article > article:nth-child(2):hover b {
+  transition: 0.4s ease-in-out;
+  color: var(--Custom-Standaard-Color);
+}
+
+main > article > article:nth-child(4):hover b {
+  background-image: var(--background-Rainbow);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: ShowCaseMove 360s linear infinite;
+  cursor: pointer;
+}
+
+main > article > article:nth-child(5):hover b {
+  transition: 0.4s ease-in-out;
+  color: var(--Custom-ColorY);
+}
+
+@keyframes ShowCaseMove {
+  to {
+    background-position: 2300vh;
+  }
+}
+
+main > article > article:nth-child(3) {
+  flex: 0 0 450px;
+  scroll-snap-align: center;
+  border-right: 2px solid var(--color-LightDark, #ccc);
+  border-left: 2px solid var(--color-LightDark, #ccc);
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main > article a {
+  color: var(--color-LightDark);
+  text-decoration: none;
+}
+
+main > article img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+main > article img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+main > article strong {
+  display: block;
+  font-size: 24px;
+  white-space: normal;
+}
+
+/* Informatie secties */
+main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > section > article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 1em 0px;
+}
+
+main > section img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+main > section > article:nth-child(1) img {
+  height: 30rem;
+}
+
+main > section > article:nth-child(2) img {
+  height: 80rem;
+}
+
+main > section img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+main > section p {
+  font-size: 28px;
+}
+
+main > section > article > span {
+  display: block;
+  padding: 0px 3rem;
+}
+
+main > section > article > span:hover strong:has(b) {
+  font-size: 24px;
+  color: var(--Custom-ColorY);
+  transition: 0.4s ease-in-out;
+}
+
+main h2 {
+  font-size: 4vw;
+  margin: 0px;
+  text-align: center;
+}
+
+main h2:hover {
+  text-shadow: -3px 0px 2px #FF7A00, 2px -4px 2px #FF0069, 1px 4px 2px #D300C5, 6px 0px 2px #7638FA;
+  cursor: pointer;
+}
+
+footer > p {
+  font-family: "Slackey", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}

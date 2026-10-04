@@ -1,0 +1,478 @@
+/*
+MARK: FONTS
+*/
+@font-face {
+  font-family: "Slackey"; /*sans-serif*/ 
+  src: url(../type/Slackey-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oi"; /* serif */
+  src: url(../type/Oi-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Caveat"; /* cursive */
+  src: url(../type/static/Caveat-Regular.ttf);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+MARK: HTML
+*/
+html {
+  color-scheme: light dark;
+  --background: light-dark(white, black);
+  --color-LightDark: light-dark(black, white);
+  --background-Dark: linear-gradient(to right, black, black, white, white, white);
+  --background-Light: linear-gradient(to right, white, white, black, black, black);
+  --background-Ikea: linear-gradient(to bottom, yellow, yellow 55%, blue, blue 45%);
+  --background-Rainbow: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
+  --boxshadow-Rainbow: -15px -10px 8px #FF7A00, 20px -20px 8px #FF0069, -15px 10px 8px #D300C5, 20px 20px 8px #7638FA;
+
+  --border-left: 1px solid var(--color-LightDark);
+  --border-right: 1px solid var(--color-LightDark);
+
+  --Custom-ColorB: black;
+  --Custom-ColorW: white;
+  --Custom-ColorC: cyan;
+  --Custom-ColorS: Salmon;
+  --Custom-ColorY: yellow;
+  --Custom-ColorG: Gold;
+  --Custom-ColorBL: blue;
+  --Custom-ColorExtraBL: #3182ce;
+  --Custom-ColorR: red;
+  --Custom-Color-Toggle: mediumslateblue;
+  --Custom-BorderColor-Toggle: darkslategrey;
+  --white-space: padding 10rem;
+
+  --Nav-Custom-Color: white;
+  --Nav-Custom-backgroundOverlay: black;
+  --Custom-Standaard-Color: #bbbbbb;
+  --Boder-bottom-CustomY: yellow;
+  --Border-bottom-CustumB: blue;
+
+  --Scroll: -webkit-scrollbar: width 20px;
+}
+
+/*
+MARK: BODY / MAIN / TYPOGRAFIE
+*/
+body, h1, h2, h3, strong, button {
+  font-family: "Slackey", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+
+p {
+  font-family: "Caveat", cursive;
+}
+
+/*
+MARK: Consent Dialog (Cookie)
+*/
+.CookieBanner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  max-width: none;
+  max-height: none;
+}
+
+.CookieBanner > article {
+  background: var(--Custom-ColorW);
+  color: #2d3748;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Zorg dat je ziet waar je bent als je tabt */
+.CookieBanner > article:focus-visible + span {
+  outline: 3px solid var(--Custom-ColorY); /* Of een ander opvallend kleurtje */
+}
+
+.CookieBanner > article > h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #1a202c;
+}
+
+.CookieBanner > article > p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #4a5568;
+  font-family: "Caveat", cursive;
+}
+
+/* Specificatie van de diensten in de dialog */
+.CookieBanner section {
+  background: var(--Custom-ColorW);
+  border-left: 4px solid var(--Custom-ColorExtraBL);
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.CookieBanner section h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  color: var(--Custom-ColorExtraBL);
+}
+
+.CookieBanner ul {
+  margin: 8px 0;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.CookieBanner li {
+  margin-bottom: 6px;
+}
+
+.CookieBanner li p {
+  font-family: "Caveat", cursive;
+}
+
+/* Knop styling in de dialog footer */
+.CookieBanner footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.CookieBanner button {
+  background-color: var(--Custom-ColorExtraBL);
+  color: var(--Custom-ColorW);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.CookieBanner button:hover {
+  background-color: var(--Custom-Color-Toggle);
+}
+
+@media (min-width: 480px) {
+  .CookieBanner button {
+    width: auto;
+  }
+}
+/*
+MARK: Hamburger Menu / Nav
+*/
+
+/* De hamburger knop wrapper */
+header:first-of-type > nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+
+  width: 7%;
+  height: 100px;
+}
+
+/* De twee lijntjes in de hamburger knop */
+header:first-of-type > nav > span {
+  background-color: CanvasText;
+  width: 88px;
+  height: 25px;
+  background-color: var(--color-LightDark);
+}
+
+/* De Navigatie Overlay (gekoppeld aan #myNav) */
+#myNav {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--Nav-Custom-backgroundOverlay);
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+}
+
+/* Algemene links binnen de overlay */
+#myNav a {
+  text-decoration: none;
+  font-size: 5vw;
+  transition: 0.3s;
+  color: var(--Custom-ColorG);
+}
+
+#myNav a:hover, 
+#myNav a:focus {
+  color: var(--Custom-ColorBL);
+}
+
+/* Het sluitknopje (de eerste <a> direct in #myNav) */
+#myNav > a:first-of-type {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* De lijst met navigatielinks (gekoppeld aan #myLinks) */
+#myLinks {
+  padding: 0px;
+  position: absolute;
+  top: 12%; /* Licht aangepast van 2% zodat het niet over de sluitknop valt */
+  width: 100%;
+  display: block;
+}
+
+/* De lijst-items (li) */
+#myLinks li {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem;
+  transition: border-bottom 1.5s;
+}
+
+/* De losse linkjes in de lijst */
+#myLinks a {
+  text-decoration: none;
+  display: block;
+}
+
+#myLinks a:hover {
+  border-bottom: 8px solid var(--Custom-ColorBL);
+}
+
+/*
+MARK: Intro Header
+*/
+#Titel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+}
+
+#Titel > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: INTROmove 40s linear infinite;
+  font-size: 4vw;
+
+  &:hover {
+    text-shadow: 0px 0px 0px transparent;
+    font-size: 5vw;
+    text-decoration: underline var(--Custom-ColorBL);
+
+    /* Laat de direct volgende paragraaf oplichten bij hover */
+    + p {
+      color: var(--Custom-ColorR);
+      opacity: 100%;
+    }
+  }
+}
+
+@keyframes INTROmove {
+  to {
+    background-position: 500vh;
+  }
+}
+
+#Titel > p {
+  display: flex;
+  width: 60%;
+  opacity: 0%;
+  margin: 0px;
+  font-size: 2vw;
+}
+
+#Titel > h1 > a {
+  text-decoration: none;
+  color: var(--Custom-ColorB);
+}
+
+/*
+MARK: Toggle Switch L/D (Light & Dark Mode)
+*/
+html:has([value="LightDark-ToggleSwitch"]) {
+  color-scheme: light;
+  
+  #Titel > h1 {
+    font-family: "Oi", serif;
+    background-image: linear-gradient(to right, white, white, white, black, black, black);
+    line-height: 1.5em;
+    text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
+    transition: 0.4s ease-in-out;
+  }
+
+  #Titel > h1:hover {
+    text-shadow: 0px 0px 0px var(--Custom-ColorB);
+    font-family: "Slackey", sans-serif;
+
+    p {
+      opacity: 100%;
+    }
+  }
+}
+
+html:has([value="LightDark-ToggleSwitch"]:checked) {
+  color-scheme: dark;
+  
+  #Titel > h1 {
+    font-family: "Oi", serif;
+    background-image: linear-gradient(to right, black, black, black, white, white, white);
+    line-height: 1.5em;
+    text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
+    transition: 0.4s ease-in-out;
+  }
+
+  #Titel > h1:hover {
+    p {
+      opacity: 100%;
+    }
+    text-shadow: 0px 0px 0px var(--Custom-ColorW);
+    font-family: "Slackey", sans-serif;
+  }
+}
+
+.LightDarkMode {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100px;
+  height: 150px;
+}
+
+.LightDarkMode > label {
+  position: relative;
+  display: flex;
+  width: 70px;
+}
+
+.LightDarkMode label input[type="checkbox"] {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.LightDarkMode label input[type="checkbox"]:focus {
+  border: 10px solid var(--Custom-BorderColor-Toggle);
+}
+
+.LightDarkMode label input[type="checkbox"] + span {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--Custom-ColorY);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 5px -8px 5px var(--color-LightDark);
+}
+
+.LightDarkMode label input[type="checkbox"] + span p {
+  margin: 45px 0px;
+  font-size: 17px;
+  transition: margin 0.3s ease-in-out;
+  font-family: "Caveat", cursive;
+}
+
+.LightDarkMode label input[type="checkbox"] + span > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 35%;
+}
+
+.LightDarkMode label input[type="checkbox"] + span::before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: var(--Custom-ColorW);
+  border-radius: 50%;
+  border: 10px solid var(--Custom-BorderColor-Toggle);
+  transition: transform 0.3s;
+}
+
+.LightDarkMode label input[type="checkbox"] + span > span::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: var(--Custom-ColorB);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.LightDarkMode label input[type="checkbox"]:checked + span {
+  background-color: var(--Custom-Color-Toggle);
+}
+
+.LightDarkMode label input[type="checkbox"]:checked + span p {
+  margin: -45px 0px;
+}
+
+.LightDarkMode label input[type="checkbox"]:checked + span::before {
+  transform: translateY(80px);
+}
+
+.LightDarkMode label input[type="checkbox"]:checked + span > span::before {
+  transform: translateY(95px) translateX(16px) scale(2);
+}
+
+
+/*
+MARK: Footer Copyright
+*/
+body > footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+body > footer > p {
+  font-family: "Slackey", sans-serif;
+  font-size: 0.9rem;
+}

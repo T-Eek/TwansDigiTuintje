@@ -343,8 +343,6 @@ MARK: Intro Header
   /*animation: pulse 6s infinite;*/
   font-size: 4vw;
 
-  /*background-image: linear-gradient(to right, #bbbbbb, #bbbbbb, #bbbbbb, #bbbbbb, white);*/
-
   &:hover {
     text-shadow: 0px 0px 0px transparent;
     font-size: 5vw;
@@ -381,6 +379,7 @@ MARK: Intro Header
   text-decoration: underline var(--Custom-ColorBL);
 }
 
+
 /*
 MARK: Intro Header Link
 */
@@ -389,11 +388,6 @@ MARK: Intro Header Link
   color: var(--Custom-ColorB);
 }
 
-/*.IntroRealHeader:active {
-  text-shadow: 0px 0px 0px transparent;
-  font-size: 5vw;
-}*/
-
 /*
 MARK: Toggle Switch L/D
 */
@@ -401,7 +395,6 @@ html:has( [value="LightDark-ToggleSwitch"]) {
   color-scheme:light;
   .IntroRealHeader {
     font-family: "Oi";
-    /*box-shadow: 0px 12px 8px #000000, 0px -10px 8px #000000;*/
     background-image: linear-gradient(to right, white, white, white, black, black, black);
     line-height: 1.5em;
     text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
@@ -422,9 +415,7 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
 	color-scheme:dark;
   .IntroRealHeader {
     font-family: "Oi";
-    /*box-shadow: 0px 12px 8px #ffffff, 0px -10px 8px #ffffff;*/
     background-image: linear-gradient(to right, black, black, black, white, white, white);
-    /*text-shadow: 0px 0px 21px black;*/
     line-height: 1.5em;
     text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
     transition: 0.4s ease-in-out;
@@ -520,18 +511,6 @@ html:has( [value="LightDark-ToggleSwitch"]:checked) {
   border-radius: 50%;
   transition: transform 0.3s;
 }
-
-/*.toggle-switch input:checked+.slider {
-  background-color: var(--Custom-Color-Toggle);
-}
-
-.toggle-switch input:checked+.slider::before {
-  transform: translateY(80px);
-}
-
-.toggle-switch input:checked+ .slider .slider2::before {
-  transform: translateY(95px) translateX(16px) scale(2);
-}*/
 
 /* Toggle Switch elementen heb ik apart gezet, zodat ik de hover animatie kan toepassen op de hele toggle switch, en niet alleen op de slider */
 .toggle-switch {
@@ -690,14 +669,6 @@ MARK: Intro.HTML
     color: var(--Custom-ColorY);
   }
 
-    /*.ShowCaseText4 {
-    transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
-    background-clip: text;
-    color: transparent;
-    text-shadow: none;
-  }*/
-
   .ShowCaseText5 {
     background-image: var(--background-Rainbow);
     background-clip: text;
@@ -836,35 +807,6 @@ MARK: Intro.HTML
     cursor: pointer;
   }
 }
-
-.InfoSCImgContainer1:hover, .InfoSCImgContainer2:hover {
-  /*.ShowCaseText4 {
-    transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, var(--Border-bottom-CustumB) 40%, var(--Boder-bottom-CustomY) 60%);
-    background-clip: text;
-    color: transparent;
-    text-shadow: none;
-  }*/
-}
-
-/*.InfoSCImage1:hover, .InfoSCImage2:hover {
-  transform: scale(1.1);
-
-    .ShowCaseText3 {
-    transition: 0.4s ease-in-out;
-    color: yellow;
-  }
-
-    .ShowCaseText4 {
-    transition: 0.4s ease-in-out;
-    background: linear-gradient(to bottom, #0000ff 55%, #ffff00 65%);
-    background-clip: text;
-    color: transparent;
-    text-shadow: none;
-  }
-
-}*/
-
 
 /*
 MARK: Footer Text
