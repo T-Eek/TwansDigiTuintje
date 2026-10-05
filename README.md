@@ -835,4 +835,30 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p></p>
     </li>
   </ul>
-
+  <span>
+  <h3>Check-out:</h3>
+  <ul>
+    <li>
+      <strong>1.   Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)</strong>
+      <p>
+        - WCAG staat voor: Web, content, accebility en guidlinces<br>
+        - A11y staat voor: woord accessibility
+      </p>
+    </li>
+        <li>
+      <strong>2. Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
+      <p>
+        <li>1. De Screenreader door alles van mijn website laten lezen en goed laten voorlezen voor eventueel blinde mensen</li>
+        <li>2. Alleen toetsenbord, Om het goed en vloeiend te maken voor een blind/ disabled persoon</li>
+        <li>3. Fake Social Proof</li>
+      </p>
+    </li>
+        <li>
+      <strong>3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?</strong>
+      <p>
+        - Ik vind het lastig om met iedereen rekening te houden, zou erg fijn zijn als er een templatje is om het voor iedereen simpel en duidelijk te houden.
+      </p>
+    </li>
+  </ul>
+</span>
+<h1></h1>
