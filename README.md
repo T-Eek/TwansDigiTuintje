@@ -800,10 +800,10 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       Tijdens <b>Bi-weekly geek 3</b> moesten we artikels <strong>verkennend</strong> lezen en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen
     </p>
     <p>
-       - <strong>Artikel 1 Guardian (2025): AI-slop (Shrimp Jesus, erotic tractors, katten-soapopera’s, Ghibli-stijl) overspoelt het internet. Het is het gevolg van algoritmes die engagement belonen + een economie waarin mensen massaal goedkope AI-content maken om views te scoren.
+       - <strong>Artikel 1</strong> Guardian (2025): AI-slop (Shrimp Jesus, erotic tractors, katten-soapopera’s, Ghibli-stijl) overspoelt het internet. Het is het gevolg van algoritmes die engagement belonen + een economie waarin mensen massaal goedkope AI-content maken om views te scoren.
     </p>
     <p>
-      - <strong>Artikel 2 Dead Internet Theory (2026): Sinds 2024 is meer dan de helft van het internetverkeer bots (51 % vs 49 % mensen). Content, likes en interacties worden steeds vaker door AI en bots gegenereerd. Gevolg: minder authenticiteit, meer homogenisering, manipulatie en content farming.
+      - <strong>Artikel 2</strong> Dead Internet Theory (2026): Sinds 2024 is meer dan de helft van het internetverkeer bots (51 % vs 49 % mensen). Content, likes en interacties worden steeds vaker door AI en bots gegenereerd. Gevolg: minder authenticiteit, meer homogenisering, manipulatie en content farming.
     </p>
     <p>
       Het web is... dood?<br>
