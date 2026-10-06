@@ -826,27 +826,22 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <strong>1. Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent,
           modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)</strong>
       </p>
-        <li>
       <p>
-        <li>1. De Screenreader door alles van mijn website laten lezen en goed laten voorlezen voor eventueel blinde mensen</li>
-        <li>2. Alleen toetsenbord, Om het goed en vloeiend te maken voor een blind/ disabled persoon</li>
-        <li>3. Fake Social Proof</li>
-        <li>Kerning: Het aanpassen van de witruimte tussen twee specifieke, individuele letters (Bron 5).</li>
-        <li>Tracking: Het gelijkmatig vergroten of verkleinen van de witruimte over een hele set of woordgroep (Bron 5).</li>
-        <li>Leading: De regelafstand; de verticale afstand tussen de basislijn van de ene regel tekst en de regel daarboven of daaronder (Bron 5).</li>
-        <li>Flush-left: Links uitgelijnde tekst waarbij de rechterkant rafelend is (Bron 5).</li>
-        <li>Flush-right: Rechts uitgelijnde tekst waarbij de linkerkant rafelend is (Bron 5).</li>
-        <li>Centered: Gecentreerde tekst waarbij elke regel symmetrisch in het midden staat (Bron 5).</li>
-        <li>Justified: Uitgevulde tekst waarbij regels strak aan zowel de linker- als rechterkant aansluiten (Bron 5).</li>
-        <li>Indent: Een inspringing aan het begin van een alinea (Bron 5).</li>
-        <li>Outdent: Een opmaak waarbij de eerste regel van een alinea naar links uitsteekt ten opzichte van de rest (Bron 5).</li>
-        <li>Modular scale: Een wiskundige reeks of verhouding die je gebruikt om consistente lettergroottes en spacing te berekenen (Bron 1, Bron 2).</li>
-        <li>Movable type: Losse, verplaatsbare letters die vroeger in de drukpers werden gezet (Bron 4).</li>
-        <li>Focuspunt: Het visuele ankerpunt op een pagina waar de ogen als eerste naartoe worden getrokken (Bron 3).</li>
-        <li>Vijf soorten contrast: Contrasten in grootte, gewicht, kleur, vorm en richting die visuele spanning en leesbaarheid creëren (Bron 3, Bron 5).</li>
-        <li>Spatial tension: De visuele dynamiek en spanning die ontstaat door de plaatsing van elementen en witruimte (Bron 3).</li>
+        <li><b>Kerning:</b> Het aanpassen van de witruimte tussen twee specifieke, individuele letters (Bron 5).</li>
+        <li><b>Tracking:</b> Het gelijkmatig vergroten of verkleinen van de witruimte over een hele set of woordgroep (Bron 5).</li>
+        <li><b>Leading:</b> De regelafstand; de verticale afstand tussen de basislijn van de ene regel tekst en de regel daarboven of daaronder (Bron 5).</li>
+        <li><b>Flush-left:</b> Links uitgelijnde tekst waarbij de rechterkant rafelend is (Bron 5).</li>
+        <li><b>Flush-right:</b> Rechts uitgelijnde tekst waarbij de linkerkant rafelend is (Bron 5).</li>
+        <li><b>Centered:</b> Gecentreerde tekst waarbij elke regel symmetrisch in het midden staat (Bron 5).</li>
+        <li><b>Justified:</b> Uitgevulde tekst waarbij regels strak aan zowel de linker- als rechterkant aansluiten (Bron 5).</li>
+        <li><b>Indent:</b> Een inspringing aan het begin van een alinea (Bron 5).</li>
+        <li><b>Outdent:</b> Een opmaak waarbij de eerste regel van een alinea naar links uitsteekt ten opzichte van de rest (Bron 5).</li>
+        <li><b>Modular scale:</b> Een wiskundige reeks of verhouding die je gebruikt om consistente lettergroottes en spacing te berekenen (Bron 1, Bron 2).</li>
+        <li><b>Movable type:</b> Losse, verplaatsbare letters die vroeger in de drukpers werden gezet (Bron 4).</li>
+        <li><b>Focuspunt:</b> Het visuele ankerpunt op een pagina waar de ogen als eerste naartoe worden getrokken (Bron 3).</li>
+        <li><b>Vijf soorten contract:</b> Contrasten in grootte, gewicht, kleur, vorm en richting die visuele spanning en leesbaarheid creëren (Bron 3, Bron 5).</li>
+        <li><b>Spatial tension:</b> De visuele dynamiek en spanning die ontstaat door de plaatsing van elementen en witruimte (Bron 3).</li>
       </p>
-    </li>
         <li>
       <strong>2. Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
       <p>
