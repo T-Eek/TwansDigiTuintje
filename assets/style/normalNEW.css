@@ -42,6 +42,7 @@ html {
   --background-Ikea: linear-gradient(to bottom, yellow, yellow 55%, blue, blue 45%);
   --background-Rainbow: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
   --boxshadow-Rainbow: -15px -10px 8px #FF7A00, 20px -20px 8px #FF0069, -15px 10px 8px #D300C5, 20px 20px 8px #7638FA;
+  --boxshadow-Ikea: -10px 15px 25px yellow, 10px -10px 25px blue;
 
 
 
@@ -95,6 +96,7 @@ body > footer > p {
 
 p {
   font-family: "Caveat";
+  font-size: 24px;
 }
 
 /*
@@ -348,6 +350,10 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
   left: 15%;
 }
 
+.LightDarkMode:hover label input[type="checkbox"] + span {
+  box-shadow: 5px -8px 10px var(--color-LightDark)
+}
+
 .LightDarkMode > label {
   position: relative;
   display: flex;
@@ -548,18 +554,20 @@ MARK: Main Header
     background-color: var(--color-LightDark, CanvasText);
 }
 
-/* 4. De Navigatie Overlay (#myNav) valt buiten het zichtbaregrid of neemt geen ruimte in */
+#HeaderKop > nav:first-of-type:hover span {
+  /*background-color: var(--Custom-Standaard-Color);*/
+  box-shadow: 0px 0px 20px var(--color-LightDark);
+}
+
 #myNav {
-    /* Je bestaande overlay stijlen blijven hier werken */
     position: fixed;
     z-index: 1;
 }
 
-/* 5. De GitHub-tekst komt op rij 2, en strekt zich uit over alle 3 de kolommen (rechts uitgelijnd) */
 #HeaderKop > p:last-of-type {
-    grid-column: 2; /* Loopt van de eerste tot de laatste kolom */
+    grid-column: 2;
     grid-row: 2;
-    justify-self: end;   /* Duwt de tekst naar de rechterkant */
+    justify-self: end;
     font-size: 12px;
     color: var(--Custom-Standaard-Color);
     margin: 10px 0 0 0;
@@ -576,7 +584,27 @@ MARK: Main Top Articles
   gap: 2.5rem;
   width: 100%;
   height: 400px;
+  margin: 1rem 0px;
+
+  border-top: 2px solid var(--color-LightDark);
+  transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
+  padding: 2rem 0;
 }
+
+#TopArticles:hover {
+  border-top: 5px dotted var(--Custom-ColorY);
+  animation: BTmove 10s infinite;
+}
+
+@keyframes BTmove {
+  25% {
+    border-top: 10px dotted var(--Boder-bottom-CustomY);
+  }
+  75% {
+    border-top: 21px dotted var(--Border-bottom-CustumB);
+  }
+}
+
 
 #TopArticles > article:nth-child(-n+5) {
   display: flex;
@@ -656,4 +684,86 @@ MARK: Main Top Articles
 
 #TopArticles > article:nth-child(3) h2:hover {
   text-shadow: -3px 0px 2px #FF7A00, 2px -4px 2px #FF0069, 1px 4px 2px #D300C5, 6px 0px 2px #7638FA;
+}
+
+/*
+MARK: Info/ Insp Articles
+*/
+#InfoArticles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  border-top: 2px solid var(--color-LightDark);
+  border-bottom: 2px solid var(--color-LightDark);
+  transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
+  padding: 2rem 0;
+}
+
+#InfoArticles:hover {
+  border-top: 5px dotted var(--Custom-ColorY);
+  border-bottom: 5px dotted var(--Custom-ColorBL);
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  25% {
+    border-top: 10px dotted var(--Boder-bottom-CustomY);
+    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+  }
+  75% {
+    border-top: 21px dotted var(--Border-bottom-CustumB);
+    border-bottom: 21px dotted var(--Border-bottom-CustumB);
+  }
+}
+
+#InfoArticles > article {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 70%;
+  margin: 1rem 0px;
+  flex-direction: column;
+}
+
+#InfoArticles > article > span, #InfoArticles > article:nth-child(2) span {
+  overflow: hidden;
+}
+
+#InfoArticles > article > span img, #InfoArticles > article:nth-child(2) span:last-child > img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+#InfoArticles > article > span img:hover {
+  transform: scale(0.9);
+  box-shadow: 0px 0px 30px var(--Custom-ColorY);
+}
+
+#InfoArticles > article:hover p b { 
+  font-size: 32px;
+  text-transform: uppercase;
+  color: var(--Custom-ColorY);
+  transition: 1s ease-in-out;
+}
+
+#InfoArticles > article:nth-child(2) span > img {
+  width: 50%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+}
+
+#InfoArticles > article:nth-child(2) > span img:hover {
+  transform: scale(0.9);
+  box-shadow: var(--boxshadow-Ikea);
+}
+
+#InfoArticles > article:nth-child(2):hover p b {
+  background: var(--background-Ikea);
+  background-clip: text;
+  color: transparent;
 }
