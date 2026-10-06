@@ -825,24 +825,43 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <strong>1. Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)</strong>
       <p>
-        -
-        -
+        <li>1. De Screenreader door alles van mijn website laten lezen en goed laten voorlezen voor eventueel blinde mensen</li>
+        <li>2. Alleen toetsenbord, Om het goed en vloeiend te maken voor een blind/ disabled persoon</li>
+        <li>3. Fake Social Proof</li>
+        <li>Kerning: Het aanpassen van de witruimte tussen twee specifieke, individuele letters (Bron 5).</li>
+        <li>Tracking: Het gelijkmatig vergroten of verkleinen van de witruimte over een hele set of woordgroep (Bron 5).</li>
+        <li>Leading: De regelafstand; de verticale afstand tussen de basislijn van de ene regel tekst en de regel daarboven of daaronder (Bron 5).</li>
+        <li>Flush-left: Links uitgelijnde tekst waarbij de rechterkant rafelend is (Bron 5).</li>
+        <li>Flush-right: Rechts uitgelijnde tekst waarbij de linkerkant rafelend is (Bron 5).</li>
+        <li>Centered: Gecentreerde tekst waarbij elke regel symmetrisch in het midden staat (Bron 5).</li>
+        <li>Justified: Uitgevulde tekst waarbij regels strak aan zowel de linker- als rechterkant aansluiten (Bron 5).</li>
+        <li>Indent: Een inspringing aan het begin van een alinea (Bron 5).</li>
+        <li>Outdent: Een opmaak waarbij de eerste regel van een alinea naar links uitsteekt ten opzichte van de rest (Bron 5).</li>
+        <li>Modular scale: Een wiskundige reeks of verhouding die je gebruikt om consistente lettergroottes en spacing te berekenen (Bron 1, Bron 2).</li>
+        <li>Movable type: Losse, verplaatsbare letters die vroeger in de drukpers werden gezet (Bron 4).</li>
+        <li>Focuspunt: Het visuele ankerpunt op een pagina waar de ogen als eerste naartoe worden getrokken (Bron 3).</li>
+        <li>Vijf soorten contrast: Contrasten in grootte, gewicht, kleur, vorm en richting die visuele spanning en leesbaarheid creëren (Bron 3, Bron 5).</li>
+        <li>Spatial tension: De visuele dynamiek en spanning die ontstaat door de plaatsing van elementen en witruimte (Bron 3).</li>
       </p>
     </li>
         <li>
       <strong>2. Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
       <p>
-        <li>1. De Screenreader door alles van mijn website laten lezen en goed laten voorlezen voor eventueel blinde mensen</li>
-        <li>2. Alleen toetsenbord, Om het goed en vloeiend te maken voor een blind/ disabled persoon</li>
-        <li>3. Fake Social Proof</li>
+        <li>1. De ideale regellengte (measure) voor doorlopende tekst dat ik kon vinden en online ligt tussen de 45 en 75 tekens per regel, met ongeveer 65 tekens als de optimale 'sweet spot' (Bron 1, Bron 4).</li>
+        <li>2. Als een regel te lang is, raakt de lezer halverwege het spoor bijster, terwijl te korte regels het leesritme verstoren doordat je ogen te vaak heen en weer moeten springen (Bron 1, Bron 4).</li>
       </p>
     </li>
         <li>
       <strong>3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?</strong>
       <p>
-        - 
+        <li>Als je in een ontwerp slechts één variabele mag kiezen, is grootte (font-size) het meest effectief om direct hiërarchie aan te brengen (Bron 1, Bron 5).</li>
+        <li>Ons brein herkent direct dat grotere objecten belangrijker zijn, waardoor een helder verschil in grootte instinctief aangeeft wat de lezer als eerst moet bekijken (Bron 1, Bron 5).</li>
       </p>
     </li>
   </ul>
+    <p>
+      <strong>Gebruikte bronnen:</strong>
+    </p>
+    <a href="https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf">Modular Scale 1 - Matej Latin</a>
 </span>
 <h1></h1>
