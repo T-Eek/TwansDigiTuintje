@@ -796,44 +796,31 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       </p>
       <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/ca751d49-457d-4b93-839e-132ffe20cfb4" />
       <img width="312" height="969" alt="image" src="https://github.com/user-attachments/assets/a1bec97e-ca39-4370-b11e-24b4fe0be922" />
+  </ul>
+  <h3>Sprint 3</h3>
+  <h3>06 Oktober</h3>
+  <p>
+ - Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS 
+</p>
+  <ul>
+     <strong>- HTML & CSS aanpassingen:</strong>
+    <p>Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel geprobeerd om dezelfde CSS te behouden die ik er al aan had gegeven</p>
+    <li>
       <p>
-        <strong>Oude (met HTML & CSS):</strong>
+        <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong>
       </p>
+      
       <p>
         <strong>Nieuwe (met HTML & CSS):</strong>
       </p>
+      
       <p>
         <strong>Oude (met HTML & CSS):</strong>
       </p>
+      
       <p>
         <strong>Nieuwe (met HTML & CSS):</strong>
       </p>
-    </li>
-    <p></p>
-    <li>
-      <p></p>
-    </li>
-    <li>
-      <strong></strong>
-      <p></p>
-      <p></p>
-    </li>
-    <li>
-      <strong></strong>
-      <p></p>
-    </li>
-    <li>
-      <strong></strong>
-      <p></p>
-    </li>
-    <li>
-      <strong></strong>
-      <p></p>
-    </li>
-    <li>
-      <strong></strong>
-      <p></p>
-    </li>
   </ul>
   <span>
   <h3>Check-out:</h3>
