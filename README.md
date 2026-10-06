@@ -834,6 +834,18 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <li>ol</li>
       <li>-moz-border-radius: 2px; -webkit-border-radius: 2px; -o-border-radius: 2px;</li>
     </p>
+
+<h3>Deep Dive: Interessantere layouts (met Vasilis)</h3>
+<img width="1437" height="757" alt="image" src="https://github.com/user-attachments/assets/f9bb8c60-296b-43bc-a9fe-a09d580dd4c7" />
+<img width="329" height="698" alt="image" src="https://github.com/user-attachments/assets/5c95af24-3dd1-479c-bac7-2efafdaf7d3c" />
+<p>
+  Ik heb qua style de body aangepast om de structuur te veranderen van onder elkaar naar naast elkaar.
+</p>
+
+
+
+
+    
   <h3> Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS</h3>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
