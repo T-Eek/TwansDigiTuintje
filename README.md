@@ -817,6 +817,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <p> Hier heb ik al mijn werk aangepast</p>
   <img width="1920" height="550" alt="image" src="https://github.com/user-attachments/assets/afc40052-17d4-426b-aa53-1f3215919c84" />
   <img width="1920" height="1080" alt="Screenshot (685)" src="https://github.com/user-attachments/assets/626afe6f-4010-47b3-9a80-83ffc9f321de" />
+      <p>Aangepaste versie van mijn ontwerp/ inspiratie tekst en afbeeldingen</p>
       <img width="1920" height="978" alt="Screenshot (686)" src="https://github.com/user-attachments/assets/a5054d20-1e4d-4332-9358-bc088bf9e5aa" />
       <img width="1920" height="976" alt="Screenshot (687)" src="https://github.com/user-attachments/assets/8fca330e-3704-4b28-a6d4-47ccdcbb36ab" />
       <img width="1280" height="649" alt="Screenshot (688)" src="https://github.com/user-attachments/assets/5c64be72-5715-44f0-9702-22ae9024d23d" />
