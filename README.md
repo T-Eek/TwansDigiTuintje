@@ -824,15 +824,15 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </p>
     <p>
       <strong>Huiswerk opdracht: Noteer zaken die jij nog niet hebt kunnen vertalen naar CSS: Deze HTML en CSS elementen heb ik niet kunnen ontcijferen</strong>
-      .<li>dl, dt, dd</li> 
-      .<li>blockquote, th, td</li>
-      .<li>address, caption, cite, dfn, th, var</li>
-      .<li>caption, th</li>
-      .<li>abbr, acronym</li>
-      .<li>text-indent: 1em;</li> - (p + p text-indent): 
-      .<li>Quotes, primes, dash en Ellipsis</li>
-      .<li>ol</li>
-      .<li>-moz-border-radius: 2px; -webkit-border-radius: 2px; -o-border-radius: 2px;</li>
+      <li>dl, dt, dd</li>
+      <li>blockquote, th, td</li>
+      <li>address, caption, cite, dfn, th, var</li>
+      <li>caption, th</li>
+      <li>abbr, acronym</li>
+      <li>text-indent: 1em;</li> - (p + p text-indent): 
+      <li>Quotes, primes, dash en Ellipsis</li>
+      <li>ol</li>
+      <li>-moz-border-radius: 2px; -webkit-border-radius: 2px; -o-border-radius: 2px;</li>
     </p>
   <h3> Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS</h3>
   <ul>
