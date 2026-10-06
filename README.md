@@ -806,12 +806,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       - <strong>Artikel 2 Dead Internet Theory (2026): Sinds 2024 is meer dan de helft van het internetverkeer bots (51 % vs 49 % mensen). Content, likes en interacties worden steeds vaker door AI en bots gegenereerd. Gevolg: minder authenticiteit, meer homogenisering, manipulatie en content farming.
     </p>
     <p>
-      <strong>Het web is... dood?
-        In de voorgaande weken hebben we nagedacht over de fysieke infrastructuur en de wetten en regels van het web. Maar wie zitten er eigenlijk op het internet? Jij en ik, waarschijnlijk, samen met een groot deel van de menselijke populatie, maar we delen het medium ook (bewust en onbewust) met een enorme hoeveel niet
-        menselijke stemmen (bots). Sinds 2024 wordt het web zelfs méér door bots gebruikt dan door mensen van vlees en bloed. Hebben we hierdoor nog wel te maken met een mens-tot-mensmedium? En wat maakt het eigenlijk uit als het internet op een dag enkel nog bestaat uit niet-menselijke content?</strong><br>
-        - Nee, maar het is wel sterk veranderd. Volgens de artikelen is het steeds minder een mens-tot-mens medium.<br>
-          Nog een mens-tot-mensmedium? Steeds minder. Mensen maken nog content, maar die is vaak zelf AI-gegenereerd of volledig afgestemd op algoritmes.<br>
-          Wat maakt het uit als alleen nog niet-menselijke content overblijft? Echte verbinding, originaliteit en betrouwbare informatie verdwijnen. Platforms en algoritmes bepalen alles, desinformatie en manipulatie worden makkelijker.<br>
+      Het web is... dood?<br>
+      In de voorgaande weken hebben we nagedacht over de fysieke infrastructuur en de wetten en regels van het web. Maar wie zitten er eigenlijk op het internet? Jij en ik, waarschijnlijk, samen met een groot deel van de menselijke populatie, maar we delen het medium ook (bewust en onbewust) met een enorme hoeveel niet
+      menselijke stemmen (bots). Sinds 2024 wordt het web zelfs méér door bots gebruikt dan door mensen van vlees en bloed. Hebben we hierdoor nog wel te maken met een mens-tot-mensmedium? En wat maakt het eigenlijk uit als het internet op een dag enkel nog bestaat uit niet-menselijke content?<br>
+      - Nee, maar het is wel sterk veranderd. Volgens de artikelen is het steeds minder een mens-tot-mens medium.<br>
+      Nog een mens-tot-mensmedium? Steeds minder. Mensen maken nog content, maar die is vaak zelf AI-gegenereerd of volledig afgestemd op algoritmes.<br>
+      Wat maakt het uit als alleen nog niet-menselijke content overblijft? Echte verbinding, originaliteit en betrouwbare informatie verdwijnen. Platforms en algoritmes bepalen alles, desinformatie en manipulatie worden makkelijker.
     </p>
     <p>
       <strong>Eventuele deelvragen:</strong><br>
@@ -822,8 +822,20 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <li>Moeten platforms of overheden ingrijpen?</li>
         <p>Ja, platforms moeten transparanter zijn en overheden moeten regels opstellen (zoals verplichte labels voor AI-content) om menselijke interactie te beschermen.</p>
     </p>
+    <p>
+      <strong>Huiswerk opdracht: Noteer zaken die jij nog niet hebt kunnen vertalen naar CSS: Deze HTML en CSS elementen heb ik niet kunnen ontcijferen</strong>
+      .<li>dl, dt, dd</li> 
+      .<li>blockquote, th, td</li>
+      .<li>address, caption, cite, dfn, th, var</li>
+      .<li>caption, th</li>
+      .<li>abbr, acronym</li>
+      .<li>text-indent: 1em;</li> - (p + p text-indent): 
+      .<li>Quotes, primes, dash en Ellipsis</li>
+      .<li>ol</li>
+      .<li>-moz-border-radius: 2px; -webkit-border-radius: 2px; -o-border-radius: 2px;</li>
+    </p>
   <p>
- - Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS 
+ <storng>- Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS </storng>
 </p>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
