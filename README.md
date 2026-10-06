@@ -805,18 +805,43 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <p>
         <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong>
+        <img width="1920" height="770" alt="image" src="https://github.com/user-attachments/assets/998b4a88-d15c-4b60-a38f-968adcb4e01b" />
+        <img width="1920" height="739" alt="image" src="https://github.com/user-attachments/assets/f746a081-d836-4439-8295-ae31769c944d" />
+        <img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/d137a1b3-d64e-4677-9a2b-c8db8ca746a3" />
+        <img width="1920" height="793" alt="image" src="https://github.com/user-attachments/assets/ec3fa6ac-016f-4367-afee-4b20852b0996" />
+        <img width="1920" height="901" alt="image" src="https://github.com/user-attachments/assets/9472643f-d57d-4de1-99a0-cda2d529b2e0" />
       </p>
       
       <p>
-        <strong>Nieuwe (met HTML & CSS):</strong>
+        <strong>Aangepast Hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie(met HTML & CSS):</strong>
+  <img width="1918" height="277" alt="image" src="https://github.com/user-attachments/assets/7aa7cd72-d481-4e6e-82fb-425e48a014b1" />
+
+
+
+  <p> Hier heb ik al mijn werk aangepast</p>
+  <img width="1920" height="550" alt="image" src="https://github.com/user-attachments/assets/afc40052-17d4-426b-aa53-1f3215919c84" />
+  <img width="1920" height="552" alt="image" src="https://github.com/user-attachments/assets/30011c1c-46c8-4328-8403-e7b70a97c4d7" />
       </p>
-      
       <p>
         <strong>Oude (met HTML & CSS):</strong>
       </p>
       
       <p>
         <strong>Nieuwe (met HTML & CSS):</strong>
+      </p>
+      <p>
+        <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong>
+      </p>
+      <p>
+        <strong>Aangepast (met HTML & CSS):</strong>
+      </p>
+      <p>
+        <strong>Oude (met HTML & CSS):</strong>
+      </p>
+      
+      <p>
+        <strong>Nieuwe (met HTML & CSS):</strong>
+
       </p>
   </ul>
   <span>
