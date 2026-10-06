@@ -811,13 +811,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <img width="1920" height="793" alt="image" src="https://github.com/user-attachments/assets/ec3fa6ac-016f-4367-afee-4b20852b0996" />
         <img width="1920" height="901" alt="image" src="https://github.com/user-attachments/assets/9472643f-d57d-4de1-99a0-cda2d529b2e0" />
       </p>
-      
       <p>
         <strong>Aangepast Hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie(met HTML & CSS):</strong>
   <img width="1918" height="277" alt="image" src="https://github.com/user-attachments/assets/7aa7cd72-d481-4e6e-82fb-425e48a014b1" />
-
-
-
   <p> Hier heb ik al mijn werk aangepast</p>
   <img width="1920" height="550" alt="image" src="https://github.com/user-attachments/assets/afc40052-17d4-426b-aa53-1f3215919c84" />
   <img width="1920" height="552" alt="image" src="https://github.com/user-attachments/assets/30011c1c-46c8-4328-8403-e7b70a97c4d7" />
@@ -825,7 +821,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         <strong>Oude (met HTML & CSS):</strong>
       </p>
-      
       <p>
         <strong>Nieuwe (met HTML & CSS):</strong>
       </p>
