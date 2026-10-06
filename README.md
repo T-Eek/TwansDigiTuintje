@@ -797,6 +797,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/ca751d49-457d-4b93-839e-132ffe20cfb4" />
       <img width="312" height="969" alt="image" src="https://github.com/user-attachments/assets/a1bec97e-ca39-4370-b11e-24b4fe0be922" />
   </ul>
+  <h1></h1>
   <h3>Sprint 3</h3>
   <h3>06 Oktober</h3>
   <p>
