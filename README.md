@@ -64,7 +64,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </div>
       </div>
     </div>
-    <h1></h1>
+      <hr />
     <div class="September2CONTAINER">
       <div class="DropDown">
         <span class="SeptemberKopje">
@@ -166,7 +166,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </div>
       </div>
     </div>
-    <h1></h1>
+      <hr />
       <div class="September4CONTAINER">
         <div class="DropDown">
           <span class="SeptemberKopje">
@@ -273,7 +273,7 @@ Website voor inspiratie, OVERNEMEN!!!
         </ul>
       </span>
     </div>
-    <h1></h1>
+    <hr />
     <h3>9 September</h3>
     <p>Tijdens deze opdracht moesten we een artikel <strong>verkennend</strong> lezen en een korte samenhang vertellen wat je uit de tekst hebt opgedaan</p>
 THe Digital Garden:
@@ -332,8 +332,7 @@ Imperfection & Learing in Public
             </li>
           </ul>
         </span>
-        <h1></h1>
-
+        <hr />
 <h3>16 September</h3>
 Check-out:
 Noem 3 Gestaltprincipes op en laat de ander uitleggen wat ze betekenen en doen.
@@ -348,7 +347,7 @@ Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid e
 Welk principe neem je mee in een laatste iteratie van je ontwerp?
 
 - Hoe het simpel en duidelijk anders ga je veelste groot denken.
-<h1></h1>
+<hr />
 
 <h1>18 September</h1>
 <img width="2535" height="1056" alt="image" src="https://github.com/user-attachments/assets/27ab6e04-5593-4e81-aecb-23d2af6f3728" />
@@ -379,7 +378,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
-<h1></h1>
+<hr />
 <h3>Sprint 2</h3>
 <h3>21 September</h3>
 <p>
@@ -423,10 +422,10 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
             </li>
           </ul>
         </span>
-        <h1></h1>
+        <hr />
 <h3>23 September</h3>
 <p>
-  <storng></storng>
+  <strong></strong>
 </p>
 
 <p>
@@ -507,7 +506,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
-<h1></h1>
+<hr />
 <h3>25 September</h3>
 <h3>Vrijdag Feedback Sprint 2:</h3>
 <p>
@@ -558,7 +557,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
-<h1></h1>
+<hr />
 
 <h3>26 September</h3>
 <p>
@@ -652,7 +651,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
-<h1></h1>
+<hr />
 
 <h3>30 September</h3>
 <h3>Woensdag WCAG checklist</h3>
@@ -743,15 +742,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
-<h1></h1>
-
 <h3>2 Oktober</h3>
-
 <h3>Feedback Sprint 2:</h3>
 <p>
   (Nicky) Heijmen, N.A. gaf mij als feedback dat ik mijn learning log meer up-to-date moest houden met veranderingen van mijn website, daarnaast moet ik mijn code erg opschonen, minder classes gebruiken.
 </p>
-<h1></h1>
+<hr />
 
 <h3>3 Oktober</h3>
 <h3>Feedback van sprint 2 verwerken...</h3>
@@ -797,7 +793,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/ca751d49-457d-4b93-839e-132ffe20cfb4" />
       <img width="312" height="969" alt="image" src="https://github.com/user-attachments/assets/a1bec97e-ca39-4370-b11e-24b4fe0be922" />
   </ul>
-  <h1></h1>
   <hr />
   <h3>Sprint 3</h3>
   <h3>06 Oktober</h3>
