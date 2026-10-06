@@ -841,11 +841,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   Ik heb qua style de body aangepast om de structuur te veranderen van onder elkaar naar naast elkaar.
 </p>
-
-
-
-
-    
   <h3> Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS</h3>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
