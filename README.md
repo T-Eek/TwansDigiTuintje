@@ -834,9 +834,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       .<li>ol</li>
       .<li>-moz-border-radius: 2px; -webkit-border-radius: 2px; -o-border-radius: 2px;</li>
     </p>
-  <p>
- <storng>- Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS </storng>
-</p>
+  <h2>- Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS</h2>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
     <p>Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel geprobeerd om dezelfde CSS te behouden die ik er al aan had gegeven</p>
