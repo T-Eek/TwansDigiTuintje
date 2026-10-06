@@ -8,7 +8,8 @@
   <meta name="color-scheme" content="dark light" />
 
   <title>Digi Tuintje INTRO</title>
-  <link rel="stylesheet" href="./assets/style/normal.css" />
+  <link rel="stylesheet" href="./assets/style/normalNEW.css" />
+  <!--<link rel="stylesheet" href="./assets/style/IndexCSS.css" />-->
   <script src="./assets/Scripts/Scripts.js"></script>
 
 
@@ -18,94 +19,74 @@
 
 <body>
   <header>
-
-    <div class="LightSwitch-CONTAINER">
-      <form class="LightSwitch">
-        <label class="toggle-switch">
-          <input type="checkbox" id="light-dark-toggle" value="LightDark-ToggleSwitch" />
-          <span class="slider">
-            <span class="slider2"></span>
-            <p class="SliderTekst">Light & Dark Mode</p>
-          </span>
-        </label>
-      </form>
-    </div>
-
   </header>
 
   <main>
+    <form class="LightDarkMode">
+      <label>
+        <input type="checkbox" id="light-dark-toggle" value="LightDark-ToggleSwitch" checked />
+        <span>
+          <span></span>
+          <p>Light & Dark Mode</p>
+        </span>
+      </label>
+    </form>
 
-    <article class="IntroHeaderContainer">
-      <h1 class="IntroRealHeader">
-        <a class="IntroLINK" href="Intro.html">Twan's Digi Tuintje...</a>
+    <article id="Titel">
+      <h1>
+        <a href="Intro.html">Twan's Digi Tuintje...</a>
       </h1>
-      <p class="IntroTekst">Klik om door te gaan ~~></p>
+      <p>Klik om door te gaan ~~></p>
     </article>
 
-    <!-- Cookie / Consent Overlay -->
-    <div class="CookContainer" id="consentOverlay">
-      <div class="consent-card">
+    <!-- Cookie / Consent Overlay met semantische <dialog> -->
+    <dialog class="CookieBanner" id="consentOverlay" open>
+      <article>
         <h2>Welkom op mijn Digitale Tuin!</h2>
         <p>
-          Om deze website goed te laten werken en transparant te zijn over jouw privacy, informeren we je graag over hoe
+          Om deze website goed te laten werken en transparant te zijn over jouw privacy, informeren we je
+          graag over hoe
           deze site is opgebouwd en welke gegevens worden verwerkt.
         </p>
 
-        <div class="consent-details">
+        <section>
           <h3>Welke externe diensten en onderdelen worden er gebruik?</h3>
           <ul>
             <li>
-              <p><strong>GitHub Pages:</strong> Wordt gebruikt voor de hosting van de repository en de website.</p>
+              <p><strong>GitHub Pages:</strong> Wordt gebruikt voor de hosting van de repository en de
+                website.</p>
             </li>
             <li>
               <p>
-                <strong>Digitaaltuintje Webring Component:</strong> Verbindt deze tuin met het netwerk van de digitale
+                <strong>Digitaaltuintje Webring Component:</strong> Verbindt deze tuin met het netwerk
+                van de digitale
                 tuintjes via een webring-component.
               </p>
             </li>
             <li>
-              <p><strong>Google Fonts:</strong> Wordt gebruikt voor de typografie en het laadt lettertypen via externe
+              <p><strong>Google Fonts:</strong> Wordt gebruikt voor de typografie en het laadt lettertypen
+                via externe
                 servers.
               </p>
             </li>
           </ul>
-          <p><em>Voor de rest is alles op deze website volledig door mijzelf ontworpen en geprogrammeerd! Er worden geen
+          <p><em>Voor de rest is alles op deze website volledig door mijzelf ontworpen en geprogrammeerd! Er
+              worden geen
               onnodige tracking- of advertentiecookies geplaatst.</em></p>
-        </div>
+        </section>
 
-        <div class="consent-buttons">
-          <button class="btn-accept" onclick="acceptConsent()">Akkoord & Sluiten</button>
-        </div>
-      </div>
-    </div>
-
+        <footer>
+          <button onclick="acceptConsent()">Akkoord & Sluiten</button>
+        </footer>
+      </article>
+    </dialog>
   </main>
 
-
   <footer>
-    <span class="CopyrightTekstCONTAINER">
-      <p class="fo-Copyright-tekst">
-        @Copyright since 2026 - all rights belong to Twan Eekhout
-      </p>
-    </span>
-
-    <!--<p>[Copyleft 2026, all wrongs reversed]</p>-->
+    <p>
+      @Copyright since 2026 - all rights belong to Twan Eekhout
+    </p>
   </footer>
 </body>
 
 </html>
-
-<!--<form class="DarkLightMode">
-      <label for="light-mode">
-        <input type="radio" id="light-mode" name="color-theme" value="light"> Licht
-        <span class="RoundSlider"></span>
-      </label>
-      <label for="dark-mode">
-        <input type="radio" id="dark-mode" name="color-theme" value="dark"> Donker
-        <span class="RoundSlider"></span>
-      </label>
-    </form>-->
-
-<!--<article class="IntroShadowContainer">
-      <span class="IntroHeaderShadow">Shadow</span>
-    </article>-->

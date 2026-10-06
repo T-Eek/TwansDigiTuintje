@@ -8,7 +8,7 @@
     <meta name="color-scheme" content="dark light" />
 
     <title>Mijn Digi Tuintje</title>
-    <link rel="stylesheet" href="./assets/style/normal.css" />
+    <link rel="stylesheet" href="./assets/style/normalNEW.css" />
     <script src="./assets/Scripts/Scripts.js"></script>
 
 
@@ -17,235 +17,153 @@
 </head>
 
 <body>
-    <header>
+    <header id="HeaderKop">
+        <form class="LightDarkMode">
+            <label>
+                <input type="checkbox" id="light-dark-toggle" value="LightDark-ToggleSwitch" checked />
+                <span>
+                    <span></span>
+                    <p>Light & Dark Mode</p>
+                </span>
+            </label>
+        </form>
 
-        <div class="HeaderContainer">
-            <div class="LightSwitch-INTROCONTAINER">
-                <form class="LightSwitch">
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="light-dark-toggle" value="LightDark-ToggleSwitch" checked />
-                        <span class="slider">
-                            <span class="slider2"></span>
-                        </span>
-                    </label>
-                </form>
-            </div>
+        <p>Twan's</p>
 
-            <h1>Twan's</h1>
+        <h1>DigiTuintje...</h1>
 
-            <h1 class="RealHeader">DigiTuintje...</h1>
+        <!-- Het hamburger menu -->
+        <nav onclick="openNav()">
+            <span></span>
+            <span></span>
+        </nav>
 
-            <!-- Het hamburger menu knopje om de Navigatie te openen via JavaScript -->
-            <div class="HBNAVContent" onclick="openNav()">
-                <div class="HBLINE1"></div>
-                <div class="HBLINE2"></div>
-            </div>
-        </div>
-        <!-- Navigatie -->
-        <nav id="myNav" class="NavOVERLAY">
-            <!-- Het sluit knopje voor de Navigatie ook wel (&times;) -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-            <ul class="N-overlay-content" id="myLinks"> <!-- De links die op mobiel in- en uitklappen -->
-                <li class="listSTYLE"><a class="listLINK" href="index.html">INTRO</a></li>
-                <!--<li class="listSTYLE"><a class="listLINK" href="">[Home]</a></li>-->
-                <!--<li class="listSTYLE"><a class="listLINK" href="Logs.html">[Log]</a></li>-->
-                <li class="listSTYLE"><a class="listLINK" href="MijnWerk.html">Werk</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="Minions.html">Minions</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="Story.html">Story</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="Contact.html">Contact</a></li>
+        <!-- Navigatie Overlay -->
+        <nav id="myNav">
+            <a onclick="closeNav()">x</a>
+
+            <ul id="navLinks">
+                <li><a href="index.html">INTRO</a></li>
+                <li><a href="MijnWerk.html">Werk</a></li>
+                <li><a href="Minions.html">Minions</a></li>
+                <li><a href="Story.html">Story</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
 
-    <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
-
-    <div class="modelrepoCONTAINER">
-        <p class="modelREPO">
-            De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.
-        </p>
-    </div>
-    <div class="borderLINE"></div>
+        <p>De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.</p>
     </header>
 
     <main>
+        <!-- Showcase Horizontale Galerij -->
 
-        <article class="ShowCaseContainer">
-            <article class="WorkShowCase1">
-                <span class="WSC-Container">
-                    <a class="TuintjeLINK" href="./YouGoGirl.html">
-                        <span class="SCImgContainer">
-                            <img class="SCImage1" src="././assets/Images/Sprint1/YouGoGIrl-Image.png"
-                                alt="CSS Deep Dive: You Go Girl">
-                        </span>
-                        <span class="ShowCaseTitle">
-                            <strong>Deep Dive: Fonts, Kleur en Effecten<br>
-                                <b class="ShowCaseText">You Go Girl</b>
-                            </strong>
-                        </span>
-                    </a>
+        <section id="TopArticles">
+            <article>
+                <a href="./YouGoGirl.html">
+                    <span>
+                        <img src="./assets/Images/Sprint1/YouGoGIrl-Image.png" alt="CSS Deep Dive: You Go Girl">
+                    </span>
+                    <span>
+                        <strong>Deep Dive: Fonts, Kleur en Effecten<br>
+                            <b>You Go Girl</b>
+                        </strong>
+                    </span>
+                </a>
+            </article>
+
+            <article>
+                <a href="./MiniPosters.html">
+                    <span>
+                        <img src="./assets/Images/IntroImages/DeepDiveImage.png"
+                            alt="CSS Deep Dive: MYST, NEON & HELLO">
+                    </span>
+                    <span>
+                        <strong>Deep Dive: Fonts, Kleur en Effecten<br>
+                            <b>MYST, NEON & HELLO</b></strong>
+                    </span>
+                </a>
+            </article>
+
+            <article>
+                <span>
+                    <h2><strong>Al mijn werk!</strong></h2>
+                    <p>Een sectie voor al mijn recente projecten/ concepten!</p>
                 </span>
             </article>
 
-            <article class="WorkShowCase2">
-                <span class="WSC-Container">
-                    <a class="TuintjeLINK" href="./MiniPosters.html">
-                        <span class="SCImgContainer">
-                            <img class="SCImage2" src="././assets/Images/IntroImages/DeepDiveImage.png"
-                                alt="CSS Deep Dive: MYST, NEON & HELLO">
-                        </span>
-                        <span class="ShowCaseTitle">
-                            <strong>Deep Dive: Fonts, Kleur en Effecten<br>
-                                <b class="ShowCaseText2">MYST, NEON & HELLO</b></strong>
-                        </span>
-                    </a>
-                </span>
+            <article>
+                <a href="./InspiratiePres.html">
+                    <span>
+                        <img src="./assets/Images/IntroImages/PresentatieImage.png"
+                            alt="Inspiratie presentatie Digi Tuintje">
+                    </span>
+                    <span>
+                        <strong>Inspiratie: <b>Digi Tuintje</b></strong>
+                    </span>
+                </a>
             </article>
 
-            <article class="WorkShowCase3">
-                <span class="WSC-Container">
-                    <span class="SpanShowCase3">
-                        <h1 class="SC-Titel-H2"><strong>Al mijn werk!</strong></h1>
-                        <p>Een sectie voor al mijn recente projecten/ concepten!</p>
+            <article>
+                <a href="./Minions.html">
+                    <span>
+                        <img src="./assets/Images/IntroImages/MinionQoute-image.png"
+                            alt="Minions: Kevin, Bob, Stuart kleine inleiding over de minions">
                     </span>
+                    <span>
+                        <strong>Project/ Concept 4: <b>Minions</b></strong>
+                    </span>
+                </a>
+            </article>
+        </section>
+
+        <!-- Info / Inspiratie blokken -->
+        <section id="InfoArticles">
+            <article>
+                <span>
+                    <img src="./assets/Images/IntroImages/MinionQoute-image.png"
+                        alt="Minions, inspiratie voor mijn Digi Tuintje" />
+                </span>
+                <p>
+                    Het <strong><b>eerste deel</b></strong> van mijn ontwerp bestaat uit de
+                    <strong><b>minions</b></strong>, vooral het <strong>Enthousiast & Opvallend</strong> aspect
+                    ervan, omdat de minions erg opvallen en kleurrijk zijn wil ik dat doormiddel van interactie
+                    terug laten komen op mijn website.
+                    Dit doe ik doormiddel van hovers, animaties en overgang (transistions) van elementen op mijn
+                    website, zo als de titel, kopjes, afbeeldingen, links en border lijnen.
+                </p>
+                <span>
+                    <img src="./assets/Images/IntroImages/MiroImage.png"
+                        alt="Sfeerwoorden en inspiratie voor mijn Digi Tuintje" />
                 </span>
             </article>
-
-            <article class="WorkShowCase4">
-                <span class="WSC-Container">
-                    <a class="TuintjeLINK" href="./InspiratiePres.html">
-                        <span class="SCImgContainer">
-                            <img class="SCImage3" src="././assets/Images/IntroImages/PresentatieImage.png"
-                                alt="Inspiratie presentatie Digi Tuintje">
-                        </span>
-                        <span class="ShowCaseTitle">
-                            <strong>Inspiratie: <b class="ShowCaseText5">Digi Tuintje</b></strong>
-                        </span>
-                    </a>
+            <article>
+                <span>
+                    <img src="./assets/Images/IntroImages/IkeaFashion-image.png"
+                        alt="Ikea, inspiratie voor mijn Digi Tuintje" />
+                </span>
+                <p>
+                    Het <strong><b>tweede deel</b></strong> van mijn ontwerp bestaat uit de
+                    <strong><b>Ikea</b></strong>, tvooral het <strong>Duidelijke & Abstracte</strong> aspect
+                    ervan, omdat de kleuren van de Ikea goed passen bij de minions, simpel uit te spreken is en
+                    visueel fijn om naar te kijken is heb ik mijn Digital Garden ook zo vorm gegeven doormiddel
+                    van een zwart, witte achtergrond om een <storng>saaie website</storng> te tonen, door de
+                    interacties, misschien kennis van de Minion films dat <strong>mijn Digital Garden meer leven
+                        krijgt</strong> en je meer nieuwsgierig wordt om over tekst/ afbeeldingen te hoveren/
+                    klikken.
+                </p>
+                <span>
+                    <img src="./assets/Images/IntroImages/MiroImage2.png"
+                        alt="Typografie/ lettertype voor mijn Digi Tuintje" />
                 </span>
             </article>
-
-            <article class="WorkShowCase5">
-                <span class="WSC-Container">
-                    <a class="TuintjeLINK" href="./Minions.html">
-                        <span class="SCImgContainer">
-                            <img class="SCImage4" src="././assets/Images/IntroImages/MinionQoute-image.png"
-                                alt="Minions: Kevin, Bob, Stuart kleine inleiding over de minions">
-                        </span>
-                        <span class="ShowCaseTitle">
-                            <strong>Project/ Concept 4: <b class="ShowCaseText3">Minions</b></strong>
-                        </span>
-                    </a>
-                </span>
-            </article>
-        </article>
-        <div class="borderLINE"></div>
-
-        <article class="InfoCONTAINER">
-            <article class="InfoShowCase1">
-                <span class="ISC-Container">
-                    <span class="InfoSCImgContainer1">
-                        <img class="InfoSCImage1" src="././assets/Images/IntroImages/MinionQoute-image.png"
-                            alt="Minions, inspiratie voor mijn Digi Tuintje" />
-                    </span>
-                    <span class="Info-SCT-CONTAINER">
-                        <p>
-                            Het eerste deel van mijn ontwerp bestaat uit de
-                            <strong class="ShowCaseText3"><b>minions</b></strong>, vooral het <strong>Enthousiast &
-                                Opvallend</strong> aspect ervan, omdat de minions erg opvallen en kleurrijk zijn wil ik
-                            dat
-                            doormiddel van interactie terug laten komen op mijn website.
-
-                            Dit doe ik doormiddel van hovers, animaties en overgang (transistions) van elementen op mijn
-                            website, zo als de titel, kopjes, afbeeldingen, links en border lijnen.
-                        </p>
-                    </span>
-                </span>
-            </article>
-
-            <article class="InfoShowCase2">
-                <span class="ISC-Container">
-                    <span class="Info-SCT-CONTAINER">
-                        <p>
-                            Het tweede deel van mijn ontwerp bestaat uit de
-                            <strong class="ShowCaseText4"><b>Ikea</b></strong>, vooral het <strong>Duidelijke &
-                                Abstracte</strong> aspect ervan, omdat de kleuren van de Ikea goed passen bij de
-                            minions, simpel uit te spreken is en visueel fijn om naar te kijken is heb ik mijn Digital
-                            Garden ook zo vorm gegeven doormiddel van een zwart, witte achtergrond om een <storng>saaie
-                                website </storng> te tonen, door de interacties, misschien kennis van de Minion films
-                            dat <strong>mijn Digital Garden meer leven krijgt</strong> en je meer nieuwsgierig wordt om
-                            over tekst/ afbeeldingen te hoveren/ klikken.
-                        </p>
-                    </span>
-                    <span class="InfoSCImgContainer2">
-                        <img class="InfoSCImage2" src="././assets/Images/IntroImages/IkeaFashion-image.png"
-                            alt="Ikea, inspiratie voor mijn Digi Tuintje" />
-                    </span>
-                </span>
-            </article>
-        </article>
-        <div class="borderLINE"></div>
-        <article class="InfoCONTAINER">
-            <article class="InfoShowCase3">
-                <span class="ISC-Container">
-                    <span class="InfoSCImgContainer1">
-                        <img class="InfoSCImage1" src="././assets/Images/IntroImages/MiroImage.png"
-                            alt="Sfeerwoorden en inspiratie voor mijn Digi Tuintje" />
-                    </span>
-
-                    <span class="Info-SCT-CONTAINER">
-                        <p>
-                            De <strong class="ShowCaseText5"><b>eerste bron</b></strong> van mijn ontwerp bestaat uit
-                            de minions, vooral het <strong>Enthousiast & Opvallend</strong> aspect ervan, omdat de
-                            minions erg opvallen en kleurrijk zijn wil ik dat doormiddel van interactie terug laten
-                            komen op mijn website.
-
-                            Dit doe ik doormiddel van hovers, animaties en overgang (transistions) van elementen op mijn
-                            website, zo als de titel, kopjes, afbeeldingen, links en border lijnen.
-                        </p>
-                    </span>
-                </span>
-            </article>
-
-            <article class="InfoShowCase4">
-                <span class="ISC-Container">
-                    <span class="Info-SCT-CONTAINER">
-                        <p>
-                            De <strong class="ShowCaseText5"><b>tweede bron</b></strong> van mijn ontwerp bestaat uit
-                            de Ikea, vooral het <strong>Duidelijke & Abstracte</strong> aspect ervan, omdat de kleuren
-                            van de Ikea goed passen bij de minions, simpel uit te spreken is en visueel fijn om naar te
-                            kijken is heb ik mijn Digital Garden ook zo vorm gegeven doormiddel van een zwart, witte
-                            achtergrond om een <storng>saaie website</storng> te tonen, door de interacties, misschien
-                            kennis van de Minions films dat <strong>mijn Digital Garden meer leven krijgt</strong> en je
-                            meer nieuwsgierig wordt om over tekst/ afbeeldingen te hoveren/ klikken.
-                        </p>
-                    </span>
-                    <span class="InfoSCImgContainer2">
-                        <img class="InfoSCImage1" src="././assets/Images/IntroImages/MiroImage2.png"
-                            alt="Typografie/ lettertype voor mijn Digi Tuintje" />
-                    </span>
-                </span>
-            </article>
-        </article>
-        <div class="borderLINE"></div>
-
-
-
-        <!--<article>
-      <span>
-        <h2>[Voorbeeld artikel]</h2>
-        <p>[Dit is een voorbeeld artikel tekst...]</p>
-      </span>
-    </article>-->
+        </section>
     </main>
 
-    <span class="CopyrightTekstCONTAINER">
-        <p class="fo-Copyright-tekst">
+    <footer>
+        <p>
             @Copyright since 2026 - all rights belong to Twan Eekhout
         </p>
-    </span>
-    <!--<footer>
-    <p>[Copyleft 2026, all wrongs reversed]</p>
-  </footer>-->
+    </footer>
 </body>
 
 </html>
