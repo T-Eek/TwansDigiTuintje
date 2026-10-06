@@ -842,28 +842,24 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <li><b>Vijf soorten contract:</b> Contrasten in grootte, gewicht, kleur, vorm en richting die visuele spanning en leesbaarheid creëren (Bron 3, Bron 5).</li>
         <li><b>Spatial tension:</b> De visuele dynamiek en spanning die ontstaat door de plaatsing van elementen en witruimte (Bron 3).</li>
       </p>
-        <li>
       <strong>2. Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
       <p>
         <li>1. De ideale regellengte (measure) voor doorlopende tekst dat ik kon vinden en online ligt tussen de 45 en 75 tekens per regel, met ongeveer 65 tekens als de optimale 'sweet spot' (Bron 1, Bron 4).</li>
         <li>2. Als een regel te lang is, raakt de lezer halverwege het spoor bijster, terwijl te korte regels het leesritme verstoren doordat je ogen te vaak heen en weer moeten springen (Bron 1, Bron 4).</li>
       </p>
-    </li>
-        <li>
       <strong>3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?</strong>
       <p>
         <li>Als je in een ontwerp slechts één variabele mag kiezen, is grootte (font-size) het meest effectief om direct hiërarchie aan te brengen (Bron 1, Bron 5).</li>
         <li>Ons brein herkent direct dat grotere objecten belangrijker zijn, waardoor een helder verschil in grootte instinctief aangeeft wat de lezer als eerst moet bekijken (Bron 1, Bron 5).</li>
       </p>
-    </li>
   </ul>
     <p>
       <strong>Gebruikte bronnen:</strong>
     </p>
-    <a href="https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf">1. Modular Scale 1 - Matej Latin</a>
-        <a href="[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf)">2. Modular Scale 2 - DEV Community</a>
-            <a href="[[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf)](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Rhythm%20&%20Tension%20_%20Typographic%20Web%20Design%203.pdf)">3. Rhythm & Tension - Typographic Web Design</a>
-            <a href="[[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Respect%20Thy%20Typography%20%E2%80%94%20Smashing%20Magazine.pdf))">4. Respect Thy Typography — Smashing Magazine</a>
+    <a href="https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf">1. Modular Scale 1 - Matej Latin</a><br>
+    <a href="[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf)">2. Modular Scale 2 - DEV Community</a><br>
+            <a href="[[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf)](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Rhythm%20&%20Tension%20_%20Typographic%20Web%20Design%203.pdf)">3. Rhythm & Tension - Typographic Web Design</a><br>
+            <a href="[[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Respect%20Thy%20Typography%20%E2%80%94%20Smashing%20Magazine.pdf))">4. Respect Thy Typography — Smashing Magazine</a><br>
             <a href="[[https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%201%20-%20H7%20from%20Better%20Web%20Typography%20for%20a%20Better%20Web%20(Second%20Edition)%20-%20Matej%20Latin.pdf](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Modular%20Scale%202%20-%20Creating%20a%20modular%20typography%20scale%20with%20CSS%20-%20DEV%20Community.pdf)](https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/H4%20from%20Design_Elements_Typography_Fundamentals1.pdf)">5. Design Elements Typography Fundamentals</a>
 </span>
 <h1></h1>
