@@ -824,26 +824,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1920" height="987" alt="Screenshot (689)" src="https://github.com/user-attachments/assets/ed7b9153-a742-4c3d-82d6-4151751720f7" />
       <img width="1920" height="879" alt="Screenshot (690)" src="https://github.com/user-attachments/assets/ff223d4a-0ff5-45dd-b481-6039bda186a9" />
       </p>
-      <p>
-        <strong>Oude (met HTML & CSS):</strong>
-      </p>
-      <p>
-        <strong>Nieuwe (met HTML & CSS):</strong>
-      </p>
-      <p>
-        <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong>
-      </p>
-      <p>
-        <strong>Aangepast (met HTML & CSS):</strong>
-      </p>
-      <p>
-        <strong>Oude (met HTML & CSS):</strong>
-      </p>
-      
-      <p>
-        <strong>Nieuwe (met HTML & CSS):</strong>
-
-      </p>
   </ul>
   <span>
   <h3>Check-out:</h3>
