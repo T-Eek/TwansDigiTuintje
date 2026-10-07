@@ -796,6 +796,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <hr />
   <h3>Sprint 3</h3>
   <h3>06 Oktober</h3>
+  <img width="2328" height="1848" alt="image" src="https://github.com/user-attachments/assets/d71ccffe-6d39-4520-8d82-b928fed6e631" />
+  <img width="1848" height="2809" alt="image" src="https://github.com/user-attachments/assets/ae0aaf84-f383-4708-bc18-ede65213e7ce" />
     <p>
       Tijdens <b>Bi-weekly geek 3</b> moesten we artikels <strong>verkennend</strong> lezen en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen
     </p>
