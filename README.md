@@ -914,3 +914,30 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <a href="https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/H4%20from%20Design_Elements_Typography_Fundamentals1.pdf">5. Design Elements Typography Fundamentals</a>
 </span>
 <h1></h1>
+
+<h3>7 Oktober</h3>
+  <span>
+  <h3>Check-out:</h3>
+  <ul>
+    <li>
+      <strong>1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.</strong>
+      <p>
+        -
+      </p>
+    </li>
+        <li>
+      <strong>2. Noem drie manieren om chaos in je ontwerp te voorkomen.</strong>
+      <p>
+        <li>1. De Screenreader door alles van mijn website laten lezen en goed laten voorlezen voor eventueel blinde mensen</li>
+        <li>2. Alleen toetsenbord, Om het goed en vloeiend te maken voor een blind/ disabled persoon</li>
+        <li>3. Fake Social Proof</li>
+      </p>
+    </li>
+        <li>
+      <strong>3. Hoeveel gekkigheid moet er in je werk zitten?</strong>
+      <p>
+        -
+      </p>
+    </li>
+  </ul>
+</span>
