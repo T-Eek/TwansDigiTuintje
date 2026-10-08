@@ -36,10 +36,11 @@ MARK: HTML
 html {
   color-scheme: light dark;
   --background: light-dark(white, black);
+  --background-ikea: light-dark(blue, yellow);
   --color-LightDark: light-dark(black, white);
   --background-Dark: linear-gradient(to right, black, black, white, white, white);
   --background-Light: linear-gradient(to right, white, white, black, black, black);
-  --background-Ikea: linear-gradient(to bottom, yellow, yellow 55%, blue, blue 45%);
+  --Lin-background-Ikea: linear-gradient(to bottom, yellow, yellow 55%, blue, blue 45%);
   --background-Rainbow: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040, #f77737, #fcaf45, #ffdc80);
   --boxshadow-Rainbow: -15px -10px 8px #FF7A00, 20px -20px 8px #FF0069, -15px 10px 8px #D300C5, 20px 20px 8px #7638FA;
   --boxshadow-Ikea: -10px 15px 25px yellow, 10px -10px 25px blue;
@@ -69,8 +70,6 @@ html {
   --Custom-Standaard-Color: #bbbbbb;
   --Boder-bottom-CustomY: yellow;
   --Border-bottom-CustumB: blue;
-
-  --Scroll: -webkit-scrollbar: width 20px;
 }
 
 /*
@@ -123,14 +122,14 @@ MARK: Consent Dialog (Cookie)
 
 .CookieBanner > article {
   background: var(--Custom-ColorW);
-  color: #2d3748;
+  color: var(--Custom-ColorB);
   width: 100%;
   max-width: 600px;
+  max-height: 100vh;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
-  max-height: 90vh;
   overflow-y: auto;
 }
 
@@ -429,27 +428,31 @@ MARK: Main Header
 
 /* 2. Middelste reuze titel ("DigiTuintje...") komt op rij 1, kolom 2 (en gecentreerd) */
 #HeaderKop > h1 {
+    font-size: 24px;
     grid-column: 2;
     grid-row: 1;
     font-size: 7vw;
     text-align: center;
     margin: 0;
-    transition: padding 20s, box-shadow 8s;
+    animation: --puff-ani 1.5s infinite alternate ease-in-out paused;
 
     &:hover {
-      background-image: var(--background-Rainbow);
-      box-shadow: var(--boxshadow-Rainbow);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: move 35s linear infinite;
-      cursor: pointer;
+      -webkit-text-stroke-width: .1em;
+      -webkit-text-stroke-color: var(--color-LightDark);
+      text-shadow: 0px 0px 20px var(--background-ikea);
+      animation-play-state: running;
     }
 }
 
-@keyframes move {
-  to {
-    background-position: 2300vh;
-  }
+@keyframes --puff-ani {
+    0% {
+        letter-spacing: 0em;
+        font-size: auto;
+    }
+    100% {
+        letter-spacing: 1rem;
+        font-size: 6rem;
+    }
 }
 
 /* 3. Hamburger menu komt op rij 1, kolom 3 (rechts uitgelijnd) */
@@ -599,6 +602,7 @@ MARK: Main Top Articles
 
 #TopArticles > article:nth-child(1):hover a > span strong b {
   color: var(--Custom-ColorC);
+  text-shadow: 0px 0px 10px var(--color-LightDark);
   transition: color 0.4s ease-in-out;
 }
 
@@ -608,21 +612,15 @@ MARK: Main Top Articles
 }
 
 #TopArticles > article:nth-child(4):hover a > span strong b {
-  background-image: var(--background-Rainbow);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: ShowCaseMove 360s linear infinite;
-  cursor: pointer;
-}
-
-@keyframes ShowCaseMove {
-  to {
-    background-position: 2300vh;
-  }
+  -webkit-text-stroke-width: .1em;
+  -webkit-text-stroke-color: var(--color-LightDark);
+  text-shadow: 0px 0px 10px var(--background-ikea);
+  transition: color 0.4s ease-in-out;
 }
 
 #TopArticles > article:nth-child(5):hover a > span strong b {
   color: var(--Custom-ColorY);
+  text-shadow: 0px 0px 10px var(--color-LightDark);
   transition: color 0.4s ease-in-out;
 }
 
@@ -747,7 +745,7 @@ MARK: Info/ Insp Articles
 }
 
 #InfoArticles > article:nth-child(2):hover p b {
-  background: var(--background-Ikea);
+  background: var(--Lin-background-Ikea);
   background-clip: text;
   color: transparent;
 }
