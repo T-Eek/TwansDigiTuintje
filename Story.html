@@ -8,7 +8,7 @@
     <meta name="color-scheme" content="dark light" />
 
     <title>Digi Tuintje's Verhaal</title>
-    <link rel="stylesheet" href="./assets/style/normal.css" />
+    <link rel="stylesheet" href="./assets/style/normalNEW.css" />
     <script src="./assets/Scripts/Scripts.js"></script>
 
 
@@ -17,56 +17,43 @@
 </head>
 
 <body>
-    <header>
-        <div class="HeaderContainer">
-            <h1>Story</h1>
-            <h1 class="RealHeader">Coming Soooon...</h1>
-            <!-- <h1>[Digitaal Tuintje van ...]</h1> -->
-            <!-- Het hamburger knopje menu met Javascript -->
-            <div class="HamburgerMENU" onclick="openNav()">
-                <div class="HBNAVContent">
-                    <div class="HBLINE1"></div>
-                    <div class="HBLINE2"></div>
-                </div>
-            </div>
-        </div>
-        <!-- Navigatie -->
-        <nav id="myNav" class="NavOVERLAY">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <ul class="N-overlay-content" id="myLinks"> <!-- De links die op mobiel in- en uitklappen -->
-                <li class="listSTYLE"><a class="listLINK" href="index.html">INTRO</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="Intro.html">Home</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="MijnWerk.html">Werk</a></li>
-                <li class="listSTYLE"><a class="listLINK" href="Minions.html">Minions</a></li>
+    <header id="HeaderKop">
 
-                <!--<li class="listSTYLE"><a class="listLINK" href="#">[Log]</a></li>-->
-                <!--<li class="listSTYLE"><a class="listLINK" href="/story.html">[Story]</a></li>-->
-                <li class="listSTYLE"><a class="listLINK" href="Contact.html">Contact</a></li>
+        <p>Twan's</p>
+
+        <h1>Coming Soooon...</h1>
+
+        <!-- Het hamburger menu -->
+        <nav onclick="openNav()">
+            <span></span>
+            <span></span>
+        </nav>
+
+        <!-- Navigatie Overlay -->
+        <nav id="myNav">
+            <a onclick="closeNav()">x</a>
+
+            <ul id="navLinks">
+                <li><a href="index.html">INTRO</a></li>
+                <li><a href="Intro.html">DigiTuinje</a></li>
+                <li><a href="MijnWerk.html">Werk</a></li>
+                <li><a href="Minions.html">Minions</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
 
-        <div class="modelrepoCONTAINER">
-            <p class="modelREPO">
-                De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.
-            </p>
-        </div>
+        <p>De model komt van de <a href="https://github.com/CMDA/model">CMDA/model fork</a> repository op GitHub.</p>
     </header>
 
     <main>
-        <div class="Kopje1CONTAINER">
-            <p class="Kopje1">
-                mijn model komt van de <a href="https://github.com/T-Eek/TwansDigiTuintje">T-Eek/TwansDigiTuintje</a>
-                repository op GitHub.
-        </div>
 
-        <div class="borderLINE"></div>
     </main>
 
-    <span class="CopyrightTekstCONTAINER">
-        <p class="fo-Copyright-tekst">
+    <footer>
+        <p>
             @Copyright since 2026 - all rights belong to Twan Eekhout
         </p>
-    </span>
+    </footer>
     <!--<footer>
         <p>[Copyleft 2026, all wrongs reversed]</p>
     </footer>-->

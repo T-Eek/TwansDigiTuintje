@@ -1,26 +1,51 @@
 /* MARK: fonts */
 @font-face {
   font-family: 'Seraphs';
-  src: url('font/SeraphsVF.woff2') format('woff2'), /* Modern Browsers */
+  src: url(./font/SeraphsVF.woff2) format('woff2'), /* Modern Browsers */
+}
+
+html {
+  --Custom-FontR-p-wght: 100;
+  --Custom-FontR-p-srfs: 40;
+
+  --Custom-FontB-p-wght: 200;
+  --Custom-FontB-p-srfs: 40;
 }
 /* MARK: items */
 body{
   font-family: 'Seraphs';
 }
 
+p {
+font-family: 'Seraphs';
+  font-weight: 200;
+  font-size: 32px;
+  margin: 0px;}
+
 header {
-  font-size: 24px;
-  letter-spacing: 0.5px;
+  font-size: 32px;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: baseline;
 }
 
 header > span > b {
   font-size: 96px;
-  letter-spacing: -24px;
+  letter-spacing: -1.2rem;
+}
+
+#P {
+  font-size: 96px;
+  letter-spacing: -1.7rem;
 }
 
 #G {
   font-size: 96px;
-  letter-spacing: -7px;
+  letter-spacing: 0rem;
 }
 
 header > strong {
@@ -28,7 +53,68 @@ header > strong {
 }
 
 main {
+
+}
+
+section {
   display: flex;
   justify-content: center;
-  align-content: center;
 }
+
+section > article {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  width: 41%;
+  margin: 5rem;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+section > article > p:first-of-type {
+  justify-self: baseline;
+  font-variation-settings: "wght" var(--Custom-FontB-p-wght), "SRFS" var(--Custom-FontB-p-srfs);
+
+}
+
+section > article > p:nth-child(2) {
+  justify-self: right;
+  font-variation-settings: "wght" var(--Custom-FontR-p-wght), "SRFS" var(--Custom-FontR-p-srfs);
+}
+
+section > article > p:nth-child(3) {
+
+}
+
+section > article > p:nth-child(4) {
+
+}
+
+section > article > p:nth-child(5) {
+
+}
+
+section > article > p:nth-child(6) {
+
+}
+
+section > article > p:nth-child(7) {
+
+}
+
+
+/* 
+H1 - 96pх
+Titles
+Body 1
+(Default)
+H2 - 60px
+H3 - 48px
+H4 - 34px
+H5 - 24px
+H6 - 20px
+16px
+Body 2
+(Secondary) 14 px
+Captions 12px
+*/

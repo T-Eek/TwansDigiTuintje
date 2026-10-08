@@ -1,0 +1,314 @@
+/**************/
+/* @FONT-FACE */
+/**************/
+
+/* 3x een font aanroepen: Dyna Puff, Honk en Rocher Color */
+@font-face {
+	font-family: "DynaPuff";
+	src: url("./fonts/DynaPuff.ttf");
+}
+
+@font-face {
+	font-family: "Honk";
+	src: url("./fonts/Honk.ttf");
+}
+
+@font-face {
+	font-family: "RocherColor";
+	src: url("./fonts/RocherColor.ttf");
+}
+
+
+
+
+
+/*************/
+/* DYNA PUFF */
+/*************/
+
+/* code voor alle hokjes */
+
+section:nth-of-type(1) {
+	/* Dyna Puff gebruiken + een fallback */
+	li:nth-of-type(1) {
+	font-family: "DynaPuff";
+	font-variation-settings: "wght" 400, "wdth" 75;
+	transition: 1s;
+
+		&:hover {
+			font-family: "DynaPuff";
+			font-variation-settings: "wght" 700, "wdth" 100;
+		}
+	}
+
+	li:nth-of-type(2) {
+		font-family: "DynaPuff";
+		font-variation-settings: "wght" 400, "wdth" 100;
+
+	}
+	li:nth-of-type(3) {
+		font-family: "DynaPuff";
+		font-variation-settings: "wght" 550, "wdth" 75;
+
+	}
+	li:nth-of-type(4) {
+		font-family: "DynaPuff";
+		font-variation-settings: "wght" 500, "wdth" 100;
+	}
+	li:nth-of-type(5) {
+		font-family: "DynaPuff";
+		font-variation-settings: "wght" 700, "wdth" 75;
+	}
+	li:nth-of-type(6) {
+		font-family: "DynaPuff";
+		font-variation-settings: "wght" 700, "wdth" 100;
+	}
+}
+
+/* code per hokje */
+
+section:nth-of-type(1) li:nth-of-type(1) {
+
+}
+
+
+/********/
+/* HONK */
+/********/
+
+/* code voor alle hokjes */
+
+section:nth-of-type(2) {
+	font-size:1.25em;
+	/* Honk gebruiken + een fallback */
+	li:nth-of-type(1) {
+		font-family: "Honk";
+		font-variation-settings: "MORF" 0, "SHLN" 100;
+		transition: 1s;
+
+		&:hover {
+			font-variation-settings: "MORF" 100, "SHLN" 0;
+		}
+	}
+	
+	li:nth-of-type(2) {
+		font-family: "Honk";
+		font-variation-settings: "MORF" 10, "SHLN" 100;
+		transition: 1s;
+
+		&:hover {
+			font-variation-settings: "MORF" 0, "SHLN" 100;
+		}
+	}
+
+	li:nth-of-type(3) {
+		font-family: "Honk";
+		font-variation-settings: "MORF" 25, "SHLN" 100;
+	}
+	
+	li:nth-of-type(4) {
+		font-family: "Honk";
+		font-variation-settings: "MORF" 40, "SHLN" 100;
+	}
+
+}
+
+/* code per hokje */
+
+section:nth-of-type(2) li:nth-of-type(1) {
+	font-family: "Honk";
+
+}
+
+section:nth-of-type(2) li:nth-of-type(2) {
+	font-family: "Honk";
+
+}
+
+section:nth-of-type(2) li:nth-of-type(3) {
+	font-family: "Honk";
+
+}
+
+section:nth-of-type(2) li:nth-of-type(4) {
+	font-family: "Honk";
+
+}
+
+
+
+
+
+/****************/
+/* Rocher Color */
+/****************/
+
+/* 4 color pallettes */
+
+@font-palette-values --Rocher0 {
+	font-family: "RocherColor";
+	base-palette:0;
+}
+
+@font-palette-values --Rocher1 {
+	font-family: "RocherColor";
+	base-palette:1;
+
+}
+
+@font-palette-values --Rocher2 {
+	font-family: "RocherColor";
+	base-palette:2;
+}
+
+@font-palette-values --Rocher6 {
+	font-family: "RocherColor";
+	base-palette:6;
+
+}
+
+/* code voor alle hokjes */
+
+section:nth-of-type(3) {
+	font-size:.95em;
+	/* Rocher Color gebruiken + een fallback */
+	li:nth-of-type(1) {
+		font-family: "RocherColor";
+		font-variation-settings: "BVEL" 0, "SHDW" 0;
+		transition: 1s;
+
+		&:hover {
+		font-family: "RocherColor";
+		font-variation-settings: "BVEL" 100, "SHDW" 100;
+		font-palette: --Rocher6;
+		}
+	}
+
+	li:nth-of-type(2) {
+		font-family: "RocherColor";
+		font-variation-settings: "BVEL" 50, "SHDW" 50;
+		font-palette: --Rocher1;
+	}
+
+	li:nth-of-type(3) {
+		font-family: "RocherColor";
+		font-variation-settings: "BVEL" 50, "SHDW" 50;
+		font-palette: --Rocher2;
+	}
+
+	li:nth-of-type(4) {
+		font-family: "RocherColor";
+		font-variation-settings: "BVEL" 100, "SHDW" 100;
+		font-palette: --Rocher6;
+	}
+}
+
+
+/* code per hokje */
+
+section:nth-of-type(3) li:nth-of-type(1) {
+	font-family: "RocherColor";
+
+
+}
+
+section:nth-of-type(3) li:nth-of-type(2) {
+	font-family: "RocherColor";
+
+}
+
+section:nth-of-type(3) li:nth-of-type(3) {
+	font-family: "RocherColor";
+
+}
+
+section:nth-of-type(3) li:nth-of-type(4) {
+	font-family: "RocherColor";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************/
+/* BASIS - HOEF JE NIETS MEE TE DOEN */
+/*************************************/
+
+@layer basis {
+	
+	* {
+		box-sizing:border-box;
+	}
+
+	html {
+		color-scheme:light dark;	
+	}
+	
+	body {
+		display:grid;
+		place-content:safe center;
+
+		text-align:center;
+	}
+	
+	h1 {
+		width:min-content;
+		margin:.2em auto;
+
+
+		font-size:clamp(2.5rem, 2rem + 2.5vw, 3.5rem);
+		/* font-size:2.5em; */
+		/* font-size:3.5em; */
+		/* line-height:1em; */
+	}
+
+	main {
+		inline-size:min(100% - 2rem, 32rem);
+		block-size:100dvh;
+		margin:0 auto;
+
+		font-size:clamp(1rem, 0.5rem + 2.5vw, 2rem);
+	}
+
+	ul {
+		padding:1px;
+		
+		display:grid;
+		grid-template-columns:1fr 1fr;
+		gap:1px;
+		
+		background-color:black;
+		list-style-type:"";
+	}
+
+	li {
+		padding:.5em;
+
+		display:grid;
+
+		background-color:white;
+		color:black;
+	}
+}

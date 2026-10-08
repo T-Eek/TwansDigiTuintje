@@ -200,99 +200,16 @@ MARK: Consent Dialog (Cookie)
   cursor: pointer;
   transition: background-color 0.2s;
   width: 100%;
-}
 
-.CookieBanner button:hover {
-  background-color: var(--Custom-Color-Toggle);
+  &:hover {
+    background-color: var(--Custom-Color-Toggle);
+  }
 }
 
 @media (min-width: 480px) {
   .CookieBanner button {
     width: auto;
   }
-}
-/*
-MARK: Hamburger Menu / Nav
-*/
-
-/* De hamburger knop wrapper */
-header:first-of-type > nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-
-  width: 7%;
-  height: 100px;
-}
-
-header:first-of-type > nav > span {
-  background-color: CanvasText;
-  width: 88px;
-  height: 25px;
-  background-color: var(--color-LightDark);
-}
-
-#myNav {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: var(--Nav-Custom-backgroundOverlay);
-  overflow: hidden;
-  transition: 5s;
-  display: flex;
-  justify-content: center;
-}
-
-#myNav a {
-  text-decoration: none;
-  font-size: 5vw;
-  transition: 0.5s;
-  color: var(--Custom-ColorG);
-}
-
-#myNav a:hover, 
-#myNav a:focus {
-  color: var(--Custom-ColorBL);
-}
-
-#myNav > a:first-of-type {
-  position: absolute;
-
-  display: flex;
-  justify-content: center;
-  width: 5%;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  cursor: pointer;
-}
-
-#navLinks {
-  padding: 0px;
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  display: block;
-}
-
-#navLinks li {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  transition: border-bottom 1.5s;
-}
-
-#navLinks a {
-  text-decoration: none;
-  display: block;
-}
-
-#navLinks a:hover {
-  border-bottom: 8px solid var(--Custom-ColorBL);
 }
 
 /*
@@ -307,14 +224,13 @@ html:has([value="LightDark-ToggleSwitch"]) {
     line-height: 1.5em;
     text-shadow: 0 0 0.4em black, 0 0 0.8em black, 0 0 1em black;
     transition: 0.4s ease-in-out;
-  }
 
-  #Titel > h1:hover {
-    text-shadow: 0px 0px 0px var(--Custom-ColorB);
-    font-family: "Slackey", sans-serif;
-
-    p {
-      opacity: 100%;
+    &:hover {
+      text-shadow: 0px 0px 0px var(--Custom-ColorB);
+      font-family: "Slackey", sans-serif;
+      p {
+        opacity: 100%;
+      }
     }
   }
 }
@@ -328,14 +244,14 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
     line-height: 1.5em;
     text-shadow: 0 0 0.4em white, 0 0 0.8em white, 0 0 1em white;
     transition: 0.4s ease-in-out;
-  }
 
-  #Titel > h1:hover {
-    p {
-      opacity: 100%;
+    &:hover {
+      text-shadow: 0px 0px 0px var(--Custom-ColorW);
+      font-family: "Slackey", sans-serif;
+      p {
+        opacity: 100%;
+      }
     }
-    text-shadow: 0px 0px 0px var(--Custom-ColorW);
-    font-family: "Slackey", sans-serif;
   }
 }
 
@@ -345,7 +261,7 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
   align-content: center;
   height: 150px;
 
-  position: absolute;
+  position: fixed;
   top: 5%;
   left: 15%;
 }
@@ -364,10 +280,10 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
   opacity: 0;
   width: 100%;
   height: 100%;
-}
 
-.LightDarkMode label input[type="checkbox"]:focus {
-  border: 10px solid var(--Custom-BorderColor-Toggle);
+  &:focus {
+    border: 10px solid var(--Custom-BorderColor-Toggle);
+  }
 }
 
 .LightDarkMode label input[type="checkbox"] + span {
@@ -519,15 +435,15 @@ MARK: Main Header
     text-align: center;
     margin: 0;
     transition: padding 20s, box-shadow 8s;
-}
 
-#HeaderKop > h1:hover {
-  background-image: var(--background-Rainbow);
-  box-shadow: var(--boxshadow-Rainbow);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: move 35s linear infinite;
-  cursor: pointer;
+    &:hover {
+      background-image: var(--background-Rainbow);
+      box-shadow: var(--boxshadow-Rainbow);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: move 35s linear infinite;
+      cursor: pointer;
+    }
 }
 
 @keyframes move {
@@ -535,7 +451,6 @@ MARK: Main Header
     background-position: 2300vh;
   }
 }
-
 
 /* 3. Hamburger menu komt op rij 1, kolom 3 (rechts uitgelijnd) */
 #HeaderKop > nav:first-of-type {
@@ -547,23 +462,93 @@ MARK: Main Header
     flex-direction: column;
     width: 50%;
     height: 100px;
+
+    &:hover span {
+      box-shadow: 0px 0px 20px var(--color-LightDark);
+    }
 }
 
-#HeaderKop > nav:first-of-type > span {
-    display: block;
-    background-color: var(--color-LightDark, CanvasText);
+/*
+MARK: Hamburger Menu / Nav
+*/
+
+/* De hamburger knop wrapper */
+#HeaderKop:first-of-type > nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#HeaderKop > nav:first-of-type:hover span {
-  /*background-color: var(--Custom-Standaard-Color);*/
-  box-shadow: 0px 0px 20px var(--color-LightDark);
+#HeaderKop:first-of-type > nav > span {
+  display: block;
+  width: 88px;
+  height: 25px;
+  background-color: var(--color-LightDark);
 }
 
 #myNav {
-    position: fixed;
-    z-index: 1;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  height: 0%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--Nav-Custom-backgroundOverlay);
 }
 
+#myNav a {
+  text-decoration: none;
+  font-size: 5vw;
+  transition: 0.5s;
+  color: var(--Custom-ColorG);
+
+  &:hover, &:focus {
+    color: var(--Custom-ColorBL);
+  }
+}
+
+#myNav > a:first-of-type {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  width: 5%;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+#navLinks {
+  padding: 0px;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  display: block;
+}
+
+#navLinks li {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  transition: border-bottom 1.5s;
+}
+
+#navLinks a {
+  text-decoration: none;
+  display: block;
+  &:hover {
+    border-bottom: 8px solid var(--Custom-ColorBL);
+  }
+}
+
+/*
+MARK: Header Logo/ Tekst
+*/
 #HeaderKop > p:last-of-type {
     grid-column: 2;
     grid-row: 2;
@@ -604,7 +589,6 @@ MARK: Main Top Articles
     border-top: 21px dotted var(--Border-bottom-CustumB);
   }
 }
-
 
 #TopArticles > article:nth-child(-n+5) {
   display: flex;

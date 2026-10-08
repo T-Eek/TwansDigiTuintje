@@ -14,7 +14,7 @@
 /*****************************/
 
 /* met deze selector selecteer je de eerste li */
-li:nth-of-type(1) {
+main li:nth-of-type(1) {
 	rotate:2deg;
 	
 	display:grid;
@@ -43,7 +43,7 @@ li:nth-of-type(1) {
 
 
 /* met deze selector selecteer je de tweede li */
-li:nth-of-type(2) {
+main li:nth-of-type(2) {
 
     display:grid;
 	place-items:center;
@@ -65,7 +65,7 @@ li:nth-of-type(2) {
 }
 
 /* met deze selector selecteer je de derde li */
-li:nth-of-type(3) {
+main li:nth-of-type(3) {
 
 	display: grid;
     place-items: center;
@@ -102,7 +102,7 @@ li:nth-of-type(3) {
 
 
 /* met deze selector selecteer je de vierde li */
-li:nth-of-type(4) {
+main li:nth-of-type(4) {
 
 	display: grid;
     place-items: center;
@@ -126,7 +126,7 @@ li:nth-of-type(4) {
 }
 
 /* met deze selector selecteer je de vijfde li */
-li:nth-of-type(5) {
+main li:nth-of-type(5) {
 
 	display: grid;
     place-items: center;
@@ -159,7 +159,7 @@ li:nth-of-type(5) {
 }
 
 /* met deze selector selecteer je de zesde li */
-li:nth-of-type(6) {
+main li:nth-of-type(6) {
 
 	display: grid;
     place-items: center;
@@ -212,7 +212,7 @@ li:nth-of-type(6) {
 }
 
 /* met deze selector selecteer je de sevende li */
-li.ticket {
+main li.ticket {
     display: grid;
     place-items: center;
     background-color: #ff3300;
@@ -252,7 +252,7 @@ li.ticket {
 }
 
 /* met deze selector selecteer je de achste li */
-li.puff {
+main li.puff {
     display: grid;
     place-items: center;
     background-image: radial-gradient( gold 70%, blue 30%); /* background-image: radial-gradient(in oklch, Yellow, LimeGreen); */
@@ -289,7 +289,7 @@ li.puff {
 }
 
 /* met deze selector selecteer je de negenste li */
-li.banana {
+main li.banana {
     display: grid;
     place-items: center;
     background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/MinionQoute-image.png);
@@ -326,7 +326,7 @@ li.banana {
 }
 
 /* met deze selector selecteer je de tiende li */
-li.coffee {
+main li.coffee {
     display: grid;
     place-items: center;
     background-image: conic-gradient(from -40deg in oklch, Thistle, MediumVioletRed, Purple 30% 70%, MediumVioletRed, Thistle);
