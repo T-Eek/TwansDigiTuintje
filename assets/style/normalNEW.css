@@ -553,12 +553,12 @@ MARK: Hamburger Menu / Nav
 MARK: Header Logo/ Tekst
 */
 #HeaderKop > p:last-of-type {
-    grid-column: 2;
-    grid-row: 2;
-    justify-self: end;
-    font-size: 12px;
-    color: var(--Custom-Standaard-Color);
-    margin: 10px 0 0 0;
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: end;
+  font-size: 12px;
+  color: var(--Custom-Standaard-Color);
+  margin: 10px 0 0 0;
 }
 
 /*
@@ -577,11 +577,11 @@ MARK: Main Top Articles
   border-top: 2px solid var(--color-LightDark);
   transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
   padding: 2rem 0;
-}
 
-#TopArticles:hover {
-  border-top: 5px dotted var(--Custom-ColorY);
-  animation: BTmove 10s infinite;
+  &:hover {
+    border-top: 5px dotted var(--Custom-ColorY);
+    animation: BTmove 10s infinite;
+  }
 }
 
 @keyframes BTmove {
@@ -682,12 +682,12 @@ MARK: Info/ Insp Articles
   border-bottom: 2px solid var(--color-LightDark);
   transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
   padding: 2rem 0;
-}
 
-#InfoArticles:hover {
-  border-top: 5px dotted var(--Custom-ColorY);
-  border-bottom: 5px dotted var(--Custom-ColorBL);
-  animation: mymove 10s infinite;
+  &:hover {
+    border-top: 5px dotted var(--Custom-ColorY);
+    border-bottom: 5px dotted var(--Custom-ColorBL);
+    animation: mymove 10s infinite;
+  }
 }
 
 @keyframes mymove {
@@ -737,11 +737,11 @@ MARK: Info/ Insp Articles
   width: 50%;
   height: auto;
   transition: transform 0.4s ease-in-out;
-}
 
-#InfoArticles > article:nth-child(2) > span img:hover {
-  transform: scale(0.9);
-  box-shadow: var(--boxshadow-Ikea);
+  &:hover {
+    transform: scale(0.9);
+    box-shadow: var(--boxshadow-Ikea);
+  }
 }
 
 #InfoArticles > article:nth-child(2):hover p b {
