@@ -140,15 +140,16 @@ MARK: Consent Dialog (Cookie)
 
 .CookieBanner > article > h2 {
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 28px;
   color: #1a202c;
 }
 
 .CookieBanner > article > p {
-  font-size: 1.2rem;
+  font-family: "Caveat", cursive;
+  font-size: 24px;
   line-height: 1.5;
   color: #4a5568;
-  font-family: "Caveat", cursive;
+  margin: 0px;
 }
 
 /* Specificatie van de diensten in de dialog */
@@ -161,7 +162,7 @@ MARK: Consent Dialog (Cookie)
 }
 
 .CookieBanner section h3 {
-  font-size: 1rem;
+  font-size: 24px;
   margin-top: 0;
   color: var(--Custom-ColorExtraBL);
 }
@@ -177,8 +178,8 @@ MARK: Consent Dialog (Cookie)
   margin-bottom: 6px;
 }
 
-.CookieBanner li p {
-  font-family: "Caveat", cursive;
+.CookieBanner li p strong {
+  font-size: 24px;
 }
 
 /* Knop styling in de dialog footer */
@@ -740,6 +741,7 @@ MARK: Info/ Insp Articles
   text-transform: uppercase;
   color: var(--Custom-ColorY);
   transition: 1s ease-in-out;
+  text-shadow: 4px 2px var(--color-LightDark);
 }
 
 #InfoArticles > article:nth-child(2) span > img {
@@ -754,7 +756,7 @@ MARK: Info/ Insp Articles
 }
 
 #InfoArticles > article:nth-child(2):hover p b {
-  background: var(--Lin-background-Ikea);
-  background-clip: text;
-  color: transparent;
+  background: var(--Custom-ColorBL);
+  background-clip: border-box;
+  text-shadow: 4px 2px var(--Custom-ColorB);
 }
