@@ -428,10 +428,9 @@ MARK: Main Header
 
 /* 2. Middelste reuze titel ("DigiTuintje...") komt op rij 1, kolom 2 (en gecentreerd) */
 #HeaderKop > h1 {
-    font-size: 24px;
     grid-column: 2;
     grid-row: 1;
-    font-size: 7vw;
+    font-size: 96px;
     text-align: center;
     margin: 0;
     animation: --puff-ani 1.5s infinite alternate ease-in-out paused;
@@ -447,12 +446,17 @@ MARK: Main Header
 @keyframes --puff-ani {
     0% {
         letter-spacing: 0em;
-        font-size: auto;
     }
     100% {
-        letter-spacing: 1rem;
-        font-size: 6rem;
+        letter-spacing: 8px;
+        font-size: 6.5rem;
     }
+}
+
+
+#HeaderLink {
+  text-decoration: none;
+  color: var(--Custom-ColorW)
 }
 
 /* 3. Hamburger menu komt op rij 1, kolom 3 (rechts uitgelijnd) */

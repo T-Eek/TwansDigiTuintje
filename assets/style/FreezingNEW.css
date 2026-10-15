@@ -38,7 +38,7 @@ html {
   --Main-background: linear-gradient(to bottom, #f9ed00, #988b00, #6a6000, #2f2a06);
 
 }
-/* MARK: items */
+/* MARK: Freezing songtekst */
 
 #FreeingMAIN {
     transition: background-color 0.4s ease-in-out;
@@ -60,6 +60,7 @@ html {
   margin: 0px;
 }
 
+/* MARK: Songtekst Header */
 #FreezingHeader {
   display: grid;
   grid-template-rows: auto;
@@ -99,8 +100,6 @@ html {
   font-size: 48px;
 }
 
-
-
 #FreezingMAIN {
     border-top: 2px solid var(--color-LightDark);
     border-bottom: 2px solid var(--color-LightDark);
@@ -113,15 +112,6 @@ html {
         animation: mymove 10s infinite;
     }
 }
-
-main {
-
-}
-
-/*#FreezingMAIN article:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}*/
 
 #FreezingMAIN > article:nth-child(2) {
   display: grid;

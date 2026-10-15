@@ -13,6 +13,12 @@
 /* JOUW CODE VOOR DE BLOKJES */
 /*****************************/
 
+header > p {
+    border-block: none;
+}
+
+
+
 /* met deze selector selecteer je de eerste li */
 main li:nth-of-type(1) {
 	rotate:2deg;
