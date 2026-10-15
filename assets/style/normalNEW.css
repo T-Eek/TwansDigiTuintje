@@ -680,7 +680,6 @@ MARK: Info/ Insp Articles
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
 
   border-top: 2px solid var(--color-LightDark);
   border-bottom: 2px solid var(--color-LightDark);
@@ -715,13 +714,13 @@ MARK: Info/ Insp Articles
 }
 
 #InfoArticles > article > span, #InfoArticles > article:nth-child(2) span {
+  text-align: center;
   overflow: hidden;
 }
 
 #InfoArticles > article p {
-  padding: 0px 15%;
+  padding: 0px 20%;
 }
-
 
 #InfoArticles > article > span img, #InfoArticles > article:nth-child(2) span:last-child > img {
   width: 100%;
