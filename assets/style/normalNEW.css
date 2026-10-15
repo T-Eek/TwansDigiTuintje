@@ -718,6 +718,11 @@ MARK: Info/ Insp Articles
   overflow: hidden;
 }
 
+#InfoArticles > article p {
+  padding: 0px 15%;
+}
+
+
 #InfoArticles > article > span img, #InfoArticles > article:nth-child(2) span:last-child > img {
   width: 100%;
   height: 30rem;
@@ -732,6 +737,7 @@ MARK: Info/ Insp Articles
 
 #InfoArticles > article:hover p b { 
   font-size: 32px;
+  font-family: "Slackey";
   text-transform: uppercase;
   color: var(--Custom-ColorY);
   transition: 1s ease-in-out;
