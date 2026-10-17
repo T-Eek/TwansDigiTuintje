@@ -760,3 +760,72 @@ MARK: Info/ Insp Articles
   background-clip: border-box;
   text-shadow: 4px 2px var(--Custom-ColorB);
 }
+
+/*
+MARK: Minion Article
+*/
+#MinionArticles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-top: 2px solid var(--color-LightDark);
+  border-bottom: 2px solid var(--color-LightDark);
+  transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
+  padding: 2rem 0;
+
+  &:hover {
+    border-top: 5px dotted var(--Custom-ColorY);
+    border-bottom: 5px dotted var(--Custom-ColorBL);
+    animation: mymove 10s infinite;
+  }
+}
+
+@keyframes mymove {
+  25% {
+    border-top: 10px dotted var(--Boder-bottom-CustomY);
+    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+  }
+  75% {
+    border-top: 21px dotted var(--Border-bottom-CustumB);
+    border-bottom: 21px dotted var(--Border-bottom-CustumB);
+  }
+}
+
+#MinionArticles > article {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 70%;
+  margin: 1rem 0px;
+  flex-direction: column;
+}
+
+#MinionArticles > article > span, #MinionArticles > article:nth-child(2) span {
+  text-align: center;
+  overflow: hidden;
+}
+
+#MinionArticles > article p {
+  padding: 0px 20%;
+  margin: 0px 0px 5% 0px;
+}
+
+#MinionArticles > article > span img, #MinionArticles > article:nth-child(2) span:last-child > img {
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+#MinionArticles > article > span img:hover {
+  transform: scale(0.9);  
+}
+
+#MinionArticles > article:hover p b { 
+  font-size: 32px;
+  font-family: "Slackey";
+  text-transform: uppercase;
+  color: var(--Custom-ColorY);
+  transition: 1s ease-in-out;
+  text-shadow: 4px 2px var(--color-LightDark);
+}
