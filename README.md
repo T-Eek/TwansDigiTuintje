@@ -960,7 +960,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <img width="677" height="812" alt="image" src="https://github.com/user-attachments/assets/b160e711-00ca-48b1-8e5a-1f719572c06d" />
     <img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/317e5d48-3a76-41cb-a78c-5a7d5c1d180f" />
     <img width="625" height="894" alt="image" src="https://github.com/user-attachments/assets/633533f2-b7ac-44c5-96ae-4c46b1716073" />
-    <img width="827" height="865" alt="image" src="https://github.com/user-attachments/assets/adc8f0a0-d952-4588-bdc1-ca909f78a9a7" />
+    <img width="1582" height="518" alt="image" src="https://github.com/user-attachments/assets/4a1a2a4c-fe27-482e-9dea-ca0cfde7c267" />
+    <img width="1791" height="672" alt="image" src="https://github.com/user-attachments/assets/d56a3ead-6c73-4c9d-9df3-9a9112f61deb" />
+    <img width="1532" height="699" alt="image" src="https://github.com/user-attachments/assets/5af88a77-9047-498f-9f09-a8d97d7b47eb" />
     <li>
       <p>
         <strong>Oude  (met HTML & CSS code):</strong></p>
