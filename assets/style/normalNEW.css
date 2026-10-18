@@ -829,3 +829,156 @@ MARK: Minion Article
   transition: 1s ease-in-out;
   text-shadow: 4px 2px var(--color-LightDark);
 }
+
+/*
+MARK: Mobiel screen 768px (iphone 17)
+*/
+@media screen and (max-width: 768px) {
+/*
+  MARK: Basic CSS Mobiel
+*/
+p {
+  font-size: 5vw;
+}
+
+
+/*
+  MARK: LightDarkMode Mobiel
+*/
+.LightDarkMode {
+  top: 8%;
+  left: 1%;
+}
+
+html:has([value="LightDark-ToggleSwitch"]) {
+  & #Titel > h1 {
+    font-family: "slackey", serif;
+  }
+}
+
+html:has([value="LightDark-ToggleSwitch"]:checked) {
+  & #Titel > h1 {
+    font-family: "slackey", serif;
+  }
+}
+
+/*
+  MARK: CokkieBanner Mobiel
+*/
+.CookieBanner > article {
+  width: 100%;
+  height: 100%;
+  max-width: 90vw;
+  max-height: 180vw;
+}
+
+.CookieBanner > article > h2 {
+  font-size: 7vw;
+}
+
+.CookieBanner > article > p {
+  font-size: 4vw;
+}
+
+.CookieBanner section h3 {
+  font-size: 5vw;
+}
+
+.CookieBanner li p strong {
+  font-size: 4vw;
+}
+
+.CookieBanner button {
+  font-size: 6vw;
+}
+
+/*
+  MARK: Intro title
+*/
+#Titel > h1 {
+  font-size: 12vw;
+  display: flex;
+  text-align: center;
+
+  &:hover {
+    font-size: 19vw;
+    display: flex;
+    text-align: center;
+  }
+  + p {
+    font-size: 7vw;
+  }
+}
+
+/*
+  MARK: Header Index Mobiel
+*/
+#HeaderKop > h1 {
+  font-size: 6vw;
+}
+
+#HeaderKop > nav:first-of-type {
+  width: 20vw;
+  height: 15vw;
+}
+
+#HeaderKop:first-of-type > nav > span {
+  width: 15vw;
+  height: 4vw;
+}
+
+/*
+  MARK: Nav Mobiel
+*/
+#navLinks {
+  top: 15%;
+}
+
+#myNav > a:first-of-type {
+  width: 10vw;
+  font-size: 25vw;
+}
+
+#myNav a {
+  font-size: 15vw;
+}
+
+/*
+  MARK: Al Mijn werk Mobiel
+*/
+#TopArticles {
+  height: auto;
+  margin: 0px 0px;
+}
+
+#TopArticles > article:nth-child(-n+5) {
+  flex: 1 0 95vw;
+}
+
+#TopArticles > article:nth-child(-n+5) span {
+  display: flex;
+  align-items: center;
+}
+
+#TopArticles > article:nth-child(-n+5) > a img {
+  width: 80vw;
+  height: 50vw;
+}
+
+#TopArticles > article:nth-child(-n+5) > a span > strong {
+  font-size: 4vw;
+}
+
+/*
+  MARK: Info article Mobiel
+*/
+#InfoArticles > article > span img, #InfoArticles > article:nth-child(2) span:last-child > img {
+  height: 40vw;
+}
+
+#InfoArticles > article p {
+  padding: 0px 0%;
+  font-size: 5vw;
+}
+
+}
