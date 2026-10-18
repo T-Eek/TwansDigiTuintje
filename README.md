@@ -965,10 +965,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <img width="1532" height="699" alt="image" src="https://github.com/user-attachments/assets/5af88a77-9047-498f-9f09-a8d97d7b47eb" />
     <li>
       <p>
-        <strong>Oude  (met HTML & CSS code):</strong></p>
+        <strong>Oude Minion (Bello) page </strong></p>
+      <img width="1275" height="156" alt="image" src="https://github.com/user-attachments/assets/69cc367c-c00e-4c0f-b413-a9334e43bb64" />
       <p>
-        <strong>Aangepast (met HTML & CSS):</strong>
-  <p> Hier heb ik al mijn werk aangepast</p>
-
-      <p>Aangepaste versie van mijn ontwerp/ inspiratie tekst en afbeeldingen</p></p>
+        <strong>Aangepast Minion (Bello) page (met HTML & CSS):</strong>
+        <img width="1312" height="863" alt="image" src="https://github.com/user-attachments/assets/f6a44cff-377c-4a15-b41d-ff1b918aa338" />
+        <img width="1077" height="608" alt="image" src="https://github.com/user-attachments/assets/551f3971-97b3-40f3-b612-f82700e35c08" />
+        <img width="771" height="799" alt="image" src="https://github.com/user-attachments/assets/18df895c-c894-4876-a3b9-f49768fc9271" />
+        <p>Op de Minion page heb ik wat meer informatie over de "Minion" hoofdpersonen toegevoegd omdat ik mijn onderwerp gemixt met de ikea heb ontwerpen en ik zelf ook een fan ben van de minions</p>
+        <p>Dit is de aangepaste versie van de Werk page en de minion page met tekst/ styling en afbeeldingen</p>
+      </p>
   </ul>
