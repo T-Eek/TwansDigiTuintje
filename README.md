@@ -922,7 +922,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <strong>1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.</strong>
       <p>
-        -
+        -Om het simpel voor de ontwerper te houden, om het voor de programmeur te programmeren, de bezoeker wordt dan blood gesteld aan een bekende structuur die makkelijk en overzichtelijk is.
       </p>
     </li>
         <li>
@@ -936,7 +936,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <li>
       <strong>3. Hoeveel gekkigheid moet er in je werk zitten?</strong>
       <p>
-        -
+        - Zoveel dat het net niet te lastig is om de orsprong nog te kunnen achterhalen en nog te kunnen uitleggen.
       </p>
     </li>
   </ul>
