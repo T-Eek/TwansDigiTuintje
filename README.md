@@ -941,7 +941,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
-<h3>0 Oktober</h3>
+<h3>9 Oktober</h3>
 <h3>Feedback Sprint 3:</h3>
 <p>
   Iedereen in de klas, Tim Brandt noteerde mijn feedback van de klas:
