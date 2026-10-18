@@ -941,3 +941,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
+<h3>0 Oktober</h3>
+<h3>Feedback Sprint 3:</h3>
+<p>
+  Iedereen in de klas, Tim Brandt noteerde mijn feedback van de klas:
+  <li>je kan wordbreak gebruiken</li>
+  <li>vet om te zien hoeveel experiment er in zit, deep dives zijn goed terug te zien.</li>
+  <li>leesbaarheid mag hier iets beter en is bij de songtekst goed. font is niet super leesvriendelijk.</li>
+  <li>veel plezier er in te zien, meer consistentie, modular scale zou je goed kunnen toepassen. intro andersom misschien, eerst helder dan vaag, of hetzelfde lettertype als wanneer je er over hovert.</li>
+  <li>inhoud van consent notice is goed.</li>
+</p>
+<hr />
