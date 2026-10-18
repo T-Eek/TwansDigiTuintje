@@ -958,12 +958,10 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <p>Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel geprobeerd om dezelfde CSS te behouden die ik er al aan had gegeven</p>
     <li>
       <p>
-        <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong></p>
+        <strong>Oude  (met HTML & CSS code):</strong></p>
       <p>
-        <strong>Aangepast Hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie(met HTML & CSS):</strong>
-  <img width="1918" height="277" alt="image" src="https://github.com/user-attachments/assets/7aa7cd72-d481-4e6e-82fb-425e48a014b1" />
+        <strong>Aangepast (met HTML & CSS):</strong>
   <p> Hier heb ik al mijn werk aangepast</p>
-  <img width="1920" height="550" alt="image" src="https://github.com/user-attachments/assets/afc40052-17d4-426b-aa53-1f3215919c84" />
-  <img width="1920" height="1080" alt="Screenshot (685)" src="https://github.com/user-attachments/assets/626afe6f-4010-47b3-9a80-83ffc9f321de" />
+
       <p>Aangepaste versie van mijn ontwerp/ inspiratie tekst en afbeeldingen</p></p>
   </ul>
