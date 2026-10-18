@@ -952,10 +952,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <li>inhoud van consent notice is goed.</li>
 </p>
 <hr />
-<h3> 10 - 18 oktober. Vervolg In mijn Index.html heb ik grote veranderingen raad gepleegd in mijn HTML als in mijn CSS</h3>
+<h3> 10 - 18 oktober. Vervolg In mijn Songtekst, werk en minion pages HTML pages als in mijn CSS</h3>
   <ul>
      <strong>- HTML & CSS aanpassingen:</strong>
-    <p>Index.html heb ik: mijn intro page met de Cookie, Light & Dark mode en de titel tekst aangepast maar wel geprobeerd om dezelfde CSS te behouden die ik er al aan had gegeven</p>
+    <p>Eerst heb ik in een apart bestand mijn Songtekst aangepast, daarna heb ik de songtekst op mijn website gezet, tussen al mijn ander werk/ deep dives:</p>
+    <img width="609" height="873" alt="image" src="https://github.com/user-attachments/assets/1fe77ee5-85c8-4f57-9a83-4435bf69d503" />
+    <img width="677" height="812" alt="image" src="https://github.com/user-attachments/assets/b160e711-00ca-48b1-8e5a-1f719572c06d" />
+    <img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/317e5d48-3a76-41cb-a78c-5a7d5c1d180f" />
+
     <li>
       <p>
         <strong>Oude  (met HTML & CSS code):</strong></p>
