@@ -23,6 +23,11 @@ MARK: FONTS
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Seraphs';
+  src: url(/TwansDigiTuintje/assets/type/SeraphsVF.woff2) format('woff2'), /* Modern Browsers */
+}
+
 /*@font-face {
   font-family: "Comic Relief";
   src: url(../type/ComicRelief-Regular.woff2);
