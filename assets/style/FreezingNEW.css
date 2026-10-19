@@ -17,7 +17,7 @@ Captions 12px
 /* MARK: fonts */
 @font-face {
   font-family: 'Seraphs';
-  src: url(/TwansDigiTuintje/assets/type/SeraphsVF.woff2) format('woff2'), /* Modern Browsers */
+  src: url(../type/SeraphsVF.woff2) format('woff2'); /* Modern Browsers */
 }
 
 html {
