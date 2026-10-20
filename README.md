@@ -951,7 +951,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       </p>
   </ul>
   <hr />
-<h3>19 Oktober, Feedback website</h3>
+<h3>19 Oktober, Webby website/ Feedback website</h3>
 <p>
   -Op het formulier moesten we eerst zelf opschrijven wat je hebt aangepast en wat je nog kan aanpassen, daarna moesten we in duo's/ trio's, feedback geven op elkaars website, dit heb ik met Katey gedaan.
 </p>
