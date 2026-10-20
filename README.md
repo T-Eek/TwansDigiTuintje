@@ -799,32 +799,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <img width="2328" height="1848" alt="image" src="https://github.com/user-attachments/assets/d71ccffe-6d39-4520-8d82-b928fed6e631" />
   <img width="1848" height="2809" alt="image" src="https://github.com/user-attachments/assets/ae0aaf84-f383-4708-bc18-ede65213e7ce" />
     <p>
-      Tijdens <b>Bi-weekly geek 3</b> moesten we artikels <strong>verkennend</strong> lezen en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen
-    </p>
-    <p>
-       - <strong>Artikel 1</strong> Guardian (2025): AI-slop (Shrimp Jesus, erotic tractors, katten-soapopera’s, Ghibli-stijl) overspoelt het internet. Het is het gevolg van algoritmes die engagement belonen + een economie waarin mensen massaal goedkope AI-content maken om views te scoren.
-    </p>
-    <p>
-      - <strong>Artikel 2</strong> Dead Internet Theory (2026): Sinds 2024 is meer dan de helft van het internetverkeer bots (51 % vs 49 % mensen). Content, likes en interacties worden steeds vaker door AI en bots gegenereerd. Gevolg: minder authenticiteit, meer homogenisering, manipulatie en content farming.
-    </p>
-    <p>
-      Het web is... dood?<br>
-      In de voorgaande weken hebben we nagedacht over de fysieke infrastructuur en de wetten en regels van het web. Maar wie zitten er eigenlijk op het internet? Jij en ik, waarschijnlijk, samen met een groot deel van de menselijke populatie, maar we delen het medium ook (bewust en onbewust) met een enorme hoeveel niet
-      menselijke stemmen (bots). Sinds 2024 wordt het web zelfs méér door bots gebruikt dan door mensen van vlees en bloed. Hebben we hierdoor nog wel te maken met een mens-tot-mensmedium? En wat maakt het eigenlijk uit als het internet op een dag enkel nog bestaat uit niet-menselijke content?<br>
-      - Nee, maar het is wel sterk veranderd. Volgens de artikelen is het steeds minder een mens-tot-mens medium.<br>
-      Nog een mens-tot-mensmedium? Steeds minder. Mensen maken nog content, maar die is vaak zelf AI-gegenereerd of volledig afgestemd op algoritmes.<br>
-      Wat maakt het uit als alleen nog niet-menselijke content overblijft? Echte verbinding, originaliteit en betrouwbare informatie verdwijnen. Platforms en algoritmes bepalen alles, desinformatie en manipulatie worden makkelijker.
-    </p>
-    <p>
-      <strong>Eventuele deelvragen:</strong><br>
-      <li>Wanneer is content nog “menselijk” genoeg?</li>
-      <p>Als er echte intentie en creativiteit achter zit, en het niet alleen is gemaakt voor engagement (zoals AI-slop).</p>
-      <li>Wie profiteert van AI-slop en bots?</li>
-        <p>Vooral de platforms zelf (door advertentie-inkomsten) en een kleine groep grote creators, terwijl gewone gebruikers last hebben van slechtere kwaliteit.</p>
-      <li>Moeten platforms of overheden ingrijpen?</li>
-        <p>Ja, platforms moeten transparanter zijn en overheden moeten regels opstellen (zoals verplichte labels voor AI-content) om menselijke interactie te beschermen.</p>
-    </p>
-    <p>
       <strong>Huiswerk opdracht: Noteer zaken die jij nog niet hebt kunnen vertalen naar CSS: Deze HTML en CSS elementen heb ik niet kunnen ontcijferen</strong>
       <li>dl, dt, dd</li>
       <li>blockquote, th, td</li>
@@ -976,3 +950,37 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <p>Dit is de aangepaste versie van de Werk page en de minion page met tekst/ styling en afbeeldingen. Bron van de Minion informatie /_ https://villains.fandom.com/wiki/Kevin,_Stuart_%26_Bob _/</p>
       </p>
   </ul>
+  <hr />
+<h3>19 Oktober, Feedback website</h3>
+<p>
+  -Op het formulier moesten we eerst zelf opschrijven wat je hebt aangepast en wat je nog kan aanpassen, daarna moesten we in duo's/ trio's, feedback geven op elkaars website, dit heb ik met Katey gedaan.
+</p>
+<img width="800" height="568" alt="image" src="https://github.com/user-attachments/assets/b3b33bf8-e352-4fdf-a288-6e762d451776" />
+<hr />
+  <h3>21 oktober</h3>
+  <p>
+    Tijdens <b>Bi-weekly geek 3</b> moesten we artikels <strong>verkennend</strong> lezen en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen
+  </p>
+    <p>
+       - <strong>Artikel 1</strong> Guardian (2025): AI-slop (Shrimp Jesus, erotic tractors, katten-soapopera’s, Ghibli-stijl) overspoelt het internet. Het is het gevolg van algoritmes die engagement belonen + een economie waarin mensen massaal goedkope AI-content maken om views te scoren.
+    </p>
+    <p>
+      - <strong>Artikel 2</strong> Dead Internet Theory (2026): Sinds 2024 is meer dan de helft van het internetverkeer bots (51 % vs 49 % mensen). Content, likes en interacties worden steeds vaker door AI en bots gegenereerd. Gevolg: minder authenticiteit, meer homogenisering, manipulatie en content farming.
+    </p>
+    <p>
+      Het web is... dood?<br>
+      In de voorgaande weken hebben we nagedacht over de fysieke infrastructuur en de wetten en regels van het web. Maar wie zitten er eigenlijk op het internet? Jij en ik, waarschijnlijk, samen met een groot deel van de menselijke populatie, maar we delen het medium ook (bewust en onbewust) met een enorme hoeveel niet
+      menselijke stemmen (bots). Sinds 2024 wordt het web zelfs méér door bots gebruikt dan door mensen van vlees en bloed. Hebben we hierdoor nog wel te maken met een mens-tot-mensmedium? En wat maakt het eigenlijk uit als het internet op een dag enkel nog bestaat uit niet-menselijke content?<br>
+      - Nee, maar het is wel sterk veranderd. Volgens de artikelen is het steeds minder een mens-tot-mens medium.<br>
+      Nog een mens-tot-mensmedium? Steeds minder. Mensen maken nog content, maar die is vaak zelf AI-gegenereerd of volledig afgestemd op algoritmes.<br>
+      Wat maakt het uit als alleen nog niet-menselijke content overblijft? Echte verbinding, originaliteit en betrouwbare informatie verdwijnen. Platforms en algoritmes bepalen alles, desinformatie en manipulatie worden makkelijker.
+    </p>
+    <p>
+      <strong>Eventuele deelvragen:</strong><br>
+      <li>Wanneer is content nog “menselijk” genoeg?</li>
+      <p>Als er echte intentie en creativiteit achter zit, en het niet alleen is gemaakt voor engagement (zoals AI-slop).</p>
+      <li>Wie profiteert van AI-slop en bots?</li>
+        <p>Vooral de platforms zelf (door advertentie-inkomsten) en een kleine groep grote creators, terwijl gewone gebruikers last hebben van slechtere kwaliteit.</p>
+      <li>Moeten platforms of overheden ingrijpen?</li>
+        <p>Ja, platforms moeten transparanter zijn en overheden moeten regels opstellen (zoals verplichte labels voor AI-content) om menselijke interactie te beschermen.</p>
+    </p>
