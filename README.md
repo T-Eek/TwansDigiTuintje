@@ -1036,11 +1036,15 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>Bij al mijn werk heb ik ook een knop over de inspiratie over mijn digi-tuintje die ik eerst niet werkend kreeg (nu wel!)</p>
       <p>Bronvermelding van over mijn inspiratie:</p>
     <li><a href="https://nl.wikipedia.org/wiki/Pierre_Coffin">Pierre_Coffin</a></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li><a href="https://en.wikipedia.org/wiki/Despicable_Me_(film)">Despicable Me (film)</a></li>
+    <li><a href="https://vasco-translator.com/articles/languages/what-language-do-minions-speak/">Minionese</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Minions_(film)">The Minions</a></li>
+    <li><a href="https://despicableme.fandom.com/wiki/Minions">Despicable Me Minions</a></li>
+    <li><a href="https://www.instagram.com/minions/?hl=en">Minions on Instagram</a></li>
+    <li><a href="https://nl.wikipedia.org/wiki/Illumination_Entertainment">Illumination Entertainment</a></li>
+    <li><a href="https://www.themoviedb.org/movie/1315772-minions-monsters/cast">Minions & Monsters</a></li>
+    <li><a href="https://www.syfy.com/syfy-wire/what-was-the-inspiration-behind-despicable-me-minions">Story time</a></li>
+    <li><a href="https://www.simoliu.com/#/illumination/">Minions</a></li>
       <p>
         <strong>Oude Inspiratie over mijn digi-tuintje (met HTML & CSS code):</strong>
       </p>
