@@ -291,93 +291,107 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
   justify-content: center;
   align-content: center;
   height: 150px;
-
   position: fixed;
   top: 5%;
-  left: 15%;
-}
+  left: 20%;
 
-.LightDarkMode:hover label input[type="checkbox"] + span {
-  box-shadow: 5px -8px 10px var(--color-LightDark)
-}
-
-.LightDarkMode > label {
-  position: relative;
-  display: flex;
-  width: 70px;
-}
-
-.LightDarkMode label input[type="checkbox"] {
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-
-  &:focus {
-    border: 10px solid var(--Custom-BorderColor-Toggle);
+  &:hover label input[type="checkbox"] + span {
+    box-shadow: 5px -8px 10px var(--color-LightDark);
   }
-}
 
-.LightDarkMode label input[type="checkbox"] + span {
-  position: absolute;
-  cursor: pointer;
-  background-color: var(--Custom-ColorY);
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
-  transition: background-color 0.3s ease-in-out;
-  box-shadow: 5px -8px 5px var(--color-LightDark);
-}
+  > label {
+    position: relative;
+    display: flex;
+    width: 70px;
 
-.LightDarkMode label input[type="checkbox"] + span p {
-  margin: 45px 0px;
-  font-size: 17px;
-  transition: margin 0.3s ease-in-out;
-  font-family: "Caveat", cursive;
-}
+    input[type="checkbox"] {
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      cursor: pointer;
 
-.LightDarkMode label input[type="checkbox"] + span > span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-  height: 35%;
-}
+      &:focus {
+        border: 10px solid var(--Custom-BorderColor-Toggle);
+      }
 
-.LightDarkMode label input[type="checkbox"] + span::before {
-  content: "";
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  background-color: var(--Custom-ColorW);
-  border-radius: 50%;
-  border: 10px solid var(--Custom-BorderColor-Toggle);
-  transition: transform 0.3s;
-}
+      /* Als de checkbox aan staat: pas de span, p en pseudo-elementen aan */
+      &:checked {
+        + span {
+          background-color: var(--Custom-Color-Toggle);
 
-.LightDarkMode label input[type="checkbox"] + span > span::before {
-  content: "";
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  background-color: var(--Custom-ColorB);
-  border-radius: 50%;
-  transition: transform 0.3s;
-}
+          &::before {
+            transform: translateY(80px);
+          }
 
-.LightDarkMode label input[type="checkbox"]:checked + span {
-  background-color: var(--Custom-Color-Toggle);
-}
+          > span::before {
+            transform: translateY(95px) translateX(16px) scale(2);
+          }
+        }
 
-.LightDarkMode label input[type="checkbox"]:checked + span p {
-  margin: -45px 0px;
-}
+        /*Bron vermelding over de tilde symbol:
+        - ik gebruik het om de p (tekst) weer naar boven te verplaatsen als de gebruiker de checkbox checked,
+          omdat ik span gebruik kan ik de CSS niet nesten in elkaar omdat een span in een p hoort en niet andersom
+          1. https://www.w3schools.com/cssref/tryit.php?filename=trycss3_gen_sibling
+          2. https://dev.to/paulryan7/css-what-does-the-tilde-mean-f4c
+        */
+        ~ p {
+          margin: 0px 0px;
+        }
+      }
+    }
 
-.LightDarkMode label input[type="checkbox"]:checked + span::before {
-  transform: translateY(80px);
-}
+    /* De achtergrond span */
+    input[type="checkbox"] + span {
+      position: absolute;
+      cursor: pointer;
+      background-color: var(--Custom-ColorY);
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      transition: background-color 0.3s ease-in-out;
+      box-shadow: 5px -8px 5px var(--color-LightDark);
 
-.LightDarkMode label input[type="checkbox"]:checked + span > span::before {
-  transform: translateY(95px) translateX(16px) scale(2);
+      > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 35%;
+
+        &::before {
+          content: "";
+          position: absolute;
+          height: 20px;
+          width: 20px;
+          background-color: var(--Custom-ColorB);
+          border-radius: 50%;
+          transition: transform 0.3s;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: var(--Custom-ColorW);
+        border-radius: 50%;
+        border: 10px solid var(--Custom-BorderColor-Toggle);
+        transition: transform 0.3s;
+      }
+    }
+
+    /* De paragraaf staat nu los in de label */
+    p {
+      position: relative;
+      margin: 6rem 0px;
+      font-size: 17px;
+      transition: margin 0.3s ease-in-out;
+      font-family: "Caveat", cursive;
+    }
+  }
 }
 
 /*
