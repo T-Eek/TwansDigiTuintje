@@ -984,3 +984,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <li>Moeten platforms of overheden ingrijpen?</li>
         <p>Ja, platforms moeten transparanter zijn en overheden moeten regels opstellen (zoals verplichte labels voor AI-content) om menselijke interactie te beschermen.</p>
     </p>
+    <img width="1950" height="1496" alt="image" src="https://github.com/user-attachments/assets/f4f149dd-7069-42e5-9829-7181578fa4c5" />
+    <p>
+      - bij de weekly geek, hebben we de hoofdvraag besproken samen met Bera, Samir, Lars, Maurizio en ik
+    </p>
+
