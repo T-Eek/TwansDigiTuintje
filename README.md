@@ -1034,6 +1034,13 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
     <li>
       <p>Bij al mijn werk heb ik ook een knop over de inspiratie over mijn digi-tuintje die ik eerst niet werkend kreeg (nu wel!)</p>
+      <p>Bronvermelding van over mijn inspiratie:</p>
+    <li><a href="https://nl.wikipedia.org/wiki/Pierre_Coffin">Pierre_Coffin</a></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
       <p>
         <strong>Oude Inspiratie over mijn digi-tuintje (met HTML & CSS code):</strong>
       </p>
