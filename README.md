@@ -1021,6 +1021,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <strong>vernieuwde afbeelding knoppen (met HTML & CSS code):</strong>
       </p>
       <img width="609" height="411" alt="image" src="https://github.com/user-attachments/assets/8306db32-8e11-4870-92de-28bdf721968a" />
-
-      <p>In mijn Intro.html heb ik: de titel tekst aangepast op basis van mijn feedback</p>
+      <p>
+        <strong>vernieuwde, vernieuwde afbeelding knoppen (met HTML & CSS code):</strong>
+      </p>
+      <img width="639" height="457" alt="image" src="https://github.com/user-attachments/assets/166fc1b7-4547-4435-b5d2-b1bc1f96af71" />
+      <p>In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
 
