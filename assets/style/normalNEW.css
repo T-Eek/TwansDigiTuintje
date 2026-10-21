@@ -637,11 +637,13 @@ MARK: Main Top Articles
 #TopArticles > article:nth-child(1):hover a > span strong b {
   color: var(--Custom-ColorC);
   text-shadow: 0px 0px 10px var(--color-LightDark);
+  text-decoration: underline;
   transition: color 0.4s ease-in-out;
 }
 
 #TopArticles > article:nth-child(2):hover a > span strong b {
   color: var(--Custom-Standaard-Color);
+  text-decoration: underline;
   transition: color 0.4s ease-in-out;
 }
 
@@ -649,12 +651,14 @@ MARK: Main Top Articles
   -webkit-text-stroke-width: .1em;
   -webkit-text-stroke-color: var(--color-LightDark);
   text-shadow: 0px 0px 10px var(--background-ikea);
+  text-decoration: underline;
   transition: color 0.4s ease-in-out;
 }
 
 #TopArticles > article:nth-child(5):hover a > span strong b {
   color: var(--Custom-ColorY);
   text-shadow: 0px 0px 10px var(--color-LightDark);
+  text-decoration: underline;
   transition: color 0.4s ease-in-out;
 }
 
@@ -681,7 +685,6 @@ MARK: Main Top Articles
 
 #TopArticles > article:nth-child(-n+5) > a img:hover {
   transform: scale(1.5);
-  cursor: pointer;
 }
 
 #TopArticles > article:nth-child(-n+5) > a span > strong {

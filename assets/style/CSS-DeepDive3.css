@@ -72,7 +72,7 @@ main li:nth-of-type(3) {
 
 	display: grid;
     place-items: center;
-    background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/IkeaFashion-image.png);
+    background-image: url(../Images/IntroImages/IkeaFashion-image.png);
     background-size: cover;
     background-position: center;
 	
@@ -132,7 +132,7 @@ main li:nth-of-type(5) {
 
 	display: grid;
     place-items: center;
-    background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/MinionQoute-image.png);
+    background-image: url(../Images/IntroImages/MinionQoute-image.png);
     background-size: cover;
     background-position: center;
 	
@@ -294,7 +294,7 @@ main li.puff {
 main li.banana {
     display: grid;
     place-items: center;
-    background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/MinionQoute-image.png);
+    background-image: url(../Images/IntroImages/MinionQoute-image.png);
     background-size: 20% 20%;
 
 	/* je kunt css selectors nesten */
@@ -317,7 +317,7 @@ main li.banana {
         transition: rotate 2.5s linear(0, 0.01, 0.04 1.6%, 0.161 3.3%, 0.816 9.4%, 1.046, 1.189 14.4%, 1.231, 1.254 17%, 1.259, 1.257 18.6%, 1.236, 1.194 22.3%, 1.057 27%, 0.999 29.4%, 0.955 32.1%, 0.942, 0.935 34.9%, 0.933, 0.939 38.4%, 1 47.3%, 1.011, 1.017 52.6%, 1.016 56.4%, 1 65.2%, 0.996 70.2%, 1.001 87.2%, 1), background-position .25s ease-in, translate 2.5s linear(0, 0.004, 0.016 2.5%, 0.063, 0.141, 0.25 10.1%, 0.562, 1 20.2%, 0.783, 0.627, 0.534 30.9%, 0.511, 0.503, 0.511, 0.534 38%, 0.627, 0.782, 1 48.7%, 0.892, 0.815, 0.769 56.3%, 0.757, 0.753, 0.757, 0.769 61.3%, 0.815, 0.892, 1 68.8%, 0.908 72.4%, 0.885, 0.878, 0.885, 0.908 79.4%, 1 83%, 0.954 85.5%, 0.943, 0.939, 0.943, 0.954 90.5%, 1 93%, 0.977, 0.97, 0.977, 1);
 	}
     &:hover {
-        background-image: url(/TwansDigiTuintje/assets/Images/IntroImages/7de6676888e7aaace80a65aaf08097c8.gif);
+        background-image: url(../Images/IntroImages/7de6676888e7aaace80a65aaf08097c8.gif);
         .bananaTekst {
             translate: -1em -60em;
             rotate: 80deg;
