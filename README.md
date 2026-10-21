@@ -1065,4 +1065,21 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="548" height="40" alt="image" src="https://github.com/user-attachments/assets/d37f971a-de12-4428-84a9-6e048dde8cf1" />
       <img width="515" height="110" alt="image" src="https://github.com/user-attachments/assets/24c3e739-54e8-42a3-a249-da06121c97aa" />
       <p>- In mijn Intro.html heb ik: mijn werk collage, heb ik het kopje "inspiratie Digituintje" werkend kunnen krijgen (was een domme type fout/ de javascript script naar het goede mapje brengen), nu dat hij werkt geeft dit mijn aller eerste beeld weer van het idee dat ik had voor mijn digituintje</p>
+    <li>
+      <p>- Tijdens mijn feedback gingen mijn website door de validator gooien en daar kwam uit dat ik bij mijn Light/Dark mode toggle nog een p in een span heb staan wat natuurlijk niet kan</p>
+      <p>
+        <strong>Oude Light/Dark mode toggle (met HTML & CSS code):</strong>
+      </p>
+      <p>
+        <strong>vernieuwde afbeelding knoppen (met HTML & CSS code):</strong>
+      </p>
+      <img width="609" height="411" alt="image" src="https://github.com/user-attachments/assets/8306db32-8e11-4870-92de-28bdf721968a" />
+      <img width="493" height="114" alt="image" src="https://github.com/user-attachments/assets/d9ed83f6-3bac-4a74-a790-448c91507207" />
+      <p>
+        <strong>vernieuwde, vernieuwde afbeelding knoppen (met HTML & CSS code):</strong>
+      </p>
+      <img width="639" height="457" alt="image" src="https://github.com/user-attachments/assets/166fc1b7-4547-4435-b5d2-b1bc1f96af71" />
+      <img width="488" height="94" alt="image" src="https://github.com/user-attachments/assets/2eacdaf7-fd57-4a86-8b7c-f061d43f2fdb" />
+      <img width="491" height="236" alt="image" src="https://github.com/user-attachments/assets/52dbb7ee-ea14-4348-8fb0-de5c60673ca5" />
+      <p>In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
 
