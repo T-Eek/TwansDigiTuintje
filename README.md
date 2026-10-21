@@ -1020,5 +1020,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         <strong>vernieuwde afbeelding knoppen (met HTML & CSS code):</strong>
       </p>
+      <img width="609" height="411" alt="image" src="https://github.com/user-attachments/assets/8306db32-8e11-4870-92de-28bdf721968a" />
+
       <p>In mijn Intro.html heb ik: de titel tekst aangepast op basis van mijn feedback</p>
 
