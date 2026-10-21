@@ -1050,5 +1050,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1750" height="983" alt="image" src="https://github.com/user-attachments/assets/b3ef77da-f6c5-496a-8964-25220dfd742f" />
       <img width="1750" height="982" alt="image" src="https://github.com/user-attachments/assets/1c5462e2-e459-464f-83f6-0639c292f788" />
       <img width="1752" height="982" alt="image" src="https://github.com/user-attachments/assets/a1710c1f-b691-47ae-9aa8-6f8ab520aa5c" />
-      <p>- In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
+      <img width="548" height="40" alt="image" src="https://github.com/user-attachments/assets/d37f971a-de12-4428-84a9-6e048dde8cf1" />
+      <img width="515" height="110" alt="image" src="https://github.com/user-attachments/assets/24c3e739-54e8-42a3-a249-da06121c97aa" />
+      <p>- In mijn Intro.html heb ik: mijn werk collage, heb ik het kopje "inspiratie Digituintje" werkend kunnen krijgen (was een domme type fout/ de javascript script naar het goede mapje brengen), nu dat hij werkt geeft dit mijn aller eerste beeld weer van het idee dat ik had voor mijn digituintje</p>
 
