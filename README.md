@@ -1032,4 +1032,23 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="488" height="94" alt="image" src="https://github.com/user-attachments/assets/2eacdaf7-fd57-4a86-8b7c-f061d43f2fdb" />
       <img width="491" height="236" alt="image" src="https://github.com/user-attachments/assets/52dbb7ee-ea14-4348-8fb0-de5c60673ca5" />
       <p>In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
+    <li>
+      <p>Bij al mijn werk heb ik ook een knop over de inspiratie over mijn digi-tuintje die ik eerst niet werkend kreeg (nu wel!)</p>
+      <p>
+        <strong>Oude Inspiratie over mijn digi-tuintje (met HTML & CSS code):</strong>
+      </p>
+      <img width="609" height="388" alt="image" src="https://github.com/user-attachments/assets/1a2b845d-043f-4404-8197-7377313282d6" />
+      <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/781b5274-82c4-462e-b9c1-65833dcda7ce" />
+      <img width="517" height="968" alt="image" src="https://github.com/user-attachments/assets/46cb7314-81df-48fb-abc5-fdc11d7025e1" />
+      <img width="571" height="868" alt="image" src="https://github.com/user-attachments/assets/72a206e0-67de-479a-9285-685059bb9e51" />
+      <p>
+        <strong>vernieuwde Inspiratie over mijn digi-tuintje (die nu wel werkt!):</strong>
+      </p>
+      <img width="1750" height="979" alt="image" src="https://github.com/user-attachments/assets/40656e9a-2fd9-405d-b2fb-e9441b9d09e3" />
+      <img width="1745" height="982" alt="image" src="https://github.com/user-attachments/assets/f666472f-b306-4a2c-8592-4acf9aa40fd8" />
+      <img width="1749" height="982" alt="image" src="https://github.com/user-attachments/assets/fa59b425-f985-4d8c-9b29-af1be810bb68" />
+      <img width="1750" height="983" alt="image" src="https://github.com/user-attachments/assets/b3ef77da-f6c5-496a-8964-25220dfd742f" />
+      <img width="1750" height="982" alt="image" src="https://github.com/user-attachments/assets/1c5462e2-e459-464f-83f6-0639c292f788" />
+      <img width="1752" height="982" alt="image" src="https://github.com/user-attachments/assets/a1710c1f-b691-47ae-9aa8-6f8ab520aa5c" />
+      <p>- In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
 
