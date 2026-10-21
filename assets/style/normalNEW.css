@@ -404,7 +404,6 @@ MARK: Intro Header
   &:hover {
     text-shadow: 0px 0px 0px transparent;
     font-size: 5vw;
-    text-decoration: underline var(--Custom-ColorBL);
 
     /* Laat de direct volgende paragraaf oplichten bij hover */
     + p {
