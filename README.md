@@ -988,4 +988,40 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <p>
       - bij de weekly geek, hebben we de hoofdvraag besproken samen met Bera, Samir, Lars, Maurizio en ik
     </p>
+    <h3>Feedback van sprint 3 verwerken...</h3>
+<p>
+ - Op mijn website heb ik verschillende feedback gekregen, dit ga ik toepassen in HTML als in mijn CSS 
+</p>
+  <ul>
+     <strong>- HTML & CSS aanpassingen:</strong>
+    <p>In mijn Index.html: ga ik mijn titel tekst aan te passen op de feedback die ik heb gekregen</p>
+    <li>
+      <p>
+        <strong>Oude titel tekst (met HTML & CSS code):</strong>
+        <img width="1086" height="178" alt="image" src="https://github.com/user-attachments/assets/5296f4ed-40fa-4d3e-80ee-eef4b0cb29e4" />
+        <img width="504" height="408" alt="image" src="https://github.com/user-attachments/assets/7221f002-099d-4432-a191-dab2905000fc" />
+      </p>
+      <p>
+        <strong>vernieuwde Titel tekst (met HTML & CSS code):</strong>
+        <img width="1083" height="181" alt="image" src="https://github.com/user-attachments/assets/28cae778-94f7-4cb1-a36b-cb686b530772" />
+        <img width="502" height="394" alt="image" src="https://github.com/user-attachments/assets/cc0ce3aa-d475-4c56-9621-d70293676b8f" />
+      </p>
+      <p>In mijn Intro.html heb ik: de titel tekst aangepast op basis van mijn feedback</p>
+      <p>
+ - Op mijn website heb ik verschillende feedback gekregen, dit ga ik toepassen in HTML als in mijn CSS 
+</p>
+  <ul>
+    <p>In mijn Index.html: ga ik mijn titel tekst aan te passen op de feedback die ik heb gekregen</p>
+    <li>
+      <p>
+        <strong>Oude titel tekst (met HTML & CSS code):</strong>
+        <img width="1086" height="178" alt="image" src="https://github.com/user-attachments/assets/5296f4ed-40fa-4d3e-80ee-eef4b0cb29e4" />
+        <img width="504" height="408" alt="image" src="https://github.com/user-attachments/assets/7221f002-099d-4432-a191-dab2905000fc" />
+      </p>
+      <p>
+        <strong>vernieuwde Titel tekst (met HTML & CSS code):</strong>
+        <img width="1083" height="181" alt="image" src="https://github.com/user-attachments/assets/28cae778-94f7-4cb1-a36b-cb686b530772" />
+        <img width="502" height="394" alt="image" src="https://github.com/user-attachments/assets/cc0ce3aa-d475-4c56-9621-d70293676b8f" />
+      </p>
+      <p>In mijn Intro.html heb ik: de titel tekst aangepast op basis van mijn feedback</p>
 
