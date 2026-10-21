@@ -1017,6 +1017,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <strong>Oude afbeelding knoppen (met HTML & CSS code):</strong>
       </p>
       <img width="621" height="429" alt="image" src="https://github.com/user-attachments/assets/f905cf06-ca4f-4d2c-b9e1-56c0309ffdf7" />
+      <img width="850" height="288" alt="image" src="https://github.com/user-attachments/assets/733de954-5aea-49fb-a1a5-33d05e02ed33" />
+      <img width="488" height="94" alt="image" src="https://github.com/user-attachments/assets/2eacdaf7-fd57-4a86-8b7c-f061d43f2fdb" />
+      <img width="397" height="178" alt="image" src="https://github.com/user-attachments/assets/5a7a390d-a058-40fa-8a4a-9492757a1717" />
       <p>
         <strong>vernieuwde afbeelding knoppen (met HTML & CSS code):</strong>
       </p>
