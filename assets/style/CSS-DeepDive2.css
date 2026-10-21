@@ -144,3 +144,92 @@ html  {
 		color:black;
   } 
 }
+
+/*
+MARK: Mobiel screen 768px (iphone 17)
+*/
+@media screen and (max-width: 768px) {
+
+  #HeaderKop {
+    display: grid;
+    width: 100%;
+    grid-template-columns: max-content;
+    grid-template-rows: auto auto;
+    align-items: center;
+  }
+
+  #HeaderKop h1 {
+    font-size: 6vw;
+    animation: --puff-ani 1.5s infinite alternate ease-in-out paused;
+
+    &:hover {
+      -webkit-text-stroke-width: .1em;
+      -webkit-text-stroke-color: var(--color-LightDark);
+      text-shadow: 0px 0px 20px var(--background-ikea);
+      animation-play-state: running;
+    }
+  }
+
+  @keyframes --puff-ani {
+    0% {
+        letter-spacing: 0em;
+    }
+    100% {
+        letter-spacing: 8px;
+        font-size: 6vw;
+    }
+  }
+
+  .CSS-DeepDive-MAIN {
+    margin: 5% 0px;
+    border-top: 2px solid var(--color-LightDark);
+    border-bottom: 2px solid var(--color-LightDark);
+    transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
+
+    &:hover {
+      border-top: 5px dotted var(--Custom-ColorY);
+      border-bottom: 5px dotted var(--Custom-ColorY);
+      animation: BTmove 10s infinite;
+    }
+  }
+
+  @keyframes BTmove {
+  25% {
+    border-top: 10px dotted var(--Boder-bottom-CustomY);
+    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+  }
+  75% {
+    border-top: 21px dotted var(--Border-bottom-CustumB);
+    border-bottom: 21px dotted var(--Boder-bottom-CustomB);
+  }
+}
+
+.CSS-DeepDive-MAIN > article > p {
+  margin: 5%;
+  word-break: break-word;
+}
+
+ .CSS-DeepDive-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 5% 0px;
+ }
+
+ .YGG-li:nth-of-type(1) {
+  place-items: center;
+  background-color: rgb(0 24 54);
+  width: 90%;
+  height: 250px;
+ }
+
+ .GVO-li:nth-of-type(2) {
+  place-items: center;
+  background-color: rgb(230 127 138);
+  width: 90%;
+  height: 250px;
+ }
+
+}

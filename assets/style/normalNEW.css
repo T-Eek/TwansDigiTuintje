@@ -9,19 +9,35 @@ MARK: FONTS
 }
 
 @font-face {
-  font-family: "Oi"; /* serif */
-  src: url(../type/Oi-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Caveat"; /* cursive */
   src: url(../type/static/Caveat-Regular.ttf);
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Seraphs';
+  src: url(../type/SeraphsVF.woff2) format('woff2'); /* Modern Browsers */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Coiny"; /* cursive */
+  src: url(../type/fonts/Coiny.ttf);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: "Oi"; /* serif
+  src: url(../type/Oi-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}*/
 
 /*@font-face {
   font-family: "Comic Relief";
@@ -70,6 +86,11 @@ html {
   --Custom-Standaard-Color: #bbbbbb;
   --Boder-bottom-CustomY: yellow;
   --Border-bottom-CustumB: blue;
+
+  --p-tekst: 24px;
+  --H1-tekst: 96px;
+  --H2-tekst: 48px;
+  --cookie-p-tekst: 16px;
 }
 
 /*
@@ -90,12 +111,13 @@ body > footer {
 
 body > footer > p {
   font-family: "Slackey", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.9rem; /* 14.4/ 16 pz */
 }
 
 p {
   font-family: "Caveat";
-  font-size: 24px;
+  font-size: var(--p-tekst);
+  word-break: break-word;
 }
 
 /*
@@ -121,16 +143,17 @@ MARK: Consent Dialog (Cookie)
 }
 
 .CookieBanner > article {
-  background: var(--Custom-ColorW);
-  color: var(--Custom-ColorB);
   width: 100%;
   max-width: 600px;
   max-height: 100vh;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   overflow-y: auto;
+
+  color: var(--Custom-ColorB);
+  background: var(--Custom-ColorW);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* Zorg dat je ziet waar je bent als je tabt */
@@ -145,11 +168,12 @@ MARK: Consent Dialog (Cookie)
 }
 
 .CookieBanner > article > p {
-  font-family: "Caveat", cursive;
-  font-size: 24px;
+  font-family: "Seraphs";
+  font-size: var(--cookie-p-tekst);
   line-height: 1.5;
   color: #4a5568;
   margin: 0px;
+  word-break: break-word;
 }
 
 /* Specificatie van de diensten in de dialog */
@@ -159,10 +183,11 @@ MARK: Consent Dialog (Cookie)
   padding: 15px;
   margin: 20px 0;
   border-radius: 4px;
+  word-break: break-word;
 }
 
 .CookieBanner section h3 {
-  font-size: 24px;
+  font-size: var(--p-tekst);
   margin-top: 0;
   color: var(--Custom-ColorExtraBL);
 }
@@ -176,10 +201,16 @@ MARK: Consent Dialog (Cookie)
 
 .CookieBanner li {
   margin-bottom: 6px;
-}
 
-.CookieBanner li p strong {
-  font-size: 24px;
+  p {
+    font-family: "Seraphs";
+    font-size: var(--cookie-p-tekst);
+
+    strong {
+      font-size: var(--p-tekst);
+    }
+  }
+
 }
 
 /* Knop styling in de dialog footer */
@@ -227,7 +258,7 @@ html:has([value="LightDark-ToggleSwitch"]) {
 
     &:hover {
       text-shadow: 0px 0px 0px var(--Custom-ColorB);
-      font-family: "Slackey", sans-serif;
+      font-family: "Slackey";
       p {
         opacity: 100%;
       }
@@ -247,7 +278,7 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
 
     &:hover {
       text-shadow: 0px 0px 0px var(--Custom-ColorW);
-      font-family: "Slackey", sans-serif;
+      font-family: "Slackey";
       p {
         opacity: 100%;
       }
@@ -377,6 +408,7 @@ MARK: Intro Header
 
     /* Laat de direct volgende paragraaf oplichten bij hover */
     + p {
+      font-family: "Caveat";
       color: var(--Custom-ColorR);
       opacity: 100%;
     }
@@ -407,9 +439,7 @@ MARK: Main Header
 /* De "DigiTuintje..." header */
 #HeaderKop {
     display: grid;
-    /* We maken 3 kolommen: links automatische breedte, midden vult de ruimte, rechts automatische breedte */
     grid-template-columns: 1fr auto 1fr;
-    /* We maken 2 rijen: rij 1 voor de topbalk, rij 2 voor de GitHub-tekst */
     grid-template-rows: auto auto;
     align-items: center;
     width: 100%;
@@ -445,19 +475,19 @@ MARK: Main Header
 }
 
 @keyframes --puff-ani {
-    0% {
-        letter-spacing: 0em;
-    }
-    100% {
-        letter-spacing: 8px;
-        font-size: 6.5rem;
-    }
+  0% {
+    letter-spacing: 0em;
+  }
+  100% {
+    letter-spacing: 8px;
+    font-size: 6.5rem;
+  }
 }
 
 
 #HeaderLink {
   text-decoration: none;
-  color: var(--Custom-ColorW)
+  color: var(--color-LightDark)
 }
 
 /* 3. Hamburger menu komt op rij 1, kolom 3 (rechts uitgelijnd) */
@@ -834,151 +864,183 @@ MARK: Minion Article
 MARK: Mobiel screen 768px (iphone 17)
 */
 @media screen and (max-width: 768px) {
-/*
-  MARK: Basic CSS Mobiel
-*/
-p {
-  font-size: 5vw;
-}
-
-
-/*
-  MARK: LightDarkMode Mobiel
-*/
-.LightDarkMode {
-  top: 8%;
-  left: 1%;
-}
-
-html:has([value="LightDark-ToggleSwitch"]) {
-  & #Titel > h1 {
-    font-family: "slackey", serif;
+  /*
+    MARK: Basic CSS Mobiel
+  */
+  p {
+    font-size: 5vw;
   }
-}
 
-html:has([value="LightDark-ToggleSwitch"]:checked) {
-  & #Titel > h1 {
-    font-family: "slackey", serif;
+  /*
+    MARK: LightDarkMode Mobiel
+  */
+  .LightDarkMode {
+    top: 8%;
+    left: 1%;
   }
-}
 
-/*
-  MARK: CokkieBanner Mobiel
-*/
-.CookieBanner > article {
-  width: 100%;
-  height: 100%;
-  max-width: 90vw;
-  max-height: 180vw;
-}
-
-.CookieBanner > article > h2 {
-  font-size: 7vw;
-}
-
-.CookieBanner > article > p {
-  font-size: 4vw;
-}
-
-.CookieBanner section h3 {
-  font-size: 5vw;
-}
-
-.CookieBanner li p strong {
-  font-size: 4vw;
-}
-
-.CookieBanner button {
-  font-size: 6vw;
-}
-
-/*
-  MARK: Intro title
-*/
-#Titel > h1 {
-  font-size: 12vw;
-  display: flex;
-  text-align: center;
-
-  &:hover {
-    font-size: 19vw;
-    display: flex;
-    text-align: center;
+  html:has([value="LightDark-ToggleSwitch"]) {
+    & #Titel > h1 {
+      font-family: "slackey", serif;
+    }
   }
-  + p {
+
+  html:has([value="LightDark-ToggleSwitch"]:checked) {
+    & #Titel > h1 {
+      font-family: "slackey", serif;
+    }
+  }
+
+  /*
+    MARK: CokkieBanner Mobiel
+  */
+  .CookieBanner > article {
+    width: 100%;
+    height: 100%;
+    max-width: 90vw;
+    max-height: 180vw;
+  }
+
+  .CookieBanner > article > h2 {
     font-size: 7vw;
   }
-}
 
-/*
-  MARK: Header Index Mobiel
-*/
-#HeaderKop > h1 {
-  font-size: 6vw;
-}
+  .CookieBanner > article > p {
+    font-size: 4vw;
+  }
 
-#HeaderKop > nav:first-of-type {
-  width: 20vw;
-  height: 15vw;
-}
+  .CookieBanner section h3 {
+    font-size: 5vw;
+  }
 
-#HeaderKop:first-of-type > nav > span {
-  width: 15vw;
-  height: 4vw;
-}
+  .CookieBanner li p strong {
+    font-size: 4vw;
+  }
 
-/*
-  MARK: Nav Mobiel
-*/
-#navLinks {
-  top: 15%;
-}
+  .CookieBanner button {
+    font-size: 6vw;
+  }
 
-#myNav > a:first-of-type {
-  width: 10vw;
-  font-size: 25vw;
-}
+  /*
+    MARK: Intro title
+  */
+  #Titel > h1 {
+    font-size: 12vw;
+    display: flex;
+    text-align: center;
 
-#myNav a {
-  font-size: 15vw;
-}
+    &:hover {
+      font-size: 19vw;
+      display: flex;
+      text-align: center;
+    }
+    + p {
+      font-size: 7vw;
+    }
+  }
 
-/*
-  MARK: Al Mijn werk Mobiel
-*/
-#TopArticles {
-  height: auto;
-  margin: 0px 0px;
-}
+  /*
+    MARK: Header Index Mobiel
+  */
+  #HeaderKop {
+    display: grid;
+    width: 100%;
+    grid-template-columns: max-content;
+    grid-template-rows: auto auto;
+    align-items: center;
+  }
+  #HeaderKop h1 {
+    font-size: 6vw;
+    animation: --puff-ani 1.5s infinite alternate ease-in-out paused;
+  }
 
-#TopArticles > article:nth-child(-n+5) {
-  flex: 1 0 95vw;
-}
+  @keyframes --puff-ani {
+    0% {
+      letter-spacing: 0em;
+    }
+    100% {
+      font-size: 6vw;
+      letter-spacing: 4px;
+    }
+  }
 
-#TopArticles > article:nth-child(-n+5) span {
-  display: flex;
-  align-items: center;
-}
+  #HeaderKop > nav:first-of-type {
+    width: 20vw;
+    height: 15vw;
+  }
 
-#TopArticles > article:nth-child(-n+5) > a img {
-  width: 80vw;
-  height: 50vw;
-}
+  #HeaderKop:first-of-type > nav > span {
+    width: 15vw;
+    height: 4vw;
+  }
 
-#TopArticles > article:nth-child(-n+5) > a span > strong {
-  font-size: 4vw;
-}
+  /*
+    MARK: Nav Mobiel
+  */
+  #navLinks {
+    top: 15%;
+  }
 
-/*
-  MARK: Info article Mobiel
-*/
-#InfoArticles > article > span img, #InfoArticles > article:nth-child(2) span:last-child > img {
-  height: 40vw;
-}
+  #myNav > a:first-of-type {
+    width: 10vw;
+    font-size: 25vw;
+  }
 
-#InfoArticles > article p {
-  padding: 0px 0%;
-  font-size: 5vw;
-}
+  #myNav a {
+    font-size: 15vw;
+  }
+
+  /*
+    MARK: Al Mijn werk Mobiel
+  */
+  #TopArticles {
+    height: auto;
+    margin: 0px 0px;
+  }
+
+  #TopArticles > article:nth-child(-n+5) {
+    flex: 1 0 95vw;
+  }
+
+  #TopArticles > article:nth-child(-n+5) span {
+    display: flex;
+    align-items: center;
+  }
+
+  #TopArticles > article:nth-child(-n+5) > a img {
+    width: 80vw;
+    height: 50vw;
+  }
+
+  #TopArticles > article:nth-child(-n+5) > a span > strong {
+    font-size: 4vw;
+  }
+
+  /*
+    MARK: Info article Mobiel
+  */
+  #InfoArticles > article > span img, #InfoArticles > article:nth-child(2) span:last-child > img {
+    height: 40vw;
+  }
+
+  #InfoArticles > article p {
+    padding: 0px 0%;
+    font-size: 5vw;
+  }
+
+  /*
+    MARK: Minion page Mobiel
+  */
+  #MinionArticles > article {
+    display: flex;
+    width: auto;
+    max-width: none;
+    margin: 0px;
+    flex-direction: column;
+  }
+
+  #MinionArticles > article > span img {
+    width: 100%;
+  }
 
 }

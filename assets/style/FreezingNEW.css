@@ -675,3 +675,45 @@ article:nth-child(2) > p:nth-child(11) {
     }
   }
 }
+
+/*
+MARK: Mobiel screen 768px (iphone 17)
+*/
+@media screen and (max-width: 768px) {
+
+  #FreezingMAIN {
+    width: 100%;
+  }
+
+  #FreezingHeader {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  #FreezingHeader > h1 {
+    font-size: 16vw;
+  }
+
+  #FreezingMAIN > article:nth-child(2) {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+
+    margin: 0;
+    max-width: none;
+    width: 100%;
+  }
+
+  #FreezingMAIN p {
+    font-size: 5vw;
+  }
+
+  #FreezingMAIN article:nth-child(2) > p:first-of-type {
+  &:hover {
+    & #name2 span {
+      font-size: 10vw;
+      }
+    }
+  }
+}

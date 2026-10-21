@@ -1,23 +1,21 @@
 /**************/
 /* @FONT-FACE */
 /**************/
-
 /* alle fonts hier */
-
-
-
-
-
 
 /*****************************/
 /* JOUW CODE VOOR DE BLOKJES */
 /*****************************/
-
 header > p {
     border-block: none;
 }
 
-
+#HeaderKop {
+    display: grid;
+    grid-template-columns: max-content;
+    align-items: center;
+    width: 100%;
+}
 
 /* met deze selector selecteer je de eerste li */
 main li:nth-of-type(1) {
@@ -46,7 +44,6 @@ main li:nth-of-type(1) {
         }
     }
 }
-
 
 /* met deze selector selecteer je de tweede li */
 main li:nth-of-type(2) {
@@ -105,7 +102,6 @@ main li:nth-of-type(3) {
         background-position: right;
     }
 }
-
 
 /* met deze selector selecteer je de vierde li */
 main li:nth-of-type(4) {
@@ -393,17 +389,9 @@ li:nth-of-type(11) {
     }
 }
 
-
-
-
-
-
-
-
 /*************************************/
 /* BASIS - HOEF JE NIETS MEE TE DOEN */
 /*************************************/
-
 @layer basis {
   *, *::after, *::before {
     box-sizing:border-box;  
@@ -423,4 +411,62 @@ li:nth-of-type(11) {
 		--template-size-blokje:min(calc(12em + 8vw), 16em);
 		--template-number-blokjes:3;
 	}
+}
+
+/*
+MARK: Mobiel screen 768px (iphone 17)
+*/
+@media screen and (max-width: 768px) {
+    main > details {
+        border-top: 2px solid var(--color-LightDark);
+        border-bottom: 2px solid var(--color-LightDark);
+        transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
+
+        &:hover {
+            border-top: 5px dotted var(--Custom-ColorY);
+            border-bottom: 5px dotted var(--Custom-ColorY);
+            animation: BTmove 10s infinite;
+        }
+    }
+
+    @keyframes BTmove {
+        25% {
+            border-top: 10px dotted var(--Boder-bottom-CustomY);
+            border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+        }
+        75% {
+            border-top: 21px dotted var(--Border-bottom-CustumB);
+            border-bottom: 21px dotted var(--Border-bottom-CustumB);
+        }
+    }
+
+    #HeaderKop {
+        display: grid;
+        width: 100%;
+        grid-template-columns: max-content;
+        grid-template-rows: auto auto;
+        align-items: center;
+    }
+
+  #HeaderKop h1 {
+    font-size: 6vw;
+    animation: --puff-ani 1.5s infinite alternate ease-in-out paused;
+
+    &:hover {
+      -webkit-text-stroke-width: .1em;
+      -webkit-text-stroke-color: var(--color-LightDark);
+      text-shadow: 0px 0px 20px var(--background-ikea);
+      animation-play-state: running;
+    }
+  }
+
+  @keyframes --puff-ani {
+    0% {
+        letter-spacing: 0em;
+    }
+    100% {
+        letter-spacing: 8px;
+        font-size: 6vw;
+    }
+  }
 }
