@@ -1045,6 +1045,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li><a href="https://www.themoviedb.org/movie/1315772-minions-monsters/cast">Minions & Monsters</a></li>
     <li><a href="https://www.syfy.com/syfy-wire/what-was-the-inspiration-behind-despicable-me-minions">Story time</a></li>
     <li><a href="https://www.simoliu.com/#/illumination/">Minions</a></li>
+    <hr />
       <p>
         <strong>Oude Inspiratie over mijn digi-tuintje (met HTML & CSS code):</strong>
       </p>
