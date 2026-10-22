@@ -940,8 +940,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <p>
         <strong>Oude Minion (Bello) page </strong></p>
-      <img width="1275" height="156" alt="image" src="https://github.com/user-attachments/assets/69cc367c-c00e-4c0f-b413-a9334e43bb64" />
       <p>
+      </li>
+        <img width="1275" height="156" alt="image" src="https://github.com/user-attachments/assets/69cc367c-c00e-4c0f-b413-a9334e43bb64" />
         <strong>Aangepast Minion (Bello) page (met HTML & CSS):</strong>
         <img width="1312" height="863" alt="image" src="https://github.com/user-attachments/assets/f6a44cff-377c-4a15-b41d-ff1b918aa338" />
         <img width="1077" height="608" alt="image" src="https://github.com/user-attachments/assets/551f3971-97b3-40f3-b612-f82700e35c08" />
@@ -1002,23 +1003,25 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         <strong>Oude titel tekst (met HTML & CSS code):</strong>
       </p>
+    </li>
         <img width="1086" height="178" alt="image" src="https://github.com/user-attachments/assets/5296f4ed-40fa-4d3e-80ee-eef4b0cb29e4" />
         <img width="504" height="408" alt="image" src="https://github.com/user-attachments/assets/7221f002-099d-4432-a191-dab2905000fc" />
+    <li>
       <p>
         <strong>vernieuwde Titel tekst (met HTML & CSS code):</strong>
       </p>
+      </li>
         <img width="1083" height="181" alt="image" src="https://github.com/user-attachments/assets/28cae778-94f7-4cb1-a36b-cb686b530772" />
         <img width="502" height="394" alt="image" src="https://github.com/user-attachments/assets/cc0ce3aa-d475-4c56-9621-d70293676b8f" />
       <p>In mijn Intro.html heb ik: de titel tekst aangepast op basis van mijn feedback</p>
-      <p>
- - Op mijn website heb ik verschillende feedback gekregen, dit ga ik toepassen in HTML als in mijn CSS 
-</p>
+      <p>- Op mijn website heb ik verschillende feedback gekregen, dit ga ik toepassen in HTML als in mijn CSS</p>
   <ul>
     <p>In mijn Intro.html: heb ik als feedback gekregen over mijn afbeeldingen die knoppen zijn (bij Al mijn werk)</p>
     <li>
       <p>
         <strong>Oude afbeelding knoppen (met HTML & CSS code):</strong>
       </p>
+    </li>
       <img width="621" height="429" alt="image" src="https://github.com/user-attachments/assets/f905cf06-ca4f-4d2c-b9e1-56c0309ffdf7" />
       <img width="850" height="288" alt="image" src="https://github.com/user-attachments/assets/733de954-5aea-49fb-a1a5-33d05e02ed33" />
       <img width="488" height="94" alt="image" src="https://github.com/user-attachments/assets/2eacdaf7-fd57-4a86-8b7c-f061d43f2fdb" />
@@ -1048,6 +1051,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li><a href="https://www.themoviedb.org/movie/1315772-minions-monsters/cast">Minions & Monsters</a></li>
     <li><a href="https://www.syfy.com/syfy-wire/what-was-the-inspiration-behind-despicable-me-minions">Story time</a></li>
     <li><a href="https://www.simoliu.com/#/illumination/">Minions</a></li>
+  </ul>
     <hr />
       <p>
         <strong>Oude Inspiratie over mijn digi-tuintje (met HTML & CSS code):</strong>
@@ -1072,6 +1076,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <h3>22 oktober</h3>
     <li>
       <p>- Mijn website heeft ook nog een contact pagina, deze moet ik nog afmaken omdat de bezoeker duidelijk weet dat de website van mij is</p>
+    </li>
       <p>
         <strong>Oude Contact page (met HTML & CSS code):</strong>
       </p>
@@ -1084,6 +1089,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>- </p>
     <li>
       <p>- </p>
+      </li>
       <p>
         <strong>Oude Light/Dark mode toggle (met HTML & CSS code):</strong>
       </p>
@@ -1091,5 +1097,10 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <strong>vernieuwde Light/Dark mode toggle (met HTML & CSS code):</strong>
       </p>
       <p>- </p>
+      <hr />
+      <li>VOor de HTML validator heb ik gekeken en heb mijn Minion page laten controleren, ik heb hier de benodigde HTML elementen toegevoegd maar zal deze niet voor in mijn website willen gebruiken omdat dit niet past op mijn website, ik snap dat het correct is voor als je verschillende paragraven hebt met titels, kopjes
+      en teksten, maar voor op mijn website is dit niet van dien</li>
+      <img width="815" height="927" alt="image" src="https://github.com/user-attachments/assets/969f6bc2-9449-4582-b89f-2b2cee0c72cc" />
+
       
 
