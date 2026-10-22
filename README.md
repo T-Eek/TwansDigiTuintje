@@ -1085,22 +1085,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         <strong>vernieuwde Contact page (met HTML & CSS code):</strong>
       </p>
-      <img width="1347" height="889" alt="image" src="https://github.com/user-attachments/assets/5735143e-7879-4820-9aba-629d87c699c0" />
+    <img width="1347" height="889" alt="image" src="https://github.com/user-attachments/assets/5735143e-7879-4820-9aba-629d87c699c0" />
     <img width="896" height="424" alt="image" src="https://github.com/user-attachments/assets/caf76307-acdd-42d1-967a-292ab631d7df" />
     <img width="517" height="546" alt="image" src="https://github.com/user-attachments/assets/8a49b1e2-cfe9-4a31-8f62-087f736de46e" />
     <img width="269" height="846" alt="image" src="https://github.com/user-attachments/assets/e438763c-40b7-460f-bcfa-e112aa65723b" />
     <img width="394" height="207" alt="image" src="https://github.com/user-attachments/assets/198cc493-f6a5-4dae-b28c-94808b2511e3" />
-      <p>- </p>
-    <li>
-      <p>- </p>
-      </li>
-      <p>
-        <strong>Oude Light/Dark mode toggle (met HTML & CSS code):</strong>
-      </p>
-      <p>
-        <strong>vernieuwde Light/Dark mode toggle (met HTML & CSS code):</strong>
-      </p>
-      <p>- </p>
+      <p>- In mijn contact page heb ik iets over mijzelf en 2 linkjes naar mijn LinkedIn en dat je mij een emailtje kan sturen</p>
       <hr />
       <li>VOor de HTML validator heb ik gekeken en heb mijn Minion page laten controleren, ik heb hier de benodigde HTML elementen toegevoegd maar zal deze niet voor in mijn website willen gebruiken omdat dit niet past op mijn website, ik snap dat het correct is voor als je verschillende paragraven hebt met titels, kopjes
       en teksten, maar voor op mijn website is dit niet van dien</li>
