@@ -1069,9 +1069,16 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>- Tijdens mijn feedback gingen mijn website door de validator gooien en daar kwam uit dat ik bij mijn Light/Dark mode toggle nog een p in een span heb staan wat natuurlijk niet kan</p>
       <p>
         <strong>Oude Light/Dark mode toggle (met HTML & CSS code):</strong>
+        <img width="1107" height="716" alt="image" src="https://github.com/user-attachments/assets/b2def24e-8b2e-4d8b-90af-21d6c36ee140" />
+        <img width="782" height="214" alt="image" src="https://github.com/user-attachments/assets/21cdf9a7-560c-474f-a26e-b76b45cc62cb" />
+        <img width="404" height="965" alt="image" src="https://github.com/user-attachments/assets/0d7576f8-a437-4b05-9c18-bcbb43dc0e4e" />
+        <img width="489" height="373" alt="image" src="https://github.com/user-attachments/assets/75667395-ff6c-4f26-b063-6cde270ce947" />
       </p>
       <p>
         <strong>vernieuwde Light/Dark mode toggle (met HTML & CSS code):</strong>
+        <img width="599" height="108" alt="image" src="https://github.com/user-attachments/assets/2e08ac7e-f40f-4590-a833-dca3f8144597" />
+        <img width="325" height="875" alt="image" src="https://github.com/user-attachments/assets/52b2b2c1-0779-468f-b98f-cbf01a19d11e" />
+        <img width="511" height="377" alt="image" src="https://github.com/user-attachments/assets/7c4c9bc0-9ccb-4657-aaac-e3032fcca06b" />
       </p>
-      <p>In mijn Intro.html heb ik: mijn werk collage aangepast om het beeld meer over te brengen dat (het buttons zijn, stond in mijn feedback criteria) je erop kan klikken om naar mijn werk te gaan en gevraagd aan een 4de jaar student, tijdens de CSS hulp lessen</p>
+      <p>- </p>
 
