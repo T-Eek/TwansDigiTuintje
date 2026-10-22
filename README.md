@@ -1068,22 +1068,28 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="548" height="40" alt="image" src="https://github.com/user-attachments/assets/d37f971a-de12-4428-84a9-6e048dde8cf1" />
       <img width="515" height="110" alt="image" src="https://github.com/user-attachments/assets/24c3e739-54e8-42a3-a249-da06121c97aa" />
       <p>- In mijn Intro.html heb ik: mijn werk collage, heb ik het kopje "inspiratie Digituintje" werkend kunnen krijgen (was een domme type fout/ de javascript script naar het goede mapje brengen), nu dat hij werkt geeft dit mijn aller eerste beeld weer van het idee dat ik had voor mijn digituintje</p>
+    <hr />
+  <h3>22 oktober</h3>
     <li>
-      <p>- Tijdens mijn feedback gingen mijn website door de validator gooien en daar kwam uit dat ik bij mijn Light/Dark mode toggle nog een p in een span heb staan wat natuurlijk niet kan</p>
+      <p>- Mijn website heeft ook nog een contact pagina, deze moet ik nog afmaken omdat de bezoeker duidelijk weet dat de website van mij is</p>
+      <p>
+        <strong>Oude Contact page (met HTML & CSS code):</strong>
+      </p>
+      <img width="1405" height="282" alt="image" src="https://github.com/user-attachments/assets/3146e848-db4f-490a-852f-5f22791f1c61" />
+      <img width="879" height="944" alt="image" src="https://github.com/user-attachments/assets/1d6c137d-7e37-4131-9de8-838653afed2a" />
+      <p>
+        <strong>vernieuwde Contact page (met HTML & CSS code):</strong>
+      </p>
+      
+      <p>- </p>
+    <li>
+      <p>- </p>
       <p>
         <strong>Oude Light/Dark mode toggle (met HTML & CSS code):</strong>
-        <img width="1107" height="716" alt="image" src="https://github.com/user-attachments/assets/b2def24e-8b2e-4d8b-90af-21d6c36ee140" />
-        <img width="782" height="214" alt="image" src="https://github.com/user-attachments/assets/21cdf9a7-560c-474f-a26e-b76b45cc62cb" />
-        <img width="404" height="965" alt="image" src="https://github.com/user-attachments/assets/0d7576f8-a437-4b05-9c18-bcbb43dc0e4e" />
-        <img width="489" height="373" alt="image" src="https://github.com/user-attachments/assets/75667395-ff6c-4f26-b063-6cde270ce947" />
       </p>
       <p>
         <strong>vernieuwde Light/Dark mode toggle (met HTML & CSS code):</strong>
-        <img width="851" height="675" alt="image" src="https://github.com/user-attachments/assets/bd338518-af67-4160-8f27-1bd6f3d0ba86" />
-        <img width="1387" height="452" alt="image" src="https://github.com/user-attachments/assets/4386f4f8-9617-4abc-bdb5-9de6c5c6baf5" />
-        <img width="599" height="108" alt="image" src="https://github.com/user-attachments/assets/2e08ac7e-f40f-4590-a833-dca3f8144597" />
-        <img width="325" height="875" alt="image" src="https://github.com/user-attachments/assets/52b2b2c1-0779-468f-b98f-cbf01a19d11e" />
-        <img width="511" height="377" alt="image" src="https://github.com/user-attachments/assets/7c4c9bc0-9ccb-4657-aaac-e3032fcca06b" />
       </p>
       <p>- </p>
+      
 
