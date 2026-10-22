@@ -286,114 +286,111 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
   }
 }
 
+
+/* ========================================================================================================*/
+
+
 .LightDarkMode {
   display: flex;
   justify-content: center;
   align-content: center;
   height: 150px;
+  width: 10%;
+
   position: fixed;
   top: 5%;
-  left: 20%;
+  left: 15%;
 
-  &:hover label input[type="checkbox"] + span {
-    box-shadow: 5px -8px 10px var(--color-LightDark);
-  }
-
-  > label {
-    position: relative;
-    display: flex;
-    width: 70px;
-
-    input[type="checkbox"] {
-      opacity: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      z-index: 1;
-      cursor: pointer;
-
-      &:focus {
-        border: 10px solid var(--Custom-BorderColor-Toggle);
-      }
-
-      /* Als de checkbox aan staat: pas de span, p en pseudo-elementen aan */
-      &:checked {
-        + span {
-          background-color: var(--Custom-Color-Toggle);
-
-          &::before {
-            transform: translateY(80px);
-          }
-
-          > span::before {
-            transform: translateY(95px) translateX(16px) scale(2);
-          }
-        }
-
-        /*Bron vermelding over de tilde symbol:
-        - ik gebruik het om de p (tekst) weer naar boven te verplaatsen als de gebruiker de checkbox checked,
-          omdat ik span gebruik kan ik de CSS niet nesten in elkaar omdat een span in een p hoort en niet andersom
-          1. https://www.w3schools.com/cssref/tryit.php?filename=trycss3_gen_sibling
-          2. https://dev.to/paulryan7/css-what-does-the-tilde-mean-f4c
-        */
-        ~ p {
-          margin: 0px 0px;
-        }
-      }
-    }
-
-    /* De achtergrond span */
+  &:hover {
     input[type="checkbox"] + span {
-      position: absolute;
-      cursor: pointer;
-      background-color: var(--Custom-ColorY);
-      border-radius: 10px;
-      width: 100%;
-      height: 100%;
-      transition: background-color 0.3s ease-in-out;
-      box-shadow: 5px -8px 5px var(--color-LightDark);
-
-      > span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 75%;
-        height: 35%;
-
-        &::before {
-          content: "";
-          position: absolute;
-          height: 20px;
-          width: 20px;
-          background-color: var(--Custom-ColorB);
-          border-radius: 50%;
-          transition: transform 0.3s;
-        }
-      }
-
-      &::before {
-        content: "";
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        background-color: var(--Custom-ColorW);
-        border-radius: 50%;
-        border: 10px solid var(--Custom-BorderColor-Toggle);
-        transition: transform 0.3s;
-      }
-    }
-
-    /* De paragraaf staat nu los in de label */
-    p {
-      position: relative;
-      margin: 6rem 0px;
-      font-size: 17px;
-      transition: margin 0.3s ease-in-out;
-      font-family: "Caveat", cursive;
+      box-shadow: 5px -8px 10px var(--color-LightDark)
     }
   }
 }
 
+.LightDarkMode > label {
+  position: relative;
+  display: flex;
+  width: 50%;
+  z-index: 1;
+}
+
+.LightDarkMode input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 50%;
+  height: 100%;
+
+
+  + span {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--Custom-ColorY);
+    border-radius: 10px;
+    width: 55%;
+    height: 100%;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 5px -8px 5px var(--color-LightDark);
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      background-color: var(--Custom-ColorW);
+      border-radius: 50%;
+      border: 10px solid var(--Custom-BorderColor-Toggle);
+      transition: transform 0.3s;
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 75%;
+      height: 35%;
+
+      &::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background-color: var(--Custom-ColorB);
+        border-radius: 50%;
+        transition: transform 0.3s;
+      }
+    }
+  }
+
+  &:checked {
+
+  + span {
+      background-color: var(--Custom-Color-Toggle);
+
+      &::before {
+        transform: translateY(80px);
+      }
+
+      span {
+        &::before {
+          transform: translateY(95px) translateX(16px) scale(2);
+        }
+      }
+    }
+  }
+
+  &:focus-visible {
+    border: 10px dotted var(--Custom-ColorBL);
+  }
+}
+
+      /*
+      Bron vermelding over de tilde symbol:
+      - ik gebruik het om de p (tekst) weer naar boven te verplaatsen als de gebruiker de checkbox checked,
+        omdat ik span gebruik kan ik de CSS niet nesten in elkaar omdat een span in een p hoort en niet andersom
+        1. https://www.w3schools.com/cssref/tryit.php?filename=trycss3_gen_sibling
+        2. https://dev.to/paulryan7/css-what-does-the-tilde-mean-f4c
+      */
 /*
 MARK: Intro Header
 */
