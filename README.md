@@ -1076,6 +1076,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       </p>
       <p>
         <strong>vernieuwde Light/Dark mode toggle (met HTML & CSS code):</strong>
+        <img width="851" height="675" alt="image" src="https://github.com/user-attachments/assets/bd338518-af67-4160-8f27-1bd6f3d0ba86" />
+        <img width="1387" height="452" alt="image" src="https://github.com/user-attachments/assets/4386f4f8-9617-4abc-bdb5-9de6c5c6baf5" />
         <img width="599" height="108" alt="image" src="https://github.com/user-attachments/assets/2e08ac7e-f40f-4590-a833-dca3f8144597" />
         <img width="325" height="875" alt="image" src="https://github.com/user-attachments/assets/52b2b2c1-0779-468f-b98f-cbf01a19d11e" />
         <img width="511" height="377" alt="image" src="https://github.com/user-attachments/assets/7c4c9bc0-9ccb-4657-aaac-e3032fcca06b" />
