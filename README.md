@@ -743,6 +743,15 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
 <h3>2 Oktober</h3>
+<li>
+  <p>
+    - Tijdens mijn retrospective 2 heb ik een stage getekend, waar de minions naar boven proberen te klimmen, om de uitwerking van mijn website te claimen (conceren)
+  </p>
+  <img width="2619" height="1848" alt="image" src="https://github.com/user-attachments/assets/fbada453-80d1-4a93-b76c-0842974e1279" />
+  <img width="800" height="546" alt="image" src="https://github.com/user-attachments/assets/e58ea030-6fe3-4e87-a8e1-100a75eb50ee" />
+</li>
+
+
 <h3>Feedback Sprint 2:</h3>
 <p>
   (Nicky) Heijmen, N.A. gaf mij als feedback dat ik mijn learning log meer up-to-date moest houden met veranderingen van mijn website, daarnaast moet ik mijn code erg opschonen, minder classes gebruiken.
