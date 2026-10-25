@@ -435,10 +435,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component.
   </li>
   - Github voor de Repository/ digitaal tuintje, webling, Google font: voor mijn Typografie/ Font<br>
-
   <li>2. Informeren van gebruikers is een plicht die je hebt als websitemaker: Hoe kan je gebruikers informeren over het gebruik van hun gegevens op jouw website?</li>
   - Alles op deze website is zelf gemaakt, naast mijn Google Font en de repository en de webling<br>
-
   <li>3. Op welke manier kan je instemming vragen? <br>Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web.</li>
     <li>1.De traditionele cookiebanner (boven- of onderaan) Hoe het werkt: Een balk die plakt aan de onderkant of bovenkant van het scherm met een korte uitleg en knopp voor 'Accepteren' en 'Instellingen wijzigen'. Waar je het ziet: Op de meeste nieuwswebsites en blogs.</li>
     <li>2.De 'Layered' (gelaagde) pop-up. Hoe het werkt: Een centraal venster dat de inhoud blokkeert totdat je een keuze maakt. Vaak heeft dit direct een knop om alles te accepteren, maar ook een duidelijke link naar 'Voorkeuren instellen' voor meer controle per categorie.</li>
@@ -463,19 +461,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>10.Impliciete toestemming via een 'Privacy Center' of Footer-link
       Hoe het werkt: Een vaste link in de footer (voettekst) van de website (bijv. "Privacybeleid" of "Cookievoorkeuren") waar gebruikers op elk gewenst moment naartoe kunnen navigeren om hun toestemming aan te passen of in te trekken.
     </li>
-
   <li>4. Denk na over een manier van werken die past binnen de layout van jouw digital garden? </li>
 </p>
 <p>
   <storng> Ik wil mijn layout simpel houden, misschien in de style van mijn wbesite, of misschien meer neurtaal want een cookie is daar om jouw informatie op te slaan en eventueel te verwerken</storng>
 </p><br>
-
 <img width="1696" height="2496" alt="image" src="https://github.com/user-attachments/assets/db5a9f11-942d-4639-844d-0b0b39721b31" />
-
 <img width="800" height="540" alt="image" src="https://github.com/user-attachments/assets/7be28208-d09f-4542-8346-c5f1abe23e72" />
-
 <img width="2614" height="1288" alt="image" src="https://github.com/user-attachments/assets/fb2ba29f-6096-473e-926d-66a9fb43bb2b" />
-
 <img width="2657" height="1476" alt="image" src="https://github.com/user-attachments/assets/73736355-87de-4a92-b935-9661d1f0da58" />
 - Voor de opdracht moesten we in een groepje: <strong>Samen met Giel en Wessel</strong> een website zoeken en een cookie vinden en deze over schetsen, daarna moesten we noteren welke cons de cookie had, daarna moesten we verbeteringen schetsen.
   (als te zien is in mijn schetsen van Booking.com)
