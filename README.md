@@ -1139,16 +1139,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
   <ul>
     - In het algemeen en over mijn digituintje:
-    <li>
-      1. Je bent lekker bezig, top!
-      2. Tip: probeer geen styling in je html te doen (zoals het element <strong>) maar alles in css. 
-    </li>
-    - Over de Deep Dives/ Learning Log:
-    <li>
-      1. Doe alle Deep Dives en neem ze op in je Learning Log.
-      2.  Leg ook de laatste Retrospect daarin vast.
-      3. Kijk nog naar de formatting van je Learning Log, het oogt nog wat chaotisch.
-    </li>
+    <li>1. Je bent lekker bezig, top!</li>
+    <li>2. Tip: probeer geen styling in je html te doen (zoals het element <strong>) maar alles in css.</li>
+      - Over de Deep Dives/ Learning Log:
+        <li>1. Doe alle Deep Dives en neem ze op in je Learning Log.</li>
+        <li>2.  Leg ook de laatste Retrospect daarin vast.</li>
+        <li>3. Kijk nog naar de formatting van je Learning Log, het oogt nog wat chaotisch.</li>
   </ul>
   <p>
     - De feedback van Charley heb ik verwerkt in mijn website over de Deep Dives, retrospective en formatting van mijn learning log, daarnaast heb ik de tip proberen toe te passen, dit wilde niet helemaal werken dus heb ik het oude aan gehouden.
