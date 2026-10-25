@@ -569,11 +569,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
 </span>
 <hr />
-
 <h3>26 September</h3>
 <p>
   - Ik ben naar andere Google fonts opzoek gegaan en wilde dat speelse, vloeiende van een lettertype, ik heb er 3 geselecteerd dit zijn: Lobster Two, Dancing Script en Caveat. Ik ben voor <strong>Caveat</strong> gegaan omdat hij het speelse en vloeiende leesbaarheid ook heeft op kleinere voormaat.
 </p>
+<img width="1227" height="439" alt="image" src="https://github.com/user-attachments/assets/d7487a98-fdc0-4f84-9e2c-622386390cf9" />
+<img width="1241" height="471" alt="image" src="https://github.com/user-attachments/assets/04f8af8a-9744-4a4c-ab37-b7844ad1e197" />
+<img width="1238" height="438" alt="image" src="https://github.com/user-attachments/assets/8cdd754b-4b9f-4892-88f7-ce20b114f282" />
+<hr />
     <h3>28 September</h3>
     <p>
       Tijdens Bi-weekly geek 2 moesten we een artikel <strong>verkennend</strong> lezen en een video bekijken en een korte samenhang maken en een paar hoofdvragen beantwoorden: Mijn samenhang van de artikelen
