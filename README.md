@@ -757,6 +757,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
+<hr />
 <h3>2 Oktober</h3>
 <li>
   <p>
