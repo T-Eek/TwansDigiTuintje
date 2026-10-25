@@ -681,6 +681,10 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1231" height="144" alt="image" src="https://github.com/user-attachments/assets/e2aa9435-bde7-4a6f-868b-93c84851d07d" />
       <img width="1262" height="215" alt="image" src="https://github.com/user-attachments/assets/b86dc181-e12d-4156-9d52-da9fa14cab48" />
     </li>
+    <p>
+      - tijdens de checklist kwam ik er al gauw achter dat de Deep Dive van Sanna over "Mooie kleuren en gradients", dit niet helemaal bij de style van mijn website hoorde, en was opzoek naar een betere manier om dit te kunnen doen.
+      - Ik heb de gradient gebruikt, als je er over heen hovered om de tekst met een soort Instagram box-shadow gradient op licht en in de tekst een gradient linear naar rechts beweegt.
+    </p>
     - Mijn Digi Tuintje:
     <li>
       <strong>Headings</strong>
