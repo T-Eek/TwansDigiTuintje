@@ -788,9 +788,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="906" height="946" alt="image" src="https://github.com/user-attachments/assets/73163bce-eb3d-4c81-8385-3dd07c2597e6" />
       <img width="1685" height="948" alt="image" src="https://github.com/user-attachments/assets/3cf0be5d-b721-42ad-950f-70d0b36d00b7" />
       <p>
-        <strong>Nieuwe tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS):</strong>
-      </p>
-      <p>
         <strong>Oude Hamburger Menu (met HTML & CSS):</strong>
       </p>
       <img width="1920" height="268" alt="image" src="https://github.com/user-attachments/assets/0e7df9f0-0303-4028-9797-aef0945191e6" />
