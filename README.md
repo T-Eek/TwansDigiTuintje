@@ -384,8 +384,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
 <img width="1919" height="836" alt="image" src="https://github.com/user-attachments/assets/50e7b4e8-9d04-4cf5-9f03-f5b76f7cdbf3" />
 <img width="383" height="475" alt="image" src="https://github.com/user-attachments/assets/882035b6-1aa7-47b8-bcac-3728e1cb810c" />
-
-
+<br>
+<p>
+  - Tijdens het feedback moment had ik al de CSS Deep Dives van Sanna proberen te maken en op mijn website gezet, maar wist niet of dit de bedoeling was, later was het de bedoeling dat je de deep dives doet maar natuurlijk kijkt wat je zelf gebruikt voor je eigen Digi tuintje
+</p>
+<img width="434" height="900" alt="image" src="https://github.com/user-attachments/assets/a91218dd-c82a-40f4-a731-0859b46844a2" />
+<img width="481" height="874" alt="image" src="https://github.com/user-attachments/assets/34458dcb-d614-40e1-af47-dcef5ae556d8" />
 <hr />
 <h3>Sprint 2</h3>
 <h3>21 September</h3>
@@ -683,6 +687,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
     <p>
       - tijdens de checklist kwam ik er al gauw achter dat de Deep Dive van Sanna over "Mooie kleuren en gradients", dit niet helemaal bij de style van mijn website hoorde, en was opzoek naar een betere manier om dit te kunnen doen.
+    </p>
+    <p>
       - Ik heb de gradient gebruikt, als je er over heen hovered om de tekst met een soort Instagram box-shadow gradient op licht en in de tekst een gradient linear naar rechts beweegt.
     </p>
     - Mijn Digi Tuintje:
