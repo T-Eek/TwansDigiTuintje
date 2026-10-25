@@ -1158,8 +1158,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </p>
     <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/0bfeb83b-84ea-4411-ad2d-7ffac140bfb2" />
     <p>
-    - Mijn tekening voor retrospective 3 is eigenlijk het einde van retrospective 2, daar waren de minions aan het klimmen naar de laatste onderdelen voor mijn website en nu dat die zijn behaald, willen ze verder dus is het aan mij om de Expo te "stealen", hierbij bedoel ik natuurlijk dat de website na al die retrospectives, feedback en deep dives af is en nu op het doek moet worden gepresenteerd, daarom heb ik er ook tekst wolkjes bij geschreven (in Minionese), dat er veel verschillende meningen over is/ aanmoediging:
-      <li></li>
+    - Mijn tekening voor retrospective 3 is eigenlijk het einde van retrospective 2, daar waren de minions aan het klimmen naar de laatste onderdelen voor mijn website en nu dat die zijn behaald, willen ze verder dus is het aan mij om de Expo te "stealen", hierbij bedoel ik natuurlijk dat de website na al die
+      retrospectives, feedback en deep dives af is en nu op het doek moet worden gepresenteerd, daarom heb ik er ook tekst wolkjes bij geschreven (in Minionese), dat er veel verschillende meningen over is/ aanmoediging:
       <li>1. Haiyaku - Hurry up</li> 
       <li>2. Speta - Watch this</li> 
       <li>3. Pwede Na? - Can we start?</li>
