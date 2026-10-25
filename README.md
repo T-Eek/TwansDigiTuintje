@@ -1137,13 +1137,13 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   (Charley) Muhren, C.J. heeft mij feedback gegeven over mijn website en learning log.
 </p>
-  <ul>
     - In het algemeen en over mijn digituintje:
+  <ul>
     <li>1. Je bent lekker bezig, top!</li>
     <li>2. Tip: probeer geen styling in je html te doen (zoals het element <strong>Strong</strong>) maar alles in css.</li>
   </ul>
+    - Over de Deep Dives/ Learning Log:
     <ul>
-      - Over de Deep Dives/ Learning Log:
         <li>1. Doe alle Deep Dives en neem ze op in je Learning Log.</li>
         <li>2.  Leg ook de laatste Retrospect daarin vast.</li>
         <li>3. Kijk nog naar de formatting van je Learning Log, het oogt nog wat chaotisch.</li>
