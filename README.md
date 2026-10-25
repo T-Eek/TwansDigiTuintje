@@ -1166,7 +1166,9 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <li>2.  Leg ook de laatste Retrospect daarin vast.</li>
         <li>3. Kijk nog naar de formatting van je Learning Log, het oogt nog wat chaotisch.</li>
   </ul>
-    - De feedback van Charley heb ik verwerkt in mijn website over de Deep Dives, retrospective en formatting van mijn learning log, daarnaast heb ik de tip proberen toe te passen, dit wilde niet helemaal werken dus heb ik het oude aan gehouden.
+    <p>
+      - De feedback van Charley heb ik verwerkt in mijn website over de Deep Dives, retrospective en formatting van mijn learning log, daarnaast heb ik de tip proberen toe te passen, dit wilde niet helemaal werken dus heb ik het oude aan gehouden.
+    </p><br>
     <p>
     - Mijn daltekening in retrospective 3 gaat over de 3 sprints die ik heb door staan om een gelikte website te kunnen presenteren, ik vind dit zelf erg goed gelukt,
       daarnaast vind ik het proces wat ik door heb gelopen erg bij mij passen, dat ik eerst erg enthousiast ben over het project/ onderwerp, daarna een dip krijg zodra ik mij ga verdiepen en deskresearch doe over wat ik er allemaal wil vertellen/ gebruiken en
