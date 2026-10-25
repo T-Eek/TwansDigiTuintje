@@ -530,7 +530,17 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       3. Speels met de hovers en tekst style
     </li>
   </ul>
-
+  <p>
+    - De feedback van Charley en Justus heb ik verwerkt in mijn website over wit ruimtes tussen de main, tussen de teksten en even veel ruimte tussen de hiërarchie en typografie, dit heb ik aangepast doormiddel van (word-break: break-word) te gebruiken op alle tekst/ paragraven.
+    Ik heb misschien dit te letterlijk genomen, dat ik de minions vooral terug op mijn website wilde laten komen, naast de Ikea met de gele en blauwe kleuren, kon ik meer doen met de minions, dus dit heb ik ook gedaan (afbeelding 4-8).
+  </p>
+  <img width="720" height="371" alt="image" src="https://github.com/user-attachments/assets/914e2398-ca83-47af-b03c-59b77dabb074" />
+  <img width="731" height="268" alt="image" src="https://github.com/user-attachments/assets/15f89253-084d-4b6d-a792-a9936cab203e" />
+  <img width="220" height="262" alt="image" src="https://github.com/user-attachments/assets/90c6215c-92ff-484f-8661-55552f7e6b5c" />
+  <img width="612" height="382" alt="image" src="https://github.com/user-attachments/assets/d8c710bc-e310-4ecc-871d-ffbd9489ace2" />
+  <img width="838" height="639" alt="image" src="https://github.com/user-attachments/assets/8d27fb97-894b-4840-bf14-d19b09c4d0b3" />
+  <img width="749" height="590" alt="image" src="https://github.com/user-attachments/assets/f49f49a1-8bbb-4245-b438-50d3b5f96977" />
+  <img width="763" height="625" alt="image" src="https://github.com/user-attachments/assets/accd036d-a951-436f-9315-3310bd8bfe83" />
 <span>
   <h3>Check-out:</h3>
   <ul>
