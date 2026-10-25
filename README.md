@@ -909,7 +909,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <a href="https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/Respect%20Thy%20Typography%20%E2%80%94%20Smashing%20Magazine.pdf">4. Respect Thy Typography — Smashing Magazine</a><br>
 <a href="https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/H4%20from%20Design_Elements_Typography_Fundamentals1.pdf">5. Design Elements Typography Fundamentals</a>
 </span>
-<h1></h1>
+<hr />
 
 <h3>7 Oktober</h3>
   <span>
@@ -937,6 +937,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
   </ul>
 </span>
+<hr />
 <h3>9 Oktober</h3>
 <h3>Feedback Sprint 3:</h3>
 <img width="693" height="155" alt="image" src="https://github.com/user-attachments/assets/0ce9e80a-b3fb-4c47-8650-ecd8e8986aa0" />
