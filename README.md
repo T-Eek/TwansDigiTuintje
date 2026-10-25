@@ -1151,6 +1151,23 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   <p>
     - De feedback van Charley heb ik verwerkt in mijn website over de Deep Dives, retrospective en formatting van mijn learning log, daarnaast heb ik de tip proberen toe te passen, dit wilde niet helemaal werken dus heb ik het oude aan gehouden.
   </p>
+    <p>
+    - Mijn daltekening in retrospective 3 gaat over de 3 sprints die ik heb door staan om een gelikte website te kunnen presenteren, ik vind dit zelf erg goed gelukt,
+      daarnaast vind ik het proces wat ik door heb gelopen erg bij mij passen, dat ik eerst erg enthousiast ben over het project/ onderwerp, daarna een dip krijg zodra ik mij ga verdiepen en deskresearch doe over wat ik er allemaal wil vertellen/ gebruiken en
+      als laatste krijg ik steeds meer motivatie omdat ik het dan stapsgewijs aanpak, de deep dives volg en die toepas om een leuke en interactive website neer te zetten.
+  </p>
+    <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/0bfeb83b-84ea-4411-ad2d-7ffac140bfb2" />
+    <p>
+    - Mijn tekening voor retrospective 3 is eigenlijk het einde van retrospective 2, daar waren de minions aan het klimmen naar de laatste onderdelen voor mijn website en nu dat die zijn behaald, willen ze verder dus is het aan mij om de Expo te "stealen", hierbij bedoel ik natuurlijk dat de website na al die retrospectives, feedback en deep dives af is en nu op het doek moet worden gepresenteerd, daarom heb ik er ook tekst wolkjes bij geschreven (in Minionese), dat er veel verschillende meningen over is/ aanmoediging:
+      <li></li>
+      <li>1. Haiyaku</li> - Hurry up
+      <li>2. Speta</li> - Watch this
+      <li>3. Pwede Na?</li> - Can we start?
+      <li>4. Po ka</li> - What
+      <li>5. Kanpai</li> - Cheers!
+  </p>
+    <img width="2586" height="1848" alt="image" src="https://github.com/user-attachments/assets/a4937dd6-8cea-4507-af15-428b7ca15343" />
+    <img width="2586" height="1848" alt="image" src="https://github.com/user-attachments/assets/28173f50-9ac8-4f69-93db-fcb6c6311ed7" />
     <hr />
           <h3>24 - 25 oktober</h3>
     <li>
@@ -1160,16 +1177,11 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         <strong>Oude Cookie Banner (met HTML & CSS code):</strong>
       </p>
-      <img width="672" height="801" alt="image" src="https://github.com/user-attachments/assets/5a45ac20-136c-4687-93a5-82264fdf4b6d" />
-      <img width="629" height="859" alt="image" src="https://github.com/user-attachments/assets/880b8ef6-147a-48b9-97fa-23c64cb03009" />
     </li>
     <li>
       <p>
         <strong>Nuieuwe Cookie Banner (met HTML & CSS code):</strong>
         </p>
-        <img width="682" height="981" alt="image" src="https://github.com/user-attachments/assets/0b33691c-b782-4725-a3cc-66de97174a65" />
-        <img width="735" height="769" alt="image" src="https://github.com/user-attachments/assets/f9c5eebb-3e43-4ea1-97f4-ebaef5963d3a" />
-        <img width="690" height="909" alt="image" src="https://github.com/user-attachments/assets/8dfa373e-a8d4-4814-aa25-16ae471b3c38" />
     </li>
     
       
