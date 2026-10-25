@@ -378,6 +378,13 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 <p>
   (Charley) Muhren, C.J. gaf mij als feedback dat ik mijn learning log en ontwerp verder en gestructureerd moet afmaken en dat er duidelijk inzicht is in waar over mijn onderwerp over gaat, daarnaast moet ik mijn learning log compleet maken met uitleg en plaatjes.
 </p>
+<p>
+  De feedback van Charley heb ik verwerkt in mijn website over wit ruimtes tussen de header en de main, tussen de teksten en even veel ruimte tussen de afbeeldingen met: (gap: 2.5rem, margin en padding) en kopjes, hiërarchie en typografie
+</p>
+<img width="1919" height="836" alt="image" src="https://github.com/user-attachments/assets/50e7b4e8-9d04-4cf5-9f03-f5b76f7cdbf3" />
+<img width="383" height="475" alt="image" src="https://github.com/user-attachments/assets/882035b6-1aa7-47b8-bcac-3728e1cb810c" />
+
+
 <hr />
 <h3>Sprint 2</h3>
 <h3>21 September</h3>
@@ -1116,5 +1123,26 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <img width="735" height="769" alt="image" src="https://github.com/user-attachments/assets/f9c5eebb-3e43-4ea1-97f4-ebaef5963d3a" />
         <img width="690" height="909" alt="image" src="https://github.com/user-attachments/assets/8dfa373e-a8d4-4814-aa25-16ae471b3c38" />
     </li>
+    <hr />
+          <h3>24 - 25 oktober</h3>
+    <li>
+      <p>- Tijdens de feedback momenten en de retrospectives heb ik veel feedback gekregen, de belangrijke feedback heb ik toegepast in mijn website:</p>
+    </li>
+    <li>
+      <p>
+        <strong>Oude Cookie Banner (met HTML & CSS code):</strong>
+      </p>
+      <img width="672" height="801" alt="image" src="https://github.com/user-attachments/assets/5a45ac20-136c-4687-93a5-82264fdf4b6d" />
+      <img width="629" height="859" alt="image" src="https://github.com/user-attachments/assets/880b8ef6-147a-48b9-97fa-23c64cb03009" />
+    </li>
+    <li>
+      <p>
+        <strong>Nuieuwe Cookie Banner (met HTML & CSS code):</strong>
+        </p>
+        <img width="682" height="981" alt="image" src="https://github.com/user-attachments/assets/0b33691c-b782-4725-a3cc-66de97174a65" />
+        <img width="735" height="769" alt="image" src="https://github.com/user-attachments/assets/f9c5eebb-3e43-4ea1-97f4-ebaef5963d3a" />
+        <img width="690" height="909" alt="image" src="https://github.com/user-attachments/assets/8dfa373e-a8d4-4814-aa25-16ae471b3c38" />
+    </li>
+    
       
 
