@@ -917,6 +917,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </span>
 <h3>9 Oktober</h3>
 <h3>Feedback Sprint 3:</h3>
+<img width="693" height="155" alt="image" src="https://github.com/user-attachments/assets/0ce9e80a-b3fb-4c47-8650-ecd8e8986aa0" />
 <p>
   Iedereen in de klas, Tim Brandt noteerde mijn feedback van de klas:
   <li>je kan wordbreak gebruiken</li>
