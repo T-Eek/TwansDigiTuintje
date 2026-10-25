@@ -595,6 +595,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <p>
       <strong>Spiekbrief: Toetsenbord-shortcuts & Screenreader</strong>
         Je kunt deze spiekbrief direct opnemen in je learning log (handig voor het plannen van die reis met afgeplakt trackpad of uitgetrokken muis!):
+    </p>
         <img width="1920" height="862" alt="image" src="https://github.com/user-attachments/assets/11fdd75d-fe50-47e6-a002-7277b0f9b51a" />
       
 ## SPIEKBRIEF: Navigeren zonder muis & Screenreader
@@ -830,14 +831,15 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <p>
         <strong>Oude tekst/ logo, hoofdkop, hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie (met HTML & CSS code):</strong>
+      </p>
         <img width="1920" height="770" alt="image" src="https://github.com/user-attachments/assets/998b4a88-d15c-4b60-a38f-968adcb4e01b" />
         <img width="1920" height="739" alt="image" src="https://github.com/user-attachments/assets/f746a081-d836-4439-8295-ae31769c944d" />
         <img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/d137a1b3-d64e-4677-9a2b-c8db8ca746a3" />
         <img width="1920" height="793" alt="image" src="https://github.com/user-attachments/assets/ec3fa6ac-016f-4367-afee-4b20852b0996" />
         <img width="1920" height="901" alt="image" src="https://github.com/user-attachments/assets/9472643f-d57d-4de1-99a0-cda2d529b2e0" />
-      </p>
       <p>
         <strong>Aangepast Hamburger menu, de link naar de model repo, al mijn werk, info over mijn onderwerp/ concept en de inspiratie(met HTML & CSS):</strong>
+      </p>
   <img width="1918" height="277" alt="image" src="https://github.com/user-attachments/assets/7aa7cd72-d481-4e6e-82fb-425e48a014b1" />
   <p> Hier heb ik al mijn werk aangepast</p>
   <img width="1920" height="550" alt="image" src="https://github.com/user-attachments/assets/afc40052-17d4-426b-aa53-1f3215919c84" />
@@ -848,7 +850,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1280" height="649" alt="Screenshot (688)" src="https://github.com/user-attachments/assets/5c64be72-5715-44f0-9702-22ae9024d23d" />
       <img width="1920" height="987" alt="Screenshot (689)" src="https://github.com/user-attachments/assets/ed7b9153-a742-4c3d-82d6-4151751720f7" />
       <img width="1920" height="879" alt="Screenshot (690)" src="https://github.com/user-attachments/assets/ff223d4a-0ff5-45dd-b481-6039bda186a9" />
-      </p>
   </ul>
   <span>
   <h3>Check-out:</h3>
@@ -1116,10 +1117,10 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <p>
         <strong>Nuieuwe Cookie Banner (met HTML & CSS code):</strong>
+        </p>
         <img width="682" height="981" alt="image" src="https://github.com/user-attachments/assets/0b33691c-b782-4725-a3cc-66de97174a65" />
         <img width="735" height="769" alt="image" src="https://github.com/user-attachments/assets/f9c5eebb-3e43-4ea1-97f4-ebaef5963d3a" />
         <img width="690" height="909" alt="image" src="https://github.com/user-attachments/assets/8dfa373e-a8d4-4814-aa25-16ae471b3c38" />
-      </p>
     </li>
       
 
