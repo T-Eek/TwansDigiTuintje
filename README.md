@@ -1201,9 +1201,18 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="525" height="291" alt="image" src="https://github.com/user-attachments/assets/6fc45a9e-bae2-4290-bb14-3323f2eae4a9" />
     </li>
     <li>
+      <p>Ik kwam er ook achter dat ik veel elementen al had maar die nog niet helemaal pasten bij mijn website style zoals: (Al mijn werk hover)</p>
+      <img width="719" height="394" alt="image" src="https://github.com/user-attachments/assets/f881210e-086a-4bb8-9259-869e2dee2bf3" />
+      <img width="293" height="121" alt="image" src="https://github.com/user-attachments/assets/426aaadb-3997-4c1b-9f48-4faf83f72019" />
       <p>
-        <strong>Nuieuwe (met HTML & CSS code):</strong>
-        </p>
+        <strong>Nieuwe Al mijn werk hover (met HTML & CSS code):</strong>
+      </p>
+      <img width="720" height="412" alt="image" src="https://github.com/user-attachments/assets/ac6395d8-dd2c-4971-a4d4-7735a2c534a7" />
+      <img width="705" height="394" alt="image" src="https://github.com/user-attachments/assets/20785cb0-9db6-4d68-8e17-1342319dfa50" />
+      <img width="488" height="176" alt="image" src="https://github.com/user-attachments/assets/ce414f3f-65d6-4e16-b4d8-4a2a0d3c7d1b" />
+      <img width="381" height="679" alt="image" src="https://github.com/user-attachments/assets/172827f9-e83c-4b1b-a6dc-929f87652bf6" />
+      <img width="347" height="501" alt="image" src="https://github.com/user-attachments/assets/9cb6549d-bfc3-471f-b769-0619cb0248d6" />
+      <p>De nieuwe maakt gebruikt van de CSS Animatie Deep Dive die ik heb gedaan, waar ik de YAY animatie heb gebruikt voor de "mijn' in Al mijn werk</p>
     </li>
     
       
