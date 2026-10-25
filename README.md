@@ -1184,7 +1184,6 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <li>5. Kanpai - Cheers!</li>
   </p>
     <img width="2586" height="1848" alt="image" src="https://github.com/user-attachments/assets/a4937dd6-8cea-4507-af15-428b7ca15343" />
-    <img width="2586" height="1848" alt="image" src="https://github.com/user-attachments/assets/28173f50-9ac8-4f69-93db-fcb6c6311ed7" />
     <hr />
           <h3>24 - 25 oktober</h3>
     <li>
@@ -1192,12 +1191,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     </li>
     <li>
       <p>
-        <strong>Oude Cookie Banner (met HTML & CSS code):</strong>
+        <strong>Oude (met HTML & CSS code):</strong>
       </p>
     </li>
     <li>
       <p>
-        <strong>Nuieuwe Cookie Banner (met HTML & CSS code):</strong>
+        <strong>Nuieuwe (met HTML & CSS code):</strong>
         </p>
     </li>
     
