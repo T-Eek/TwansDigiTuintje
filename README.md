@@ -1157,7 +1157,8 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     - In het algemeen en over mijn digituintje:
   <ul>
     <li>1. Je bent lekker bezig, top!</li>
-    <li>2. Tip: probeer geen styling in je html te doen (zoals het element <strong>Strong</strong>) maar alles in css.</li>
+    <li>2. Tip: probeer de nav linkjes niet te highlight-en als het hamburger menu niet open is en niet tab baar is als hij is in geplakt</li>
+    <li>3. Tip 2: probeer geen styling in je html te doen (zoals het element <strong>Strong</strong>) maar alles in css.</li>
   </ul>
     - Over de Deep Dives/ Learning Log:
     <ul>
@@ -1189,10 +1190,15 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <li>
       <p>- Tijdens de feedback momenten en de retrospectives heb ik veel feedback gekregen, de belangrijke feedback heb ik toegepast in mijn website:</p>
     </li>
+    <p>- Ik heb geprobeerd om tip 1 die ik heb gekregen op te lossen, dit is helaas niet gelukt, dit heb ik geprobeerd met display none in javascript omdat ik zo mijn hamburger menu aanroep</p>
     <li>
       <p>
-        <strong>Oude (met HTML & CSS code):</strong>
+        <strong>Hamburger menu met Nav linkjes(met HTML & CSS code):</strong>
       </p>
+      <img width="426" height="273" alt="image" src="https://github.com/user-attachments/assets/4344283f-48d7-4e78-be61-8822b6dbe13c" />
+      <img width="501" height="176" alt="image" src="https://github.com/user-attachments/assets/60acce24-4603-46f0-8a18-4c96e969de64" />
+      <p>- Daarna heb ik geprobeerd om het helemaal zonder Javascript te doen (net als mijn Light & dark mode, maar dit ging ook niet, heb daarna alles terug gedraaid en ben gebleven bij mijn oude, werkende versie (voor de tip)</p>
+      <img width="525" height="291" alt="image" src="https://github.com/user-attachments/assets/6fc45a9e-bae2-4290-bb14-3323f2eae4a9" />
     </li>
     <li>
       <p>
