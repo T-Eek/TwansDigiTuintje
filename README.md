@@ -1207,6 +1207,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <p>
         <strong>Nieuwe Al mijn werk hover (met HTML & CSS code):</strong>
       </p>
+      <img width="1919" height="742" alt="image" src="https://github.com/user-attachments/assets/b1d7ce24-3915-4d07-a160-99149842d7bb" />
       <img width="720" height="412" alt="image" src="https://github.com/user-attachments/assets/ac6395d8-dd2c-4971-a4d4-7735a2c534a7" />
       <img width="705" height="394" alt="image" src="https://github.com/user-attachments/assets/20785cb0-9db6-4d68-8e17-1342319dfa50" />
       <img width="488" height="176" alt="image" src="https://github.com/user-attachments/assets/ce414f3f-65d6-4e16-b4d8-4a2a0d3c7d1b" />
