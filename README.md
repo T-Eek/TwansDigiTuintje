@@ -1133,6 +1133,26 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
         <img width="735" height="769" alt="image" src="https://github.com/user-attachments/assets/f9c5eebb-3e43-4ea1-97f4-ebaef5963d3a" />
         <img width="690" height="909" alt="image" src="https://github.com/user-attachments/assets/8dfa373e-a8d4-4814-aa25-16ae471b3c38" />
     </li>
+    <h3>Vrijdag Feedback Sprint 3:</h3>
+<p>
+  (Charley) Muhren, C.J. heeft mij feedback gegeven over mijn website en learning log.
+</p>
+  <ul>
+    - In het algemeen en over mijn digituintje:
+    <li>
+      1. Je bent lekker bezig, top!
+      2. Tip: probeer geen styling in je html te doen (zoals het element <strong>) maar alles in css. 
+    </li>
+    - Over de Deep Dives/ Learning Log:
+    <li>
+      1. Doe alle Deep Dives en neem ze op in je Learning Log.
+      2.  Leg ook de laatste Retrospect daarin vast.
+      3. Kijk nog naar de formatting van je Learning Log, het oogt nog wat chaotisch.
+    </li>
+  </ul>
+  <p>
+    - De feedback van Charley heb ik verwerkt in mijn website over de Deep Dives, retrospective en formatting van mijn learning log, daarnaast heb ik de tip proberen toe te passen, dit wilde niet helemaal werken dus heb ik het oude aan gehouden.
+  </p>
     <hr />
           <h3>24 - 25 oktober</h3>
     <li>
