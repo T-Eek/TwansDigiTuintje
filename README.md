@@ -1016,6 +1016,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <p>- Tijdens de les kregen we ook een papieren formulier om in trio's elkaars website te beoordelen, dit deed ik samen met Rein, Katey en mijzelf</p>
     <img width="1848" height="2452" alt="image" src="https://github.com/user-attachments/assets/26dcc559-eee4-462f-a947-74c3ad0c02f4" />
     <img width="1848" height="2554" alt="image" src="https://github.com/user-attachments/assets/ae102070-193b-4cba-b92c-13f619f5e92d" />
+    <hr />
     <h3>Feedback van sprint 3 verwerken...</h3>
 <p>
  - Op mijn website heb ik verschillende feedback gekregen, dit ga ik toepassen in HTML als in mijn CSS 
