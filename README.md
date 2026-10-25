@@ -1098,9 +1098,28 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <img width="394" height="207" alt="image" src="https://github.com/user-attachments/assets/198cc493-f6a5-4dae-b28c-94808b2511e3" />
       <p>- In mijn contact page heb ik iets over mijzelf en 2 linkjes naar mijn LinkedIn en dat je mij een emailtje kan sturen</p>
       <hr />
-      <li>VOor de HTML validator heb ik gekeken en heb mijn Minion page laten controleren, ik heb hier de benodigde HTML elementen toegevoegd maar zal deze niet voor in mijn website willen gebruiken omdat dit niet past op mijn website, ik snap dat het correct is voor als je verschillende paragraven hebt met titels, kopjes
+      <li>Voor de HTML validator heb ik gekeken en heb mijn Minion page laten controleren, ik heb hier de benodigde HTML elementen toegevoegd maar zal deze niet voor in mijn website willen gebruiken omdat dit niet past op mijn website, ik snap dat het correct is voor als je verschillende paragraven hebt met titels, kopjes
       en teksten, maar voor op mijn website is dit niet van dien</li>
       <img width="815" height="927" alt="image" src="https://github.com/user-attachments/assets/969f6bc2-9449-4582-b89f-2b2cee0c72cc" />
-
+      <hr />
+      <h3>23 oktober</h3>
+    <li>
+      <p>- Tijdens de extra les van Sanna op de vrijdag, had ik een vraag over de deep dives en omdat hij in zijn code, code-pen linkjes gebruikt voor templates, hierbij zei hij dat het verstandig is om het wel in mijn Human Consent note te benadrukke</p>
+    </li>
+    <li>
+      <p>
+        <strong>Oude Cookie Banner (met HTML & CSS code):</strong>
+      </p>
+      <img width="672" height="801" alt="image" src="https://github.com/user-attachments/assets/5a45ac20-136c-4687-93a5-82264fdf4b6d" />
+      <img width="629" height="859" alt="image" src="https://github.com/user-attachments/assets/880b8ef6-147a-48b9-97fa-23c64cb03009" />
+    </li>
+    <li>
+      <p>
+        <strong>Nuieuwe Cookie Banner (met HTML & CSS code):</strong>
+        <img width="682" height="981" alt="image" src="https://github.com/user-attachments/assets/0b33691c-b782-4725-a3cc-66de97174a65" />
+        <img width="735" height="769" alt="image" src="https://github.com/user-attachments/assets/f9c5eebb-3e43-4ea1-97f4-ebaef5963d3a" />
+        <img width="690" height="909" alt="image" src="https://github.com/user-attachments/assets/8dfa373e-a8d4-4814-aa25-16ae471b3c38" />
+      </p>
+    </li>
       
 
