@@ -32,12 +32,12 @@ MARK: FONTS
   font-style: normal;
 }
 
-/*@font-face {
-  font-family: "Oi"; /* serif
+@font-face {
+  font-family: "Oi"; /*serif*/
   src: url(../type/Oi-Regular.ttf);
   font-weight: 400;
   font-style: normal;
-}*/
+}
 
 /*@font-face { Default Font family/ style
   font-family: "Comic Relief";
