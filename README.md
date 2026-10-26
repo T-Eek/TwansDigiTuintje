@@ -537,7 +537,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
   </ul>
   <p>
     - De feedback van Charley en Justus heb ik verwerkt in mijn website over wit ruimtes tussen de main, tussen de teksten en even veel ruimte tussen de hiërarchie en typografie, dit heb ik aangepast doormiddel van (word-break: break-word) te gebruiken op alle tekst/ paragraven.
-    Ik heb misschien dit te letterlijk genomen, dat ik de minions vooral terug op mijn website wilde laten komen, naast de Ikea met de gele en blauwe kleuren, kon ik meer doen met de minions, dus dit heb ik ook gedaan (afbeelding 4-8).
+    Ik heb misschien dit te letterlijk genomen, dat ik de minions vooral terug op mijn website wilde laten komen, naast de Ikea met de gele en blauwe kleuren, kon ik meer doen met de minions, dus dit heb ik ook gedaan (afbeelding 4-8) eerst was de minion page leeg tot 21 oktober.
   </p>
   <img width="720" height="371" alt="image" src="https://github.com/user-attachments/assets/914e2398-ca83-47af-b03c-59b77dabb074" />
   <img width="731" height="268" alt="image" src="https://github.com/user-attachments/assets/15f89253-084d-4b6d-a792-a9936cab203e" />
