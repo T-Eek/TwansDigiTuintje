@@ -39,7 +39,7 @@ MARK: FONTS
   font-style: normal;
 }*/
 
-/*@font-face {
+/*@font-face { Default Font family/ style
   font-family: "Comic Relief";
   src: url(../type/ComicRelief-Regular.woff2);
   font-weight: 400;
@@ -90,6 +90,9 @@ html {
     #fcaf45,
     #ffdc80
   );
+  --Ikea-text-shadow:
+    -3px 0px 2px yellow, 2px -4px 2px gold, 1px 4px 2px blue,
+    6px 0px 2px darkblue;
   --boxshadow-Rainbow:
     -15px -10px 8px #ff7a00, 20px -20px 8px #ff0069, -15px 10px 8px #d300c5,
     20px 20px 8px #7638fa;
@@ -117,6 +120,8 @@ html {
   --Boder-bottom-CustomY: yellow;
   --Border-bottom-CustumB: blue;
 
+  --CookieBanner-background: rgba(0, 0, 0, 0.6);
+  --CookieBanner-H3-tekst: 31px;
   --p-tekst: 24px;
   --H1-tekst: 96px;
   --H2-tekst: 48px;
@@ -134,7 +139,12 @@ strong,
 button {
   font-family: "Slackey";
   margin: 0;
-  /*background-color: var(--background);*/
+}
+
+p {
+  font-family: "Caveat";
+  font-size: var(--p-tekst);
+  word-break: break-word;
 }
 
 /*
@@ -149,12 +159,6 @@ body > footer > p {
   font-size: 0.9rem; /* 14.4/ 16 pz */
 }
 
-p {
-  font-family: "Caveat";
-  font-size: var(--p-tekst);
-  word-break: break-word;
-}
-
 /*
 MARK: Consent Dialog (Cookie)
 */
@@ -164,15 +168,11 @@ MARK: Consent Dialog (Cookie)
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 9999;
+  background-color: var(--CookieBanner-background);
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family:
-    system-ui,
-    -apple-system,
-    sans-serif;
   padding: 20px;
   box-sizing: border-box;
   border: none;
@@ -194,9 +194,8 @@ MARK: Consent Dialog (Cookie)
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Zorg dat je ziet waar je bent als je tabt */
 .CookieBanner > article:focus-visible + span {
-  outline: 3px solid var(--Custom-ColorY); /* Of een ander opvallend kleurtje */
+  outline: 3px solid var(--Custom-ColorY);
 }
 
 .CookieBanner > article > h2 {
@@ -214,7 +213,6 @@ MARK: Consent Dialog (Cookie)
   word-break: break-word;
 }
 
-/* Specificatie van de diensten in de dialog */
 .CookieBanner section {
   background: var(--Custom-ColorW);
   border-left: 4px solid var(--Custom-ColorExtraBL);
@@ -228,6 +226,8 @@ MARK: Consent Dialog (Cookie)
   font-size: var(--p-tekst);
   margin-top: 0;
   color: var(--Custom-ColorExtraBL);
+  font-size: var(--CookieBanner-H3-tekst);
+  text-transform: uppercase;
 }
 
 .CookieBanner ul {
@@ -250,7 +250,6 @@ MARK: Consent Dialog (Cookie)
   }
 }
 
-/* Knop styling in de dialog footer */
 .CookieBanner footer {
   display: flex;
   justify-content: flex-end;
@@ -354,7 +353,7 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
 
   position: fixed;
   top: 5%;
-  left: 15%;
+  left: 20%;
 
   &:hover {
     input[type="checkbox"] + span {
@@ -383,6 +382,7 @@ html:has([value="LightDark-ToggleSwitch"]:checked) {
   opacity: 0;
   width: 70%;
   height: 100%;
+  z-index: 2;
 
   + span {
     position: absolute;
@@ -580,8 +580,8 @@ MARK: Main Header
 MARK: Hamburger Menu / Nav
 */
 
-/* De hamburger knop wrapper */
-#HeaderKop:first-of-type > nav {
+/*De hamburger knop wrapper | first-of-type > nav */
+#HeaderKop > #togglemenu {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -678,13 +678,13 @@ MARK: Main Top Articles
   gap: 2.5rem;
   width: 100%;
   height: 400px;
+  padding: 2rem 0;
   margin: 1rem 0px;
 
   border-top: 2px solid var(--color-LightDark);
   transition:
     border 0.4s ease-in-out,
     padding 0.4s ease-in-out;
-  padding: 2rem 0;
 
   &:hover {
     border-top: 5px dotted var(--Custom-ColorY);
@@ -771,20 +771,84 @@ MARK: Main Top Articles
 
 #TopArticles > article:nth-child(3) {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  scroll-snap-align: center;
+  align-items: center;
   font-size: 32px;
   height: 75%;
   border-right: 5px solid var(--color-LightDark, #ccc);
   border-left: 5px solid var(--color-LightDark, #ccc);
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    span {
+      font-size: 60px;
+      display: inline-flex;
+      transform-origin: center bottom;
+      animation-name: --mijn-animation;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-play-state: paused;
+
+      /* M */
+      &:nth-of-type(1) {
+        animation-delay: 0s;
+      }
+
+      /* i */
+      &:nth-of-type(2) {
+        animation-delay: 0.15s;
+      }
+
+      /* j */
+      &:nth-of-type(3) {
+        animation-delay: 0.3s;
+      }
+
+      /* n */
+      &:nth-of-type(4) {
+        animation-delay: 0.45s;
+      }
+    }
+  }
 }
 
-#TopArticles > article:nth-child(3) h2:hover {
-  text-shadow:
-    -3px 0px 2px #ff7a00,
-    2px -4px 2px #ff0069,
-    1px 4px 2px #d300c5,
-    6px 0px 2px #7638fa;
+@keyframes --mijn-animation {
+  0% {
+    scale: 1;
+    color: var(--color-LightDark);
+  }
+  10% {
+    translate: 0em 0em;
+    scale: 1.2 0.8;
+  }
+  20% {
+    translate: 0em -0.25em;
+    scale: 0.6 1.5;
+    color: var(--background-ikea);
+  }
+  30% {
+    translate: 0em 0em;
+    scale: 1.3 0.7;
+  }
+  40% {
+    scale: 0.9 1.1;
+  }
+  50% {
+    scale: 1;
+  }
+  100% {
+    scale: 1;
+    color: var(--color-LightDark);
+  }
+}
+
+#TopArticles > article:nth-child(3) h2:hover span {
+  animation-play-state: running;
+  text-shadow: var(--boxshadow-Ikea);
 }
 
 /*
