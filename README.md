@@ -1252,5 +1252,11 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <img width="1179" height="561" alt="image" src="https://github.com/user-attachments/assets/0efb7453-d418-4708-830d-6949ef975690" />
     <img width="1106" height="693" alt="image" src="https://github.com/user-attachments/assets/1a242645-33e0-43a6-be7f-7606841f67d5" />
     </li>
+    <li>
+      <p>Daarna ging ik naar mijn MAIN CSS en heb daar mijn CookieBanner genest (van niet geneste CSS, naar genest CSS):</p>
+      <img width="687" height="915" alt="image" src="https://github.com/user-attachments/assets/3dfe2287-85fb-40d3-bbc6-a3c250623f91" />
+      <img width="1157" height="873" alt="image" src="https://github.com/user-attachments/assets/23efff2f-45af-4e48-a1fb-c7ab999ed434" />
+      <img width="1149" height="689" alt="image" src="https://github.com/user-attachments/assets/ef2a9362-6ded-48e0-a9c0-2e8f2b12c608" />
+    </li>
     <hr />
     
