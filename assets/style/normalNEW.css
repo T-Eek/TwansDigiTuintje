@@ -117,8 +117,8 @@ html {
   --Nav-Custom-Color: white;
   --Nav-Custom-backgroundOverlay: black;
   --Custom-Standaard-Color: #bbbbbb;
-  --Boder-bottom-CustomY: yellow;
-  --Border-bottom-CustumB: blue;
+  --Border-bottom-CustomY: yellow;
+  --Border-bottom-CustomBL: blue;
 
   --CookieBanner-background: rgba(0, 0, 0, 0.6);
   --CookieBanner-H3-tekst: 31px;
@@ -694,10 +694,10 @@ MARK: Main Top Articles
 
 @keyframes BTmove {
   25% {
-    border-top: 10px dotted var(--Boder-bottom-CustomY);
+    border-top: 10px dotted var(--Border-bottom-CustomY);
   }
   75% {
-    border-top: 21px dotted var(--Border-bottom-CustumB);
+    border-top: 21px dotted var(--Border-bottom-CustomBL);
   }
 }
 
@@ -876,12 +876,12 @@ MARK: Info/ Insp Articles
 
 @keyframes mymove {
   25% {
-    border-top: 10px dotted var(--Boder-bottom-CustomY);
-    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+    border-top: 10px dotted var(--Border-bottom-CustomY);
+    border-bottom: 10px dotted var(--Border-bottom-CustomY);
   }
   75% {
-    border-top: 21px dotted var(--Border-bottom-CustumB);
-    border-bottom: 21px dotted var(--Border-bottom-CustumB);
+    border-top: 21px dotted var(--Border-bottom-CustomBL);
+    border-bottom: 21px dotted var(--Border-bottom-CustomBL);
   }
 }
 
@@ -967,12 +967,12 @@ MARK: Minion Article
 
 @keyframes mymove {
   25% {
-    border-top: 10px dotted var(--Boder-bottom-CustomY);
-    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+    border-top: 10px dotted var(--Border-bottom-CustomY);
+    border-bottom: 10px dotted var(--Border-bottom-CustomY);
   }
   75% {
-    border-top: 21px dotted var(--Border-bottom-CustumB);
-    border-bottom: 21px dotted var(--Border-bottom-CustumB);
+    border-top: 21px dotted var(--Border-bottom-CustomBL);
+    border-bottom: 21px dotted var(--Border-bottom-CustomBL);
   }
 }
 
@@ -1040,12 +1040,12 @@ MARK: Contact page
 
 @keyframes mymove {
   25% {
-    border-top: 10px dotted var(--Boder-bottom-CustomY);
-    border-bottom: 10px dotted var(--Boder-bottom-CustomY);
+    border-top: 10px dotted var(--Border-bottom-CustomY);
+    border-bottom: 10px dotted var(--Border-bottom-CustomY);
   }
   75% {
-    border-top: 21px dotted var(--Border-bottom-CustumB);
-    border-bottom: 21px dotted var(--Border-bottom-CustumB);
+    border-top: 21px dotted var(--Border-bottom-CustomBL);
+    border-bottom: 21px dotted var(--Border-bottom-CustomBL);
   }
 }
 
