@@ -16,8 +16,8 @@ Captions 12px
 
 /* MARK: fonts */
 @font-face {
-  font-family: 'Seraphs';
-  src: url(../type/SeraphsVF.woff2) format('woff2'); /* Modern Browsers */
+  font-family: "Seraphs";
+  src: url(../type/SeraphsVF.woff2) format("woff2"); /* Modern Browsers */
 }
 
 html {
@@ -35,29 +35,13 @@ html {
   --color-LightDark: light-dark(black, white);
   --Lin-background: linear-gradient(to bottom, yellow, yellow, blue, blue);
 
-  --Main-background: linear-gradient(to bottom, #f9ed00, #988b00, #6a6000, #2f2a06);
-
-}
-/* MARK: Freezing songtekst */
-
-#FreeingMAIN {
-    transition: background-color 0.4s ease-in-out;
-}
-
-#FreeingMAIN:has(section:hover) {
-  &:hover {
-  /*cursor: crosshair;
-  background: var(--Main-background);
-  color: white;
-  text-shadow: 2px 3px 2px black;*/
-  }
-}
-
-#FreezingMAIN p {
-  font-family: 'Seraphs';
-  font-weight: 100;
-  font-size: 48px;
-  margin: 0px;
+  --Main-background: linear-gradient(
+    to bottom,
+    #f9ed00,
+    #988b00,
+    #6a6000,
+    #2f2a06
+  );
 }
 
 /* MARK: Songtekst Header */
@@ -66,95 +50,128 @@ html {
   grid-template-rows: auto;
   justify-content: center;
   align-items: baseline;
+
+  h1 {
+    font-size: 96px;
+    font-variation-settings:
+      "wght" var(--Custom-FontBS-p-wght),
+      "SRFS" var(--Custom-FontBS-p-srfs);
+    margin: 0px;
+  }
+
+  b {
+    font-size: 96px;
+    letter-spacing: -1.2rem;
+  }
+
+  strong {
+    font-size: 48px;
+  }
+
+  span {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-items: baseline;
+
+    p:first-of-type {
+      font-size: 24px;
+      font-variation-settings:
+        "wght" var(--Custom-FontB-p-wght),
+        "SRFS" var(--Custom-FontB-p-srfs);
+    }
+
+    p:nth-child(2) {
+      font-size: 12px;
+      font-variation-settings:
+        "wght" var(--Custom-FontR-p-wght),
+        "SRFS" var(--Custom-FontR-p-srfs);
+    }
+  }
 }
 
-#FreezingHeader > h1 {
-  font-size: 96px;
-  font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
-  margin: 0px;
-}
-
-#FreezingHeader span {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 1rem;
-  align-items: baseline;
-}
-
-#FreezingHeader span p:first-of-type {
-  font-size: 24px;
-  font-variation-settings: "wght" var(--Custom-FontB-p-wght), "SRFS" var(--Custom-FontB-p-srfs);
-}
-
-#FreezingHeader span p:nth-child(2) {
-  font-size: 12px;
-  font-variation-settings: "wght" var(--Custom-FontR-p-wght), "SRFS" var(--Custom-FontR-p-srfs);
-}
-
-#FreezingHeader b {
-  font-size: 96px;
-  letter-spacing: -1.2rem;
-}
-
-#FreezingHeader strong {
-  font-size: 48px;
-}
+/* MARK: Freezing songtekst */
 
 #FreezingMAIN {
-    border-top: 2px solid var(--color-LightDark);
-    border-bottom: 2px solid var(--color-LightDark);
-    transition: border 0.4s ease-in-out, padding 0.4s ease-in-out;
-    padding: 2rem 0;
+  border-top: 2px solid var(--color-LightDark);
+  border-bottom: 2px solid var(--color-LightDark);
+  transition:
+    border 0.4s ease-in-out,
+    padding 0.4s ease-in-out;
+  padding: 2rem 0;
+  transition: background-color 0.4s ease-in-out;
 
-    &:hover {
-        border-top: 5px dotted var(--Custom-ColorY);
-        border-bottom: 5px dotted var(--Custom-ColorBL);
-        animation: mymove 10s infinite;
+  p {
+    font-family: "Seraphs";
+    font-weight: 100;
+    font-size: 48px;
+    margin: 0px;
+  }
+
+  article:nth-child(2) {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5rem;
+    max-width: 100%;
+    justify-content: center;
+
+    p {
+      position: relative;
+      word-break: break-all;
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease;
     }
+  }
+
+  &:hover {
+    border-top: 5px dotted var(--Custom-ColorY);
+    border-bottom: 5px dotted var(--Custom-ColorBL);
+    animation: mymove 10s infinite;
+  }
 }
 
-#FreezingMAIN > article:nth-child(2) {
-  display: grid;
-  grid-template-columns: auto;  
-  margin: 5rem;
-  max-width: 100%;
-  justify-content: center;
-  /*border-right: 1px solid grey;
-  border-left: 1px solid grey;*/
-}
-
-#FreezingMAIN article:nth-child(2) > p {
-  position: relative;
-  word-break: break-all;
-  margin-bottom: 1.5rem;
-  transition: transform 0.3s ease;
-}
-
-#name, #if,#had, #history, #books, #family, #were, #you, #grass, #then, #asked, #said, #sure, #probably, #be, #and, #Im, #freezing {
+#name,
+#if,
+#had,
+#history,
+#books,
+#family,
+#were,
+#you,
+#grass,
+#then,
+#asked,
+#said,
+#sure,
+#probably,
+#be,
+#and,
+#Im,
+#freezing {
   text-shadow: 0px 0px 15px var(--color-LightDark);
 }
-/*#name2, #if2, #history2, #books2, #had2 {
-  display: none;
-}*/
+
 /*
 MARK: no name
 */
 #FreezingMAIN article:nth-child(2) > p:first-of-type {
   text-align: justify;
-  font-family: 'Seraphs';
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-family: "Seraphs";
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
   #name2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: 0%;
-    left:-7%;
-  } 
+    left: -7%;
+  }
 
   &:hover {
     text-decoration: underline;
@@ -169,10 +186,12 @@ MARK: no name
       position: static;
       font-size: 68px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.3s);
+      transition-delay: calc(sibling-index() * 0.3s);
     }
   }
 }
@@ -182,24 +201,30 @@ MARK: no history
 */
 article:nth-child(2) > p:nth-child(2) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-    #if2 span, #had2 span, #history2 span {
+  #if2 span,
+  #had2 span,
+  #history2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
-  } 
+    left: -7%;
+  }
 
   &:hover {
     text-decoration: underline;
 
-    #if, #had, #history {
+    #if,
+    #had,
+    #history {
       opacity: 0;
       display: none;
     }
@@ -209,10 +234,12 @@ article:nth-child(2) > p:nth-child(2) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
 
     #had2 span {
@@ -220,10 +247,12 @@ article:nth-child(2) > p:nth-child(2) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 2s;
-	    transition-delay: calc( sibling-index() * 0.4s);
+      transition-delay: calc(sibling-index() * 0.4s);
     }
 
     #history2 span {
@@ -231,12 +260,13 @@ article:nth-child(2) > p:nth-child(2) {
       position: static;
       font-size: 68px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 4s;
-	    transition-delay: calc( sibling-index() * 1s);
+      transition-delay: calc(sibling-index() * 1s);
     }
-
   }
 }
 
@@ -245,20 +275,21 @@ MARK: no books
 */
 article:nth-child(2) > p:nth-child(3) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
+  #books2 span {
+    transition-duration: 0.3s;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
-    #books2 span  {
-        transition-duration: 0.3s;
-        transition-delay: calc( sibling-index() * 0.1s);
-        transition-timing-function:ease-in-out;
-        transition-property:font-variation-settings;
-
-        opacity: 0;
-        position: absolute;
-        top: -70%;
-        left:-7%;
-    } 
+    opacity: 0;
+    position: absolute;
+    top: -70%;
+    left: -7%;
+  }
 
   &:hover {
     text-decoration: underline;
@@ -273,10 +304,12 @@ article:nth-child(2) > p:nth-child(3) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-      transition-delay: calc( sibling-index() * 0.3s);
+      transition-delay: calc(sibling-index() * 0.3s);
     }
   }
 }
@@ -286,24 +319,30 @@ MARK: no family
 */
 article:nth-child(2) > p:nth-child(4) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #if2 span, #had2 span, #family2 span{
+  #if2 span,
+  #had2 span,
+  #family2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #if, #had, #family {
+    #if,
+    #had,
+    #family {
       opacity: 0;
       display: none;
     }
@@ -313,10 +352,12 @@ article:nth-child(2) > p:nth-child(4) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
 
     #had2 span {
@@ -324,10 +365,12 @@ article:nth-child(2) > p:nth-child(4) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 2s;
-	    transition-delay: calc( sibling-index() * 0.5s);
+      transition-delay: calc(sibling-index() * 0.5s);
     }
 
     #family2 span {
@@ -335,10 +378,12 @@ article:nth-child(2) > p:nth-child(4) {
       position: static;
       font-size: 68px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 4s;
-	    transition-delay: calc( sibling-index() * 1s);
+      transition-delay: calc(sibling-index() * 1s);
     }
   }
 }
@@ -347,24 +392,30 @@ MARK: on the grass
 */
 article:nth-child(2) > p:nth-child(5) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #were2 span, #you2 span, #grass2 span{
+  #were2 span,
+  #you2 span,
+  #grass2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #were, #you, #grass{
+    #were,
+    #you,
+    #grass {
       opacity: 0;
       display: none;
     }
@@ -374,10 +425,12 @@ article:nth-child(2) > p:nth-child(5) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
 
     #you2 span {
@@ -385,10 +438,12 @@ article:nth-child(2) > p:nth-child(5) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 2s;
-	    transition-delay: calc( sibling-index() * 0.5s);
+      transition-delay: calc(sibling-index() * 0.5s);
     }
 
     #grass2 span {
@@ -396,10 +451,12 @@ article:nth-child(2) > p:nth-child(5) {
       position: static;
       font-size: 68px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 4s;
-	    transition-delay: calc( sibling-index() * 1s);
+      transition-delay: calc(sibling-index() * 1s);
     }
   }
 }
@@ -408,24 +465,26 @@ MARK: then
 */
 article:nth-child(2) > p:nth-child(6) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #then2 span{
+  #then2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #then{
+    #then {
       opacity: 0;
       display: none;
     }
@@ -435,10 +494,12 @@ article:nth-child(2) > p:nth-child(6) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
   }
 }
@@ -448,24 +509,26 @@ MARK: asked
 */
 article:nth-child(2) > p:nth-child(7) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #asked2 span{
+  #asked2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #asked{
+    #asked {
       opacity: 0;
       display: none;
     }
@@ -475,10 +538,12 @@ article:nth-child(2) > p:nth-child(7) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
   }
 }
@@ -487,24 +552,28 @@ MARK: sure
 */
 article:nth-child(2) > p:nth-child(8) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #said2 span, #sure2 span{
+  #said2 span,
+  #sure2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #said, #sure{
+    #said,
+    #sure {
       opacity: 0;
       display: none;
     }
@@ -514,10 +583,12 @@ article:nth-child(2) > p:nth-child(8) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
 
     #sure2 span {
@@ -525,10 +596,12 @@ article:nth-child(2) > p:nth-child(8) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 2s;
-	    transition-delay: calc( sibling-index() * 0.5s);
+      transition-delay: calc(sibling-index() * 0.5s);
     }
   }
 }
@@ -538,24 +611,28 @@ MARK: be cold.
 */
 article:nth-child(2) > p:nth-child(9) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #probably2 span, #be2 span{
+  #probably2 span,
+  #be2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #probably, #be{
+    #probably,
+    #be {
       opacity: 0;
       display: none;
     }
@@ -565,10 +642,12 @@ article:nth-child(2) > p:nth-child(9) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
 
     #be2 span {
@@ -576,10 +655,12 @@ article:nth-child(2) > p:nth-child(9) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 2s;
-	    transition-delay: calc( sibling-index() * 0.5s);
+      transition-delay: calc(sibling-index() * 0.5s);
     }
   }
 }
@@ -589,24 +670,28 @@ MARK: I'm freezing
 */
 article:nth-child(2) > p:nth-child(10) {
   text-align: justify;
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
-  #and2 span, #Im2 span{
+  #and2 span,
+  #Im2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: -70%;
-    left:-7%;
+    left: -7%;
   }
 
   &:hover {
     text-decoration: underline;
 
-    #and, #Im{
+    #and,
+    #Im {
       opacity: 0;
       display: none;
     }
@@ -616,10 +701,12 @@ article:nth-child(2) > p:nth-child(10) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.1s);
+      transition-delay: calc(sibling-index() * 0.1s);
     }
 
     #Im2 span {
@@ -627,10 +714,12 @@ article:nth-child(2) > p:nth-child(10) {
       position: static;
       font-size: 48px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 2s;
-	    transition-delay: calc( sibling-index() * 0.5s);
+      transition-delay: calc(sibling-index() * 0.5s);
     }
   }
 }
@@ -640,20 +729,22 @@ MARK: Freezing
 */
 article:nth-child(2) > p:nth-child(11) {
   text-align: justify;
-  font-family: 'Seraphs';
-  font-variation-settings: "wght" var(--Custom-FontL-p-wght), "SRFS" var(--Custom-FontL-p-srfs);
+  font-family: "Seraphs";
+  font-variation-settings:
+    "wght" var(--Custom-FontL-p-wght),
+    "SRFS" var(--Custom-FontL-p-srfs);
 
   #freezing2 span {
     transition-duration: 0.3s;
-	  transition-delay: calc( sibling-index() * 0.1s);
-	  transition-timing-function:ease-in-out;
-	  transition-property:font-variation-settings;
+    transition-delay: calc(sibling-index() * 0.1s);
+    transition-timing-function: ease-in-out;
+    transition-property: font-variation-settings;
 
     opacity: 0;
     position: absolute;
     top: 0%;
-    left:-7%;
-  } 
+    left: -7%;
+  }
 
   &:hover {
     text-decoration: underline;
@@ -668,10 +759,12 @@ article:nth-child(2) > p:nth-child(11) {
       position: static;
       font-size: 68px;
       font-style: normal;
-      font-variation-settings: "wght" var(--Custom-FontBS-p-wght), "SRFS" var(--Custom-FontBS-p-srfs);
+      font-variation-settings:
+        "wght" var(--Custom-FontBS-p-wght),
+        "SRFS" var(--Custom-FontBS-p-srfs);
 
       transition-duration: 1s;
-	    transition-delay: calc( sibling-index() * 0.3s);
+      transition-delay: calc(sibling-index() * 0.3s);
     }
   }
 }
@@ -680,19 +773,22 @@ article:nth-child(2) > p:nth-child(11) {
 MARK: Mobiel screen 768px (iphone 17)
 */
 @media screen and (max-width: 768px) {
-
   #FreezingMAIN {
     width: 100%;
+
+    p {
+      font-size: 5vw;
+    }
   }
 
   #FreezingHeader {
     display: grid;
     grid-template-rows: auto;
     text-align: center;
-  }
 
-  #FreezingHeader > h1 {
-    font-size: 16vw;
+    h1 {
+      font-size: 16vw;
+    }
   }
 
   #FreezingMAIN > article:nth-child(2) {
@@ -703,16 +799,12 @@ MARK: Mobiel screen 768px (iphone 17)
     margin: 0;
     max-width: none;
     width: 100%;
-  }
 
-  #FreezingMAIN p {
-    font-size: 5vw;
-  }
-
-  #FreezingMAIN article:nth-child(2) > p:first-of-type {
-  &:hover {
-    & #name2 span {
-      font-size: 10vw;
+    p:first-of-type {
+      &:hover {
+        #name2 span {
+          font-size: 10vw;
+        }
       }
     }
   }

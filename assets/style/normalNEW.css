@@ -152,11 +152,11 @@ MARK: Footer Copyright
 */
 body > footer {
   text-align: center;
-}
 
-body > footer > p {
-  font-family: "Slackey", sans-serif;
-  font-size: 0.9rem; /* 14.4/ 16 pz */
+  p {
+    font-family: "Slackey", sans-serif;
+    font-size: 0.9rem; /* 14.4/ 16 pz */
+  }
 }
 
 /*
@@ -178,99 +178,99 @@ MARK: Consent Dialog (Cookie)
   border: none;
   max-width: none;
   max-height: none;
-}
 
-.CookieBanner > article {
-  width: 100%;
-  max-width: 600px;
-  max-height: 100vh;
-  padding: 30px;
-  border-radius: 12px;
-  box-sizing: border-box;
-  overflow-y: auto;
+  article {
+    width: 100%;
+    max-width: 600px;
+    max-height: 100vh;
+    padding: 30px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow-y: auto;
 
-  color: var(--Custom-ColorB);
-  background: var(--Custom-ColorW);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
+    color: var(--Custom-ColorB);
+    background: var(--Custom-ColorW);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 
-.CookieBanner > article:focus-visible + span {
-  outline: 3px solid var(--Custom-ColorY);
-}
+    h2 {
+      margin-top: 0;
+      font-size: 28px;
+      color: #1a202c;
+    }
 
-.CookieBanner > article > h2 {
-  margin-top: 0;
-  font-size: 28px;
-  color: #1a202c;
-}
+    p {
+      font-family: "Seraphs";
+      font-size: var(--cookie-p-tekst);
+      line-height: 1.5;
+      color: #4a5568;
+      margin: 0px;
+      word-break: break-word;
+    }
+  }
 
-.CookieBanner > article > p {
-  font-family: "Seraphs";
-  font-size: var(--cookie-p-tekst);
-  line-height: 1.5;
-  color: #4a5568;
-  margin: 0px;
-  word-break: break-word;
-}
+  section {
+    background: var(--Custom-ColorW);
+    border-left: 4px solid var(--Custom-ColorExtraBL);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    word-break: break-word;
 
-.CookieBanner section {
-  background: var(--Custom-ColorW);
-  border-left: 4px solid var(--Custom-ColorExtraBL);
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 4px;
-  word-break: break-word;
-}
-
-.CookieBanner section h3 {
-  font-size: var(--p-tekst);
-  margin-top: 0;
-  color: var(--Custom-ColorExtraBL);
-  font-size: var(--CookieBanner-H3-tekst);
-  text-transform: uppercase;
-}
-
-.CookieBanner ul {
-  margin: 8px 0;
-  padding-left: 20px;
-  font-size: 0.9rem;
-  color: #4a5568;
-}
-
-.CookieBanner li {
-  margin-bottom: 6px;
-
-  p {
-    font-family: "Seraphs";
-    font-size: var(--cookie-p-tekst);
-
-    strong {
+    h3 {
       font-size: var(--p-tekst);
+      margin-top: 0;
+      color: var(--Custom-ColorExtraBL);
+      font-size: var(--CookieBanner-H3-tekst);
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 8px 0;
+      padding-left: 20px;
+      font-size: 0.9rem;
+      color: #4a5568;
+
+      li {
+        margin-bottom: 6px;
+
+        p {
+          font-family: "Seraphs";
+          font-size: var(--cookie-p-tekst);
+
+          strong {
+            font-size: var(--p-tekst);
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    button {
+      background-color: var(--Custom-ColorExtraBL);
+      color: var(--Custom-ColorW);
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      width: 100%;
+
+      &:hover {
+        background-color: var(--Custom-Color-Toggle);
+      }
     }
   }
 }
 
-.CookieBanner footer {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-
-.CookieBanner button {
-  background-color: var(--Custom-ColorExtraBL);
-  color: var(--Custom-ColorW);
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-  width: 100%;
-
-  &:hover {
-    background-color: var(--Custom-Color-Toggle);
-  }
+.CookieBanner > article:focus-visible + span {
+  outline: 3px solid var(--Custom-ColorY);
 }
 
 @media (min-width: 480px) {
