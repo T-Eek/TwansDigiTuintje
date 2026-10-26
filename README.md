@@ -964,12 +964,12 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
 </p>
 <p>Dit heb ik verwerkt en gebruik nu op elke paragraaf een word-break</p>
 <img width="220" height="262" alt="image" src="https://github.com/user-attachments/assets/90c6215c-92ff-484f-8661-55552f7e6b5c" /><br />
-
-<p>Het font op mijn Human Consent notice (De Cookie) heb ik aangepast van "Caveat" naar "Seraphs" </p>
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" /><br />
-<p>Nieuw</p>
-<img width="691" height="983" alt="image" src="https://github.com/user-attachments/assets/687e03f9-6767-4b83-ab9a-ac59a19356c7" />
-
+<p>Het font op mijn Human Consent notice (De Cookie) heb ik aangepast van "Caveat" (afbeelding 1) naar "Seraphs" (afbeedling 2) </p>
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f634921f-805c-4a41-a9a0-893b2b613b5d" />
+<img width="691" height="983" alt="image" src="https://github.com/user-attachments/assets/687e03f9-6767-4b83-ab9a-ac59a19356c7" /><br />
+<p>Voor mijn intro text heb ik het veranderd naar de hover tekst en het andere font achterwegen gelaten (eerst: afbeelding 1 met font: "Oi"), (Nu: afbeelding 2 met font: "Slackey")</p>
+<img width="1644" height="160" alt="image" src="https://github.com/user-attachments/assets/c87f1ca6-2e3b-45a6-9b7c-e367c7b26bf5" />
+<img width="1399" height="172" alt="image" src="https://github.com/user-attachments/assets/cee9341f-a568-4d18-993c-ab44ebb24963" />
 <hr />
 <h3> 10 - 18 oktober. Vervolg In mijn Songtekst, werk en minion pages HTML pages als in mijn CSS</h3>
   <ul>
