@@ -1231,11 +1231,11 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <h3>Expo + Hoe Webby en Log is jouw eindproduct/ learning log?</h3>
     <p>tijdens deze les hielden we een expo van al onze websites en gingen we bij elkaar langs met stickertjes om elkaar feedback te geven over de website (eindproduct)</p>
     <img width="499" height="718" alt="image" src="https://github.com/user-attachments/assets/74377ade-74a7-4e5a-8c6c-90397b5d239a" />
-    <img width="2580" height="1444" alt="image" src="https://github.com/user-attachments/assets/922a5431-e780-4a5c-9185-5aef20e2f77f" />
+    <img width="2580" height="1444" alt="image" src="https://github.com/user-attachments/assets/922a5431-e780-4a5c-9185-5aef20e2f77f" /><br />
     <li>
       <p>- Na de Expo moesten we in een viertal zitten, en eerst in Duo's elkaars website beoordelen over hoe Webby het is, dit heb ik samen gedaan met Teresa en gingen we over elke eis.</p>
       <img width="2426" height="1712" alt="image" src="https://github.com/user-attachments/assets/c32b90b3-5d50-4304-b148-54f15ae4b55a" />
-    </li>
+    </li><br />
     <p>- Toen we met zijn vieren elkaars Learning log moesten beoordelen, was ik erg tevreden over mijn learning log en hoe ik mijn process en voortgang had bij gehouden, dit zagen de andere en Teresa ook terug</p>
     <img width="2634" height="1848" alt="image" src="https://github.com/user-attachments/assets/f669c0ff-698a-4770-a790-1cc5d6b81ba8" />
     <h3>Feedback verwerken:</h3>
@@ -1243,7 +1243,7 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
     <img width="502" height="402" alt="image" src="https://github.com/user-attachments/assets/909f2246-f20c-442d-abd3-9561f6991281" />
     <img width="372" height="804" alt="image" src="https://github.com/user-attachments/assets/8dcedaf3-c58a-480a-8865-07a5d16fd5e4" />
     <img width="372" height="657" alt="image" src="https://github.com/user-attachments/assets/49654e80-005f-4300-afb0-af9e76fbce66" />
-    <img width="2426" height="1712" alt="image" src="https://github.com/user-attachments/assets/164c0c29-fcea-4c94-beae-784bbe2dbc06" /><br>
+    <img width="2426" height="1712" alt="image" src="https://github.com/user-attachments/assets/164c0c29-fcea-4c94-beae-784bbe2dbc06" /><br />
     <p>Eerst heb ik mijn songtekst code aangepast (van niet geneste CSS, naar genest CSS):</p>
     <img width="1111" height="797" alt="image" src="https://github.com/user-attachments/assets/c79d7d1e-e717-4829-b59a-d57fe6e0ad63" />
     <img width="1179" height="561" alt="image" src="https://github.com/user-attachments/assets/0efb7453-d418-4708-830d-6949ef975690" />
