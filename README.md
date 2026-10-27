@@ -1276,4 +1276,14 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="488" height="821" alt="image" src="https://github.com/user-attachments/assets/db289049-3933-4f26-a58c-8d3c6722b6ac" />
       <img width="281" height="876" alt="image" src="https://github.com/user-attachments/assets/532cdf56-b96e-4925-8b2b-7f8f78c81de8" />
     </li>
+    <li>
+      <p>Ook in mijn main CSS:</p>
+      <img width="1541" height="711" alt="image" src="https://github.com/user-attachments/assets/9508d6be-477f-49f9-9a44-513ccd43c721" />
+    </li>
+    <li>
+      <p>Ook in mijn Songtekst CSS: (Links is wat het nu is, rechts is wat het eerst was</p>
+      <img width="1449" height="435" alt="image" src="https://github.com/user-attachments/assets/45321cdb-ee73-4c6e-b322-2eabec857adb" />
+    </li>
+    <hr />
+
     
