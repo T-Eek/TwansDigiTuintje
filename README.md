@@ -1285,5 +1285,16 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1449" height="435" alt="image" src="https://github.com/user-attachments/assets/45321cdb-ee73-4c6e-b322-2eabec857adb" />
     </li>
     <hr />
-
-    
+<h3>Afsluiting: terugblik op mijn Learning Log</h3>
+<p>
+  - <b>Het project:</b> Ik heb een eigen Digi Tuintje gebouwd. Het concept is een mix van de Minions (enthousiast, opvallend, speels) en Ikea (duidelijk, abstract, geel/blauw). Dat heb ik vormgegeven met micro-interacties, hovers, animaties en opvallende typografie.
+</p>
+<p>
+  - <b>Feedback die ik heb verwerkt:</b> Van docenten, klasgenoten en de expo kreeg ik tips over witruimte, "word-break", fonts (Caveat, Seraphs en Slackey), de cookie-banner, klikbare afbeeldingen, bronvermelding en genest CSS. Ik heb die tips toegepast en bijgehouden in mijn log.
+</p>
+<p>
+  - <b>Wat ik heb geleerd:</b> Een website moet niet alleen mooi zijn, maar ook toegankelijk, begrijpelijk en netjes gebouwd. Ik heb geleerd om feedback om te zetten in verbeteringen, om bronnen te vermelden en om mijn keuzes te kunnen uitleggen.
+</p>
+<p>
+  - <b>Mijn leerpatroon:</b> Mijn daltekeningen laten steeds hetzelfde zien. Ik begin enthousiast, krijg een dip tijdens de research en eisen, en kom weer omhoog zodra ik stap voor stap werk en de deep dives toepas. Dat werkt voor mij goed.
+</p>
