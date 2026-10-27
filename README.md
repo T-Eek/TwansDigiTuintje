@@ -1259,4 +1259,21 @@ Ik heb samen met Giel de retrospective opdrachten gevolgd en hebben we de de pla
       <img width="1149" height="689" alt="image" src="https://github.com/user-attachments/assets/ef2a9362-6ded-48e0-a9c0-2e8f2b12c608" />
     </li>
     <hr />
+    <h3>27 oktober</h3>
+    <h3>Verder feedback verwerken:</h3>
+    <li>
+      <p>Ik heb nog eens de criteria door gelezen en naast mijn gekregen feedback gelegd, op basis van dat heb ik op verschillende plekken in mijn code bronnen toegevoegd, voor bij de afbeeldingen die ik heb op mijn website:</p>
+      <p>Op de minion page:</p>
+      <img width="1271" height="544" alt="image" src="https://github.com/user-attachments/assets/65ff9d77-1a1b-4746-822a-a2ffb0054ba0" />
+    </li>
+    <li>
+      <p>
+        Mijn Light & Dark mode toggle voor licht en donker had ik problemen mee om deze vernieuwde versie werkend te krijgen, hierbij heb ik om hulp gevraagd bij de hulpstudenten,
+        die hebben mij wel geholpen, alleen doordat is de formatting van mijn Visual Studio code en dan vooral in de CSS op sommige plekken vreemd ge-format,
+        en weet niet hoe ik dit terug kan veranderen omdat dan Prettier niet meer werkt. (Afbeelding 1 = hoe het eerst was, afbeelding 2 en 3 = hoe het nu is)
+      </p>
+      <img width="1305" height="780" alt="image" src="https://github.com/user-attachments/assets/79ce0657-09a3-4ac2-ac58-ac286e3fa7ca" />
+      <img width="488" height="821" alt="image" src="https://github.com/user-attachments/assets/db289049-3933-4f26-a58c-8d3c6722b6ac" />
+      <img width="281" height="876" alt="image" src="https://github.com/user-attachments/assets/532cdf56-b96e-4925-8b2b-7f8f78c81de8" />
+    </li>
     
